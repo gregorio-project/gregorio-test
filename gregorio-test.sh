@@ -22,13 +22,32 @@ source harness.sh
 
 export GREGORIO=${GREGORIO:-gregorio}
 
-if [ -d tests ]
+if [ ! -d tests ]
 then
-	rm -fr output
-	cp -r tests output
-
-	for group in ${groups}
-	do
-		${group}_find | xargs -n 1 -0 -i bash -c "${group}_test"' "$@"' _ {} \;
-	done
+	echo "No tests to run."
+	exit 1
 fi
+
+rm -fr output
+cp -r tests output
+
+processors=$(nproc 2>/dev/null || echo 1)
+overall_result=0
+for group in ${groups}
+do
+	if ! ${group}_find | xargs -P $processors -n 1 -0 -i bash -c "${group}_test"' "$@"' _ {} \;
+	then
+		overall_result=1
+	fi
+done
+
+echo
+
+if [ ${overall_result} != 0 ]
+then
+	echo "SOMETHING FAILED"
+	exit 1
+fi
+
+echo "ALL PASS"
+exit 0

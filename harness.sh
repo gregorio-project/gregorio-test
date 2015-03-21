@@ -16,10 +16,30 @@
 
 groups=''
 
-function log {
-	echo "$1"
+function testing {
+	TESTING="$1"
 }
-export -f log
+
+function pass {
+	RESULT=0
+	echo "$TESTING : PASS"
+}
+
+function fail {
+	RESULT=1
+	echo "$TESTING : FAIL - $1"
+}
+
+function run {
+	if answer=("$@")
+	then
+		pass
+	else
+		fail "$answer"
+	fi
+}
+
+export -f testing pass fail run
 
 groups="${groups} gabc_gtex"
 function gabc_gtex_find {
@@ -31,14 +51,16 @@ function gabc_gtex_test {
 	logfile="${filename}.log"
 	expfile="${filename%.gabc}.tex"
 
-	log "Testing $filename"
+	testing "$filename"
 
 	if ${GREGORIO} -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
 	then
-		diff -q --label "$outfile" <(head -n +3 "$outfile") --label "$expfile" <(head -n +3 "$expfile")
+		run diff -q --label "$outfile" <(tail -n +3 "$outfile") --label "$expfile" <(tail -n +3 "$expfile")
 	else
-		log "Failed to compile $filename"
+		fail "Failed to compile $filename"
 	fi
+
+	return $RESULT
 }
 export -f gabc_gtex_test
 
@@ -52,14 +74,16 @@ function gabc_dump_test {
 	logfile="${filename}.log"
 	expfile="${filename%.gabc}.dump"
 
-	log "Testing $filename"
+	testing "$filename"
 
 	if ${GREGORIO} -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
 	then
-		diff -q "$outfile" "$expfile"
+		run diff -q "$outfile" "$expfile"
 	else
-		log "Failed to compile $filename"
+		fail "Failed to compile $filename"
 	fi
+
+	return $RESULT
 }
 export -f gabc_dump_test
 
@@ -78,14 +102,16 @@ function typeset_and_compare {
 			do
 				if ! compare -metric AE "$name" "expected/$name" "diff-$name" 2>/dev/null
 				then
-					log "$indir/$outdir/$name differs from expected"
+					fail "$indir/$outdir/$name differs from expected"
+					return
 				fi
 			done
+			pass
 		else
-			log "Failed to create images for $indir/$outdir/$pdffile"
+			fail "Failed to create images for $indir/$outdir/$pdffile"
 		fi
 	else
-		log "Failed to typeset $indir/$outdir/$texfile"
+		fail "Failed to typeset $indir/$outdir/$texfile"
 	fi
 }
 export -f typeset_and_compare
@@ -99,7 +125,7 @@ function gabc_output_test {
 	outdir="${filename%.gabc}.out"
 	texfile="${filename%.gabc}.tex"
 
-	log "Testing $filename"
+	testing "$1"
 
 	if cd "${indir}" && mkdir "${outdir}"
 	then
@@ -111,17 +137,19 @@ function gabc_output_test {
 \usepackage[utf8]{luainputenc}
 \usepackage{times}
 \begin{document}
-\includescore{${filename}}
+\includescore[f]{${filename%.gabc}}
 \end{document}
 EOT
 		then
 			typeset_and_compare "$indir" "$outdir" "$texfile"
 		else
-			log "Could not create $indir/$outdir/$texfile"
+			fail "Could not create $indir/$outdir/$texfile"
 		fi
 	else
-		log "Could not create $indir/$outdir"
+		fail "Could not create $indir/$outdir"
 	fi
+
+	return $RESULT
 }
 export -f gabc_output_test
 
@@ -134,13 +162,15 @@ function tex_output_test {
 	filename="$(basename "$1")"
 	outdir="${filename%.gabc}.out"
 
-	log "Testing $filename"
+	testing "$1"
 
 	if cd "$indir" && mkdir "$outdir"
 	then
 		typeset_and_compare "$indir" "$outdir" "$filename"
 	else
-		log "Could not create $indir/$outdir"
+		fail "Could not create $indir/$outdir"
 	fi
+
+	return $RESULT
 }
 export -f tex_output_test
