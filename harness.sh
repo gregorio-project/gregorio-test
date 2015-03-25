@@ -53,7 +53,7 @@ function gabc_gtex_test {
 
 	testing "$filename"
 
-	if ${GREGORIO} -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
+	if gregorio -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
 	then
 		run diff -q --label "$outfile" <(tail -n +3 "$outfile") --label "$expfile" <(tail -n +3 "$expfile")
 	else
@@ -76,7 +76,7 @@ function gabc_dump_test {
 
 	testing "$filename"
 
-	if ${GREGORIO} -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
+	if gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
 	then
 		run diff -q "$outfile" "$expfile"
 	else
