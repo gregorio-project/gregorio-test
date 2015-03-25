@@ -107,8 +107,6 @@ else
 		shift
 	done
 
-echo "$tests_to_run[#]"
-
 	function accept {
 		while read line
 		do
