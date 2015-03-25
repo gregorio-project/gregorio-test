@@ -76,7 +76,7 @@ the AE metric.
 
 - Bash
 - Imagemagick
-- Gregorio (installed)
+- Gregorio
 
 
 # DEVELOPER NOTES

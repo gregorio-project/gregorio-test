@@ -43,7 +43,7 @@ export -f testing pass fail run
 
 groups="${groups} gabc_gtex"
 function gabc_gtex_find {
-	find output/gabc-gtex -name '*.gabc' -print0
+	find gabc-gtex -name '*.gabc' -print
 }
 function gabc_gtex_test {
 	filename="$1"
@@ -66,7 +66,7 @@ export -f gabc_gtex_test
 
 groups="${groups} gabc_dump"
 function gabc_dump_find {
-	find output/gabc-dump -name '*.gabc' -print0
+	find gabc-dump -name '*.gabc' -print
 }
 function gabc_dump_test {
 	filename="$1"
@@ -117,29 +117,20 @@ function typeset_and_compare {
 export -f typeset_and_compare
 
 function gabc_output_find {
-	find output/gabc-output -name '*.gabc' -print0
+	find gabc-output -name '*.gabc' -print
 }
 function gabc_output_test {
 	indir="$(dirname "$1")"
 	filename="$(basename "$1")"
-	outdir="${filename%.gabc}.out"
-	texfile="${filename%.gabc}.tex"
+	filebase="${filename%.gabc}"
+	outdir="$filebase.out"
+	texfile="$filebase.tex"
 
 	testing "$1"
 
 	if cd "${indir}" && mkdir "${outdir}"
 	then
-		if cat <<EOT >${texfile}
-\documentclass[11pt]{article}
-\usepackage{luatextra}
-\usepackage{graphicx}
-\usepackage{gregoriotex}
-\usepackage[utf8]{luainputenc}
-\usepackage{times}
-\begin{document}
-\includescore[f]{${filename%.gabc}}
-\end{document}
-EOT
+		if sed -e "s/###FILENAME###/$filebase/" "$testroot/gabc-output.tex" >${texfile}
 		then
 			typeset_and_compare "$indir" "$outdir" "$texfile"
 		else
@@ -155,7 +146,7 @@ export -f gabc_output_test
 
 groups="${groups} tex_output"
 function tex_output_find {
-	find output/tex-output -name '*.tex' -print0
+	find tex-output -name '*.tex' -print
 }
 function tex_output_test {
 	indir="$(dirname "$1")"

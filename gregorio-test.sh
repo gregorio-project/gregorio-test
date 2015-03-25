@@ -34,14 +34,16 @@ do
 			;;
 	esac
 done
+shift $((OPTIND - 1))
 
 if [ "$usage" = "1" ]
 then
-	echo "Usage: $0 [-g gregorio_dir] [-h]"
+	echo "Usage: $0 [-g gregorio_dir] [-h] [test] ..."
 	exit 1
 fi
 
-cd "$(dirname "${BASH_SOURCE[0]}")"
+export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+cd "$testroot"
 
 source harness.sh
 
@@ -61,8 +63,25 @@ then
 		echo "$gregorio_dir/src/gregorio is not an executable" >&2
 		exit 2
 	fi
+
+	echo "Preparing to use Gregorio from $gregorio_dir"
+
 	export PATH="$gregorio_dir/src:$PATH"
-	export TEXINPUTS=".:$gregorio_dir/tex:"
+
+	mkdir output/texmf
+	export output_texmf=$(realpath output/texmf)
+
+	if ! (cd "$gregorio_dir" && TEXHASH="texhash $output_texmf" ./install-gtex.sh "dir:$output_texmf")
+	then
+		echo "Unable to install GregorioTeX to $output_texmf" >&2
+		exit 2
+	fi
+
+	TEXMF="$(kpsewhich --var-value TEXMF)"
+	TEXMF="${TEXMF/{/{$output_texmf,}"
+	export TEXMF
+
+	echo
 fi
 
 if ! gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
@@ -72,15 +91,45 @@ then
 	exit 3
 fi
 
+if [ "$1" = "" ]
+then
+	function accept {
+		while read line
+		do
+			echo $line
+		done
+	}
+else
+	declare -A tests_to_run
+	while [ "$1" != "" ]
+	do
+		tests_to_run[$1]=1
+		shift
+	done
+
+echo "$tests_to_run[#]"
+
+	function accept {
+		while read line
+		do
+			if [ "${tests_to_run[$line]}" = "1" ]
+			then
+				echo $line
+			fi
+		done
+	}
+fi
+
 echo "Gregorio = $(which gregorio)"
 echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
 echo
 
 processors=$(nproc 2>/dev/null || echo 1)
 overall_result=0
+cd output
 for group in ${groups}
 do
-	if ! ${group}_find | xargs -P $processors -n 1 -0 -i bash -c "${group}_test"' "$@"' _ {} \;
+	if ! ${group}_find | accept | xargs -P $processors -n 1 -i bash -c "${group}_test"' "$@"' _ {} \;
 	then
 		overall_result=1
 	fi
