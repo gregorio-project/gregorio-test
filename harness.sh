@@ -94,7 +94,7 @@ function typeset_and_compare {
 	texfile="$3"
 	pdffile="${texfile%.tex}.pdf"
 
-	if lualatex --shell-escape --halt-on-error --output-directory="$outdir" "$texfile" >/dev/null
+	if latexmk -pdf -pdflatex='lualatex --shell-escape' --output-directory="$outdir" "$texfile" >&/dev/null
 	then
 		if cd "$outdir" && mkdir expected && convert "../$pdffile" expected/page.png && convert "$pdffile" page.png
 		then
