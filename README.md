@@ -95,6 +95,11 @@ register function after declaring the new functions.
 All tests contributed must be licensed under GPLv3 with the "or later"
 option.
 
+Put comments in test cases to describe what they test.  They are
+free-form for now, but start the comment with `%issue:` to give the
+GitHub issue number and with `%notes:` to summarize the test case.
+Such magic comments may be harvested in the future.
+
 # Copyright
 
 ```

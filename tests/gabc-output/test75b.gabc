@@ -1,2 +1,4 @@
+%issue: #75
+%notes: New lines causing glues to print
 %%
 (c4) Line(c) One(d) (z) Line(c) Two(d) (::)

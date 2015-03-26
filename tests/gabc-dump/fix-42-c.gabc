@@ -1,3 +1,6 @@
+%issue: #42
+%notes: gregorio auto-centes the first syllable incorrectly
+%notes: case: no vowel after initial, with more syllables
 initial-style: 1;
 %%
 (c4) Al(d)le(d)lu(d)ia!(d)
