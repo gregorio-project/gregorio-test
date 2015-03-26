@@ -3,11 +3,13 @@
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## Test Types
+
 This project provides a harness for repeatable testing of Gregorio.
 Tests should be placed in the tests directory, within the proper
 subdirectory depending on type.  The following types are supported:
 
-## gabc-gtex
+#### gabc-gtex
 
 This test runs gregorio against each gabc file in this directory to
 produce a GregorioTeX file and compares it with an expected output file.
@@ -22,7 +24,7 @@ The first two lines are stripped from the "expected" tex file as well as
 from the file produced by running gregorio during the test before the
 comparison.
 
-## gabc-dump
+#### gabc-dump
 
 This test runs gregorio against each gabc file in this directory to
 produce an text dump file and compares it with an expected output file.
@@ -31,7 +33,7 @@ Requirements:
 
 - Every gabc file must have a corresponding "expected" dump file.
 
-## gabc-output
+#### gabc-output
 
 This test creates a simple TeX driver file which invokes `\includescore`
 on each gabc file in this directory in order to compile it and produce a
@@ -47,7 +49,7 @@ The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.
 
-%% tex-output
+#### tex-output
 
 This test runs lualatex on every tex file in this directory in order to
 compile it and produce a PDF, which is then compared with an expected
@@ -66,7 +68,7 @@ The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.
 
-# Creating "Expected" Files
+## Creating "Expected" Files
 
 For a new test:
 
