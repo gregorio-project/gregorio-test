@@ -16,6 +16,11 @@
 
 groups=''
 
+function register {
+	groups="${groups} $1"
+	export -f ${1}_test ${1}_accept
+}
+
 function testing {
 	TESTING="$1"
 }
@@ -30,18 +35,32 @@ function fail {
 	echo "$TESTING : FAIL - $1"
 }
 
-function run {
-	if answer=("$@")
+function not_verified {
+	RESULT=0
+	echo "$TESTING : not verified"
+}
+
+function maybe_run {
+	if $verify
 	then
-		pass
+		if answer=("$@")
+		then
+			pass
+		else
+			fail "$answer"
+		fi
 	else
-		fail "$answer"
+		not_verified
 	fi
 }
 
-export -f testing pass fail run
+function accept_result {
+	echo "Accepting $2 as expection for $1"
+	cp "$2" "$testroot/tests/$(dirname "$1")/"
+}
 
-groups="${groups} gabc_gtex"
+export -f testing pass fail not_verified maybe_run accept_result
+
 function gabc_gtex_find {
 	find gabc-gtex -name '*.gabc' -print
 }
@@ -55,16 +74,18 @@ function gabc_gtex_test {
 
 	if gregorio -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
 	then
-		run diff -q --label "$outfile" <(tail -n +3 "$outfile") --label "$expfile" <(tail -n +3 "$expfile")
+		maybe_run diff -q --label "$outfile" <(tail -n +3 "$outfile") --label "$expfile" <(tail -n +3 "$expfile")
 	else
 		fail "Failed to compile $filename"
 	fi
 
 	return $RESULT
 }
-export -f gabc_gtex_test
+function gabc_gtex_accept {
+	accept_result "$1" "${1%.gabc}.tex"
+}
+register gabc_gtex
 
-groups="${groups} gabc_dump"
 function gabc_dump_find {
 	find gabc-dump -name '*.gabc' -print
 }
@@ -78,16 +99,18 @@ function gabc_dump_test {
 
 	if gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
 	then
-		run diff -q "$outfile" "$expfile"
+		maybe_run diff -q "$outfile" "$expfile"
 	else
 		fail "Failed to compile $filename"
 	fi
 
 	return $RESULT
 }
-export -f gabc_dump_test
+function gabc_dump_accept {
+	accept_result "$1" "${1%.gabc}.dump"
+}
+register gabc_dump
 
-groups="${groups} gabc_output"
 function typeset_and_compare {
 	indir="$1"
 	outdir="$2"
@@ -96,25 +119,35 @@ function typeset_and_compare {
 
 	if latexmk -pdf -pdflatex='lualatex --shell-escape' --output-directory="$outdir" "$texfile" >&/dev/null
 	then
-		if cd "$outdir" && mkdir expected && convert "../$pdffile" expected/page.png && convert "$pdffile" page.png
+		if $verify
 		then
-			for name in page*.png
-			do
-				if ! compare -metric AE "$name" "expected/$name" "diff-$name" 2>/dev/null
-				then
-					fail "$indir/$outdir/$name differs from expected"
-					return
-				fi
-			done
-			pass
+			if cd "$outdir" && mkdir expected && convert "../$pdffile" expected/page.png && convert "$pdffile" page.png
+			then
+				for name in page*.png
+				do
+					if ! compare -metric AE "$name" "expected/$name" "diff-$name" 2>/dev/null
+					then
+						fail "$indir/$outdir/$name differs from expected"
+						return
+					fi
+				done
+				pass
+			else
+				fail "Failed to create images for $indir/$outdir/$pdffile"
+			fi
 		else
-			fail "Failed to create images for $indir/$outdir/$pdffile"
+			not_verified
 		fi
 	else
 		fail "Failed to typeset $indir/$outdir/$texfile"
 	fi
 }
-export -f typeset_and_compare
+function accept_typeset_result {
+	filebase="$(basename "$1")"
+	filebase="${filebase%.$2}"
+	accept_result "$1" "$(dirname "$1")/$filebase.out/$filebase.pdf"
+}
+export -f typeset_and_compare accept_typeset_result
 
 function gabc_output_find {
 	find gabc-output -name '*.gabc' -print
@@ -142,16 +175,18 @@ function gabc_output_test {
 
 	return $RESULT
 }
-export -f gabc_output_test
+function gabc_output_accept {
+	accept_typeset_result "$1" gabc
+}
+register gabc_output
 
-groups="${groups} tex_output"
 function tex_output_find {
 	find tex-output -name '*.tex' -print
 }
 function tex_output_test {
 	indir="$(dirname "$1")"
 	filename="$(basename "$1")"
-	outdir="${filename%.gabc}.out"
+	outdir="${filename%.tex}.out"
 
 	testing "$1"
 
@@ -164,4 +199,7 @@ function tex_output_test {
 
 	return $RESULT
 }
-export -f tex_output_test
+function tex_output_accept {
+	accept_typeset_result "$1" tex
+}
+register tex_output

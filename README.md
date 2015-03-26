@@ -1,4 +1,4 @@
-# PROJECT FOR SYSTEMATIC TESTING OF GREGORIO
+# Project for Systematic Testing of Gregorio
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
@@ -14,8 +14,7 @@ produce a GregorioTeX file and compares it with an expected output file.
 
 Requirements:
 
-- Every gabc file must have a corresponding "expected" tex file.  This
-  file can be created by running `gregorio -f gtex <gabc-file>`
+- Every gabc file must have a corresponding "expected" tex file.
 
 Notes:
 
@@ -30,8 +29,7 @@ produce an text dump file and compares it with an expected output file.
 
 Requirements:
 
-- Every gabc file must have a corresponding "expected" dump file.  This
-  file can be created by running `gregorio -f dump <gabc-file>`
+- Every gabc file must have a corresponding "expected" dump file.
 
 ## gabc-output
 
@@ -41,10 +39,7 @@ PDF, which is then compared with an expected PDF file.
 
 Requirements:
 
-- Every gabc file must have a corresponding "expected" PDF file.  This
-  file can be created by running lualatex `--shell-escape <tex-file>`
-  where `<tex-file>` is a copy of the heredoc file in harness.sh with the
-  `<gabc-file>` substituted.
+- Every gabc file must have a corresponding "expected" PDF file.
 
 Notes:
 
@@ -61,8 +56,7 @@ test be in a separate subdirectory.
 
 Requirements:
 
-- Every tex file must have a corresponding "expected" PDF file.  This
-  file can be created by running `lualatex --shell-escape <tex-file>`
+- Every tex file must have a corresponding "expected" PDF file.
 - All other files needed by the tex file (i.e., gabc files) must also
   included
 
@@ -72,26 +66,34 @@ The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.
 
-# SOFTWARE REQUIREMENTS
+# Creating "Expected" Files
+
+For a new test:
+
+1. Run `./gregorio-test.sh -n {subdirectory/under/tests}`
+2. Run `./gregorio-test.sh -a {subdirectory/under/tests}`
+
+For an existing test, where the new output is deemed to be correct.
+
+1. Run `./gregorio-test.sh -a {subdirectory/under/tests}`
+
+# Software Requirements
 
 - Bash
 - Imagemagick
 - Gregorio
+- TeX Live
 
+# Developer Notes
 
-# DEVELOPER NOTES
+To add a new kind of test, add a find function, a test function, and an
+accept function to harness.sh.  Be sure to pass the prefix to the
+register function after declaring the new functions.
 
-To add a new kind of test, add a find function and a test function to
-harness.sh.  Be sure to add the prefix to the "groups" variable and to
-"export -f" the test function.
+All tests contributed must be licensed under GPLv3 with the "or later"
+option.
 
-All tests contributed must be licensed under GPLv3.
-
-I hope to add parallel execution once we have enough tests to make it
-worthwhile.
-
-
-# COPYRIGHT
+# Copyright
 
 ```
 Gregorio Tests
