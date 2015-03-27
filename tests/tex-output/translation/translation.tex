@@ -1,0 +1,37 @@
+%notes: test for trnslation centering
+\documentclass[11pt]{article}
+\usepackage{luatextra}
+\usepackage{graphicx}
+\usepackage{gregoriotex}
+\usepackage[utf8]{luainputenc}
+\begin{document}
+\setspaceafterinitial{2.2mm}{1}
+\setspacebeforeinitial{2.2mm}{1}
+\setgrefactor{15}
+
+{\bfseries Default}
+
+\includescore[f]{translation}
+
+{\bfseries Default with slash}
+
+\includescore[f]{translation-with-slash}
+
+{\bfseries\textbackslash{}setgretranslationcenteringscheme\{1\}}
+
+\setgretranslationcenteringscheme{1}
+\includescore[f]{translation}
+
+{\bfseries\textbackslash{}setgretranslationcenteringscheme\{1\} with slash}
+
+\includescore[f]{translation-with-slash}
+
+{\bfseries\textbackslash{}setgretranslationcenteringscheme\{0\}}
+
+\setgretranslationcenteringscheme{0}
+\includescore[f]{translation}
+
+{\bfseries\textbackslash{}setgretranslationcenteringscheme\{0\} with slash}
+
+\includescore[f]{translation-with-slash}
+\end{document}

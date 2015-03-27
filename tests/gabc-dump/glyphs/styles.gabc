@@ -1,5 +1,7 @@
 %notes: styles, verb and special characters
 initial-style: 0;
 %%
-{a}<i>i</i><b>b</b><ul>ul</ul><sp>+</sp><v>a</v>(gZ)
-{a}<a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
+<i>italics</i><b>bold</b><ul>underline</ul><sp>+</sp><v>a</v>(gZ)
+<a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
+<sc>Small Caps</sc>(e) x<c>colored</c>(eZ)
+<i>Italic<b>Bold<sc>Small<c>Colored</c>Caps</sc>Face</b>Font</i>(iZ)
