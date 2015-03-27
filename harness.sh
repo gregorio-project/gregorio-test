@@ -43,7 +43,7 @@ function not_verified {
 function maybe_run {
 	if $verify
 	then
-		if answer=("$@")
+		if answer=$("$@")
 		then
 			pass
 		else
@@ -56,7 +56,7 @@ function maybe_run {
 
 function accept_result {
 	echo "Accepting $2 as expection for $1"
-	cp "$2" "$testroot/tests/$(dirname "$1")/"
+	cp "$2" "$testroot/tests/$(dirname "$1")/$3"
 }
 
 export -f testing pass fail not_verified maybe_run accept_result
@@ -82,7 +82,7 @@ function gabc_gtex_test {
 	return $RESULT
 }
 function gabc_gtex_accept {
-	accept_result "$1" "$1.out"
+accept_result "$1" "$1.out" "$(basename "${1%.gabc}").tex"
 }
 register gabc_gtex
 
@@ -107,7 +107,7 @@ function gabc_dump_test {
 	return $RESULT
 }
 function gabc_dump_accept {
-	accept_result "$1" "$1.out"
+	accept_result "$1" "$1.out" "$(basename "${1%.gabc}").dump"
 }
 register gabc_dump
 
@@ -145,7 +145,7 @@ function typeset_and_compare {
 function accept_typeset_result {
 	filebase="$(basename "$1")"
 	filebase="${filebase%.$2}"
-	accept_result "$1" "$(dirname "$1")/$filebase.out/$filebase.pdf"
+	accept_result "$1" "$(dirname "$1")/$filebase.out/$filebase.pdf" "$filebase.pdf"
 }
 export -f typeset_and_compare accept_typeset_result
 
