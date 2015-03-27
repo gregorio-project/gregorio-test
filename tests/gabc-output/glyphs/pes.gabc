@@ -1,15 +1,1 @@
-%notes: pes
-initial-style: 0;
-%%
-f.g(f.g) fg.(fg.) g.h(g.h) gh.(gh.Z)
--f.g(-f.g) -fg.(-fg.) -g.h(-g.h) -gh.(-gh.Z)
-f.g~(f.g~) fg.~(fg.~) g.h~(g.h~) gh.~(gh.~Z) 
-f.g<(f.g<) fg.<(fg.<) g.h<(g.h<) gh.<(gh.<Z)
-f.g>(f.g>) fg.>(fg.>) g.h>(g.h>) gh.>(gh.>Z)
--f.g~(f.g~) -fg.~(fg.~) -g.h~(g.h~) -gh.~(gh.~Z)
--f.g<(f.g<) -fg.<(fg.<) -g.h<(g.h<) -gh.<(gh.<Z)
--f.h<(f.h<) -fh.<(fh.<) -g.i<(g.i<) -gi.<(gi.<Z)
-fg..(fg..) gh..(gh..) gf..(gf..) hg..(hg..) fh..(fh..) gi..(gi..) fi..(fi..) gj..(gj..) hf..(hf..) ig..(ig..) if..(if..) jg..(jg..) f..(f..) g..(g..) -fg..(-fg..) -gh..(-gh..) fg..~(fg..~) gh..~(gh..~) fg..<(fg..<) gh..<(gh..<Z)
-f'g(f'g) fg'(fg') f'g'(f'g') f'h'(f'h') f'i' (f'i') f'j'(f'j') f'_g'(f'_g') f'g'_(f'_g')
--f'g(-f'g) -fg'(-fg') -f'g'(-f'g') -f'h'(-f'h') -f'i' (-f'i') -f'j'(-f'j') -f'_g'(-f'_g') -f'g'_(-f'_g')
-f.'g(f.g) fg.'(fg.) g.'h(g.h) gh.'(gh.Z)
+../../gabc-dump/glyphs/pes.gabc
