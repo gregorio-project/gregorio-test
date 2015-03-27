@@ -1,0 +1,97 @@
+=====================================================================
+ SCORE INFOS
+=====================================================================
+   number_of_voices          1
+
+
+=====================================================================
+ VOICES INFOS
+=====================================================================
+  Voice 1
+   initial_key               5 (c3)
+
+
+=====================================================================
+ SCORE
+=====================================================================
+   type                      11 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 b
+---------------------------------------------------------------------
+     character                 c
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        16 (H_NO_EPISEMUS & H_BOTTOM)
+         h_episemus_bottom_note g
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        2 (H_ALONE)
+         h_episemus_top_note    h
+---------------------------------------------------------------------
+     type                    9 (GRE_SPACE)
+     element_type            54 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+---------------------------------------------------------------------
+     type                    9 (GRE_SPACE)
+     element_type            54 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            20 (G_TORCULUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        19 (H_MULTI & H_BOTTOM)
+         h_episemus_top_note    h
+         h_episemus_bottom_note g
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        19 (H_MULTI & H_BOTTOM)
+         h_episemus_top_note    h
+         h_episemus_bottom_note g
+---------------------------------------------------------------------
+     type                    8 (GRE_END_OF_LINE)
+     element_type            13 (GRE_END_OF_PAR)
+=====================================================================

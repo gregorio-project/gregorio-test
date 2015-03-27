@@ -1,0 +1,5 @@
+%notes: styles, verb and special characters
+initial-style: 0;
+%%
+{a}<i>i</i><b>b</b><ul>ul</ul><sp>+</sp><v>a</v>(gZ)
+{a}<a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)

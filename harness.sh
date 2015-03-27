@@ -82,7 +82,7 @@ function gabc_gtex_test {
 	return $RESULT
 }
 function gabc_gtex_accept {
-	accept_result "$1" "${1%.gabc}.tex"
+	accept_result "$1" "$1.out"
 }
 register gabc_gtex
 
@@ -107,7 +107,7 @@ function gabc_dump_test {
 	return $RESULT
 }
 function gabc_dump_accept {
-	accept_result "$1" "${1%.gabc}.dump"
+	accept_result "$1" "$1.out"
 }
 register gabc_dump
 

@@ -1,0 +1,5 @@
+%notes: spaces
+initial-style: 0;
+%%
+{fg!hi}(fg!hi) {fg/hi}(fg/hi) {fg//hi}(fg//hi) {fg hi}(fg hi) {fg!/hi}(fg!/hi) {fg!//hi}(fg!//hi) {fg! hi}(fg! hiZ)
+æ(dc) æ(ab/dc)

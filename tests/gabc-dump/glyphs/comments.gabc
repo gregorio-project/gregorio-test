@@ -1,0 +1,7 @@
+%notes: comments
+initial-style: 0;
+%%
+gh(gh) % this is a comment at the end of a line
+% this is a line comment
+fg(f% this is a comment inside some notes
+g)
