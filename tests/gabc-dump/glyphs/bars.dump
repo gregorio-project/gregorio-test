@@ -481,7 +481,6 @@
 ---------------------------------------------------------------------
      type                    10 (GRE_BAR)
      element_type            6 (B_DIVISIO_MINOR_D1)
-     additional_infos        6 (unknown)
 =====================================================================
    type                      11 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

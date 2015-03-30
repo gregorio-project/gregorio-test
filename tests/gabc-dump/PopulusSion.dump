@@ -585,7 +585,6 @@
 ---------------------------------------------------------------------
      type                    10 (GRE_BAR)
      element_type            4 (B_DIVISIO_MAIOR)
-     additional_infos        4 (unknown)
 =====================================================================
    type                      11 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
