@@ -14,6 +14,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+export PASS="${C_GOOD}PASS${C_RESET}"
+export FAIL="${C_BAD}FAIL${C_RESET}"
+
 groups=''
 
 function register {
@@ -27,12 +30,12 @@ function testing {
 
 function pass {
 	RESULT=0
-	echo "$TESTING : PASS"
+	echo "$TESTING : $PASS"
 }
 
 function fail {
 	RESULT=1
-	echo "$TESTING : FAIL - $1"
+	echo "$TESTING : $FAIL - $1"
 }
 
 function not_verified {
@@ -74,7 +77,9 @@ function gabc_gtex_test {
 
 	if gregorio -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
 	then
-		maybe_run diff -q --label "$outfile" <(tail -n +3 "$outfile") --label "$expfile" <(tail -n +3 "$expfile")
+        tail -n +3 "$outfile" > "$outfile-"
+        tail -n +3 "$expfile" > "$expfile-"
+		maybe_run diff -q "$outfile-" "$expfile-"
 	else
 		fail "Failed to compile $filename"
 	fi
@@ -99,7 +104,9 @@ function gabc_dump_test {
 
 	if gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
 	then
-		maybe_run diff -q "$outfile" "$expfile"
+        sed -e 's/[0-9]\+\( (\(GRE\|S\)_\)/@\1/' "$outfile" > "$outfile-"
+        sed -e 's/[0-9]\+\( (\(GRE\|S\)_\)/@\1/' "$expfile" > "$expfile-"
+        maybe_run diff -q "$outfile-" "$expfile-"
 	else
 		fail "Failed to compile $filename"
 	fi

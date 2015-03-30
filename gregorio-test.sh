@@ -19,12 +19,16 @@
 usage=false
 verify=true
 accept=false
-while getopts ":ag:hn" opt
+color=false
+while getopts ":aCg:hn" opt
 do
 	case $opt in
 		a)
 			accept=true
 			;;
+        C)
+            color=true
+            ;;
 		g)
 			gregorio_dir="$(realpath "$OPTARG")"
 			;;
@@ -77,6 +81,8 @@ Options:
                     future expectation.  Requires that at least one TEST be
                     specified.  Don't forget to add/commit the change!
 
+  -C                enables colors.
+
   -h                shows this usage message.
 EOT
 	exit 1
@@ -86,6 +92,13 @@ export verify
 
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
+
+if $color
+then
+    C_BAD="$(tput bold 2>/dev/null; tput setaf 1 2>/dev/null)"
+    C_GOOD="$(tput bold 2>/dev/null; tput setaf 2 2>/dev/null)"
+    C_RESET="$(tput sgr0 2>/dev/null)"
+fi
 
 source harness.sh
 
@@ -194,10 +207,10 @@ else
 
 	if [ ${overall_result} != 0 ]
 	then
-		echo "SOMETHING FAILED"
+		echo "${C_BAD}SOMETHING FAILED${C_RESET}"
 		exit 1
 	fi
 
-	echo "ALL PASS"
+	echo "${C_GOOD}ALL PASS${C_RESET}"
 fi
 exit 0
