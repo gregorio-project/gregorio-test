@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -30,7 +30,7 @@
        type                  4 (GRE_FLAT)
        glyph_type            103 (g)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -46,7 +46,7 @@
        type                  4 (GRE_FLAT)
        glyph_type            104 (h)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -59,10 +59,10 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  5 (GRE_NATURAL)
+       type                  6 (GRE_NATURAL)
        glyph_type            103 (g)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -75,10 +75,10 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  5 (GRE_NATURAL)
+       type                  6 (GRE_NATURAL)
        glyph_type            104 (h)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -103,7 +103,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -118,7 +118,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  5 (GRE_NATURAL)
+       type                  6 (GRE_NATURAL)
        glyph_type            103 (g)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -128,7 +128,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -159,7 +159,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -199,7 +199,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -225,7 +225,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  5 (GRE_NATURAL)
+       type                  6 (GRE_NATURAL)
        glyph_type            103 (g)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -239,7 +239,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -252,10 +252,10 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  19 (GRE_SHARP)
-       glyph_type            103 (unknown)
+       type                  5 (GRE_SHARP)
+       glyph_type            103 (g)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -268,9 +268,9 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  19 (GRE_SHARP)
-       glyph_type            104 (unknown)
+       type                  5 (GRE_SHARP)
+       glyph_type            104 (h)
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     element_type            15 (GRE_END_OF_PAR)
 =====================================================================
