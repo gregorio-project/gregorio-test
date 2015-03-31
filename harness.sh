@@ -58,7 +58,7 @@ function maybe_run {
 }
 
 function accept_result {
-	echo "Accepting $2 as expection for $1"
+	echo "Accepting $2 as expectation for $1"
 	cp "$2" "$testroot/tests/$(dirname "$1")/$3"
 }
 
