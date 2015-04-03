@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 D
@@ -66,7 +66,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  4 (S_VIRGA)
+         shape                  6 (S_VIRGA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
@@ -130,8 +130,8 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 ---------------------------------------------------------------------
-     type                    10 (GRE_BAR)
-     element_type            2 (B_DIVISIO_MINIMA)
+     type                    14 (GRE_BAR)
+     bar                     2 (B_DIVISIO_MINIMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -164,7 +164,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_VIRGA)
+         shape                  6 (S_VIRGA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
@@ -193,7 +193,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  2 (WORD_MIDDLE)
 ---------------------------------------------------------------------
      character                 g
@@ -290,8 +290,8 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 ---------------------------------------------------------------------
-     type                    10 (GRE_BAR)
-     element_type            2 (B_DIVISIO_MINIMA)
+     type                    14 (GRE_BAR)
+     bar                     2 (B_DIVISIO_MINIMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -324,7 +324,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_VIRGA)
+         shape                  6 (S_VIRGA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
@@ -353,7 +353,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  2 (WORD_MIDDLE)
 ---------------------------------------------------------------------
      character                 t
@@ -377,7 +377,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER

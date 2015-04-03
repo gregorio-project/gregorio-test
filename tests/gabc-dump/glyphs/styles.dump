@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -98,10 +98,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 <
@@ -157,10 +157,10 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style      ST_SMALL_CAPS
@@ -208,7 +208,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 x
@@ -252,10 +252,10 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -359,6 +359,6 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================

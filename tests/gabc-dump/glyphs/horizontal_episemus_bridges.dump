@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -53,7 +53,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -83,8 +83,8 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            53 (SP_LARGER_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   5 (SP_LARGER_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -97,7 +97,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -127,8 +127,8 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -141,7 +141,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -171,8 +171,8 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            55 (SP_NEUMATIC_CUT_NB)
+     type                    13 (GRE_SPACE)
+     space                   7 (SP_NEUMATIC_CUT_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -185,7 +185,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -217,8 +217,8 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            56 (SP_LARGER_SPACE_NB)
+     type                    13 (GRE_SPACE)
+     space                   8 (SP_LARGER_SPACE_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -231,7 +231,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -261,8 +261,8 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            57 (SP_GLYPH_SPACE_NB)
+     type                    13 (GRE_SPACE)
+     space                   9 (SP_GLYPH_SPACE_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -275,10 +275,10 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -317,7 +317,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    h
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -356,7 +356,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -401,7 +401,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -446,7 +446,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    h
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style    ST_FORCED_CENTER
@@ -485,7 +485,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    i
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -524,7 +524,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    h
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -569,7 +569,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -614,7 +614,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    h
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -676,7 +676,7 @@
          h_episemus_type        2 (H_ALONE)
          h_episemus_top_note    g
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -716,15 +716,15 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  9 (GRE_SPACE)
-       glyph_type            51 (SP_ZERO_WIDTH)
+       type                  13 (GRE_SPACE)
+       space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            13 (G_VIRGA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_VIRGA)
+         shape                  6 (S_VIRGA)
          h_episemus_type        3 (H_MULTI)
          h_episemus_top_note    j
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

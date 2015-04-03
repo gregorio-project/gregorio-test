@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -32,19 +32,19 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         TeX string             "%test1"
          shape                  1 (S_PUNCTUM)
+         TeX string             "%test1"
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         TeX string             "%test2"
          shape                  1 (S_PUNCTUM)
+         TeX string             "%test2"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  17 (GRE_TEXVERB_GLYPH)
        TeX string            "%test3"
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -62,14 +62,14 @@
        type                  17 (GRE_TEXVERB_GLYPH)
        TeX string            "%test4"
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    18 (GRE_TEXVERB_ELEMENT)
      TeX string              "%test5"
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -78,11 +78,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
+         shape                  1 (S_PUNCTUM)
          TeX string             "%test6test7"
-         shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -91,6 +91,6 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         TeX string             "%test72"
          shape                  1 (S_PUNCTUM)
+         TeX string             "%test72"
 =====================================================================

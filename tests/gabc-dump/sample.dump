@@ -15,7 +15,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style         ST_INITIAL
@@ -43,9 +43,9 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    10 (GRE_BAR)
-     element_type            5 (B_DIVISIO_FINALIS)
+     type                    14 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
 =====================================================================

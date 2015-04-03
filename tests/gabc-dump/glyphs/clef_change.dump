@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -32,7 +32,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -68,16 +68,16 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_CUSTO)
+     type                    16 (GRE_CUSTO)
      pitch                   d     
 ---------------------------------------------------------------------
-     type                    10 (GRE_BAR)
-     element_type            5 (B_DIVISIO_FINALIS)
+     type                    14 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
 ---------------------------------------------------------------------
-     type                    6 (GRE_C_KEY_CHANGE)
-     element_type            52 (c4)
+     type                    7 (GRE_C_KEY_CHANGE)
+     clef                    52 (c4)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -95,7 +95,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -106,10 +106,10 @@
 ---------------------------------------------------------------------
      end of style                ST_CENTER
 ---------------------------------------------------------------------
-     type                    7 (GRE_F_KEY_CHANGE)
-     element_type            51 (f3)
+     type                    10 (GRE_F_KEY_CHANGE)
+     clef                    51 (f3)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -127,7 +127,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -163,16 +163,16 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_CUSTO)
+     type                    16 (GRE_CUSTO)
      pitch                   a     
 ---------------------------------------------------------------------
-     type                    10 (GRE_BAR)
-     element_type            5 (B_DIVISIO_FINALIS)
+     type                    14 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
 ---------------------------------------------------------------------
-     type                    6 (GRE_C_KEY_CHANGE)
-     element_type            52 (c4)
+     type                    7 (GRE_C_KEY_CHANGE)
+     clef                    52 (c4)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -190,7 +190,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -203,11 +203,11 @@
 ---------------------------------------------------------------------
      end of style                ST_CENTER
 ---------------------------------------------------------------------
-     type                    6 (GRE_C_KEY_CHANGE)
-     element_type            51 (c3)
-     additional_infos        FLAT_KEY
+     type                    7 (GRE_C_KEY_CHANGE)
+     clef                    51 (c3)
+     flatted_key             true
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
