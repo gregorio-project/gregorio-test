@@ -127,7 +127,20 @@ else
 	declare -A tests_to_run
 	while [ "$1" != "" ]
 	do
-		tests_to_run[$1]=1
+        # strip these off in case the user is using tab-completion
+        case "$1" in
+            tests/*)
+                arg="${1#tests/}"
+                ;;
+            output/*)
+                arg="${1#output/}"
+                ;;
+            *)
+                arg="$1"
+                ;;
+        esac
+
+		tests_to_run[$arg]=1
 		shift
 	done
 
