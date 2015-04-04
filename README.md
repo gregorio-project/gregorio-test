@@ -3,6 +3,17 @@
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## Running the test suite
+
+Use `./gregorio-test.sh` to run the full test suite with default options.
+Pass the name(s) of desired tests to run those tests specifically.  Pass the
+`-h` option to get a summary of available options.
+
+`gregorio-test.sh` will read a `$HOME/.gregorio-test.rc` file, if it exists,
+to set up some features such as color.  Please read the `gregorio-test.sh`
+file itself for more information.  See `example.gregorio-test.rc` for an
+example.
+
 ## Test Types
 
 This project provides a harness for repeatable testing of Gregorio.
@@ -88,9 +99,19 @@ For an existing test, where the new output is deemed to be correct.
 
 # Developer Notes
 
-To add a new kind of test, add a find function, a test function, and an
-accept function to harness.sh.  Be sure to pass the prefix to the
-register function after declaring the new functions.
+Each kind of test must have seven functions defined in `harness.sh`, prefixed
+by a common prefix:
+
+- find
+- test
+- accept
+- view\_log
+- view\_diff
+- view\_expected
+- view\_output
+
+Be sure to pass the prefix to the register function after declaring the new
+functions.
 
 All tests contributed must be licensed under GPLv3 with the "or later"
 option.

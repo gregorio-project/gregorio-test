@@ -1,0 +1,10 @@
+# this is a shell script fragment
+COLOR=true
+VIEW_TEXT="less {file}"
+DIFF_TEXT="vi -d {expect} {output}"
+if [ "$DISPLAY" != "" ]
+then
+    VIEW_PDF="zathura {file}"
+    VIEW_IMAGES="pqiv {files}"
+    #DIFF_PDF="evince {expect} {output}"
+fi

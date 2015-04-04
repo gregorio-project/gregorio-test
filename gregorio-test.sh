@@ -16,38 +16,87 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# Settings in $HOME/.gregorio-test.rc:
+# COLOR        boolean  whether to use color by default
+# VIEW_TEXT    string   the command to use to view a text file; expands {file}
+#                       into the filename of the text file
+# VIEW_PDF     string   the command to use to view a PDF file; expands {file}
+#                       into the filename of the PDF file.
+# VIEW_IMAGES  string   the command to use to view image files; expands
+#                       {files} into the filenames of the image files.
+# DIFF_TEXT    string   the command to use for a textual diff; expands {expect}
+#                       into the filename of the expected result filename and
+#                       {output} into the filename of the actual result.
+# DIFF_PDF     string   the command to use for a PDF diff; expands {expect}
+#                       into the filename of the expected result and {output}
+#                       into the filename of the actual result.
+
+VIEW_TEXT="cat {file}"
+DIFF_TEXT="diff {expect} {output}"
+
+rcfile=$HOME/.gregorio-test.rc
+if [ -f $rcfile -a -r $rcfile ]
+then
+    source $rcfile
+fi
+
+case "$(echo $COLOR | tr '[:upper:]' '[:lower:]')" in
+t|true|y|yes)
+    color=true
+    ;;
+*)
+    color=false
+    ;;
+esac
+
 usage=false
 verify=true
-accept=false
-color=false
-while getopts ":aCg:hn" opt
+mode=test
+while getopts ":aCdeg:hlnv" opt
 do
 	case $opt in
-		a)
-			accept=true
-			;;
-        C)
+    a)
+        mode=accept
+        ;;
+    C)
+        if $color
+        then
+            color=false
+        else
             color=true
-            ;;
-		g)
-			gregorio_dir="$(realpath "$OPTARG")"
-			;;
-		h)
-			usage=true
-			;;
-		n)
-			verify=false
-			;;
-		\?)
-			echo "Unknown option: -$OPTARG" >&2
-			echo "(use $0 -h for help)" >&2
-			exit 1
-			;;
-		:)
-			echo "Option -$OPTARG is missing its required argument." >&2
-			echo "(use $0 -h for help)" >&2
-			exit 1
-			;;
+        fi
+        ;;
+    d)
+        mode=view_diff
+        ;;
+    e)
+        mode=view_expected
+        ;;
+    g)
+        gregorio_dir="$(realpath "$OPTARG")"
+        ;;
+    h)
+        usage=true
+        ;;
+    l)
+        mode=view_log
+        ;;
+    n)
+        verify=false
+        ;;
+    v)
+        mode=view_output
+        ;;
+    \?)
+        echo "Unknown option: -$OPTARG" >&2
+        echo "(use $0 -h for help)" >&2
+        exit 1
+        ;;
+    :)
+        echo "Option -$OPTARG is missing its required argument." >&2
+        echo "(use $0 -h for help)" >&2
+        exit 1
+        ;;
 	esac
 done
 shift $((OPTIND - 1))
@@ -76,14 +125,25 @@ Options:
                     conjunction with -a) for generating the initial result
                     of a new test to use as future expectation.
 
-  -a                accepts the result of each given TEST.  Must be run
-                    after the tests are run.  Makes the result into the
-                    future expectation.  Requires that at least one TEST be
-                    specified.  Don't forget to add/commit the change!
+  -a                accepts the result of each given TEST.  Makes the result
+                    into the future expectation.  Requires that at least one
+                    TEST be specified.  Don't forget to add/commit the change!
 
-  -C                enables colors.
+  -l                views the log of the given TEST.
+
+  -e                views the expected result of the given TEST.
+
+  -v                views the output of the given TEST.
+
+  -d                views the differences between the expected result and the
+                    output of the given TEST.
+
+  -C                toggles the use of color.
 
   -h                shows this usage message.
+
+Note: The -a, -l, -e, -v, and -d options are mutually exclusive and will not
+      work properly until after the desired test(s) are run.
 EOT
 	exit 1
 fi
@@ -110,12 +170,18 @@ fi
 
 if [ "$1" = "" ]
 then
-	if $accept
-	then
+    case "$mode" in
+    accept)
 		echo "At least one TEST to accept must be specified." >&2
 		echo "(use $0 -h for help)" >&2
 		exit 4
-	fi
+        ;;
+    view_*)
+		echo "Exactly one TEST for viewing results must be specified." >&2
+		echo "(use $0 -h for help)" >&2
+		exit 5
+        ;;
+    esac
 
 	function filter {
 		while read line
@@ -144,6 +210,17 @@ else
 		shift
 	done
 
+    case "$mode" in
+    view_*)
+        if [ "${#tests_to_run[@]}" != 1 ]
+        then
+            echo "Only one TEST for viewing results may be specified." >&2
+            echo "(use $0 -h for help)" >&2
+            exit 6
+        fi
+        ;;
+    esac
+
 	function filter {
 		while read line
 		do
@@ -155,14 +232,8 @@ else
 	}
 fi
 
-if $accept
-then
-	cd output
-	for group in ${groups}
-	do
-		${group}_find | filter | xargs -n 1 -i bash -c "${group}_accept"' "$@"' _ {} \;
-	done
-else
+case "$mode" in
+test)
 	rm -fr output
 	cp -r tests output
 
@@ -225,5 +296,21 @@ else
 	fi
 
 	echo "${C_GOOD}ALL PASS${C_RESET}"
-fi
+    ;;
+accept|view_*)
+    cd output
+    for group in ${groups}
+    do
+        # this silliness is so that the command gets the tty of this script
+        IFS=$'\r\n' GLOBIGNORE='*' :; filenames=( $(${group}_find | filter) )
+        if [ "${#filenames[@]}" -gt 0 ]
+        then
+            for filename in "${filenames[@]}"
+            do
+                "${group}_$mode" "$filename"
+            done
+        fi
+    done
+    ;;
+esac
 exit 0
