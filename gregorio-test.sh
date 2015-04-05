@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Settings in $HOME/.gregorio-test.rc:
+# Settings in gregorio-test.rc:
 # COLOR        boolean  whether to use color by default
 # VIEW_TEXT    string   the command to use to view a text file; expands {file}
 #                       into the filename of the text file
@@ -31,10 +31,13 @@
 #                       into the filename of the expected result and {output}
 #                       into the filename of the actual result.
 
+export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+cd "$testroot"
+
 VIEW_TEXT="cat {file}"
 DIFF_TEXT="diff {expect} {output}"
 
-rcfile=$HOME/.gregorio-test.rc
+rcfile=gregorio-test.rc
 if [ -f $rcfile -a -r $rcfile ]
 then
     source $rcfile
@@ -149,9 +152,6 @@ EOT
 fi
 
 export verify
-
-export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
-cd "$testroot"
 
 if $color
 then

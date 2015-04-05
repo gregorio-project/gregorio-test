@@ -9,10 +9,9 @@ Use `./gregorio-test.sh` to run the full test suite with default options.
 Pass the name(s) of desired tests to run those tests specifically.  Pass the
 `-h` option to get a summary of available options.
 
-`gregorio-test.sh` will read a `$HOME/.gregorio-test.rc` file, if it exists,
-to set up some features such as color.  Please read the `gregorio-test.sh`
-file itself for more information.  See `example.gregorio-test.rc` for an
-example.
+`gregorio-test.sh` will read a `gregorio-test.rc` file, if it exists, to set
+up some features such as color.  Please read the `gregorio-test.sh` file
+itself for more information.  See `example.gregorio-test.rc` for an example.
 
 ## Test Types
 
