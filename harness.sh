@@ -280,7 +280,7 @@ function typeset_and_compare {
 function accept_typeset_result {
 	filebase="$(basename "$1")"
 	filebase="${filebase%.$2}"
-	accept_result "$1" "$(dirname "$1")/$filebase.out/$filebase.pdf" "$filebase.pdf"
+    accept_result "$1" "$1.out/$filebase.pdf" "$filebase.pdf"
 }
 function view_typeset_diff {
     if [ "$DIFF_PDF" = "" ]
