@@ -44,10 +44,17 @@ function testing {
 	TESTING="$1"
 }
 
-function pass {
-	RESULT=0
-	echo "$TESTING : $PASS"
-}
+if $show_success
+then
+    function pass {
+        RESULT=0
+        echo "$TESTING : $PASS"
+    }
+else
+    function pass {
+        RESULT=0
+    }
+fi
 
 function fail {
 	RESULT=1
@@ -55,8 +62,8 @@ function fail {
 }
 
 function not_verified {
-	RESULT=0
-	echo "$TESTING : not verified"
+    RESULT=0
+    echo "$TESTING : not verified"
 }
 
 function maybe_run {

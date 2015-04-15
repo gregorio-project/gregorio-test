@@ -55,7 +55,8 @@ esac
 usage=false
 verify=true
 mode=test
-while getopts ":aCdeg:hlnv" opt
+show_success=false
+while getopts ":aCdeg:hlnSv" opt
 do
 	case $opt in
     a)
@@ -87,6 +88,9 @@ do
     n)
         verify=false
         ;;
+    S)
+        show_success=true
+        ;;
     v)
         mode=view_output
         ;;
@@ -106,13 +110,7 @@ shift $((OPTIND - 1))
 
 if $usage
 then
-	columns=$(stty size | cut -d' ' -f2)
-	(( columns = columns - 5 ))
-	if (( columns < 50 ))
-	then
-		columns=50
-	fi
-	fmt -sw $columns <<EOT
+	cat <<EOT
 Usage: $0 [OPTION]... [TEST]...
 
 Runs the Gregorio test suite.  If no TEST is specified, all tests will run.
@@ -142,6 +140,9 @@ Options:
                     output of the given TEST.
 
   -C                toggles the use of color.
+
+  -S                show successful tests.  Default is to show only failed
+                    tests.
 
   -h                shows this usage message.
 
