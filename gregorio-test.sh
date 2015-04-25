@@ -56,7 +56,8 @@ usage=false
 verify=true
 mode=test
 show_success=false
-while getopts ":aCdeg:hlnSv" opt
+long_tests=false
+while getopts ":aCdeg:hlLnSv" opt
 do
 	case $opt in
     a)
@@ -84,6 +85,9 @@ do
         ;;
     l)
         mode=view_log
+        ;;
+    L)
+        long_tests=true
         ;;
     n)
         verify=false
@@ -131,6 +135,8 @@ Options:
                     TEST be specified.  Don't forget to add/commit the change!
 
   -l                views the log of the given TEST.
+
+  -L                includes long tests.
 
   -e                views the expected result of the given TEST.
 
@@ -199,6 +205,9 @@ else
             tests/*)
                 arg="${1#tests/}"
                 ;;
+            longtests/*)
+                arg="${1#longtests/}"
+                ;;
             output/*)
                 arg="${1#output/}"
                 ;;
@@ -237,6 +246,7 @@ case "$mode" in
 test)
 	rm -fr output
 	cp -r tests output
+    $long_tests && cp -r longtests/* output
 
 	if [ "$gregorio_dir" != "" ]
 	then
