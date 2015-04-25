@@ -260,18 +260,16 @@ test)
 
 		export PATH="$gregorio_dir/src:$PATH"
 
-		mkdir output/texmf
-		export output_texmf=$(realpath output/texmf)
+		mkdir -p output/texmf var/texmf-config var/texmf-var
+		export TEXMFHOME=$(realpath output/texmf)
+		export TEXMFCONFIG=$(realpath var/texmf-config)
+		export TEXMFVAR=$(realpath var/texmf-var)
 
-		if ! (cd "$gregorio_dir" && TEXHASH="texhash $output_texmf" ./install-gtex.sh "dir:$output_texmf")
+		if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" ./install-gtex.sh user)
 		then
-			echo "Unable to install GregorioTeX to $output_texmf" >&2
+			echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
 			exit 2
 		fi
-
-		TEXMF="$(kpsewhich --var-value TEXMF)"
-		TEXMF="${TEXMF/{/{$output_texmf,}"
-		export TEXMF
 
 		echo
 	fi
