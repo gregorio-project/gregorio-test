@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{gregoriotex}
+\usepackage{fullpage}
+%\usepackage{libertine}
+\setmainfont{Alegreya}
+%\setmainfont{Linux Libertine O}
+
+\begin{document}
+
+\setspaceafterinitial{2.2mm}{1}
+\setspacebeforeinitial{2.2mm}{1}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+
+\redlines
+
+\Abar{}. Hello
+
+\Vbar{}ery
+
+\Rbar{}. Hello
+
+\includescore[a]{symbols}
+
+\gresep{2}{20}
+
+\gredefsizedsymbol{greVBar}{greextra}{VBar.alt}
+\gredefsizedsymbol{greRBar}{greextra}{RBar.alt}
+\def\grestar{\greheightstar}
+
+\Abar.  Hello
+
+\Vbar.  Hello
+
+\Rbar.  Hello
+
+%\Vbarsmall.  Hello
+
+\includescore[a]{symbols}
+
+\gresep{5}{30}
+
+\gredefsizedsymbol{greVBar}{greextra}{VBar}
+\gredefsizedsymbol{greRBar}{greextra}{RBar}
+
+\Huge
+
+\Abar
+
+\Vbar
+
+\Rbar
+
+%\Vbarsmall
+
+\includescore[a]{symbols}
+
+\end{document}
