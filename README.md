@@ -78,6 +78,26 @@ The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.
 
+#### plain-tex
+
+The plain TeX version of `tex-output`.  This test runs luatex on every
+tex file in this directory in order to compile it and produce a PDF,
+which is then compared with an expected PDF file.  It is recommended,
+due to the nature of this test, that each test be in a separate
+subdirectory.
+
+Requirements:
+
+- Every tex file must have a corresponding "expected" PDF file.
+- All other files needed by the tex file (i.e., gabc files) must also
+  included
+
+Notes:
+
+The PDFs are compared by first converting the pages to PNG files with
+imagemagick's convert and then compared using imagemagick's compare and
+the AE metric.
+
 ## Creating "Expected" Files
 
 For a new test:
