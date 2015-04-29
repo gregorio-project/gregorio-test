@@ -254,12 +254,12 @@ function gabc_dump_view_output {
 register gabc_dump
 
 function typeset_and_compare {
-	indir="$1"
-	outdir="$2"
-	texfile="$3"
+	indir="$1"; shift
+	outdir="$1"; shift
+	texfile="$1"; shift
 	pdffile="${texfile%.tex}.pdf"
 
-	if latexmk -pdf -pdflatex='lualatex --shell-escape' --output-directory="$outdir" "$texfile" >&/dev/null
+	if "$@" --output-directory="$outdir" "$texfile" >&/dev/null
 	then
 		if $verify
 		then
@@ -315,7 +315,7 @@ function gabc_output_test {
 	then
 		if sed -e "s/###FILENAME###/$filebase/" "$testroot/gabc-output.tex" >${texfile}
 		then
-			typeset_and_compare "$indir" "$outdir" "$texfile"
+			typeset_and_compare "$indir" "$outdir" "$texfile" latexmk -pdf -pdflatex='lualatex --shell-escape'
 		else
 			fail "Could not create $indir/$outdir/$texfile"
 		fi
@@ -366,7 +366,7 @@ function tex_output_test {
 
 	if cd "$indir" && mkdir "$outdir"
 	then
-		typeset_and_compare "$indir" "$outdir" "$filename"
+		typeset_and_compare "$indir" "$outdir" "$filename" latexmk -pdf -pdflatex='lualatex --shell-escape'
 	else
 		fail "Could not create $indir/$outdir"
 	fi
@@ -401,3 +401,51 @@ function tex_output_view_output {
     view_pdf "$indir/$outdir/${filename%.tex}.pdf"
 }
 register tex_output
+
+function plain_tex_find {
+	find plain-tex -name '*.tex' -print
+}
+function plain_tex_test {
+	indir="$(dirname "$1")"
+	filename="$(basename "$1")"
+	outdir="${filename}.out"
+
+	testing "$1"
+
+	if cd "$indir" && mkdir "$outdir"
+	then
+		typeset_and_compare "$indir" "$outdir" "$filename" luatex
+	else
+		fail "Could not create $indir/$outdir"
+	fi
+
+	return $RESULT
+}
+function plain_tex_accept {
+	accept_typeset_result "$1" tex
+}
+function plain_tex_view_log {
+	indir="$(dirname "$1")"
+	filename="$(basename "$1")"
+	outdir="$filename.out"
+
+	view_text "$indir/$outdir/${filename%.tex}.log"
+}
+function plain_tex_view_diff {
+	indir="$(dirname "$1")"
+	filename="$(basename "$1")"
+	outdir="$filename.out"
+
+    view_typeset_diff "$indir" "$outdir" "${filename%.tex}.pdf"
+}
+function plain_tex_view_expected {
+	view_pdf "${1%.tex}.pdf"
+}
+function plain_tex_view_output {
+	indir="$(dirname "$1")"
+	filename="$(basename "$1")"
+	outdir="$filename.out"
+
+    view_pdf "$indir/$outdir/${filename%.tex}.pdf"
+}
+register plain_tex
