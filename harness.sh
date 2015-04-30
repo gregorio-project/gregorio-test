@@ -414,7 +414,7 @@ function plain_tex_test {
 
 	if cd "$indir" && mkdir "$outdir"
 	then
-		typeset_and_compare "$indir" "$outdir" "$filename" luatex
+		typeset_and_compare "$indir" "$outdir" "$filename" luatex --shell-escape
 	else
 		fail "Could not create $indir/$outdir"
 	fi
