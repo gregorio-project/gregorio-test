@@ -1416,3 +1416,513 @@
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
 =====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 d
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 c
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+---------------------------------------------------------------------
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 d
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 c
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+         h_episemus_type        3 (H_MULTI)
+         h_episemus_top_note    h
+---------------------------------------------------------------------
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
+=====================================================================
