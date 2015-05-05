@@ -265,14 +265,19 @@ function typeset_and_compare {
 		then
 			if cd "$outdir" && mkdir expected && convert "../$pdffile" expected/page.png && convert "$pdffile" page.png
 			then
+                declare -a failed
 				for name in page*.png
 				do
 					if ! compare -metric AE "$name" "expected/$name" "diff-$name" 2>/dev/null
 					then
-						fail "$indir/$outdir/$name differs from expected"
-						return
+                        failed[${#failed[@]}]="$indir/$outdir/$name"
 					fi
 				done
+                if [ ${#failed[@]} != 0 ]
+                then
+                    fail "[${failed[*]}] differ from expected"
+                    return
+                fi
 				pass
 			else
 				fail "Failed to create images for $indir/$outdir/$pdffile"
