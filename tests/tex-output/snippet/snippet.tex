@@ -1,0 +1,29 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{gregoriotex}
+\usepackage{fullpage}
+\setmainfont{Alegreya}
+
+\begin{document}
+
+\setspaceafterinitial{2.2mm}{1}
+\setspacebeforeinitial{2.2mm}{1}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+
+\redlines
+
+Some gabc:
+
+\gabcsnippet{abc(abc)
+def(def)}
+
+Some more gabc:
+
+\gabcsnippet[0]{abc(abc)%
+def(def)}
+
+\end{document}
