@@ -57,9 +57,9 @@ verify=true
 mode=test
 show_success=false
 long_tests=false
-while getopts ":aCdeg:hlLnSv" opt
+while getopts ":aCdD:eg:hlLnSv" opt
 do
-	case $opt in
+    case $opt in
     a)
         mode=accept
         ;;
@@ -73,6 +73,9 @@ do
         ;;
     d)
         mode=view_diff
+        ;;
+    D)
+        export GABC_OUTPUT_DEBUG="$OPTARG"
         ;;
     e)
         mode=view_expected
@@ -108,13 +111,13 @@ do
         echo "(use $0 -h for help)" >&2
         exit 1
         ;;
-	esac
+    esac
 done
 shift $((OPTIND - 1))
 
 if $usage
 then
-	cat <<EOT
+    cat <<EOT
 Usage: $0 [OPTION]... [TEST]...
 
 Runs the Gregorio test suite.  If no TEST is specified, all tests will run.
@@ -125,6 +128,10 @@ Options:
                     version of Gregorio.  For this script to be able to use
                     a not-installed Gregorio, the gregorio executable must
                     be linked statically.
+
+  -D CATEGORIES     specifies a comma-separated list of debug message
+                    categories to log when running gabc-output tests.  May also
+                    be set by the GABC_OUTPUT_DEBUG environment variable.
 
   -n                runs the tests without verifying results.  Useful (in
                     conjunction with -a) for generating the initial result
@@ -155,7 +162,7 @@ Options:
 Note: The -a, -l, -e, -v, and -d options are mutually exclusive and will not
       work properly until after the desired test(s) are run.
 EOT
-	exit 1
+    exit 1
 fi
 
 export verify
@@ -171,35 +178,35 @@ source harness.sh
 
 if [ ! -d tests ]
 then
-	echo "No tests to run."
-	exit 1
+    echo "No tests to run."
+    exit 1
 fi
 
 if [ "$1" = "" ]
 then
     case "$mode" in
     accept)
-		echo "At least one TEST to accept must be specified." >&2
-		echo "(use $0 -h for help)" >&2
-		exit 4
+        echo "At least one TEST to accept must be specified." >&2
+        echo "(use $0 -h for help)" >&2
+        exit 4
         ;;
     view_*)
-		echo "Exactly one TEST for viewing results must be specified." >&2
-		echo "(use $0 -h for help)" >&2
-		exit 5
+        echo "Exactly one TEST for viewing results must be specified." >&2
+        echo "(use $0 -h for help)" >&2
+        exit 5
         ;;
     esac
 
-	function filter {
-		while read line
-		do
-			echo $line
-		done
-	}
+    function filter {
+        while read line
+        do
+            echo $line
+        done
+    }
 else
-	declare -A tests_to_run
-	while [ "$1" != "" ]
-	do
+    declare -A tests_to_run
+    while [ "$1" != "" ]
+    do
         # strip these off in case the user is using tab-completion
         case "$1" in
             tests/*)
@@ -216,9 +223,9 @@ else
                 ;;
         esac
 
-		tests_to_run[$arg]=1
-		shift
-	done
+        tests_to_run[$arg]=1
+        shift
+    done
 
     case "$mode" in
     view_*)
@@ -231,80 +238,80 @@ else
         ;;
     esac
 
-	function filter {
-		while read line
-		do
-			if [ "${tests_to_run[$line]}" = "1" ]
-			then
-				echo $line
-			fi
-		done
-	}
+    function filter {
+        while read line
+        do
+            if [ "${tests_to_run[$line]}" = "1" ]
+            then
+                echo $line
+            fi
+        done
+    }
 fi
 
 case "$mode" in
 test)
-	rm -fr output
-	cp -r tests output
+    rm -fr output
+    cp -r tests output
     $long_tests && cp -r longtests/* output
 
-	if [ "$gregorio_dir" != "" ]
-	then
-		if [ ! -f "$gregorio_dir/src/gregorio" -o ! -x "$gregorio_dir/src/gregorio" ]
-		then
-			echo "$gregorio_dir/src/gregorio is not an executable" >&2
-			exit 2
-		fi
+    if [ "$gregorio_dir" != "" ]
+    then
+        if [ ! -f "$gregorio_dir/src/gregorio" -o ! -x "$gregorio_dir/src/gregorio" ]
+        then
+            echo "$gregorio_dir/src/gregorio is not an executable" >&2
+            exit 2
+        fi
 
-		echo "Preparing to use Gregorio from $gregorio_dir"
+        echo "Preparing to use Gregorio from $gregorio_dir"
 
-		export PATH="$gregorio_dir/src:$PATH"
+        export PATH="$gregorio_dir/src:$PATH"
 
-		mkdir -p output/texmf var/texmf-config var/texmf-var
-		export TEXMFHOME=$(realpath output/texmf)
-		export TEXMFCONFIG=$(realpath var/texmf-config)
-		export TEXMFVAR=$(realpath var/texmf-var)
+        mkdir -p output/texmf var/texmf-config var/texmf-var
+        export TEXMFHOME=$(realpath output/texmf)
+        export TEXMFCONFIG=$(realpath var/texmf-config)
+        export TEXMFVAR=$(realpath var/texmf-var)
 
-		if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" ./install-gtex.sh user)
-		then
-			echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
-			exit 2
-		fi
+        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" ./install-gtex.sh user)
+        then
+            echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
+            exit 2
+        fi
 
-		echo
-	fi
+        echo
+    fi
 
-	if ! gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
-	then
-		echo "Gregorio is not installed properly or is not statically linked" >&2
-		echo "When building, use ./configure --enable-all-static" >&2
-		exit 3
-	fi
+    if ! gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
+    then
+        echo "Gregorio is not installed properly or is not statically linked" >&2
+        echo "When building, use ./configure --enable-all-static" >&2
+        exit 3
+    fi
 
-	echo "Gregorio = $(which gregorio)"
-	echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
-	echo
+    echo "Gregorio = $(which gregorio)"
+    echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
+    echo
 
-	processors=$(nproc 2>/dev/null || echo 1)
-	overall_result=0
-	cd output
-	for group in ${groups}
-	do
-		if ! ${group}_find | filter | xargs -P $processors -n 1 -i bash -c "${group}_test"' "$@"' _ {} \;
-		then
-			overall_result=1
-		fi
-	done
+    processors=$(nproc 2>/dev/null || echo 1)
+    overall_result=0
+    cd output
+    for group in ${groups}
+    do
+        if ! ${group}_find | filter | xargs -P $processors -n 1 -i bash -c "${group}_test"' "$@"' _ {} \;
+        then
+            overall_result=1
+        fi
+    done
 
-	echo
+    echo
 
-	if [ ${overall_result} != 0 ]
-	then
-		echo "${C_BAD}SOMETHING FAILED${C_RESET}"
-		exit 1
-	fi
+    if [ ${overall_result} != 0 ]
+    then
+        echo "${C_BAD}SOMETHING FAILED${C_RESET}"
+        exit 1
+    fi
 
-	echo "${C_GOOD}ALL PASS${C_RESET}"
+    echo "${C_GOOD}ALL PASS${C_RESET}"
     ;;
 accept|view_*)
     cd output
