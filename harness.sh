@@ -226,8 +226,8 @@ function gabc_dump_test {
 
 	if gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
 	then
-        sed -e 's/[0-9]\+\( (\(GRE\|S\|G\)_\)/@\1/' "$outfile" > "$outfile-"
-        sed -e 's/[0-9]\+\( (\(GRE\|S\|G\)_\)/@\1/' "$expfile" > "$expfile-"
+        sed -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\)_\)/@\1/' "$outfile" > "$outfile-"
+        sed -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\)_\)/@\1/' "$expfile" > "$expfile-"
         maybe_run diff -q "$outfile-" "$expfile-"
 	else
 		fail "Failed to compile $filename"
