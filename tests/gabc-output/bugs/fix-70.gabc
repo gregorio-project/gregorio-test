@@ -1,0 +1,13 @@
+%issue: 70
+%notes: partial neume episemus
+initial-style: 0;
+%%
+(c4) hgh(hgh) (;) h_gh(h_gh) hg_h(hg_h) hgh_(hgh_) (;) h_g_h(h_g_h) hg_h_(hg_h_)
+(;) h_g_h_(h_g_h_) (:Z)
+ghgh(ghgh) (;) g_hgh(g_hgh) gh_gh(gh_gh) ghg_h(ghg_h) ghgh_(ghgh_) (;)
+g_h_gh(g_h_gh) gh_g_h(gh_g_h) ghg_h_(ghg_h_) (;) g_h_g_h(g_h_g_h)
+gh_g_h_(gh_g_h_) (;) g_h_g_h_g(g_h_g_h_) (:Z)
+ghghg(ghghg) (;) g_hghg(g_hghg) gh_ghg(gh_ghg) ghg_hg(ghg_hg) ghgh_g(ghgh_g)
+ghghg_(ghghg_) (;) g_h_ghg(g_h_ghg) gh_g_hg(gh_g_hg) ghg_h_g(ghg_h_g)
+ghgh_g_(ghgh_g_) (;) g_h_g_hg(g_h_g_hg) gh_g_h_g(gh_g_h_g) ghg_h_g_(ghg_h_g_)
+(;) g_h_g_h_g(g_h_g_h_g) gh_g_h_g_(gh_g_h_g_) (;) g_h_g_h_g_(g_h_g_h_g_) (:Z)
