@@ -144,7 +144,7 @@ Such magic comments may be harvested in the future.
 
 ```
 Gregorio Tests
-Copyright (C) 2015 Gregorio Team
+Copyright (C) 2015 The Gregorio Project
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
