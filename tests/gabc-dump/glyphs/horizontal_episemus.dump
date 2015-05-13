@@ -14,7 +14,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      11 (GRE_SYLLABLE)
+   type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -35,17 +35,17 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        16 (H_NO_EPISEMUS & H_BOTTOM)
-         h_episemus_bottom_note g
+         below hepisemus size   0 (H_NORMAL)
+         below hepisemus bridge true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -55,17 +55,17 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
-     type                    9 (GRE_SPACE)
-     element_type            54 (SP_GLYPH_SPACE)
+     type                    13 (GRE_SPACE)
+     space                   6 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -75,23 +75,25 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        19 (H_MULTI & H_BOTTOM)
-         h_episemus_top_note    h
-         h_episemus_bottom_note g
+         above hepisemus size   0 (H_NORMAL)
+         above hepisemus bridge true
+         below hepisemus size   0 (H_NORMAL)
+         below hepisemus bridge true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        19 (H_MULTI & H_BOTTOM)
-         h_episemus_top_note    h
-         h_episemus_bottom_note g
+         above hepisemus size   0 (H_NORMAL)
+         above hepisemus bridge true
+         below hepisemus size   0 (H_NORMAL)
+         below hepisemus bridge true
 ---------------------------------------------------------------------
-     type                    8 (GRE_END_OF_LINE)
-     element_type            13 (GRE_END_OF_PAR)
+     type                    12 (GRE_END_OF_LINE)
+     sub_type                15 (GRE_END_OF_PAR)
 =====================================================================

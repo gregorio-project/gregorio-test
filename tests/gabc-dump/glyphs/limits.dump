@@ -37,9 +37,9 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    a
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -64,9 +64,9 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    b
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -91,9 +91,9 @@
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    c
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -118,9 +118,9 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    k
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -145,9 +145,9 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    l
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -172,9 +172,9 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    m
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)

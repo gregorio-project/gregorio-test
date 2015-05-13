@@ -489,8 +489,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -529,8 +529,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    f
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -573,8 +573,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -613,8 +613,8 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -657,8 +657,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -697,8 +697,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -741,8 +741,8 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -781,8 +781,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -819,14 +819,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -863,14 +863,14 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -903,14 +903,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -947,14 +947,14 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -987,14 +987,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1031,14 +1031,14 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1077,20 +1077,20 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -1125,20 +1125,20 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1175,26 +1175,26 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1227,26 +1227,26 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    i
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1276,7 +1276,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -1315,7 +1315,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -1358,7 +1358,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1397,7 +1397,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1440,7 +1440,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -1479,7 +1479,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1522,7 +1522,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1561,7 +1561,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1592,17 +1592,17 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -1637,17 +1637,17 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1684,22 +1684,22 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1732,22 +1732,22 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1787,7 +1787,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1824,17 +1824,17 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -1871,17 +1871,17 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1922,22 +1922,22 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
@@ -1974,22 +1974,22 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)

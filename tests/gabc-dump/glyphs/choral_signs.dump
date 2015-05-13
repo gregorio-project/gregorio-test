@@ -85,15 +85,15 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
          Choral Sign            "t"
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -115,14 +115,14 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          Choral Sign            "c"
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -145,12 +145,12 @@
          shape                  1 (S_PUNCTUM)
          Choral Sign            "t"
          signs                  1 (_PUNCTUM_MORA)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================

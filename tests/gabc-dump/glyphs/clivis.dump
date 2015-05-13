@@ -59,7 +59,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          3 (L_AUCTUS_DESCENDENS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -68,7 +68,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         liquescentia           3 (L_AUCTUS_DESCENDENS)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -87,12 +87,12 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          5 (L_INITIO_DEBILIS)
+       liquescentia          16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         liquescentia           5 (L_INITIO_DEBILIS)
+         liquescentia           16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -270,7 +270,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -301,7 +301,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -326,12 +326,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -354,7 +354,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -385,7 +385,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -410,12 +410,12 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -441,8 +441,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -473,8 +473,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -499,14 +499,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -529,8 +529,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -561,8 +561,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -587,14 +587,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -622,7 +622,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -655,7 +655,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -684,12 +684,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -714,7 +714,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -747,7 +747,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -776,12 +776,12 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -811,7 +811,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -846,7 +846,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -879,12 +879,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -911,7 +911,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -946,7 +946,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -977,12 +977,12 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1036,7 +1036,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          3 (L_AUCTUS_DESCENDENS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1045,7 +1045,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         liquescentia           3 (L_AUCTUS_DESCENDENS)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1066,12 +1066,12 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          5 (L_INITIO_DEBILIS)
+       liquescentia          16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         liquescentia           5 (L_INITIO_DEBILIS)
+         liquescentia           16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1261,7 +1261,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1294,7 +1294,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1321,12 +1321,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1351,7 +1351,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1384,7 +1384,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1411,12 +1411,12 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1444,8 +1444,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1478,8 +1478,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1506,14 +1506,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    g
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1538,8 +1538,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1572,8 +1572,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        2 (H_ALONE)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1600,14 +1600,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         h_episemus_type        3 (H_MULTI)
-         h_episemus_top_note    h
+         auto hepisemus size    0 (H_NORMAL)
+         auto hepisemus bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1637,7 +1637,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1672,7 +1672,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1703,12 +1703,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1735,7 +1735,7 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1770,7 +1770,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1801,12 +1801,12 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  6 (_V_EPISEMUS_PUNCTUM_MORA)
+         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
