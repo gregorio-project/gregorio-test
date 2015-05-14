@@ -1,4 +1,6 @@
 %notes: limit cases
 initial-style: 0;
 %%
-a_.'(a_.') b_.'(b_.') c_.'(c_.') k_.'(k_.') l_.'(l_.') m_.'(m_.'Z) a/dc(a/dc) a//dc(a//dc) a dc(a dc)
+a_.'(a_.') b_.'(b_.') c_.'(c_.') k_.'(k_.') l_.'(l_.') m_.'(m_.'Z)
+a/dc(a/dc) a//dc(a//dc) a dc(a dcZ)
+a_0.'(a_0.') b_0.'(b_0.') c_0.'(c_0.') k_0.'(k_0.') l_0.'(l_0.') m_0.'(m_0.'Z)

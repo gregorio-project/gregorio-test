@@ -215,7 +215,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greovercurlybrace{6mm}{0}{0pt}{0pt}{1}"
+         TeX string             "\greovercurlybrace{6mm}{0pt}{0pt}{1}{0}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -257,9 +257,48 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greovercurlybrace{6mm}{1}{0pt}{0pt}{1}"
+         TeX string             "\greovercurlybrace{6mm}{0pt}{0pt}{1}{1}"
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            23 (G_PORRECTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      9 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 b
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         TeX string             "\greunderbrace{6mm}{0pt}{0pt}{1}"
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  13 (GRE_SPACE)
+       space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            23 (G_PORRECTUS)
