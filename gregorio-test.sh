@@ -267,12 +267,12 @@ test)
 
         export PATH="$gregorio_dir/src:$PATH"
 
-        mkdir -p output/texmf var/texmf-config var/texmf-var
-        export TEXMFHOME=$(realpath output/texmf)
+        mkdir -p var/texmf var/texmf-config var/texmf-var
+        export TEXMFHOME=$(realpath var/texmf)
         export TEXMFCONFIG=$(realpath var/texmf-config)
         export TEXMFVAR=$(realpath var/texmf-var)
 
-        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" ./install-gtex.sh user)
+        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -t" ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 2
@@ -295,7 +295,7 @@ test)
     processors=$(nproc 2>/dev/null || echo 1)
     overall_result=0
     cd output
-    for group in ${groups}
+    time for group in ${groups}
     do
         if ! ${group}_find | filter | xargs -P $processors -n 1 -i bash -c "${group}_test"' "$@"' _ {} \;
         then
