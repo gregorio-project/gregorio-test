@@ -1,4 +1,11 @@
 %notes: choral signs
 initial-style: 0;
 %%
-ab(gh[cs:c]) ab(h[cs:c]g[cs:t]) ab(h_.g_[cs:t]) ab(f_[cs:c]g_) ab(h_[cs:t].g_)
+ab(gh[cs:c]) ab(h[cs:c]g[cs:t]) ab(h_.g_[cs:t]) ab(f_[cs:c]g_) ab(h_[cs:t].g_Z)
+1(g[cs:c])
+2(g[cs:c]h) 3(gh[cs:c])
+4(g[cs:c]hg) 5(gh[cs:c]g) 6(ghg[cs:c])
+7(g[cs:c]hgh) 8(gh[cs:c]gh) 9(ghg[cs:c]h) 10(ghgh[cs:c]Z)
+11(h[cs:c]g) 12(hg[cs:c])
+13(h[cs:c]gh) 14(hg[cs:c]h) 15(hgh[cs:c])
+16(h[cs:c]ghg) 17(hg[cs:c]hg) 18(hgh[cs:c]g) 19(hghg[cs:c]Z)
