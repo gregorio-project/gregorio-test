@@ -297,7 +297,7 @@ test)
     cd output
     time for group in ${groups}
     do
-        if ! ${group}_find | filter | xargs -P $processors -n 1 -i bash -c "${group}_test"' "$@"' _ {} \;
+        if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
         then
             overall_result=1
         fi
