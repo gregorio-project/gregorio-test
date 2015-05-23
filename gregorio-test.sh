@@ -18,6 +18,7 @@
 
 # Settings in gregorio-test.rc:
 # COLOR        boolean  whether to use color by default
+# SED          string   the command to use for sed; defaults to "sed".
 # VIEW_TEXT    string   the command to use to view a text file; expands {file}
 #                       into the filename of the text file
 # VIEW_PDF     string   the command to use to view a PDF file; expands {file}
@@ -42,6 +43,8 @@ if [ -f $rcfile -a -r $rcfile ]
 then
     source $rcfile
 fi
+
+export SED="${SED:-sed}"
 
 case "$(echo $COLOR | tr '[:upper:]' '[:lower:]')" in
 t|true|y|yes)
