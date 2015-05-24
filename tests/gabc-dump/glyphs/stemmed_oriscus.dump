@@ -17,15 +17,27 @@
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
+     beginning of style   ST_FIRST_SYLLABLE
+---------------------------------------------------------------------
      beginning of style         ST_INITIAL
+---------------------------------------------------------------------
+     beginning of style   ST_FIRST_SYLLABLE_INITIAL
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
+     end of style         ST_FIRST_SYLLABLE_INITIAL
+---------------------------------------------------------------------
      end of style               ST_INITIAL
+---------------------------------------------------------------------
+     end of style         ST_FIRST_SYLLABLE
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
 ---------------------------------------------------------------------
+     beginning of style   ST_FIRST_SYLLABLE
+---------------------------------------------------------------------
      character                 O
+---------------------------------------------------------------------
+     end of style         ST_FIRST_SYLLABLE
 ---------------------------------------------------------------------
      end of style                ST_CENTER
 ---------------------------------------------------------------------
@@ -427,7 +439,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            17 (G_PODATUS)
-       liquescentia          3 (L_AUCTUS_DESCENDENS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -436,7 +448,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         liquescentia           3 (L_AUCTUS_DESCENDENS)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -487,7 +499,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          3 (L_AUCTUS_DESCENDENS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -496,7 +508,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         liquescentia           3 (L_AUCTUS_DESCENDENS)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -547,7 +559,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
-       liquescentia          3 (L_AUCTUS_DESCENDENS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -556,5 +568,5 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
-         liquescentia           3 (L_AUCTUS_DESCENDENS)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
