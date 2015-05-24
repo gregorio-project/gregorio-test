@@ -1,7 +1,19 @@
 \documentclass[11pt]{article}
 \usepackage###DEBUG###{gregoriotex}
 \usepackage{fontspec}
-\setmainfont[SmallCapsFont={AlegreyaSC}]{Alegreya}
+\setmainfont[
+    Path = ###FONTDIR### ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
 \begin{document}
 \includescore[f]{###FILENAME###}
 \end{document}

@@ -324,7 +324,10 @@ function gabc_output_test {
         else
             debugarg="[debug=$GABC_OUTPUT_DEBUG]"
         fi
-        if ${SED} -e "s/###FILENAME###/$filebase/" -e "s/###DEBUG###/$debugarg/" "$testroot/gabc-output.tex" >${texfile}
+        if ${SED} -e "s/###FILENAME###/$filebase/" \
+            -e "s/###DEBUG###/$debugarg/" \
+            -e "s!###FONTDIR###!$testroot/fonts/!" \
+            "$testroot/gabc-output.tex" >${texfile}
         then
             typeset_and_compare "$indir" "$outdir" "$texfile" latexmk -pdf -pdflatex='lualatex --shell-escape'
         else

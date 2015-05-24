@@ -6,9 +6,19 @@
 \geometry{a4paper}
 \usepackage{gregoriotex}
 \usepackage{fullpage}
-%\usepackage{libertine}
-\setmainfont{Alegreya}
-%\setmainfont{Linux Libertine O}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
 
 \begin{document}
 

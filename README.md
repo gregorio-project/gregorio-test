@@ -64,13 +64,15 @@ the AE metric.
 This test runs lualatex on every tex file in this directory in order to
 compile it and produce a PDF, which is then compared with an expected
 PDF file.  It is recommended, due to the nature of this test, that each
-test be in a separate subdirectory.
+test be in a separate subdirectory.  Unless necessary for a particular
+test, use the provided Alegreya fonts for rendering.
 
 Requirements:
 
 - Every tex file must have a corresponding "expected" PDF file.
 - All other files needed by the tex file (i.e., gabc files) must also
-  included
+  be included.
+- Use of the provided Alegreya fonts is recommended.
 
 Notes:
 
@@ -84,13 +86,15 @@ The plain TeX version of `tex-output`.  This test runs luatex on every
 tex file in this directory in order to compile it and produce a PDF,
 which is then compared with an expected PDF file.  It is recommended,
 due to the nature of this test, that each test be in a separate
-subdirectory.
+subdirectory.  Unless necessary for a particular test, use the provided
+Alegreya fonts for rendering.
 
 Requirements:
 
 - Every tex file must have a corresponding "expected" PDF file.
 - All other files needed by the tex file (i.e., gabc files) must also
-  included
+  be included.
+- Use of the provided Alegreya fonts is recommended.
 
 Notes:
 
@@ -156,3 +160,10 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 ```
+
+The Alegreya fonts in the `fonts` directory are bundled with these
+tests in order to set a reasonably complete, stable font for the
+majority of the PDF-based tests.  These fonts are Copyright (C) 2011,
+Juan Pablo del Peral, and are licensed under the SIL Open Font License.
+See the `SIL Open Font License.txt` file in the `fonts` directory for
+details.
