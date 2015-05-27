@@ -1,0 +1,15 @@
+%issue: 43
+%notes: test for force justify of last line via 'z'
+name: test for force justify of last line via 'z';
+%%
+(c3)
+g(g) g(g) g(g) g(g) g(g)
+g(g) g(g) g(g) g(g) g(g)
+g(g) g(g) g(g) g(g) g(g)
+g(g) g(g) g(g) g(g) g(g)
+%g(g) g(g) g(g) g(g) g(g)
+%g(g) g(g) g(g) g(g) g(g)
+%g(g) g(g) g(g) g(g) g(g)
+%g(g) g(g) g(g) g(g) g(g) (::)
+g(g) g(g) g(g) g(g) g(g)
+g(g) g(g) (::f+)
