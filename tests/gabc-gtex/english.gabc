@@ -1,0 +1,9 @@
+%issue: 475
+%notes: Test for English centering
+name: english centering;
+initial-style: 0;
+language: English;
+%%
+(c3)
+The(g) quick(g) brown(g) fox(g) jumps(g) o(g)ver(g) the(g) la(g)zy(z) dogs.(g) (:)
+Your(g) niece's(g) q{ueue}(g) of(g) ewes(g) is(g) full(g) of(g) loops.(g) (:)
