@@ -26,16 +26,16 @@
 
 \begin{document}
 
-\setspaceafterinitial{2.2mm}{1}
-\setspacebeforeinitial{2.2mm}{1}
+\grechangedim{afterinitialshift}{2.2mm}{1}
+\grechangedim{beforeinitialshift}{2.2mm}{1}
 
 \def\greinitialformat#1{%
 {\fontsize{43}{43}\selectfont #1}%
 }
 
-\redlines
+\gresetlinecolor{gregoriocolor}
 
-\includescore[a]{change-glyph}
+\gregorioscore[a]{change-glyph}
 
 \vspace{5mm}
 \greresetglyph{Stropha}
@@ -45,7 +45,7 @@
 \grechangeglyph{TorculusResupinus*}{*}{.alt}
 \grechangeglyph{VEpisemus}{*}{.circumflexus}
 
-\includescore[a]{change-glyph}
+\gregorioscore[a]{change-glyph}
 
 \vspace{5mm}
 \grechangeglyph{Stropha}{greciliae}{Stropha.caeciliae}
@@ -55,6 +55,6 @@
 \greresetglyph{TorculusResupinus*}
 \greresetglyph{VEpisemus}
 
-\includescore[a]{change-glyph}
+\gregorioscore[a]{change-glyph}
 
 \end{document}

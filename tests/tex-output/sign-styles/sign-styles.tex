@@ -22,35 +22,35 @@
 
 \begin{document}
 
-\setspaceafterinitial{2.2mm}{1}
-\setspacebeforeinitial{2.2mm}{1}
+\grechangedim{afterinitialshift}{2.2mm}{1}
+\grechangedim{beforeinitialshift}{2.2mm}{1}
 
 \def\greinitialformat#1{%
 {\fontsize{43}{43}\selectfont #1}%
 }
 
-\redlines
+\gresetlinecolor{gregoriocolor}
 
-\gresetfirstlineaboveinitial{\small Default}{\small Default}
+\greannotation{\small Default}
 \greusedefaultstyle
-\includescore[a]{sign-styles}
+\gregorioscore[a]{sign-styles}
 
 \vspace{2em}
 
-\gresetfirstlineaboveinitial{\small Medicaea}{\small Medicaea}
-\greusemedicaeastyle
-\includescore[a]{sign-styles}
+\greannotation{\small Medicaea}
+\greusemedicaeastyle{}
+\gregorioscore[a]{sign-styles}
 
 \vspace{2em}
 
-\gresetfirstlineaboveinitial{\small Hufnagel}{\small Hufnagel}
+\greannotation{\small Hufnagel}
 \greusehufnagelstyle{}
-\includescore[a]{sign-styles}
+\gregorioscore[a]{sign-styles}
 
 \vspace{2em}
 
-\gresetfirstlineaboveinitial{\small Mensural}{\small Mensural}
+\greannotation{\small Mensural}
 \greusemensuralstyle{}
-\includescore[a]{sign-styles}
+\gregorioscore[a]{sign-styles}
 
 \end{document}

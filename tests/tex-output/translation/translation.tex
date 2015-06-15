@@ -17,33 +17,35 @@
     Ligatures = TeX
 ]{Alegreya}
 \begin{document}
-\setspaceafterinitial{2.2mm}{1}
-\setspacebeforeinitial{2.2mm}{1}
-\setgrefactor{15}
+\grechangedim{afterinitialshift}{2.2mm}{1}
+\grechangedim{beforeinitialshift}{2.2mm}{1}
+\grechangestaffsize{15}
 
 {\bfseries Default}
 
-\includescore[f]{translation}
+\gregorioscore[f]{translation}
 
 {\bfseries Default with slash}
 
-\includescore[f]{translation-with-slash}
+\gregorioscore[f]{translation-with-slash}
 
-{\bfseries\textbackslash{}setgretranslationcenteringscheme\{1\}}
+\gresettranslationcentering{center}
 
-\setgretranslationcenteringscheme{1}
-\includescore[f]{translation}
+{\bfseries\textbackslash{}gresettranslationcentering\{center\}}
 
-{\bfseries\textbackslash{}setgretranslationcenteringscheme\{1\} with slash}
+\gregorioscore[f]{translation}
 
-\includescore[f]{translation-with-slash}
+{\bfseries\textbackslash{}gresettranslationcentering\{center\} with slash}
 
-{\bfseries\textbackslash{}setgretranslationcenteringscheme\{0\}}
+\gregorioscore[f]{translation-with-slash}
 
-\setgretranslationcenteringscheme{0}
-\includescore[f]{translation}
+\gresettranslationcentering{left}
 
-{\bfseries\textbackslash{}setgretranslationcenteringscheme\{0\} with slash}
+{\bfseries\textbackslash{}gresettranslationcentering\{left\}}
 
-\includescore[f]{translation-with-slash}
+\gregorioscore[f]{translation}
+
+{\bfseries\textbackslash{}gresettranslationcentering\{left\} with slash}
+
+\gregorioscore[f]{translation-with-slash}
 \end{document}
