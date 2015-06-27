@@ -1,0 +1,21 @@
+%issue: 511
+%notes: horizontal episema over salicus
+name: Salicus episemato;
+initial-style: 0;
+%%
+(c4)
+fhOj___(fhOj___) (:) fhO__j(fhO__j) (:) fhOj__(fhOj__) (:) f_hOj(f_hOj) (:) fhO_j(fhO_j) (:) fhOj_(fhOj_) (::Z)
+hOi(hOi)
+fhOi___(fhOi___) (:) fhO__i(fhO__i) (:) fhOi__(fhOi__) (:) f_hOi(f_hOi) (:) fhO_i(fhO_i) (:) fhOi_(fhOi_) (::Z)
+ghOj___(ghOj___) (:) ghO__j(ghO__j) (:) ghOj__(ghOj__) (:) g_hOj(f_hOj) (:) ghO_j(fhO_j) (:) ghOj_(fhOj_) (::Z)
+
+f'hO'j'(f'hO'j') (:) f'hO'j'___(f'hO'j'___) (:) f'hO'__j'(f'hO'__j') (:)
+f'hO'j'__(f'hO'j'__) (:) f'_hO'j'(f'_hO'j') (:) f'hO'_j'(f'hO'_j') (:) f'hO'j'_(f'hO'j'_) (::Z)
+f'hO'i'(f'hO'i') (:) f'hO'i'___(f'hO'i'___) (:) f'hO'__i'(f'hO'__i') (:)
+f'hO'i'__(f'hO'i'__) (:) f'_hO'i'(f'_hO'i') (:) f'hO'_i'(f'hO'_i') (:) f'hO'i'_(f'hO'i'_) (::Z)
+g'hO'j'(g'hO'j') (:) g'hO'j'___(g'hO'j'___) (:) g'hO'__j'(g'hO'__j') (:)
+g'hO'j'__(g'hO'j'__) (:) g'_hO'j'(g'_hO'j') (:) g'hO'_j'(g'hO'_j') (:) g'hO'j'_(g'hO'j'_) (::Z)
+
+f_0hO_3j_(f_0hO_3j_) (:) f_hO_3j_(f_hO_3j_) (:) f_hO_j(f_hO_j) (:) fhO_3j_5(fhO_3j_) (::Z)
+f_0hO_3i_(f_0hO_3i_) (:) f_hO_3i_(f_hO_3i_) (:) f_hO_i(f_hO_i) (:) fhO_3i_5(fhO_3i_) (::Z)
+g_0hO_3j_(g_0hO_3j_) (:) g_hO_3j_(g_hO_3j_) (:) g_hO_j(g_hO_j) (:) ghO_3j_5(ghO_3j_) (::)
