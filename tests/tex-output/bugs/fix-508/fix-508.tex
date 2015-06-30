@@ -1,0 +1,45 @@
+\documentclass[a5paper,11pt,DIV=17]{scrartcl}
+
+\usepackage[autocompile]{gregoriotex}
+\usepackage{libertine}
+\usepackage{calc}
+\pagestyle{empty}
+\grechangestaffsize{13}
+\newlength\tmpsize
+\setlength\tmpsize{\grefactor pt}
+\def\greinitialformat#1{{\fontsize{2.5\tmpsize}{2.5\tmpsize}\selectfont #1}}
+
+\begin{document}
+
+First, let's show default behaviour :
+
+\greannotation{\scriptsize Test}
+\greannotation{\scriptsize 1.}
+\gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
+
+\smallskip
+Here, one would expect second annotation to "touch" the first :
+
+\grechangedim{annotationseparation}{0mm}{0}
+\greannotation{\scriptsize Test}
+\greannotation{\scriptsize 1.}
+\gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
+
+\smallskip
+So, let's try a negative value : one would expect the first not to move, but the second to raise ;
+the space between annotations stays the same, and both raise.
+
+\grechangedim{annotationseparation}{-2mm}{0}
+\greannotation{\scriptsize Test}
+\greannotation{\scriptsize 1.}
+\gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
+
+\smallskip
+With a positive value, the second annotation is lower, but the first too (which is counter-intuitive) :
+
+\grechangedim{annotationseparation}{3mm}{0}
+\greannotation{\scriptsize Test}
+\greannotation{\scriptsize 1.}
+\gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
+
+\end{document}
