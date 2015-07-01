@@ -60,63 +60,93 @@ verify=true
 mode=test
 show_success=false
 long_tests=false
-while getopts ":aCdD:eg:hlLnSv" opt
+declare -A tests_to_run
+while (( $# > 0 ))
 do
-    case $opt in
-    a)
-        mode=accept
-        ;;
-    C)
-        if $color
+    unset OPTIND
+    while getopts ":aCdD:eg:hlLnSv" opt
+    do
+        case $opt in
+        a)
+            mode=accept
+            ;;
+        C)
+            if $color
+            then
+                color=false
+            else
+                color=true
+            fi
+            ;;
+        d)
+            mode=view_diff
+            ;;
+        D)
+            export GABC_OUTPUT_DEBUG="$OPTARG"
+            ;;
+        e)
+            mode=view_expected
+            ;;
+        g)
+            gregorio_dir="$(realpath "$OPTARG")"
+            ;;
+        h)
+            usage=true
+            ;;
+        l)
+            mode=view_log
+            ;;
+        L)
+            long_tests=true
+            ;;
+        n)
+            verify=false
+            ;;
+        S)
+            show_success=true
+            ;;
+        v)
+            mode=view_output
+            ;;
+        \?)
+            echo "Unknown option: -$OPTARG" >&2
+            echo "(use $0 -h for help)" >&2
+            exit 1
+            ;;
+        :)
+            echo "Option -$OPTARG is missing its required argument." >&2
+            echo "(use $0 -h for help)" >&2
+            exit 1
+            ;;
+        esac
+    done
+    shift $((OPTIND - 1))
+
+    if (( $# > 0 ))
+    then
+        if [ "$1" != "" ]
         then
-            color=false
-        else
-            color=true
+            # strip these off in case the user is using tab-completion
+            case "$1" in
+                tests/*)
+                    arg="${1#tests/}"
+                    ;;
+                longtests/*)
+                    arg="${1#longtests/}"
+                    ;;
+                output/*)
+                    arg="${1#output/}"
+                    ;;
+                *)
+                    arg="$1"
+                    ;;
+            esac
+
+            tests_to_run[$arg]=1
         fi
-        ;;
-    d)
-        mode=view_diff
-        ;;
-    D)
-        export GABC_OUTPUT_DEBUG="$OPTARG"
-        ;;
-    e)
-        mode=view_expected
-        ;;
-    g)
-        gregorio_dir="$(realpath "$OPTARG")"
-        ;;
-    h)
-        usage=true
-        ;;
-    l)
-        mode=view_log
-        ;;
-    L)
-        long_tests=true
-        ;;
-    n)
-        verify=false
-        ;;
-    S)
-        show_success=true
-        ;;
-    v)
-        mode=view_output
-        ;;
-    \?)
-        echo "Unknown option: -$OPTARG" >&2
-        echo "(use $0 -h for help)" >&2
-        exit 1
-        ;;
-    :)
-        echo "Option -$OPTARG is missing its required argument." >&2
-        echo "(use $0 -h for help)" >&2
-        exit 1
-        ;;
-    esac
+        shift
+    fi
 done
-shift $((OPTIND - 1))
 
 if $usage
 then
@@ -185,7 +215,7 @@ then
     exit 1
 fi
 
-if [ "$1" = "" ]
+if [ "${#tests_to_run[@]}" = 0 ]
 then
     case "$mode" in
     accept)
@@ -207,29 +237,6 @@ then
         done
     }
 else
-    declare -A tests_to_run
-    while [ "$1" != "" ]
-    do
-        # strip these off in case the user is using tab-completion
-        case "$1" in
-            tests/*)
-                arg="${1#tests/}"
-                ;;
-            longtests/*)
-                arg="${1#longtests/}"
-                ;;
-            output/*)
-                arg="${1#output/}"
-                ;;
-            *)
-                arg="$1"
-                ;;
-        esac
-
-        tests_to_run[$arg]=1
-        shift
-    done
-
     case "$mode" in
     view_*)
         if [ "${#tests_to_run[@]}" != 1 ]
