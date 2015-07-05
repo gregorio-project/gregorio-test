@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Gregorio Tests
 # Copyright (C) 2015 The Gregorio Project
