@@ -176,7 +176,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greoverbrace{6mm}{0pt}{0pt}{1}"
+         TeX string             "\GreOverBrace{6mm}{0pt}{0pt}{1}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -215,7 +215,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greovercurlybrace{6mm}{0pt}{0pt}{1}{0}"
+         TeX string             "\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{0}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -257,7 +257,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greovercurlybrace{6mm}{0pt}{0pt}{1}{1}"
+         TeX string             "\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{1}"
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -295,7 +295,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         TeX string             "\greunderbrace{6mm}{0pt}{0pt}{1}"
+         TeX string             "\GreUnderBrace{6mm}{0pt}{0pt}{1}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)

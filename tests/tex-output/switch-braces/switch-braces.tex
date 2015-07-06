@@ -20,10 +20,6 @@
     Ligatures = TeX
 ]{Alegreya}
 
-\grechangeglyph{Stropha}{greciliae}{.caeciliae}
-\grechangeglyph{StrophaAucta}{*}{.caeciliae}
-\gresetpunctumcavum{alternate}
-
 \begin{document}
 
 \grechangedim{afterinitialshift}{2.2mm}{1}
@@ -35,26 +31,18 @@
 
 \gresetlinecolor{gregoriocolor}
 
-\gregorioscore[a]{change-glyph}
+\gregorioscore[a]{switch-braces}
 
 \vspace{5mm}
-\greresetglyph{Stropha}
-\greresetglyph{StrophaAucta}
-\gresetpunctumcavum{normal}
-\grechangeglyph{Porrectus*}{*}{.alt}
-\grechangeglyph{TorculusResupinus*}{*}{.alt}
-\grechangeglyph{VEpisemus}{*}{.circumflexus}
 
-\gregorioscore[a]{change-glyph}
+\gresetbracerendering{font}
+
+\gregorioscore[a]{switch-braces}
 
 \vspace{5mm}
-\grechangeglyph{Stropha}{greciliae}{Stropha.caeciliae}
-\grechangeglyph{StrophaAucta}{*}{Stropha.caeciliae}
-\gresetpunctumcavum{alternate}
-\greresetglyph{Porrectus*}
-\greresetglyph{TorculusResupinus*}
-\greresetglyph{VEpisemus}
 
-\gregorioscore[a]{change-glyph}
+\gresetbracerendering{metapost}
+
+\gregorioscore[a]{switch-braces}
 
 \end{document}
