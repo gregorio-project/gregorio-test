@@ -56,7 +56,7 @@ t|true|y|yes)
 esac
 
 usage=false
-verify=true
+verify=needs_verification
 mode=test
 show_success=false
 long_tests=false
