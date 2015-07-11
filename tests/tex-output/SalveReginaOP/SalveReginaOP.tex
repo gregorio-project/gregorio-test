@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\gresetgregoriofont[op]{greciliae}
+
+\begin{document}
+
+% The title:
+\begin{center}\begin{huge}\textsc{Salve Regina}\end{huge}\end{center}
+
+\grechangedim{afterinitialshift}{2.2mm}{1}
+\grechangedim{beforeinitialshift}{2.2mm}{1}
+
+\def\greinitialformat#1{%
+{\fontsize{80}{80}\selectfont #1}%
+}
+
+%\gresetlinecolor{gregoriocolor}
+
+\gregorioscore[a]{SalveReginaOP}
+
+\end{document}

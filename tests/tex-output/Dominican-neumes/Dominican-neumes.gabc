@@ -1,0 +1,31 @@
+name: Dominican neume test;
+initial-style: 0;
+%%
+(c3)
+a(a<) b(b<) c(c<) d(d<) e(e<) f(f<) g(g<)
+h(h<) i(i<) j(j<) k(k<) l(l<) m(m<) (:)
+
+a(a>) b(b>) c(c>) d(d>) e(e>) f(f>) g(g>)
+h(h>) i(i>) j(j>) k(k>) l(l>) m(m>) (:)
+
+a(aV<) b(bV<) c(cV<) d(dV<) e(eV<) f(fV<) g(gV<)
+h(hV<) i(iV<) j(jV<) k(kV<) l(lV<) m(mV<) (:)
+
+a(aV>) b(bV>) c(cV>) d(dV>) e(eV>) f(fV>) g(gV>)
+h(hV>) i(iV>) j(jV>) k(kV>) l(lV>) m(mV>) (:)
+
+gh>(gh>) gi>(gi>) gh<(gh<) gi<(gi<)
+hi>(hi>) hj>(hj>) hi<(hi<) hj<(hj<) (:)
+gf>(gf>) ge>(ge>) gf<(gf<) ge<(ge<)
+hg>(hg>) hf>(hf>) hg<(hg<) hf<(hf<) (:)
+
+ghg>(ghg>) ghg<(ghg<) hih>(hih>) hih<(hih<) (:)
+gfg>(gfg>) gfg<(gfg<) hgh>(hgh>) hgh<(hgh<) (:)
+
+ab<sp>~</sp>(ab~) bc<sp>~</sp>(bc~) cd<sp>~</sp>(cd~) de<sp>~</sp>(de~)
+ef<sp>~</sp>(ef~) fg<sp>~</sp>(fg~) gh<sp>~</sp>(gh~) hi<sp>~</sp>(hi~)
+ij<sp>~</sp>(ij~) jk<sp>~</sp>(jk~) kl<sp>~</sp>(kl~) lm<sp>~</sp>(lm~) (:)
+
+ac<sp>~</sp>(ac~) bd<sp>~</sp>(bd~) ce<sp>~</sp>(ce~) df<sp>~</sp>(df~)
+eg<sp>~</sp>(eg~) fh<sp>~</sp>(fh~) gi<sp>~</sp>(gi~) hj<sp>~</sp>(hj~)
+ik<sp>~</sp>(ik~) jl<sp>~</sp>(jl~) km<sp>~</sp>(km~) (::)
