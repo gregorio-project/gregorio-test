@@ -60,7 +60,7 @@
      type                    18 (GRE_TEXVERB_ELEMENT)
      TeX string              "\hss%
 }%
-\grenobreak\relax "
+\GreNoBreak\relax "
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
