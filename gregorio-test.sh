@@ -46,7 +46,7 @@ then
     source $rcfile
 fi
 
-export SED="${SED:-sed}"
+export SED="${SED:-sed}" CP="${CP:-cp}" RM="${RM:-rm}"
 
 case "$(echo $COLOR | tr '[:upper:]' '[:lower:]')" in
 t|true|y|yes)
@@ -282,9 +282,9 @@ fi
 
 case "$mode" in
 test)
-    rm -fr output
-    cp -Lr tests output
-    $long_tests && cp -Lr longtests/* output
+    $RM -fr output
+    $CP -Lr tests output
+    $long_tests && $CP -Lr longtests/* output
 
     if [ "$gregorio_dir" != "" ]
     then

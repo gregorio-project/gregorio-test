@@ -103,7 +103,7 @@ function maybe_run {
 
 function accept_result {
     echo "Accepting $2 as expectation for $1"
-    cp "$2" "$testroot/tests/$(dirname "$1")/$3"
+    $CP "$2" "$testroot/tests/$(dirname "$1")/$3"
 }
 
 function view_text {
@@ -224,7 +224,7 @@ function gabc_gtex_clean {
     outfile="$filename.out"
     expfile="${filename%.gabc}.tex"
 
-    rm "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+    $RM "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
         "$expfile-"
 }
 function gabc_gtex_accept {
@@ -275,7 +275,7 @@ function gabc_dump_clean {
     outfile="$filename.out"
     expfile="${filename%.gabc}.dump"
 
-    rm "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+    $RM "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
         "$expfile-"
 }
 function gabc_dump_accept {
@@ -341,7 +341,7 @@ function clean_typeset_result {
     filename="$1"
     outdir="$filename.out"
     cd ..
-    rm -r "$filename" "${filename%.$2}.pdf" "$outdir"
+    $RM -r "$filename" "${filename%.$2}.pdf" "$outdir"
 }
 function accept_typeset_result {
     filebase="$(basename "$1")"
@@ -400,7 +400,7 @@ function gabc_output_clean {
     filebase="${filename%.gabc}"
 
     clean_typeset_result "$filename" gabc
-    rm "$filebase"-*.gtex "$filebase.tex"
+    $RM "$filebase"-*.gtex "$filebase.tex"
 }
 function gabc_output_accept {
     accept_typeset_result "$1" gabc
