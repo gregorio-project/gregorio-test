@@ -17,20 +17,22 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Settings in gregorio-test.rc:
-# COLOR        boolean  whether to use color by default
-# SED          string   the command to use for sed; defaults to "sed".
-# VIEW_TEXT    string   the command to use to view a text file; expands {file}
-#                       into the filename of the text file
-# VIEW_PDF     string   the command to use to view a PDF file; expands {file}
-#                       into the filename of the PDF file.
-# VIEW_IMAGES  string   the command to use to view image files; expands
-#                       {files} into the filenames of the image files.
-# DIFF_TEXT    string   the command to use for a textual diff; expands {expect}
-#                       into the filename of the expected result filename and
-#                       {output} into the filename of the actual result.
-# DIFF_PDF     string   the command to use for a PDF diff; expands {expect}
-#                       into the filename of the expected result and {output}
-#                       into the filename of the actual result.
+# COLOR         boolean  whether to use color by default
+# CLEAN_PASSED  boolean  whether to delete the output files of passed tests
+# SED           string   the command to use for sed; defaults to "sed".
+# VIEW_TEXT     string   the command to use to view a text file; expands {file}
+#                        into the filename of the text file
+# VIEW_PDF      string   the command to use to view a PDF file; expands {file}
+#                        into the filename of the PDF file.
+# VIEW_IMAGES   string   the command to use to view image files; expands
+#                        {files} into the filenames of the image files.
+# DIFF_TEXT     string   the command to use for a textual diff; expands
+#                        {expect} into the filename of the expected result
+#                        filename and {output} into the filename of the actual
+#                        result.
+# DIFF_PDF      string   the command to use for a PDF diff; expands {expect}
+#                        into the filename of the expected result and {output}
+#                        into the filename of the actual result.
 
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
@@ -55,6 +57,15 @@ t|true|y|yes)
     ;;
 esac
 
+case "$(echo $CLEAN_PASSED | tr '[:upper:]' '[:lower:]')" in
+t|true|y|yes)
+    clean_passed=true
+    ;;
+*)
+    clean_passed=false
+    ;;
+esac
+
 usage=false
 verify=needs_verification
 mode=test
@@ -64,11 +75,19 @@ declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":aCdD:eg:hlLnSv" opt
+    while getopts ":acCdD:eg:hlLnSv" opt
     do
         case $opt in
         a)
             mode=accept
+            ;;
+        c)
+            if $clean_passed
+            then
+                clean_passed=false
+            else
+                clean_passed=true
+            fi
             ;;
         C)
             if $color
@@ -187,6 +206,8 @@ Options:
 
   -C                toggles the use of color.
 
+  -c                toggles the clean-up of passed tests.
+
   -S                show successful tests.  Default is to show only failed
                     tests.
 
@@ -198,7 +219,7 @@ EOT
     exit 1
 fi
 
-export verify
+export verify clean_passed
 
 if $color
 then
@@ -262,8 +283,8 @@ fi
 case "$mode" in
 test)
     rm -fr output
-    cp -r tests output
-    $long_tests && cp -r longtests/* output
+    cp -Lr tests output
+    $long_tests && cp -Lr longtests/* output
 
     if [ "$gregorio_dir" != "" ]
     then
@@ -282,7 +303,7 @@ test)
         export TEXMFCONFIG=$(realpath var/texmf-config)
         export TEXMFVAR=$(realpath var/texmf-var)
 
-        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -t" ./install-gtex.sh user)
+        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -ci" ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 2
@@ -312,6 +333,26 @@ test)
             overall_result=1
         fi
     done
+
+    find . -name '*.result' -exec cat {} + | {
+        total_count=0
+        declare -A result_counts
+        old_IFS="$IFS"
+        IFS="|"
+        while read result file message
+        do
+            ((++result_counts[$message]))
+            ((++total_count))
+        done
+        IFS="$old_IFS"
+        echo
+        echo "SUMMARY"
+        echo "======="
+        for message in "${!result_counts[@]}"
+        do
+            echo "$message" : "${result_counts[$message]}/$total_count"
+        done
+    }
 
     echo
 

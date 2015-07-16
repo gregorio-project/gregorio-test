@@ -26,12 +26,13 @@ function needs_verification {
 function register {
     method_missing=false
 
-    for method in test accept view_log view_diff view_expected view_output
+    for method in test clean accept view_log view_diff view_expected \
+        view_output
     do
         if [ "$(type -t ${1}_$method)" != "function" ]
         then
             method_missing=true
-            echo "${1}_method is not defined in harness.sh"
+            echo "${1}_${method} is not defined in harness.sh"
         fi
     done
 
@@ -41,45 +42,59 @@ function register {
     fi
 
     groups="${groups} $1"
-    export -f ${1}_test
+    export -f ${1}_test ${1}_clean
 }
 
 function testing {
     TESTING="$1"
+    RESULTFILE="$2"
+    CLEANUP="$3"
 }
 
 if $show_success
 then
     function pass {
         RESULT=0
+        echo "PASS|$TESTING|Pass" > $RESULTFILE
         echo "$TESTING : $PASS"
+        if $clean_passed
+        then
+            eval $CLEANUP
+        fi
     }
 else
     function pass {
         RESULT=0
+        echo "PASS|$TESTING|Pass" > $RESULTFILE
+        if $clean_passed
+        then
+            eval $CLEANUP
+        fi
     }
 fi
 
 function fail {
     RESULT=1
-    echo "$TESTING : $FAIL - $1"
+    echo "FAIL|$TESTING|$1" > $RESULTFILE
+    echo "$TESTING : $FAIL - $2"
 }
 
 function not_verified {
     RESULT=0
+    echo "TEST|$TESTING|Not verified" > $RESULTFILE
     echo "$TESTING : not verified"
 }
 
 function maybe_run {
     filename="$1"; shift
 
-    if $verify "$1"
+    if $verify "$filename"
     then
         if answer=$("$@")
         then
             pass
         else
-            fail "$answer"
+            fail "Failed to run" "$answer"
         fi
     else
         not_verified
@@ -180,11 +195,11 @@ function gabc_gtex_find {
 }
 function gabc_gtex_test {
     filename="$1"
-    outfile="${filename}.out"
-    logfile="${filename}.log"
+    outfile="$filename.out"
+    logfile="$filename.log"
     expfile="${filename%.gabc}.tex"
 
-    testing "$filename"
+    testing "$filename" "$filename.result" "gabc_gtex_clean '$filename'"
 
     if gregorio -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
     then
@@ -199,10 +214,18 @@ function gabc_gtex_test {
             "$expfile" > "$expfile-"
         maybe_run "$filename" diff -q "$outfile-" "$expfile-"
     else
-        fail "Failed to compile $filename"
+        fail "Failed to compile" "Failed to compile $filename"
     fi
 
     return $RESULT
+}
+function gabc_gtex_clean {
+    filename="$1"
+    outfile="$filename.out"
+    expfile="${filename%.gabc}.tex"
+
+    rm "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+        "$expfile-"
 }
 function gabc_gtex_accept {
     accept_result "$1" "$1.out" "$(basename "${1%.gabc}").tex"
@@ -212,13 +235,13 @@ function gabc_gtex_view_log {
 }
 function gabc_gtex_view_diff {
     filename="$1"
-    diff_text "${filename%.gabc}.tex-" "${filename}.out-"
+    diff_text "${filename%.gabc}.tex-" "$filename.out-"
 }
 function gabc_gtex_view_expected {
     view_text "${1%.gabc}.tex-"
 }
 function gabc_gtex_view_output {
-    view_text "${filename}.out-"
+    view_text "$filename.out-"
 }
 register gabc_gtex
 
@@ -227,11 +250,11 @@ function gabc_dump_find {
 }
 function gabc_dump_test {
     filename="$1"
-    outfile="${filename}.out"
-    logfile="${filename}.log"
+    outfile="$filename.out"
+    logfile="$filename.log"
     expfile="${filename%.gabc}.dump"
 
-    testing "$filename"
+    testing "$filename" "$filename.result" "gabc_dump_clean '$filename'"
 
     if gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
     then
@@ -242,10 +265,18 @@ function gabc_dump_test {
             > "$expfile-"
         maybe_run "$filename" diff -q "$outfile-" "$expfile-"
     else
-        fail "Failed to compile $filename"
+        fail "Failed to compile" "Failed to compile $filename"
     fi
 
     return $RESULT
+}
+function gabc_dump_clean {
+    filename="$1"
+    outfile="$filename.out"
+    expfile="${filename%.gabc}.dump"
+
+    rm "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+        "$expfile-"
 }
 function gabc_dump_accept {
     accept_result "$1" "$1.out" "$(basename "${1%.gabc}").dump"
@@ -255,13 +286,13 @@ function gabc_dump_view_log {
 }
 function gabc_dump_view_diff {
     filename="$1"
-    diff_text "${filename%.gabc}.dump-" "${filename}.out-"
+    diff_text "${filename%.gabc}.dump-" "$filename.out-"
 }
 function gabc_dump_view_expected {
     view_text "${1%.gabc}.dump-"
 }
 function gabc_dump_view_output {
-    view_text "${filename}.out-"
+    view_text "$filename.out-"
 }
 register gabc_dump
 
@@ -291,19 +322,26 @@ function typeset_and_compare {
                 done
                 if [ ${#failed[@]} != 0 ]
                 then
-                    fail "[${failed[*]}] differ from expected"
+                    fail "Results differ" "[${failed[*]}] differ from expected"
                     return
                 fi
                 pass
             else
-                fail "Failed to create images for $indir/$outdir/$pdffile"
+                fail "Failed to create images" \
+                    "Failed to create images for $indir/$outdir/$pdffile"
             fi
         else
             not_verified
         fi
     else
-        fail "Failed to typeset $indir/$outdir/$texfile"
+        fail "Failed to typeset" "Failed to typeset $indir/$outdir/$texfile"
     fi
+}
+function clean_typeset_result {
+    filename="$1"
+    outdir="$filename.out"
+    cd ..
+    rm -r "$filename" "${filename%.$2}.pdf" "$outdir"
 }
 function accept_typeset_result {
     filebase="$(basename "$1")"
@@ -318,7 +356,8 @@ function view_typeset_diff {
         diff_pdf "$1/$3" "$1/$2/$3"
     fi
 }
-export -f typeset_and_compare accept_typeset_result view_typeset_diff
+export -f typeset_and_compare clean_typeset_result accept_typeset_result \
+    view_typeset_diff
 
 function gabc_output_find {
     find gabc-output -name '*.gabc' -print
@@ -330,7 +369,7 @@ function gabc_output_test {
     filebase="${filename%.gabc}"
     texfile="$filebase.tex"
 
-    testing "$1"
+    testing "$1" "../$filename.result" "gabc_output_clean '$filename'"
 
     if cd "${indir}" && mkdir "${outdir}"
     then
@@ -347,13 +386,21 @@ function gabc_output_test {
         then
             typeset_and_compare "$indir" "$outdir" "$texfile" latexmk -e 'push @generated_exts, "greaux";' -pdf -pdflatex='lualatex --shell-escape'
         else
-            fail "Could not create $indir/$outdir/$texfile"
+            fail "Failed to create TeX file" \
+                "Could not create $indir/$outdir/$texfile"
         fi
     else
-        fail "Could not create $indir/$outdir"
+        fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
 
     return $RESULT
+}
+function gabc_output_clean {
+    filename="$1"
+    filebase="${filename%.gabc}"
+
+    clean_typeset_result "$filename" gabc
+    rm "$filebase"-*.gtex "$filebase.tex"
 }
 function gabc_output_accept {
     accept_typeset_result "$1" gabc
@@ -390,18 +437,21 @@ function tex_output_find {
 function tex_output_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
-    outdir="${filename}.out"
+    outdir="$filename.out"
 
-    testing "$1"
+    testing "$1" "../$filename.result" "tex_output_clean '$filename'"
 
     if cd "$indir" && mkdir "$outdir"
     then
         typeset_and_compare "$indir" "$outdir" "$filename" latexmk -e 'push @generated_exts, "greaux";' -pdf -pdflatex='lualatex --shell-escape'
     else
-        fail "Could not create $indir/$outdir"
+        fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
 
     return $RESULT
+}
+function tex_output_clean {
+    clean_typeset_result "$1" tex
 }
 function tex_output_accept {
     accept_typeset_result "$1" tex
@@ -450,18 +500,21 @@ function plain_tex_find {
 function plain_tex_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
-    outdir="${filename}.out"
+    outdir="$filename.out"
 
-    testing "$1"
+    testing "$1" "../$filename.result" "plain_tex_clean '$filename'"
 
     if cd "$indir" && mkdir "$outdir"
     then
         LOGFILE="$outdir/${filename/.tex/.log}" typeset_and_compare "$indir" "$outdir" "$filename" plain_tex_run
     else
-        fail "Could not create $indir/$outdir"
+        fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
 
     return $RESULT
+}
+function plain_tex_clean {
+    clean_typeset_result "$1" tex
 }
 function plain_tex_accept {
     accept_typeset_result "$1" tex
