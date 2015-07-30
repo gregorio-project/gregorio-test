@@ -94,7 +94,7 @@ function maybe_run {
         then
             pass
         else
-            fail "Failed to run" "$answer"
+            fail "Results differ" "$answer"
         fi
     else
         not_verified
