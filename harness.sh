@@ -308,13 +308,13 @@ function typeset_and_compare {
         if $verify "$texfile"
         then
             if cd "$outdir" && mkdir expected && \
-                convert "../$pdffile" expected/page.png && \
-                convert "$pdffile" page.png
+                convert -density 150 "../$pdffile" expected/page.png && \
+                convert -density 150 "$pdffile" page.png
             then
                 declare -a failed
                 for name in page*.png
                 do
-                    if ! compare -metric AE "$name" "expected/$name" \
+                    if ! compare -metric PHASH "$name" "expected/$name" \
                         "diff-$name" 2>/dev/null
                     then
                         failed[${#failed[@]}]="$indir/$outdir/$name"
