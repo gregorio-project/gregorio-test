@@ -58,10 +58,9 @@
      type                    14 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
 ---------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  21 (GRE_MANUAL_CUSTOS)
-       pitch                 h
+     type                    16 (GRE_CUSTOS)
+     pitch                   h
+     force_pitch             true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -69,8 +68,7 @@
      type                    14 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
 ---------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  21 (GRE_MANUAL_CUSTOS)
-       pitch                 f
+     type                    16 (GRE_CUSTOS)
+     pitch                   f
+     force_pitch             true
 =====================================================================

@@ -1,0 +1,13 @@
+%issue: 569
+%notes: Incorrect auto-custos on clef change at the end of a line
+%%
+(c4) word(f)
+word(g) word(g) word(g) word(g) word(g) word(g) word(g)
+auto(h) (z0::c3) word(h)
+word(g) word(g) word(g) word(g) word(g) word(g) word(g) word(g)
+manual(h) (a+::c4) word(j)
+word(g) word(g) word(g) word(g) word(g) word(g) word(g) word(g)
+forced(h) (::c3Z) word(j)
+word(g) word(g) word(g) word(g)
+fmanual(h) (a+::c4Z) word(j)
+(::e+)
