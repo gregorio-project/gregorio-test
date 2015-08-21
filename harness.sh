@@ -331,7 +331,7 @@ function typeset_and_compare {
                     "Failed to create images for $indir/$outdir/$pdffile"
             fi
         else
-            not_verified
+            cd "$outdir" && not_verified
         fi
     else
         fail "Failed to typeset" "Failed to typeset $indir/$outdir/$texfile"
