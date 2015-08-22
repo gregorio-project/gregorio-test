@@ -6,7 +6,9 @@
 \pagestyle{empty}
 \grechangestaffsize{13}
 \newlength\tmpsize
-\setlength\tmpsize{\grefactor pt}
+\makeatletter
+\setlength\tmpsize{\gre@factor pt}
+\makeatother
 \def\greinitialformat#1{{\fontsize{2.5\tmpsize}{2.5\tmpsize}\selectfont #1}}
 
 \begin{document}
