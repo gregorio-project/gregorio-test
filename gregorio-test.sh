@@ -75,7 +75,7 @@ declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:hlLnSv" opt
+    while getopts ":acCdD:eg:hlLnrSv" opt
     do
         case $opt in
         a)
@@ -121,6 +121,18 @@ do
         n)
             verify=false
             ;;
+        r)
+            mode=retest
+            if [ -d output ]
+            then
+                for test in $(find output -name '*.result' -print0 |
+                    xargs -0 grep -h '^FAIL|' | cut -d'|' -f2)
+                do
+                    no_failed_tests=false
+                    tests_to_run[$test]=1
+                done
+            fi
+            ;;
         S)
             show_success=true
             ;;
@@ -130,12 +142,12 @@ do
         \?)
             echo "Unknown option: -$OPTARG" >&2
             echo "(use $0 -h for help)" >&2
-            exit 1
+            exit 2
             ;;
         :)
             echo "Option -$OPTARG is missing its required argument." >&2
             echo "(use $0 -h for help)" >&2
-            exit 1
+            exit 2
             ;;
         esac
     done
@@ -185,6 +197,8 @@ Options:
                     categories to log when running gabc-output tests.  May also
                     be set by the GABC_OUTPUT_DEBUG environment variable.
 
+  -r                rerun failed tests from the previous run.
+
   -n                runs the tests without verifying results.  Useful (in
                     conjunction with -a) for generating the initial result
                     of a new test to use as future expectation.
@@ -216,7 +230,7 @@ Options:
 Note: The -a, -l, -e, -v, and -d options are mutually exclusive and will not
       work properly until after the desired test(s) are run.
 EOT
-    exit 1
+    exit 2
 fi
 
 export verify clean_passed
@@ -233,7 +247,7 @@ source harness.sh
 if [ ! -d tests ]
 then
     echo "No tests to run."
-    exit 1
+    exit 3
 fi
 
 if [ "${#tests_to_run[@]}" = 0 ]
@@ -281,7 +295,13 @@ else
 fi
 
 case "$mode" in
-test)
+test|retest)
+    if [ "$mode" = "retest" -a "${#tests_to_run[@]}" = 0 ]
+    then
+        echo "No tests to re-run."
+        exit 7
+    fi
+
     $RM -fr output
     $CP -Lr tests output
     $long_tests && $CP -Lr longtests/* output
@@ -291,7 +311,7 @@ test)
         if [ ! -f "$gregorio_dir/src/gregorio" -o ! -x "$gregorio_dir/src/gregorio" ]
         then
             echo "$gregorio_dir/src/gregorio is not an executable" >&2
-            exit 2
+            exit 8
         fi
 
         echo "Preparing to use Gregorio from $gregorio_dir"
@@ -306,7 +326,7 @@ test)
         if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -ci" ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
-            exit 2
+            exit 8
         fi
 
         echo
@@ -316,7 +336,7 @@ test)
     then
         echo "Gregorio is not installed properly or is not statically linked" >&2
         echo "When building, use ./configure --enable-all-static" >&2
-        exit 3
+        exit 8
     fi
 
     echo "Gregorio = $(which gregorio)"
