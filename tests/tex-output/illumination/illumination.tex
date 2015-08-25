@@ -1,0 +1,45 @@
+% !TEX program = LuaLaTeX+se
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[forcecompile]{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+
+\grechangestyle{highchoralsign}{\small\it}
+\grechangestyle{lowchoralsign}{\small\tt}
+\grechangestyle{biginitial}{\fontsize{120}{60}\selectfont}
+
+\greillumination{\includegraphics[width=1.2in]{F}}
+
+\gregorioscore{factus}
+
+\vspace{1cm}
+\gregorioscore{factus}
+
+\clearpage
+
+\greillumination{\includegraphics[width=0.4in]{E}}
+\gregorioscore{test}
+
+\vspace{1cm}
+\gregorioscore{test}
+
+\end{document}
