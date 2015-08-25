@@ -19,6 +19,7 @@
 # Settings in gregorio-test.rc:
 # COLOR         boolean  whether to use color by default
 # CLEAN_PASSED  boolean  whether to delete the output files of passed tests
+# PROGRESS_BAR  boolean  whether to show a progress bar by default
 # SED           string   the command to use for sed; defaults to "sed".
 # VIEW_TEXT     string   the command to use to view a text file; expands {file}
 #                        into the filename of the text file
@@ -66,6 +67,15 @@ t|true|y|yes)
     ;;
 esac
 
+case "$(echo $PROGRESS_BAR | tr '[:upper:]' '[:lower:]')" in
+t|true|y|yes)
+    progress_bar=true
+    ;;
+*)
+    progress_bar=false
+    ;;
+esac
+
 usage=false
 verify=needs_verification
 mode=test
@@ -75,7 +85,7 @@ declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:hlLnrSv" opt
+    while getopts ":acCdD:eg:hlLnPrSv" opt
     do
         case $opt in
         a)
@@ -120,6 +130,14 @@ do
             ;;
         n)
             verify=false
+            ;;
+        P)
+            if $progress_bar
+            then
+                progress_bar=false
+            else
+                progress_bar=true
+            fi
             ;;
         r)
             mode=retest
@@ -221,6 +239,8 @@ Options:
   -C                toggles the use of color.
 
   -c                toggles the clean-up of passed tests.
+
+  -P                toggles the display of a progress bar.
 
   -S                show successful tests.  Default is to show only failed
                     tests.
@@ -346,13 +366,43 @@ test|retest)
     processors=$(nproc 2>/dev/null || echo 1)
     overall_result=0
     cd output
+    if $progress_bar
+    then
+        total=$(
+            for group in ${groups}
+            do
+                ${group}_find | filter
+            done | wc -l
+        )
+        function progress {
+            # adapted from http://stackoverflow.com/questions/238073
+            let percent=(${1}*100/$total*100)/100
+            let completed=(${percent}*4)/10
+            let remaining=40-$completed
+            fill=$(printf "%${completed}s")
+            empty=$(printf "%${remaining}s")
+            printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
+        }
+    fi
     time for group in ${groups}
     do
         if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
         then
             overall_result=1
         fi
-    done
+    done &
+    if $progress_bar
+    then
+        count=0
+        while [ $count -lt $total ]
+        do
+            progress $count
+            sleep 1
+            count=$(find . -name '*.result' | wc -l)
+        done
+    else
+        wait
+    fi
 
     find . -name '*.result' -exec cat {} + | {
         total_count=0
