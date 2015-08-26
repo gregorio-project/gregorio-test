@@ -364,7 +364,6 @@ test|retest)
     echo
 
     processors=$(nproc 2>/dev/null || echo 1)
-    overall_result=0
     cd output
     if $progress_bar
     then
@@ -384,13 +383,17 @@ test|retest)
             printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
         }
     fi
-    time for group in ${groups}
-    do
-        if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
-        then
-            overall_result=1
-        fi
-    done &
+    (
+        overall_result=0
+        time for group in ${groups}
+        do
+            if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            then
+                overall_result=1
+            fi
+        done
+        exit $overall_result
+    ) &
     if $progress_bar
     then
         count=0
@@ -400,9 +403,9 @@ test|retest)
             sleep 1
             count=$(find . -name '*.result' | wc -l)
         done
-    else
-        wait
     fi
+    wait $!
+    overall_result=$?
 
     find . -name '*.result' -exec cat {} + | {
         total_count=0
