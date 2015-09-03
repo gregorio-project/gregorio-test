@@ -1,0 +1,28 @@
+%notes: tests first word/syllable styling
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\begin{document}
+\grechangedim{afterinitialshift}{2.2mm}{1}
+\grechangedim{beforeinitialshift}{2.2mm}{1}
+\grechangestyle{modeline}{\it\relax}[\relax]%
+\grechangestaffsize{15}
+\grechangestyle{firstword}{\color{gregoriocolor}}
+\grechangestyle{firstsyllable}{\scshape}
+\grechangestyle{firstsyllableinitial}{\bfseries\MakeUppercase}
+\gregorioscore[f]{firsts}
+\end{document}
