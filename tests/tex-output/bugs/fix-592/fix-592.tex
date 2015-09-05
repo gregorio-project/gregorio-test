@@ -1,0 +1,27 @@
+% !TEX program = LuaLaTeX+se
+%notes: Tests the mode setting
+%issue: 592
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage[forcecompile]{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\begin{document}
+\gregorioscore{no-initial}
+
+\vskip 1cm
+
+\gregorioscore{initial}
+\end{document}
