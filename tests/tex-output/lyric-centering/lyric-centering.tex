@@ -1,0 +1,43 @@
+%notes: tests lyric centering
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\begin{document}
+
+default:
+
+\gregorioscore[a]{lyric-centering}
+
+\vskip 1cm
+vowel:
+
+\gresetlyriccentering{vowel}
+\gregorioscore[a]{lyric-centering}
+
+\vskip 1cm
+syllable:
+
+\gresetlyriccentering{syllable}
+\gregorioscore[a]{lyric-centering}
+
+\vskip 1cm
+firstletter:
+
+\gresetlyriccentering{firstletter}
+\gregorioscore[a]{lyric-centering}
+
+\end{document}
