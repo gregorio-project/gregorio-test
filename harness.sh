@@ -317,6 +317,16 @@ function typeset_and_compare {
                     if ! compare -metric PHASH "$name" "expected/$name" \
                         "diff-$name" 2>/dev/null
                     then
+                        convert \( -background white -flatten "$name" \) \
+                            \( -background white -flatten "expected/$name" \) \
+                            \( -clone 0,1 -compose difference -composite \) \
+                            \( -clone 0 -clone 2 -compose minus -composite \
+                                -background red -alpha shape \) \
+                            \( -clone 1 -clone 2 -compose minus \
+                                -composite -background blue -alpha shape \) \
+                            \( -clone 0,1 -fill white -colorize 80% \) \
+                            -delete 0-2 -reverse -background white \
+                            -compose over -flatten "diff-$name"
                         failed[${#failed[@]}]="$indir/$outdir/$name"
                     fi
                 done
