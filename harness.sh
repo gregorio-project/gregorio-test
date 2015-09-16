@@ -387,7 +387,7 @@ function gabc_output_test {
         then
             debugarg=''
         else
-            debugarg="[debug=$GABC_OUTPUT_DEBUG]"
+            debugarg=",debug=$GABC_OUTPUT_DEBUG"
         fi
         if ${SED} -e "s/###FILENAME###/$filebase/" \
             -e "s/###DEBUG###/$debugarg/" \
