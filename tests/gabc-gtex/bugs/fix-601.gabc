@@ -1,0 +1,6 @@
+%issue: 601
+%notes: unbalanced TeX groups with special character in first syllable
+name: fix-601;
+%%
+Qu<sp>'ae</sp>(d)ri(d)tur(d) (;)
+Qu<sp>'ae</sp>(d)ri(d)tur(d) (::)
