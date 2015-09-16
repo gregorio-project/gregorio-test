@@ -1,6 +1,6 @@
 \documentclass[a5paper,11pt,DIV=17]{scrartcl}
 
-\usepackage[autocompile]{gregoriotex}
+\usepackage[autocompile,deprecated=false]{gregoriotex}
 \usepackage{libertine}
 \usepackage{calc}
 \pagestyle{empty}
@@ -9,7 +9,7 @@
 \makeatletter
 \setlength\tmpsize{\gre@factor pt}
 \makeatother
-\def\greinitialformat#1{{\fontsize{2.5\tmpsize}{2.5\tmpsize}\selectfont #1}}
+\grechangestyle{initial}{\fontsize{2.5\tmpsize}{2.5\tmpsize}\selectfont}
 
 \begin{document}
 

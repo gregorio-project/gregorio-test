@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage{geometry}
 \geometry{a4paper}
-\usepackage{gregoriotex}
+\usepackage[deprecated=false]{gregoriotex}
 \usepackage{fullpage}
 \setmainfont[
     Path = ../../../fonts/ ,
@@ -25,8 +25,8 @@
 \grechangedim{afterinitialshift}{2.2mm}{1}
 \grechangedim{beforeinitialshift}{2.2mm}{1}
 
-\def\greinitialformat#1{%
-{\fontsize{43}{43}\selectfont #1}%
+\grechangestyle{initial}{%
+\fontsize{43}{43}\selectfont%
 }
 
 \gresetlinecolor{gregoriocolor}
