@@ -3,6 +3,13 @@
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## Repository Alignment
+
+The tests on the master branch of this repository should match with the most recent commit on the develop branch in the [main repository](https://github.com/gregorio-project/gregorio).  That is all the tests should pass when run against that branch with TeXLive 2015.
+
+When the master branch of this repository is run against develop in the main repository with TeXLive 2014 all tests should pass except `tex-output/clef-change/clef-change.tex`.
+
+
 ## Running the test suite
 
 Use `./gregorio-test.sh` to run the full test suite with default options.
