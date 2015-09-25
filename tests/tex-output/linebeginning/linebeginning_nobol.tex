@@ -1,5 +1,5 @@
 % !TEX program = LuaLaTeX+se
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt,a4paper,twocolumn]{article}
 
 \usepackage{fontspec}
 \usepackage[allowdeprecated=false]{gregoriotex}
@@ -20,70 +20,88 @@
 
 \begin{document}
 
-\grechangedim{afterinitialshift}{2.2mm}{1}
-\grechangedim{beforeinitialshift}{2.2mm}{1}
-
-\grechangestyle{initial}{%
-\fontsize{43}{43}\selectfont%
-}
-
-\gresetlinecolor{gregoriocolor}
+\gresetlinecolor{gregoriocolor}%
 \gresetbolshifts{disable}%
-\grechangedim{minimalspaceatlinebeginning}{0.5mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\ (default)
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\ (default)\\
+beforealterationspace: \gre@dimen@beforealterationspace\ (default)
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\grechangedim{minimalspaceatlinebeginning}{2mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\grechangedim{minimalspaceatlinebeginning}{0.2cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace\ (default)
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\grechangedim{minimalspaceatlinebeginning}{3mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\newpage
+\grechangedim{minimalspaceatlinebeginning}{0.4cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace\ (default)
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\grechangedim{minimalspaceatlinebeginning}{4mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\grechangedim{minimalspaceatlinebeginning}{0.4cm}{1}
+\grechangedim{beforealterationspace}{0.2cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\grechangedim{minimalspaceatlinebeginning}{8mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\newpage
+\grechangedim{minimalspaceatlinebeginning}{0.4cm}{1}
+\grechangedim{beforealterationspace}{0.4cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\pagebreak
-\grechangedim{minimalspaceatlinebeginning}{8mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\grechangedim{minimalspaceatlinebeginning}{0.05cm}{1}
+\grechangedim{beforealterationspace}{0.2cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
-\grechangedim{minimalspaceatlinebeginning}{16mm}{1}
-\makeatletter
-minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning
+\newpage
+\grechangedim{beforealterationspace}{0.4cm}{1}
+\bigskip\makeatletter\noindent
+minimalspaceatlinebeginning: \gre@dimen@minimalspaceatlinebeginning\\
+beforealterationspace: \gre@dimen@beforealterationspace
 \makeatother
 
-\gabcsnippet[0]{abc(abc) (Z)
-def(def)}
+\gabcsnippet[0]{abc(def) (Z)
+abc(dxdef) (Z)
+dddef(def) (Z)
+dddef(dxdef)}
 
 \end{document}
