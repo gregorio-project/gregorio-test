@@ -22,7 +22,7 @@ First, let's show default behaviour :
 \smallskip
 Here, one would expect second annotation to "touch" the first :
 
-\grechangedim{annotationseparation}{0mm}{0}
+\grechangedim{annotationseparation}{0mm}{fixed}
 \greannotation{\scriptsize Test}
 \greannotation{\scriptsize 1.}
 \gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
@@ -31,7 +31,7 @@ Here, one would expect second annotation to "touch" the first :
 So, let's try a negative value : one would expect the first not to move, but the second to raise ;
 the space between annotations stays the same, and both raise.
 
-\grechangedim{annotationseparation}{-2mm}{0}
+\grechangedim{annotationseparation}{-2mm}{fixed}
 \greannotation{\scriptsize Test}
 \greannotation{\scriptsize 1.}
 \gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
@@ -39,7 +39,7 @@ the space between annotations stays the same, and both raise.
 \smallskip
 With a positive value, the second annotation is lower, but the first too (which is counter-intuitive) :
 
-\grechangedim{annotationseparation}{3mm}{0}
+\grechangedim{annotationseparation}{3mm}{fixed}
 \greannotation{\scriptsize Test}
 \greannotation{\scriptsize 1.}
 \gabcsnippet{(f3) Dó(f)mi(fgf___)ne.(f.,ef!hhkxi./jkI'Gh_ihhf.) (::)}
