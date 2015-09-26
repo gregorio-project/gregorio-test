@@ -3,6 +3,16 @@
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## Repository Alignment
+
+Each branch on this repository should correspond to the matching branch (i.e. the one with the same name) in the [main repository](https://github.com/gregorio-project/gregorio).  That is, all the tests should pass when run against that branch with TeXLive 2015.  Thus all new development in the main repository should create a corresponding branch here.  The exception to this is a branch which should not break any existing test and requires no new tests.  In this instance, it's acceptable to simply indicate that all tests on the develop (or master) branch here should pass.
+
+### TeXLive 2014
+
+When testing with TeXLive 2014 the following tests are known to fail due to differences between it and TeXLive 2015:
+  -`tex-output/clef-change/clef-change.tex`
+
+
 ## Running the test suite
 
 Use `./gregorio-test.sh` to run the full test suite with default options.
