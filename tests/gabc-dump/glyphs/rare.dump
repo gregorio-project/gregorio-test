@@ -17,13 +17,9 @@
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 r
----------------------------------------------------------------------
-     end of style                ST_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -32,7 +28,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  20 (S_PUNCTUM_CAVUM)
+         shape                  21 (S_PUNCTUM_CAVUM)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -52,7 +48,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  20 (S_PUNCTUM_CAVUM)
+         shape                  21 (S_PUNCTUM_CAVUM)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -72,7 +68,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  21 (S_LINEA_PUNCTUM)
+         shape                  22 (S_LINEA_PUNCTUM)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -94,7 +90,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  22 (S_LINEA_PUNCTUM_CAVUM)
+         shape                  23 (S_LINEA_PUNCTUM_CAVUM)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -116,7 +112,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  22 (S_LINEA_PUNCTUM_CAVUM)
+         shape                  23 (S_LINEA_PUNCTUM_CAVUM)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -139,7 +135,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         special sign           8 (_ACCENTUS)
+         special sign           3 (_ACCENTUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -162,7 +158,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         special sign           9 (_ACCENTUS_REVERSUS)
+         special sign           4 (_ACCENTUS_REVERSUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -185,7 +181,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         special sign           10 (_CIRCULUS)
+         special sign           5 (_CIRCULUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -208,7 +204,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         special sign           11 (_SEMI_CIRCULUS)
+         special sign           6 (_SEMI_CIRCULUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -231,7 +227,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         special sign           12 (_SEMI_CIRCULUS_REVERSUS)
+         special sign           7 (_SEMI_CIRCULUS_REVERSUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -255,8 +251,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  20 (S_PUNCTUM_CAVUM)
-         special sign           12 (_SEMI_CIRCULUS_REVERSUS)
+         shape                  21 (S_PUNCTUM_CAVUM)
+         special sign           7 (_SEMI_CIRCULUS_REVERSUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -280,8 +276,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  20 (S_PUNCTUM_CAVUM)
-         special sign           9 (_ACCENTUS_REVERSUS)
+         shape                  21 (S_PUNCTUM_CAVUM)
+         special sign           4 (_ACCENTUS_REVERSUS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -305,8 +301,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  m
-         shape                  20 (S_PUNCTUM_CAVUM)
-         special sign           10 (_CIRCULUS)
+         shape                  21 (S_PUNCTUM_CAVUM)
+         special sign           5 (_CIRCULUS)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
