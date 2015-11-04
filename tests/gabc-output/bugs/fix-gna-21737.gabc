@@ -1,7 +1,6 @@
 %issue: gna 21737
 %notes: dot drectly above a punctum should be moved higher
 name: gna 21737;
-initial-style: 0;
 %%
 (c4)
 gh.g(gh.g) h.g(h.g) fh.f(fh.f) h.f(h.f)
