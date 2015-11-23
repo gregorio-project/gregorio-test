@@ -1,4 +1,4 @@
-%notes: spaces
+name: spaces;
 initial-style: 0;
 %%
 {fg!hi}(fg!hi) {fg/hi}(fg/hi) {fg//hi}(fg//hi) {fg hi}(fg hi) {fg!/hi}(fg!/hi) {fg!//hi}(fg!//hi) {fg! hi}(fg! hiZ)

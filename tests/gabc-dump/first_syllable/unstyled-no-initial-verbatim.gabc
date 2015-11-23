@@ -1,3 +1,4 @@
+name: unstyled-no-initial-verbatim;
 initial-style: 0;
 %%
 (c3) <v>\TeX{}</v><b>Live</b>(c)

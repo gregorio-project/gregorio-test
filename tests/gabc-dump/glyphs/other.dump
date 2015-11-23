@@ -2,6 +2,7 @@
  SCORE INFOS
 =====================================================================
    number_of_voices          1
+   name                      other particular glyphs
 
 
 =====================================================================
@@ -65,7 +66,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  13 (S_QUILISMA)
+         shape                  14 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -81,7 +82,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         signs                  5 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f

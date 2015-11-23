@@ -1,5 +1,6 @@
 %issue: 20
 %notes: quilismapes-punctum is inccorectly determined to be a scandicus
+name: fix-20;
 initial-style: 0;
 %%
 (c3)
