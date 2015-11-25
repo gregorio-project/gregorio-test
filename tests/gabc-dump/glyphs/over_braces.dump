@@ -36,7 +36,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            8 (_BAR_H_EPISEMUS)
+     special sign            8 (_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -66,12 +66,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            8 (_BAR_H_EPISEMUS)
+     special sign            8 (_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -81,8 +81,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -106,7 +106,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            24 (_V_EPISEMUS_BAR_H_EPISEMUS)
+     special sign            24 (_V_EPISEMA_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -136,12 +136,12 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            24 (_V_EPISEMUS_BAR_H_EPISEMUS)
+     special sign            24 (_V_EPISEMA_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -154,8 +154,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

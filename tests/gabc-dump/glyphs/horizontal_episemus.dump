@@ -35,14 +35,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -55,14 +55,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -75,24 +75,24 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -125,14 +125,14 @@
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
@@ -167,14 +167,14 @@
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
@@ -211,8 +211,8 @@
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -223,8 +223,8 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
@@ -254,10 +254,10 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -270,8 +270,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    1 (H_SMALL_LEFT)
-         auto hepisemus bridge  true
+         auto hepisema size     1 (H_SMALL_LEFT)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -284,8 +284,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    2 (H_SMALL_CENTRE)
-         auto hepisemus bridge  true
+         auto hepisema size     2 (H_SMALL_CENTRE)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -298,8 +298,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    3 (H_SMALL_RIGHT)
-         auto hepisemus bridge  true
+         auto hepisema size     3 (H_SMALL_RIGHT)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -312,8 +312,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   1 (H_SMALL_LEFT)
-         below hepisemus bridge true
+         below hepisema size    1 (H_SMALL_LEFT)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -326,8 +326,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   2 (H_SMALL_CENTRE)
-         below hepisemus bridge true
+         below hepisema size    2 (H_SMALL_CENTRE)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -340,8 +340,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         below hepisemus size   3 (H_SMALL_RIGHT)
-         below hepisemus bridge true
+         below hepisema size    3 (H_SMALL_RIGHT)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -354,8 +354,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   1 (H_SMALL_LEFT)
-         above hepisemus bridge true
+         above hepisema size    1 (H_SMALL_LEFT)
+         above hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -368,8 +368,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   2 (H_SMALL_CENTRE)
-         above hepisemus bridge true
+         above hepisema size    2 (H_SMALL_CENTRE)
+         above hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -382,8 +382,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -396,10 +396,10 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   1 (H_SMALL_LEFT)
-         above hepisemus bridge true
-         below hepisemus size   3 (H_SMALL_RIGHT)
-         below hepisemus bridge true
+         above hepisema size    1 (H_SMALL_LEFT)
+         above hepisema bridge  true
+         below hepisema size    3 (H_SMALL_RIGHT)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -412,10 +412,10 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   2 (H_SMALL_CENTRE)
-         above hepisemus bridge true
-         below hepisemus size   2 (H_SMALL_CENTRE)
-         below hepisemus bridge true
+         above hepisema size    2 (H_SMALL_CENTRE)
+         above hepisema bridge  true
+         below hepisema size    2 (H_SMALL_CENTRE)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -428,10 +428,10 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
-         below hepisemus size   1 (H_SMALL_LEFT)
-         below hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
+         below hepisema size    1 (H_SMALL_LEFT)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -457,8 +457,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -466,8 +466,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -475,8 +475,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -489,8 +489,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -498,8 +498,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    1 (H_SMALL_LEFT)
-         auto hepisemus bridge  true
+         auto hepisema size     1 (H_SMALL_LEFT)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -507,8 +507,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -521,8 +521,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -530,8 +530,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    2 (H_SMALL_CENTRE)
-         auto hepisemus bridge  true
+         auto hepisema size     2 (H_SMALL_CENTRE)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -539,8 +539,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -553,8 +553,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -562,8 +562,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    3 (H_SMALL_RIGHT)
-         auto hepisemus bridge  true
+         auto hepisema size     3 (H_SMALL_RIGHT)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -571,8 +571,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -585,8 +585,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  false
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   false
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -594,8 +594,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    1 (H_SMALL_LEFT)
-         auto hepisemus bridge  true
+         auto hepisema size     1 (H_SMALL_LEFT)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -603,8 +603,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -617,8 +617,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  false
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   false
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -626,8 +626,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    2 (H_SMALL_CENTRE)
-         auto hepisemus bridge  true
+         auto hepisema size     2 (H_SMALL_CENTRE)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -635,8 +635,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -649,8 +649,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  false
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   false
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -658,8 +658,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    3 (H_SMALL_RIGHT)
-         auto hepisemus bridge  true
+         auto hepisema size     3 (H_SMALL_RIGHT)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            16 (G_PUNCTUM)
@@ -667,8 +667,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -694,14 +694,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -709,14 +709,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -729,14 +729,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -744,14 +744,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -764,14 +764,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  false
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   false
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -779,14 +779,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  10 (S_ORISCUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   6 (SP_GLYPH_SPACE)
@@ -799,14 +799,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  false
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   false
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -814,14 +814,14 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  10 (S_ORISCUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -847,8 +847,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   1 (H_SMALL_LEFT)
-         above hepisemus bridge true
+         above hepisema size    1 (H_SMALL_LEFT)
+         above hepisema bridge  true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -857,8 +857,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -881,20 +881,20 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -917,20 +917,20 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    13 (GRE_SPACE)
      space                   5 (SP_LARGER_SPACE)
@@ -953,7 +953,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -997,8 +997,8 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    3 (H_SMALL_RIGHT)
-         auto hepisemus bridge  true
+         auto hepisema size     3 (H_SMALL_RIGHT)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1038,8 +1038,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    3 (H_SMALL_RIGHT)
-         auto hepisemus bridge  true
+         auto hepisema size     3 (H_SMALL_RIGHT)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -1080,8 +1080,8 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    2 (H_SMALL_CENTRE)
-         auto hepisemus bridge  true
+         auto hepisema size     2 (H_SMALL_CENTRE)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1138,8 +1138,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -1147,14 +1147,14 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -1169,8 +1169,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1221,8 +1221,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
@@ -1230,14 +1230,14 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            17 (G_PODATUS)
@@ -1249,8 +1249,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
@@ -1296,14 +1296,14 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    1 (H_SMALL_LEFT)
-         auto hepisemus bridge  true
+         auto hepisema size     1 (H_SMALL_LEFT)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  13 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -1354,6 +1354,6 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         above hepisemus size   3 (H_SMALL_RIGHT)
-         above hepisemus bridge true
+         above hepisema size    3 (H_SMALL_RIGHT)
+         above hepisema bridge  true
 =====================================================================
