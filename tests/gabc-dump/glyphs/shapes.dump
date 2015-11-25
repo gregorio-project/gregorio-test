@@ -427,7 +427,7 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
@@ -910,8 +910,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1005,7 +1005,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1038,8 +1038,8 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
-         v episemus forced      ABOVE
+         signs                  16 (_V_EPISEMA)
+         v episema forced       ABOVE
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1097,7 +1097,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1130,8 +1130,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
-         v episemus forced      BELOW
+         signs                  16 (_V_EPISEMA)
+         v episema forced       BELOW
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
