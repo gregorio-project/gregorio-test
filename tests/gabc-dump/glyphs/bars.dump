@@ -239,14 +239,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -272,7 +272,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -296,14 +296,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     3 (B_DIVISIO_MINOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     3 (B_DIVISIO_MINOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -331,7 +331,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     3 (B_DIVISIO_MINOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -355,14 +355,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -390,7 +390,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -414,14 +414,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -451,7 +451,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -533,14 +533,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     6 (B_DIVISIO_MINOR_D1)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     6 (B_DIVISIO_MINOR_D1)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -570,7 +570,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     6 (B_DIVISIO_MINOR_D1)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -652,14 +652,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     7 (B_DIVISIO_MINOR_D2)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     7 (B_DIVISIO_MINOR_D2)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -689,7 +689,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     7 (B_DIVISIO_MINOR_D2)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -771,14 +771,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     8 (B_DIVISIO_MINOR_D3)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     8 (B_DIVISIO_MINOR_D3)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -808,7 +808,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     8 (B_DIVISIO_MINOR_D3)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -890,14 +890,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     9 (B_DIVISIO_MINOR_D4)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     9 (B_DIVISIO_MINOR_D4)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -927,7 +927,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     9 (B_DIVISIO_MINOR_D4)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1009,14 +1009,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     10 (B_DIVISIO_MINOR_D5)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     10 (B_DIVISIO_MINOR_D5)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1046,7 +1046,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     10 (B_DIVISIO_MINOR_D5)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1128,14 +1128,14 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     11 (B_DIVISIO_MINOR_D6)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     11 (B_DIVISIO_MINOR_D6)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1165,7 +1165,7 @@
 ---------------------------------------------------------------------
      type                    14 (GRE_BAR)
      bar                     11 (B_DIVISIO_MINOR_D6)
-     special sign            5 (_V_EPISEMUS)
+     special sign            16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -568,20 +568,20 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
@@ -923,7 +923,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -1082,20 +1082,20 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
@@ -1193,7 +1193,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -1309,7 +1309,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -1386,20 +1386,20 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
@@ -1835,7 +1835,7 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
