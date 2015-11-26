@@ -1695,7 +1695,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1726,7 +1726,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1751,12 +1751,12 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1781,12 +1781,12 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1813,12 +1813,12 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1843,12 +1843,12 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1875,14 +1875,14 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1909,14 +1909,14 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1943,7 +1943,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1978,7 +1978,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2007,12 +2007,12 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2041,12 +2041,12 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2077,12 +2077,12 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2111,12 +2111,12 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2147,14 +2147,14 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2185,14 +2185,14 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           16 (L_INITIO_DEBILIS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
