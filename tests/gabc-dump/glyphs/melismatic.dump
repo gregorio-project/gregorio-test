@@ -33,8 +33,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -96,7 +96,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -156,8 +156,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            13 (G_VIRGA)
@@ -214,8 +214,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -256,7 +256,7 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
+         signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -316,8 +316,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  3 (S_PUNCTUM_INCLINATUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            13 (G_VIRGA)
@@ -396,8 +396,8 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h

@@ -382,9 +382,9 @@
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -431,9 +431,9 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  13 (S_ORISCUS_SCAPUS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -483,9 +483,9 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -537,9 +537,9 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -586,9 +586,9 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -626,9 +626,9 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  13 (S_ORISCUS_SCAPUS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -688,9 +688,9 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -741,9 +741,9 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
-         signs                  16 (_V_EPISEMUS)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  16 (_V_EPISEMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
