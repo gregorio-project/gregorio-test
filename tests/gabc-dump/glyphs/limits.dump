@@ -33,9 +33,9 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -60,9 +60,9 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -87,9 +87,9 @@
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -114,9 +114,9 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -141,9 +141,9 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -168,9 +168,9 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         auto hepisemus size    0 (H_NORMAL)
-         auto hepisemus bridge  true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -324,10 +324,10 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -356,10 +356,10 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -388,10 +388,10 @@
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -420,10 +420,10 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -452,10 +452,10 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -484,10 +484,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      BELOW
-         below hepisemus size   0 (H_NORMAL)
-         below hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       BELOW
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
@@ -519,10 +519,10 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -551,10 +551,10 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -583,10 +583,10 @@
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -615,10 +615,10 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -647,10 +647,10 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -679,10 +679,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMUS_PUNCTUM_MORA)
-         v episemus forced      ABOVE
-         above hepisemus size   0 (H_NORMAL)
-         above hepisemus bridge true
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+         v episema forced       ABOVE
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
