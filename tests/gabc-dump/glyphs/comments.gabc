@@ -1,4 +1,4 @@
-%notes: comments
+name: comments;
 %%
 gh(gh) % this is a comment at the end of a line
 % this is a line comment
