@@ -1,7 +1,6 @@
 %issue: 475
 %notes: Test for English centering
 name: english centering;
-initial-style: 0;
 language: English;
 %%
 (c3)

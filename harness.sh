@@ -446,9 +446,16 @@ function gabc_output_test {
         else
             debugarg=",debug=$GABC_OUTPUT_DEBUG"
         fi
+        if test -f $filebase-preamble.tex
+        then
+            preamble="\\\\input{$filebase-preamble.tex}"
+        else
+            preamble=""
+        fi
         if ${SED} -e "s/###FILENAME###/$filebase/" \
             -e "s/###DEBUG###/$debugarg/" \
             -e "s!###FONTDIR###!$testroot/fonts/!" \
+            -e "s/###PREAMBLE###/$preamble/" \
             "$testroot/gabc-output.tex" >${texfile}
         then
             typeset_and_compare "$indir" "$outdir" "$texfile" latexmk -e 'push @generated_exts, "greaux";' -pdf -pdflatex='lualatex --shell-escape'

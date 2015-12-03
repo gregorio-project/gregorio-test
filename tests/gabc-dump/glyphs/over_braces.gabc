@@ -1,5 +1,4 @@
 name: over braces;
-initial-style: 0;
 %%
 ab(g,_h) ab(g_,_h_) ab(g,'_h) ab(g_,'_ h_) ab(g[ob:1;6mm]!hgh) ab(g[ocb:1;6mm]!hghZ)
 ab(g[ocba:1;6mm]/hgh) ab(g[ub:1;6mm]!hgh)

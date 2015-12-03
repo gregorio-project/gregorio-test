@@ -1,5 +1,4 @@
 name: macros;
-initial-style: 0;
 def-m1:%test72;
 %%
 ab(g[nv:%test1]h[nv:%test2][gv:%test3] gh[gv:%test4] [ev:%test5] g[nv:%test6][nv:test7] g[nm1])

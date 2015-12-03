@@ -1,6 +1,5 @@
 %issue: #135
 %notes: gregorio creates improper GregorioTeX for styles in the first syllable
 name: fix-135;
-initial-style: 1;
 %%
 (c4) P<sc>ri</sc>(f)<sc>mus</sc>(gh)
