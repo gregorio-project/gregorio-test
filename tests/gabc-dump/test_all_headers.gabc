@@ -17,7 +17,6 @@ book: Liber scriptus;
 transcriber: petrus (non sanctus);
 transcription-date: 2009;
 mode: 6;
-initial-style: 2;
 user-notes: this file just shows all the possible header fields;
 user-notes: of course, it doesn't make sense to use all at once;
 annotation: IN.;

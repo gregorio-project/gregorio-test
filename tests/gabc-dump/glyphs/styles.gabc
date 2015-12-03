@@ -1,5 +1,4 @@
 %notes: styles, verb and special characters
-initial-style: 0;
 %%
 <i>italics</i><b>bold</b><ul>underline</ul><sp>+</sp><v>a</v>(gZ)
 <a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
