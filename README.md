@@ -65,6 +65,12 @@ Requirements:
 
 Notes:
 
+The gabc file may be accompanied by a preamble file which can inject
+additional TeX settings for processing.  If provided, the preamble file
+must be the gabc base filename with `-preamble.tex` appended.  For
+example, the preamble file for `mytest.gabc` should be named
+`mytest-preamble.tex`.
+
 The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.

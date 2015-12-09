@@ -1,6 +1,6 @@
 %issue: #42
 %notes: gregorio auto-centes the first syllable incorrectly
 %notes: case: vowel after consonant after initial
-initial-style: 1;
+name: fix-42-b;
 %%
 (c4) Pre(d)ces(d)

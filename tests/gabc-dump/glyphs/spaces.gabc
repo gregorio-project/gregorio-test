@@ -1,5 +1,4 @@
-%notes: spaces
-initial-style: 0;
+name: spaces;
 %%
 {fg!hi}(fg!hi) {fg/hi}(fg/hi) {fg//hi}(fg//hi) {fg hi}(fg hi) {fg!/hi}(fg!/hi) {fg!//hi}(fg!//hi) {fg! hi}(fg! hiZ)
 æ(dc) æ(ab/dc)

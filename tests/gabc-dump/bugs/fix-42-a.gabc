@@ -1,6 +1,6 @@
 %issue: #42
 %notes: gregorio auto-centes the first syllable incorrectly
 %notes: case: initial only
-initial-style: 1;
+name: fix-42-a;
 %%
 (c4) A(c)men(cd)
