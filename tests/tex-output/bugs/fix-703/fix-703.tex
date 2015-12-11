@@ -1,0 +1,49 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+
+\grechangestyle{initial}{%
+\fontsize{43}{43}\selectfont%
+}
+
+\gresetlinecolor{gregoriocolor}
+
+\greseteolcustos{manual}
+One
+\gabcsnippet[0]{
+    e(e e e e e e e e e e e e) (:)
+    f(f f f f f f f f f f f f) (:)
+    g(g g g g g g g g g g g g) (:)
+    h(h h h h h h h h h h h h) (:)
+    i(i i i i i i i i i i i i) (::)
+}
+Two
+\gabcsnippet[0]{
+    e(e e e e e e e e e e e e) (:)
+    f(f f f f f f f f f f f f) (:)
+    g(g g g g g g g g g g g g) (:)
+    h(h h h h h h h h h h h h) (:)
+    i(i i i i i i i i i i i i) (::)
+}
+
+\end{document}
