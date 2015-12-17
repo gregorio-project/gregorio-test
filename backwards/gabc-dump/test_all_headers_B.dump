@@ -18,6 +18,7 @@
    book                      Liber scriptus
    transcriber               petrus (non sanctus)
    transcription_date        2009
+   gregoriotex_font          parmesan
    mode                      6
    initial_style             2
    user_notes                of course, it doesn't make sense to use all at once
