@@ -186,12 +186,14 @@ do
                     ;;
                 longtests/*)
                     arg="${1#longtests/}"
+                    long_tests=true
                     ;;
                 output/*)
                     arg="${1#output/}"
                     ;;
                 backwards/*)
                     arg="${1#backwards/}"
+                    back_tests=true
                     ;;
                 *)
                     arg="$1"
