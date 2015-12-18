@@ -81,12 +81,11 @@ verify=needs_verification
 mode=test
 show_success=false
 long_tests=false
-back_tests=false
 declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:hlLBnPrSv" opt
+    while getopts ":acCdD:eg:hlLnPrSv" opt
     do
         case $opt in
         a)
@@ -128,9 +127,6 @@ do
             ;;
         L)
             long_tests=true
-            ;;
-        B)
-            back_tests=true
             ;;
         n)
             verify=false
@@ -193,7 +189,6 @@ do
                     ;;
                 backwards/*)
                     arg="${1#backwards/}"
-                    back_tests=true
                     ;;
                 *)
                     arg="$1"
@@ -237,8 +232,6 @@ Options:
   -l                views the log of the given TEST.
 
   -L                includes long tests.
-
-  -B                includes tests of backwards compatibility.
 
   -e                views the expected result of the given TEST.
 
@@ -336,7 +329,7 @@ test|retest)
     $RM -fr output
     $CP -Lr tests output
     $long_tests && $CP -Lr longtests/* output
-    $back_tests && $CP -Lr backwards/* output
+    $CP -Lr backwards/* output
 
     if [ "$gregorio_dir" != "" ]
     then
