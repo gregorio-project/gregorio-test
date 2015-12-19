@@ -394,9 +394,16 @@ function gabc_output_test {
         then
             debugarg=''
         else
-            debugarg=",debug=$GABC_OUTPUT_DEBUG"
+            debugarg="debug=$GABC_OUTPUT_DEBUG"
+        fi
+        if [[ "$filename" = *"_B"* ]]
+        then
+            deprecated="allowdeprecated=true"
+        else
+            deprecated="allowdeprecated=false"
         fi
         if ${SED} -e "s/###FILENAME###/$filebase/" \
+            -e "s/###DEPRECATED###/$deprecated/" \
             -e "s/###DEBUG###/$debugarg/" \
             -e "s!###FONTDIR###!$testroot/fonts/!" \
             "$testroot/gabc-output.tex" >${texfile}
