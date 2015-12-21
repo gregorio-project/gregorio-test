@@ -371,7 +371,7 @@ function typeset_and_compare {
                 declare -a failed
                 for name in page*.png
                 do
-                    if ! compare -metric PHASH "$name" "expected/$name" \
+                    if ! compare -metric AE -fuzz 90% "$name" "expected/$name" \
                         "diff-$name" 2>/dev/null
                     then
                         convert \( -background white -flatten "$name" \) \
