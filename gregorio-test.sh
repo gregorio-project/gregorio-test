@@ -182,9 +182,13 @@ do
                     ;;
                 longtests/*)
                     arg="${1#longtests/}"
+                    long_tests=true
                     ;;
                 output/*)
                     arg="${1#output/}"
+                    ;;
+                backwards/*)
+                    arg="${1#backwards/}"
                     ;;
                 *)
                     arg="$1"
@@ -325,6 +329,7 @@ test|retest)
     $RM -fr output
     $CP -Lr tests output
     $long_tests && $CP -Lr longtests/* output
+    $CP -Lr backwards/* output
 
     if [ "$gregorio_dir" != "" ]
     then

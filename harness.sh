@@ -103,7 +103,14 @@ function maybe_run {
 
 function accept_result {
     echo "Accepting $2 as expectation for $1"
-    $CP "$2" "$testroot/tests/$(dirname "$1")/$3"
+    if [[ "$1" = *"_B"* ]]
+    then
+        # this is a backwards test so it needs to be copied to backwards not tests
+        accept_dest="backwards"
+    else
+        accept_dest="tests"
+    fi
+    $CP "$2" "$testroot/$accept_dest/$(dirname "$1")/$3"
 }
 
 function view_text {
@@ -444,7 +451,13 @@ function gabc_output_test {
         then
             debugarg=''
         else
-            debugarg=",debug=$GABC_OUTPUT_DEBUG"
+            debugarg="debug=$GABC_OUTPUT_DEBUG"
+        fi
+        if [[ "$filename" = *"_B"* ]]
+        then
+            deprecated="allowdeprecated=true"
+        else
+            deprecated="allowdeprecated=false"
         fi
         if test -f $filebase-preamble.tex
         then
@@ -453,6 +466,7 @@ function gabc_output_test {
             preamble=""
         fi
         if ${SED} -e "s/###FILENAME###/$filebase/" \
+            -e "s/###DEPRECATED###/$deprecated/" \
             -e "s/###DEBUG###/$debugarg/" \
             -e "s!###FONTDIR###!$testroot/fonts/!" \
             -e "s/###PREAMBLE###/$preamble/" \
