@@ -277,7 +277,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -286,7 +286,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -309,7 +309,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -318,7 +318,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -341,7 +341,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            29 (G_TRISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -354,7 +354,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -381,7 +381,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            29 (G_TRISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -394,7 +394,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -421,7 +421,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -430,7 +430,7 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      9 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -461,30 +461,30 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
      type                    12 (GRE_END_OF_LINE)
      sub_type                15 (GRE_END_OF_PAR)
