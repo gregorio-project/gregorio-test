@@ -10,6 +10,7 @@
    meter                     nihil
    commentary                invocatio
    arranger                  quis?
+   language                  Latin
    author                    Innominatus
    date                      xxi c
    manuscript                ms
@@ -18,9 +19,7 @@
    book                      Liber scriptus
    transcriber               petrus (non sanctus)
    transcription_date        2009
-   gregoriotex_font          parmesan
    mode                      6
-   initial_style             2
    user_notes                of course, it doesn't make sense to use all at once
 
 
@@ -39,29 +38,9 @@
    type                      9 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
-     beginning of style         ST_INITIAL
----------------------------------------------------------------------
      character                 I
 ---------------------------------------------------------------------
-     end of style               ST_INITIAL
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     beginning of style      ST_FIRST_WORD
----------------------------------------------------------------------
-     beginning of style   ST_FIRST_SYLLABLE
----------------------------------------------------------------------
-     beginning of style   ST_FIRST_SYLLABLE_INITIAL
----------------------------------------------------------------------
      character                 N
----------------------------------------------------------------------
-     end of style         ST_FIRST_SYLLABLE_INITIAL
----------------------------------------------------------------------
-     end of style         ST_FIRST_SYLLABLE
----------------------------------------------------------------------
-     end of style            ST_FIRST_WORD
----------------------------------------------------------------------
-     end of style                ST_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
