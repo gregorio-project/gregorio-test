@@ -21,6 +21,9 @@
    transcription_date        2009
    mode                      6
    user_notes                of course, it doesn't make sense to use all at once
+   x-extheader1              external header 1
+   x-ext-header-2            external header 2
+   x-extheader1              external header 3
 
 
 =====================================================================
