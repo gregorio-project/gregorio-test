@@ -7,7 +7,7 @@ meter: nihil;
 commentary: invocatio;
 arranger: quis?;
 language: Latin;
-generated-by: gregorio 4.0.0-rc2-fix-670-af3219a-2704;
+generated-by: gregorio 4.0.0-develop-e7913c6-2820;
 author: Innominatus;
 date: xxi c;
 manuscript: ms;
@@ -20,5 +20,8 @@ mode: 6;
 annotation: IN.;
 annotation: III.;
 user-notes: of course, it doesn't make sense to use all at once;
+x-extheader1: external header 1;
+x-ext-header-2: external header 2;
+x-extheader1: external header 3;
 %%
 (c4)IN(ed~) nó(g)mi(hj)ne(j) Je(ij)su(j.) 
