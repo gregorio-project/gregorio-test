@@ -81,11 +81,12 @@ verify=needs_verification
 mode=test
 show_success=false
 long_tests=false
+use_valgrind=false
 declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:hlLnPrSv" opt
+    while getopts ":acCdD:eg:GhlLnPrSv" opt
     do
         case $opt in
         a)
@@ -118,6 +119,9 @@ do
             ;;
         g)
             gregorio_dir="$(realpath "$OPTARG")"
+            ;;
+        G)
+            use_valgrind=true
             ;;
         h)
             usage=true
@@ -232,6 +236,11 @@ Options:
   -l                views the log of the given TEST.
 
   -L                includes long tests.
+
+  -G                uses valgrind to check gregorio for memory leaks.  This
+                    option will produce {filename}.grind files for the tests
+                    that run gregorio directly.  The detection of a memory leak
+                    does not affect the pass/fail status of a test.
 
   -e                views the expected result of the given TEST.
 
