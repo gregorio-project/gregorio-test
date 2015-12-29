@@ -272,10 +272,10 @@ function gabc_dump_test {
 
     if eval $gregorio -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
     then
-        ${SED} -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|\)_\)/@\1/' "$outfile" \
+        ${SED} -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|SP\|\)_\)/@\1/' "$outfile" \
             > "$outfile-"
         $verify "$filename" && ${SED} \
-            -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|\)_\)/@\1/' "$expfile" \
+            -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|SP\|\)_\)/@\1/' "$expfile" \
             > "$expfile-"
         maybe_run "$filename" diff -q "$outfile-" "$expfile-"
     else

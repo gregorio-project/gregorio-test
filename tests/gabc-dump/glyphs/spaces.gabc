@@ -1,4 +1,5 @@
 name: spaces;
 %%
-{fg!hi}(fg!hi) {fg/hi}(fg/hi) {fg//hi}(fg//hi) {fg hi}(fg hi) {fg!/hi}(fg!/hi) {fg!//hi}(fg!//hi) {fg! hi}(fg! hiZ)
+{fg!hi}(fg!hi) {fg/0hi}(fg/0hi) {fg/hi}(fg/hi) {fg//hi}(fg//hi) {fg hi}(fg hi)
+{fg!/0hi}(fg!/0hi) {fg!/hi}(fg!/hi) {fg!//hi}(fg!//hi) {fg! hi}(fg! hiZ)
 æ(dc) æ(ab/dc)
