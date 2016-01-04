@@ -1,0 +1,4 @@
+name: commentary;
+x-commentary: test \textsc{of} commentary;
+%%
+(c4) Test(egi) (::)
