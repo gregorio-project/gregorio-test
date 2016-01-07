@@ -1,0 +1,15 @@
+name: double-clef;
+%%
+(f2@c3)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::c1@c4)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::c1@f4)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::f3@f2)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::cb2)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::c4@c3)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(::)
