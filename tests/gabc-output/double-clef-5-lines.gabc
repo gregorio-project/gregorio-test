@@ -1,0 +1,10 @@
+name: double-clef;
+staff-lines: 5;
+%%
+(f2@c5)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::cb5)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(z0::c5@c3)
+g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
+(::)
