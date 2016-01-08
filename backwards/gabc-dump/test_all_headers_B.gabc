@@ -7,7 +7,6 @@ occasion: numquam;
 meter: nihil;
 commentary: invocatio;
 arranger: quis?;
-gabc-version: 0.9.3;
 author: Innominatus;
 date: xxi c;
 manuscript: ms;
@@ -23,8 +22,5 @@ user-notes: of course, it doesn't make sense to use all at once;
 annotation: IN.;
 annotation: III.;
 language: Latin;
-centering-scheme: english;
-gregoriotex-font: parmesan;
-gabc-version: 0.9.3;
 %%
 (c4)IN(ed~) nó(g)mi(hj)ne(j) Je(ij)su(j.)
