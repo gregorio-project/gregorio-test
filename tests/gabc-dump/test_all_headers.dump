@@ -5,23 +5,39 @@
    name                      probare omnia capita
    gabc_copyright            Matt 10:8b
    score_copyright           nescio
-   office_part               introitus?
+   language                  Latin
+   author                    Innominatus
+   manuscript_reference      quid?
+   mode                      6
+   mode_modifier             t.
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      probare omnia capita
+   gabc-copyright            Matt 10:8b
+   score-copyright           nescio
+   office-part               introitus?
    occasion                  numquam
    meter                     nihil
    commentary                invocatio
    arranger                  quis?
-   language                  Latin
    author                    Innominatus
    date                      xxi c
    manuscript                ms
-   manuscript_reference      quid?
-   manuscript_storage_place  utopia
+   manuscript-reference      quid?
+   manuscript-storage-place  utopia
    book                      Liber scriptus
    transcriber               petrus (non sanctus)
-   transcription_date        2009
+   transcription-date        2009
    mode                      6
-   mode_modifier             t.
-   user_notes                of course, it doesn't make sense to use all at once
+   mode-modifier             t.
+   user-notes                this file just shows all the possible header fields
+   user-notes                of course, it doesn't make sense to use all at once
+   annotation                IN.
+   annotation                III.
+   language                  Latin
    x-extheader1              external header 1
    x-ext-header-2            external header 2
    x-extheader1              external header 3

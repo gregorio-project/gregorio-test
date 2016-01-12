@@ -6,6 +6,12 @@
 
 
 =====================================================================
+ HEADERS
+=====================================================================
+   name                      bivirga, bistropha, etc.
+
+
+=====================================================================
  VOICES INFOS
 =====================================================================
   Voice 1
@@ -15,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -37,7 +43,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -65,7 +71,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -97,7 +103,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -133,7 +139,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -159,7 +165,7 @@
          pitch                  g
          shape                  15 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -187,7 +193,7 @@
          pitch                  g
          shape                  15 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -219,7 +225,7 @@
          pitch                  g
          shape                  15 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -255,10 +261,10 @@
          pitch                  g
          shape                  15 (S_STROPHA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -288,7 +294,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -320,7 +326,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -356,7 +362,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -396,7 +402,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -432,7 +438,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -486,6 +492,6 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
