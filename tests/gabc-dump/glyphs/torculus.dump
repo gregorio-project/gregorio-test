@@ -6,6 +6,12 @@
 
 
 =====================================================================
+ HEADERS
+=====================================================================
+   name                      torculus
+
+
+=====================================================================
  VOICES INFOS
 =====================================================================
   Voice 1
@@ -15,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -41,7 +47,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -71,10 +77,10 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -107,7 +113,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -140,7 +146,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -173,7 +179,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -206,7 +212,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -245,7 +251,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -284,7 +290,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -319,7 +325,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -354,10 +360,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -391,7 +397,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -425,7 +431,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -459,7 +465,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -493,7 +499,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -527,7 +533,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -561,7 +567,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -603,7 +609,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -645,10 +651,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -681,7 +687,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -714,7 +720,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -747,7 +753,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -780,7 +786,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -813,7 +819,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -846,7 +852,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -885,7 +891,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -924,10 +930,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -960,7 +966,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -993,77 +999,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 h
----------------------------------------------------------------------
-     character                 .
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     end of style                ST_CENTER
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_TORCULUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  h
-         shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     character                 i
----------------------------------------------------------------------
-     end of style                ST_CENTER
----------------------------------------------------------------------
-     character                 .
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_TORCULUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  1 (S_PUNCTUM)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  i
-         shape                  1 (S_PUNCTUM)
-         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  1 (S_PUNCTUM)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1098,7 +1034,77 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 .
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            20 (G_TORCULUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      8 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 .
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            20 (G_TORCULUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1133,7 +1139,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1176,7 +1182,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1219,10 +1225,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 -
@@ -1263,7 +1269,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1296,7 +1302,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1332,7 +1338,7 @@
          signs                  1 (_PUNCTUM_MORA)
          mora vposition         VPOS_BELOW
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1368,7 +1374,7 @@
          signs                  1 (_PUNCTUM_MORA)
          mora vposition         VPOS_ABOVE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1403,7 +1409,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1436,7 +1442,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1472,7 +1478,7 @@
          signs                  1 (_PUNCTUM_MORA)
          mora vposition         VPOS_BELOW
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1508,7 +1514,7 @@
          signs                  1 (_PUNCTUM_MORA)
          mora vposition         VPOS_ABOVE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1543,9 +1549,9 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================

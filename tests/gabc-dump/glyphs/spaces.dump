@@ -6,6 +6,12 @@
 
 
 =====================================================================
+ HEADERS
+=====================================================================
+   name                      spaces
+
+
+=====================================================================
  VOICES INFOS
 =====================================================================
   Voice 1
@@ -15,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -45,7 +51,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  13 (GRE_SPACE)
+       type                  10 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -59,7 +65,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -91,7 +97,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  13 (GRE_SPACE)
+       type                  10 (GRE_SPACE)
        space                 4 (SP_HALF_SPACE)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -105,7 +111,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -148,7 +154,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -180,7 +186,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   6 (SP_LARGER_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -196,7 +202,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -226,7 +232,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   7 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -242,7 +248,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -276,7 +282,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  13 (GRE_SPACE)
+       type                  10 (GRE_SPACE)
        space                 4 (SP_HALF_SPACE)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -290,7 +296,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -322,7 +328,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   9 (SP_NEUMATIC_CUT_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -338,7 +344,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -372,7 +378,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   10 (SP_LARGER_SPACE_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -388,7 +394,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -420,7 +426,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   11 (SP_GLYPH_SPACE_NB)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -436,10 +442,10 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -483,7 +489,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   8 (SP_AD_HOC_SPACE) x 1.3
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -499,7 +505,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -547,7 +553,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   12 (SP_AD_HOC_SPACE_NB) x -0.8
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -563,7 +569,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -611,10 +617,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   5 (SP_NEUMATIC_CUT)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   8 (SP_AD_HOC_SPACE) x -0.2
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -630,7 +636,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -678,10 +684,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   9 (SP_NEUMATIC_CUT_NB)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
+     type                    10 (GRE_SPACE)
      space                   8 (SP_AD_HOC_SPACE) x -.3
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -697,10 +703,10 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    9 (GRE_END_OF_LINE)
+     sub_type                12 (GRE_END_OF_PAR)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -722,7 +728,7 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      8 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
