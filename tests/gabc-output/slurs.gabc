@@ -1,0 +1,8 @@
+name: variably sized braces;
+%%
+(c4)
+test(d[oslur:0;5mm,2.5mm]) (:Z)
+test(d[uslur:1;5mm,2.5mm]) (:Z)
+test(d[oslur:2{]) test(f[oslur:2}]) (:Z)
+test(d[uslur:2{]) test(f[uslur:2}]) (::Z)
+te(g[uslur:2{]) ex(h[uslur:2}]@ji)spe-(i/0jkj) (:)

@@ -1,0 +1,6 @@
+name: oriscus-orientation;
+oriscus-orientation: legacy;
+%%
+(c3) {f}go(fgo) {h}io(hio) {f}go(fgo) g(g) (:)
+{f}go>(fgo>) {h}io<(hio<) {f}go>(fgo>) g(g) (:)
+{h}o(ho) (::)
