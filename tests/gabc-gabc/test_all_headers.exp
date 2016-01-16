@@ -16,6 +16,7 @@ transcriber: petrus (non sanctus);
 transcription-date: 2009;
 mode: 6;
 mode-modifier: t.;
+mode-differentia: C;
 user-notes: this file just shows all the possible header fields;
 user-notes: of course, it doesn't make sense to use all at once;
 annotation: IN.;
@@ -24,6 +25,6 @@ language: Latin;
 x-extheader1: external header 1;
 x-ext-header-2: external header 2;
 x-extheader1: external header 3;
-generated-by: gregorio 4.0.1-fix-756-7fb5812-2890;
+generated-by: gregorio 4.0.1-fix-756-0057d26-2900;
 %%
 (c4)IN(ed~) nó(g)mi(hj)ne(j) Je(ij)su(j.) 
