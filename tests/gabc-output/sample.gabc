@@ -1,6 +1,7 @@
 name: sample;
 mode: 6;
 mode-modifier: t.;
+mode-differentia: c\raise0.5ex\hbox{\small2};
 %%
 (f3) Mom(kj) mom(d) mom(gig) (,) mom(j) mom(ded) mom(i) mom(c)mom(d)mom.(e_) (:)
 Mom,(iv/ivGE) (,) mom(fgh)mom(d) (,) mom(i) mom(ivHF) mom.(jkj___) (::)
