@@ -46,10 +46,12 @@
 \gresetlinecolor{gregoriocolor}
 
 % We set VII above the initial.
-\greannotation{\small \textsc{\textbf{VII}}}
+\grechangestyle{annotation}{\small\scshape\bfseries}
+\greannotation{VII}
 
 % We type a text in the top right corner of the score:
-\grecommentary{{\small \emph{Cf. Is. 30, 19 . 30 ; Ps. 79}}}
+\grechangestyle{commentary}{\small\itshape}
+\grecommentary{Cf. Is. 30, 19 . 30 ; Ps. 79}
 
 % and finally we include the score. The file must be in the same directory as this one.
 \gregorioscore[a]{PopulusSion}
