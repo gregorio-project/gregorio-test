@@ -18,16 +18,19 @@
 ]{Alegreya}
 \newcommand\commhead[2]{\grecommentary{#1}\grecommentary{#2}}
 \begin{document}
-\gresetheadercapture{x-commentary}{grecommentary}{}%
+\gresetheadercapture{commentary}{grecommentary}{}%
 \gregorioscore[a]{commentary}
 
-\gresetheadercapture{x-commentary}{grecommentary}{string}%
+\gresetheadercapture{commentary}{grecommentary}{string}%
 \gregorioscore[a]{commentary}
 
-\gresetheadercapture{x-commentary}{commhead}{name}%
+\gresetheadercapture{commentary}{commhead}{name}%
 \gregorioscore[a]{commentary}
 
-\gresetheadercapture{x-commentary}{commhead}{string,name}%
+\gresetheadercapture{commentary}{commhead}{string,name}%
+\gregorioscore[a]{commentary}
+
+\gresetheadercapture{commentary}{}{}%
 \gregorioscore[a]{commentary}
 
 \grecommentary[12pt]{Additional spacing test}
