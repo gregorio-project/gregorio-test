@@ -1,0 +1,4 @@
+name: eol;
+generated-by: gregorio 4.0.1-fix-800-97edb51-2966;
+%%
+(c4)This(e) is(d) a(h) test(f) of (h) z(g) (::z) This(e) is(d) a(h) test(f) of(h) z<v>+</v>(g) (::z+) This(e) is(d) a(h) test(f) of(h) z<v>\GreForceHyphen</v>(g) (::z-) This(e) is(d) a(h) test(f) of(h) Z(g) (::Z) This(e) is(d) a(h) test(f) of(h) Z<v>+</v>(g) (::Z+) This(e) is(d) a(h) test(f) of(h) Z<v>\GreForceHyphen</v>(g) (::Z-) This(e) is(d) a(h) of(f) test(g) (::) 

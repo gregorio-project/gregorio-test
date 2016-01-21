@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 a
@@ -37,7 +37,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    11 (GRE_BAR)
+     type                    8 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
      special sign            8 (_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
@@ -50,7 +50,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -72,7 +72,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    11 (GRE_BAR)
+     type                    8 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
      special sign            8 (_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
@@ -87,7 +87,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -107,7 +107,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    11 (GRE_BAR)
+     type                    8 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
      special sign            24 (_V_EPISEMA_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
@@ -120,7 +120,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -142,11 +142,11 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    11 (GRE_BAR)
+     type                    8 (GRE_BAR)
      bar                     2 (B_DIVISIO_MINIMA)
      special sign            24 (_V_EPISEMA_BAR_H_EPISEMA)
 ---------------------------------------------------------------------
-     type                    10 (GRE_SPACE)
+     type                    7 (GRE_SPACE)
      space                   7 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -160,7 +160,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -181,11 +181,11 @@
          shape                  1 (S_PUNCTUM)
          TeX string             "\GreOverBrace{6mm}{0pt}{0pt}{1}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_SPACE)
+       type                  7 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            23 (G_PORRECTUS)
+       glyph_type            24 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -199,7 +199,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -220,11 +220,11 @@
          shape                  1 (S_PUNCTUM)
          TeX string             "\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{0}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_SPACE)
+       type                  7 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            23 (G_PORRECTUS)
+       glyph_type            24 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -238,10 +238,10 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    9 (GRE_END_OF_LINE)
-     sub_type                12 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -265,7 +265,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            23 (G_PORRECTUS)
+       glyph_type            24 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -279,7 +279,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -300,11 +300,11 @@
          shape                  1 (S_PUNCTUM)
          TeX string             "\GreUnderBrace{6mm}{0pt}{0pt}{1}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_SPACE)
+       type                  7 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            23 (G_PORRECTUS)
+       glyph_type            24 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h

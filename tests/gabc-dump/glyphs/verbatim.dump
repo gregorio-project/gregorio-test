@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style        ST_VERBATIM
@@ -48,7 +48,7 @@
 ---------------------------------------------------------------------
      character                 r
 ---------------------------------------------------------------------
-     type                    16 (GRE_TEXVERB_ELEMENT)
+     type                    12 (GRE_TEXVERB_ELEMENT)
      TeX string              "\hbox to 0pt{"
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -60,7 +60,7 @@
          pitch                  g
          shape                  21 (S_PUNCTUM_CAVUM)
 ---------------------------------------------------------------------
-     type                    16 (GRE_TEXVERB_ELEMENT)
+     type                    12 (GRE_TEXVERB_ELEMENT)
      TeX string              "\hss%
 }%
 \GreNoBreak\relax "
@@ -74,6 +74,6 @@
          pitch                  i
          shape                  21 (S_PUNCTUM_CAVUM)
 ---------------------------------------------------------------------
-     type                    9 (GRE_END_OF_LINE)
-     sub_type                12 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================

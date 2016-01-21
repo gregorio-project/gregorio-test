@@ -234,7 +234,7 @@
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -437,7 +437,7 @@
          below hepisema bridge  true
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -674,7 +674,7 @@
          auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -827,7 +827,7 @@
          auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1045,7 +1045,7 @@
          auto hepisema bridge   true
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1361,7 +1361,7 @@
          above hepisema bridge  true
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1700,7 +1700,7 @@
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
      type                    6 (GRE_END_OF_LINE)
-     sub_type                9 (GRE_END_OF_PAR)
+         ragged                 true
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
