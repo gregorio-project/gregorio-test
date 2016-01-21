@@ -16,6 +16,7 @@
 
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
+export PDFLATEX='lualatex --shell-escape --debug-format --inteaction=scrollmode'
 
 if $use_valgrind
 then
@@ -479,7 +480,8 @@ function gabc_output_test {
             -e "s/###PREAMBLE###/$preamble/" \
             "$testroot/gabc-output.tex" >${texfile}
         then
-            typeset_and_compare "$indir" "$outdir" "$texfile" latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex='lualatex --shell-escape'
+            typeset_and_compare "$indir" "$outdir" "$texfile" \
+                latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
         else
             fail "Failed to create TeX file" \
                 "Could not create $indir/$outdir/$texfile"
@@ -538,7 +540,8 @@ function tex_output_test {
 
     if cd "$indir" && mkdir "$outdir"
     then
-        typeset_and_compare "$indir" "$outdir" "$filename" latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex='lualatex --shell-escape'
+        typeset_and_compare "$indir" "$outdir" "$filename" \
+            latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
     else
         fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
