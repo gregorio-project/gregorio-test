@@ -1,0 +1,8 @@
+name:fix-795;
+%%
+(c4) ref(g,g) (,) g(g) *(,) (gZ)
+neve{r}([ev:\gresetbarshiftaftermora{never}]g.,g.) (,) g(g.) *(,) (gZ)
+notextonl{y}([ev:\gresetbarshiftaftermora{notextonly}]g.,g.) (,) g(g.) *(,) (gZ)
+insideonl{y}([ev:\gresetbarshiftaftermora{insideonly}]g.,g.) (,) g(g.) *(,) (gZ)
+alway{s}([ev:\gresetbarshiftaftermora{always}]g.,g.) (,) g(g.) *(,) (gZ)
+custo{m}([ev:\grechangedim{barmoraadjustment}{1cm}{scalable}]g.,g.) (,) g(g.) *(,) (gZ)
