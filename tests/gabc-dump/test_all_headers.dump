@@ -6,7 +6,6 @@
    gabc_copyright            Matt 10:8b
    score_copyright           nescio
    author                    Innominatus
-   manuscript_reference      quid?
    mode                      6
    mode_modifier             t.
    mode_differentia          C
@@ -56,7 +55,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 I
@@ -66,7 +65,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            19 (G_FLEXA)
+       glyph_type            20 (G_FLEXA)
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -78,7 +77,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 n
@@ -98,7 +97,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  2 (WORD_MIDDLE)
 ---------------------------------------------------------------------
      character                 m
@@ -112,7 +111,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            17 (G_PODATUS)
+       glyph_type            18 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -122,7 +121,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 n
@@ -142,7 +141,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 J
@@ -156,7 +155,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            17 (G_PODATUS)
+       glyph_type            18 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -166,7 +165,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      8 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 s
