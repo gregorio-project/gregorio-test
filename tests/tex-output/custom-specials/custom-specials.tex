@@ -1,0 +1,34 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\makeatletter
+\gredefbarredsymbol{Ybar}{Y}{greVBar}{\f@size}{.03em}{0pt}
+\makeatother
+
+\begin{document}
+
+\gabcsnippet{abc(abc) (;) <sp>Y/</sp>. def(def) (::)}
+
+\gresetspecial{Y/}{\Ybar{}}
+\gabcsnippet{abc(abc) (;) <sp>Y/</sp>. def(def) (::)}
+
+\greunsetspecial{Y/}
+\gabcsnippet{abc(abc) (;) <sp>Y/</sp>. def(def) (::)}
+
+\end{document}
