@@ -4,3 +4,6 @@ name: styles, verb and special characters;
 <a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
 <sc>Small Caps</sc>(e) x<c>colored</c>(eZ)
 <i>Italic<b>Bold<sc>Small<c>Colored</c>Caps</sc>Face</b>Font</i>(iZ)
+<b>Bold<tt>Teletype</tt>Font</b>(gZ)
+<b>Bold</b>(c) <sc>Small Caps</sc>(d) <c>Colored</c>(e) <i>Italics</i>(f)
+<tt>Teletype</tt>(g) <ul>Underlined</ul>(h) <e>elision</e>(iZ)
