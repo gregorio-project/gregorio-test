@@ -1,0 +1,25 @@
+name: multiple headers;
+name: multiple headers 2;
+language: English;
+language: Latin;
+gabc-copyright: C1;
+score-copyright: C2;
+gabc-copyright: C3;
+score-copyright: C5;
+mode: 3;
+mode-modifier: x;
+mode-differentia: a;
+mode: 4;
+mode-modifier: y;
+mode-differentia: b;
+staff-lines: 3;
+staff-lines: 4;
+nabc-lines: 1;
+nabc-lines: 0;
+annotation: first;
+annotation: second;
+annotation: third;
+author: A;
+author: B;
+%%
+(c4) g(g) (:)
