@@ -1,0 +1,4 @@
+name: bad macro;
+def-m1: macro;
+%%
+(c3) g(g[nm2])

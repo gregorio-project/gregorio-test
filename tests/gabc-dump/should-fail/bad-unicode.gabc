@@ -1,0 +1,3 @@
+name: bad unicode;
+%%
+(c4) Š•abc(def) úMabc(def)
