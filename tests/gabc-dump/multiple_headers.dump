@@ -2,23 +2,50 @@
  SCORE INFOS
 =====================================================================
    number_of_voices          1
-   name                      sample
+   name                      multiple headers 2
+   gabc_copyright            C3
+   score_copyright           C5
+   author                    B
+   mode                      4
+   mode_modifier             y
+   mode_differentia          b
 
 
 =====================================================================
  HEADERS
 =====================================================================
-   name                      sample
+   name                      multiple headers
+   name                      multiple headers 2
+   language                  English
+   language                  Latin
+   gabc-copyright            C1
+   score-copyright           C2
+   gabc-copyright            C3
+   score-copyright           C5
+   mode                      3
+   mode-modifier             x
+   mode-differentia          a
+   mode                      4
+   mode-modifier             y
+   mode-differentia          b
+   staff-lines               3
+   staff-lines               4
+   nabc-lines                1
+   nabc-lines                0
+   annotation                first
+   annotation                second
+   annotation                third
+   author                    A
+   author                    B
 
 
 =====================================================================
  VOICES INFOS
 =====================================================================
   Voice 1
-   initial_key               5 (c3)
-   flatted_key               true
-     secondary_clef          f2
-     secondary_flatted_key   true
+   initial_key               7 (c4)
+   annotation                first
+   annotation                second
 
 
 =====================================================================
@@ -27,26 +54,20 @@
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     character                 T
----------------------------------------------------------------------
-     character                 e
----------------------------------------------------------------------
-     character                 s
----------------------------------------------------------------------
-     character                 t
+     character                 g
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
-         pitch                  c
+         pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
    type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      type                    8 (GRE_BAR)
-     bar                     5 (B_DIVISIO_FINALIS)
+     bar                     4 (B_DIVISIO_MAIOR)
 =====================================================================
