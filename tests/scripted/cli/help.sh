@@ -1,0 +1,2 @@
+eval $gregorio -h
+exit $?

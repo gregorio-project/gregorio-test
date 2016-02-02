@@ -3,4 +3,12 @@ oriscus-orientation: legacy;
 %%
 (c3) {f}go(fgo) {h}io(hio) {f}go(fgo) g(g) (:)
 {f}go>(fgo>) {h}io<(hio<) {f}go>(fgo>) g(g) (:)
+{f}go<sp>~</sp>(fgo~) {h}io<sp>~</sp>(hio~) {f}gor<sp>~</sp>(fgor~) g(g)
+(::)
+{g}or(gor) {f}gro(fgro) {f}go<(fgo<) {f}g<o(fg<o)
+{f}gor<(fgor<) {f}go<r(fgo<r) {f}gro<(fgro<) {f}gr<o(fgr<o) {f}g<or(fg<or) {f}g<ro(fg<ro)
+(:)
+{g}or(gor) {h}gro(hgro) {h}go<(hgo<) {h}g<o(hg<o)
+{h}gor<(hgor<) {h}go<r(hgo<r) {h}gro<(hgro<) {h}gr<o(hgr<o) {h}g<or(hg<or) {h}g<ro(hg<ro)
+(::)
 {h}o(ho) (::)

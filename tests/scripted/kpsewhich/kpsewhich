@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+case $RUNTYPE in
+many-vowel)
+    for file in *.dat
+    do
+        echo $file
+    done
+    exit 0
+    ;;
+bad-response)
+    echo
+    exit 0
+    ;;
+esac
