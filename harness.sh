@@ -647,7 +647,7 @@ function plain_tex_test {
 
     if cd "$indir" && mkdir "$outdir"
     then
-        LOGFILE="$outdir/${filename/.tex/.log}" typeset_and_compare "$indir" "$outdir" "$filename" plain_tex_run
+        LOGFILE="$outdir/${filename%.tex}.log" typeset_and_compare "$indir" "$outdir" "$filename" plain_tex_run
     else
         fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
@@ -685,3 +685,48 @@ function plain_tex_view_output {
     view_pdf "$indir/$outdir/${filename%.tex}.pdf"
 }
 register plain_tex
+
+function scripted_find {
+    find scripted -name '*.sh' -print
+}
+function scripted_test {
+    indir="$(dirname "$1")"
+    filename="$(basename "$1")"
+    outfile="${filename%.sh}.log"
+    logfile="${filename%.sh}.log"
+
+    testing "$1" "$filename.result" "scripted_clean '$filename'"
+
+    if cd "$indir"
+    then
+        if bash "$filename" >"$outfile" 2>"$logfile"
+        then
+            pass
+        else
+            fail "Failed to compile" "Failed to compile $filename"
+        fi
+    else
+        fail "Failed to create directory" "Could not change to $indir"
+    fi
+
+    return $RESULT
+}
+function scripted_clean {
+    true
+}
+function scripted_accept {
+    echo "Nothing to accept"
+}
+function scripted_view_log {
+    view_text "${1%.sh}.log"
+}
+function scripted_view_diff {
+    echo "Nothing to diff"
+}
+function scripted_view_expected {
+    echo "No expectation to view"
+}
+function scripted_view_output {
+    view_text "${1%.sh}.out"
+}
+register scripted
