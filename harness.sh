@@ -217,7 +217,7 @@ function gabc_gtex_test {
     testing "$filename" "$filename.result" "gabc_gtex_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -W -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
+    if eval $gregorio -Wv -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -283,7 +283,7 @@ function gabc_dump_test {
     testing "$filename" "$filename.result" "gabc_dump_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -W -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
+    if eval $gregorio -Wv -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -345,7 +345,7 @@ function gabc_gabc_test {
     testing "$filename" "$filename.result" "gabc_gabc_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -W -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
+    if eval $gregorio -Wv -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -400,6 +400,51 @@ function gabc_gabc_view_output {
     view_text "$filename.out-"
 }
 register gabc_gabc
+
+function scripted_find {
+    find scripted -name '*.sh' -print
+}
+function scripted_test {
+    indir="$(dirname "$1")"
+    filename="$(basename "$1")"
+    outfile="${filename%.sh}.log"
+    logfile="${filename%.sh}.log"
+
+    testing "$1" "$filename.result" "scripted_clean '$filename'"
+
+    if cd "$indir"
+    then
+        if bash "$filename" >"$outfile" 2>"$logfile"
+        then
+            pass
+        else
+            fail "Failed to compile" "Failed to compile $filename"
+        fi
+    else
+        fail "Failed to create directory" "Could not change to $indir"
+    fi
+
+    return $RESULT
+}
+function scripted_clean {
+    true
+}
+function scripted_accept {
+    echo "Nothing to accept"
+}
+function scripted_view_log {
+    view_text "${1%.sh}.log"
+}
+function scripted_view_diff {
+    echo "Nothing to diff"
+}
+function scripted_view_expected {
+    echo "No expectation to view"
+}
+function scripted_view_output {
+    view_text "${1%.sh}.out"
+}
+register scripted
 
 function typeset_and_compare {
     indir="$1"; shift
@@ -685,48 +730,3 @@ function plain_tex_view_output {
     view_pdf "$indir/$outdir/${filename%.tex}.pdf"
 }
 register plain_tex
-
-function scripted_find {
-    find scripted -name '*.sh' -print
-}
-function scripted_test {
-    indir="$(dirname "$1")"
-    filename="$(basename "$1")"
-    outfile="${filename%.sh}.log"
-    logfile="${filename%.sh}.log"
-
-    testing "$1" "$filename.result" "scripted_clean '$filename'"
-
-    if cd "$indir"
-    then
-        if bash "$filename" >"$outfile" 2>"$logfile"
-        then
-            pass
-        else
-            fail "Failed to compile" "Failed to compile $filename"
-        fi
-    else
-        fail "Failed to create directory" "Could not change to $indir"
-    fi
-
-    return $RESULT
-}
-function scripted_clean {
-    true
-}
-function scripted_accept {
-    echo "Nothing to accept"
-}
-function scripted_view_log {
-    view_text "${1%.sh}.log"
-}
-function scripted_view_diff {
-    echo "Nothing to diff"
-}
-function scripted_view_expected {
-    echo "No expectation to view"
-}
-function scripted_view_output {
-    view_text "${1%.sh}.out"
-}
-register scripted

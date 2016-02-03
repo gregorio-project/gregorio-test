@@ -2,5 +2,7 @@ name: nlba test;
 %%
 (c4)
 nlba<nlba>(cdef) until(gh) here</nlba>(ijkl) (:)
+nlba<nlba>(cdef) until(gh) here</nlba>(ijkl) (f+) (:)
+nlba<nlba>(cdef) until(gh) here</nlba>(ijkl) (f+:)
 note nlba(<nlba>cdef gh</nlba> ijkl) (::)
 <eu>e(e) u(f) o(g) u(h) a(i) e(j) </eu>(::)

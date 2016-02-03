@@ -7,3 +7,5 @@ name: styles, verb and special characters;
 <b>Bold<tt>Teletype</tt>Font</b>(gZ)
 <b>Bold</b>(c) <sc>Small Caps</sc>(d) <c>Colored</c>(e) <i>Italics</i>(f)
 <tt>Teletype</tt>(g) <ul>Underlined</ul>(h) <e>elision</e>(iZ)
+Mis-<i>matched</b>(g) With <b>C<i>{e</i>n}te</b>r(g) Cen<b>t{e}r</b>(g)
+Double <b>bo<b>l</b>d</b>(g)
