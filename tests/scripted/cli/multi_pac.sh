@@ -1,0 +1,4 @@
+if eval $gregorio -p -p
+then exit 1
+else exit 0
+fi

@@ -31,7 +31,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -56,7 +56,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -82,7 +82,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -112,7 +112,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -141,7 +141,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -172,7 +172,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -191,7 +191,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -214,7 +214,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -237,7 +237,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS)
+       glyph_type            20 (G_TORCULUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -264,7 +264,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS)
+       glyph_type            20 (G_TORCULUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -291,7 +291,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS)
+       glyph_type            20 (G_TORCULUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -318,7 +318,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            22 (G_TORCULUS_RESUPINUS)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -349,7 +349,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            22 (G_TORCULUS_RESUPINUS)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -380,7 +380,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            22 (G_TORCULUS_RESUPINUS)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -413,7 +413,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            22 (G_TORCULUS_RESUPINUS)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -449,7 +449,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -474,7 +474,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -499,7 +499,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -528,7 +528,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -557,7 +557,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -586,7 +586,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            25 (G_PORRECTUS_FLEXUS)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -619,7 +619,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            25 (G_PORRECTUS_FLEXUS)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -652,7 +652,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            25 (G_PORRECTUS_FLEXUS)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -685,7 +685,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            25 (G_PORRECTUS_FLEXUS)
+       glyph_type            24 (G_PORRECTUS_FLEXUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -721,7 +721,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -746,7 +746,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -775,7 +775,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            22 (G_TORCULUS_RESUPINUS)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -793,4 +793,30 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      5 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 2
+---------------------------------------------------------------------
+     character                 3
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         Choral Sign            "c"
 =====================================================================
