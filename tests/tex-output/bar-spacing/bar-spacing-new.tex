@@ -1,0 +1,33 @@
+% !TEX program = LuaLaTeX+se
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage[allowdeprecated=false,debug=barspacing]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+\gresetclivisalignment{always}
+\gresetinitiallines{0}
+\gresetbarspacing{new}
+
+{\noindent \Large With default offset limit: \makeatletter\gre@space@dimen@maxbaroffset\makeatother}\smallskip
+\gregorioscore[a]{bar-spacing}
+
+\pagebreak
+{\noindent \Large Effectively infinite offset limit}\smallskip
+\grechangedim{maxbaroffset}{12cm}{scalable}
+\gregorioscore[a]{bar-spacing}
+
+\end{document}
