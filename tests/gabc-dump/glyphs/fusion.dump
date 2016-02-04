@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -57,24 +57,24 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  14 (S_QUILISMA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -87,7 +87,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -96,7 +96,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -109,7 +109,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 -
@@ -129,7 +129,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -138,7 +138,7 @@
          liquescentia           16 (L_INITIO_DEBILIS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -150,7 +150,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -198,14 +198,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -215,7 +215,7 @@
          TeX string             "\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{0}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -227,7 +227,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -243,14 +243,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -258,7 +258,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 H
@@ -289,7 +289,7 @@
          shape                  3 (S_PUNCTUM_INCLINATUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -301,7 +301,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -332,7 +332,7 @@
          shape                  3 (S_PUNCTUM_INCLINATUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -344,7 +344,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -360,14 +360,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -375,7 +375,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -401,14 +401,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -423,7 +423,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -439,14 +439,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -454,7 +454,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -496,17 +496,17 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -515,7 +515,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -528,7 +528,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -537,7 +537,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -550,7 +550,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -594,17 +594,17 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -613,7 +613,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -628,7 +628,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -637,7 +637,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -650,7 +650,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -696,17 +696,17 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -715,7 +715,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -732,7 +732,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -741,7 +741,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -754,7 +754,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -804,17 +804,17 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -824,7 +824,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -841,7 +841,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -852,7 +852,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -865,7 +865,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -891,7 +891,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -899,7 +899,7 @@
          signs                  1 (_PUNCTUM_MORA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -908,7 +908,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          36 (L_FUSED_AUCTUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -921,7 +921,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 j
@@ -949,7 +949,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -960,7 +960,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -975,7 +975,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -987,7 +987,7 @@
          pitch                  k
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 j
@@ -1021,7 +1021,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -1032,7 +1032,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1047,7 +1047,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          33 (L_FUSED_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1060,7 +1060,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 j
@@ -1092,7 +1092,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -1103,7 +1103,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1120,7 +1120,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1134,7 +1134,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1202,14 +1202,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1218,7 +1218,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1227,7 +1227,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1241,7 +1241,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1258,7 +1258,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1268,7 +1268,7 @@
          signs                  1 (_PUNCTUM_MORA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1277,7 +1277,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1286,7 +1286,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1295,7 +1295,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1304,7 +1304,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          34 (L_FUSED_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1317,7 +1317,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 @
@@ -1379,14 +1379,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1395,7 +1395,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1404,7 +1404,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1418,7 +1418,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1435,7 +1435,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1445,7 +1445,7 @@
          signs                  1 (_PUNCTUM_MORA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1454,7 +1454,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1463,7 +1463,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1472,7 +1472,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1481,7 +1481,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          34 (L_FUSED_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1494,7 +1494,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1516,7 +1516,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1526,7 +1526,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1538,7 +1538,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1564,7 +1564,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1573,7 +1573,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1586,7 +1586,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1598,7 +1598,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1628,7 +1628,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1636,7 +1636,7 @@
          signs                  16 (_V_EPISEMA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1651,7 +1651,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1665,7 +1665,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1695,7 +1695,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1704,7 +1704,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1721,7 +1721,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1733,7 +1733,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1761,14 +1761,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1785,7 +1785,7 @@
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1797,7 +1797,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1827,14 +1827,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1850,11 +1850,11 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  7 (GRE_SPACE)
+       type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1866,7 +1866,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1886,14 +1886,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1905,7 +1905,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1925,14 +1925,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1944,7 +1944,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1968,14 +1968,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1984,7 +1984,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -1996,7 +1996,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2020,14 +2020,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2036,7 +2036,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2048,7 +2048,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2072,14 +2072,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2088,7 +2088,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2100,7 +2100,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2120,14 +2120,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            33 (G_SCANDICUS)
+       glyph_type            32 (G_SCANDICUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2143,7 +2143,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2167,14 +2167,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2183,7 +2183,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2199,7 +2199,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2225,14 +2225,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2241,7 +2241,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2254,7 +2254,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2262,7 +2262,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2286,14 +2286,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2302,7 +2302,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            24 (G_PORRECTUS)
+       glyph_type            23 (G_PORRECTUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2318,7 +2318,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2344,14 +2344,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2360,7 +2360,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2373,7 +2373,7 @@
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2381,7 +2381,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -2401,14 +2401,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  14 (S_QUILISMA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2420,7 +2420,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -2440,14 +2440,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  14 (S_QUILISMA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2459,7 +2459,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 -
@@ -2479,7 +2479,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          16 (L_INITIO_DEBILIS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2488,7 +2488,7 @@
          liquescentia           16 (L_INITIO_DEBILIS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2500,7 +2500,7 @@
          pitch                  d
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -2518,14 +2518,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2537,7 +2537,7 @@
          pitch                  d
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -2555,14 +2555,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2574,7 +2574,7 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -2594,14 +2594,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            39 (G_VIRGA_REVERSA)
+       glyph_type            38 (G_VIRGA_REVERSA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  7 (S_VIRGA_REVERSA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2613,7 +2613,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -2633,14 +2633,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            13 (G_VIRGA)
+       glyph_type            12 (G_VIRGA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  6 (S_VIRGA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2652,7 +2652,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -2672,14 +2672,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            39 (G_VIRGA_REVERSA)
+       glyph_type            38 (G_VIRGA_REVERSA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  7 (S_VIRGA_REVERSA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2691,7 +2691,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -2711,14 +2711,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            13 (G_VIRGA)
+       glyph_type            12 (G_VIRGA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
          shape                  6 (S_VIRGA)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2730,7 +2730,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2754,14 +2754,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2770,7 +2770,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2778,7 +2778,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2800,14 +2800,16 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          64 (?64)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2816,7 +2818,7 @@
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2824,7 +2826,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2846,11 +2848,13 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
@@ -2860,7 +2864,7 @@
          shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2868,7 +2872,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -2886,14 +2890,14 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
        liquescentia          32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -2905,9 +2909,9 @@
          pitch                  d
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
 =====================================================================
