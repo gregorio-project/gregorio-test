@@ -250,7 +250,7 @@ function gabc_gtex_clean {
     outfile="$filename.out"
     expfile="${filename%.gabc}.tex"
 
-    $RM "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+    $RM -f "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
         "$expfile-"
 }
 function gabc_gtex_accept {
@@ -312,7 +312,7 @@ function gabc_dump_clean {
     outfile="$filename.out"
     expfile="${filename%.gabc}.dump"
 
-    $RM "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+    $RM -f "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
         "$expfile-"
 }
 function gabc_dump_accept {
@@ -380,7 +380,7 @@ function gabc_gabc_clean {
     outfile="$filename.out"
     expfile="${filename%.gabc}.exp"
 
-    $RM "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
+    $RM -f "$filename" "$filename.log" "$outfile" "$outfile-" "$expfile" \
         "$expfile-"
 }
 function gabc_gabc_accept {
@@ -511,7 +511,11 @@ function clean_typeset_result {
     filename="$1"
     outdir="$filename.out"
     cd ..
-    $RM -r "$filename" "${filename%.$2}.pdf" "$outdir"
+    $RM -f "$filename" "${filename%.$2}.pdf"
+    if [ -d "$outdir" ]
+    then
+        $RM -r "$outdir"
+    fi
 }
 function accept_typeset_result {
     filebase="$(basename "$1")"
@@ -585,7 +589,7 @@ function gabc_output_clean {
     filebase="${filename%.gabc}"
 
     clean_typeset_result "$filename" gabc
-    $RM "$filebase"-*.gtex "$filebase.tex"
+    $RM -f "$filebase"-*.gtex "$filebase.tex"
 }
 function gabc_output_accept {
     accept_typeset_result "$1" gabc
