@@ -473,8 +473,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -509,8 +507,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     1 (H_SMALL_LEFT)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -545,8 +541,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     2 (H_SMALL_CENTRE)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -581,8 +575,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     3 (H_SMALL_RIGHT)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -617,8 +609,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     1 (H_SMALL_LEFT)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -653,8 +643,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     2 (H_SMALL_CENTRE)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -689,8 +677,6 @@
          shape                  1 (S_PUNCTUM)
          auto hepisema size     3 (H_SMALL_RIGHT)
          auto hepisema bridge   true
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
