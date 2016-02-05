@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -41,7 +41,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -76,7 +76,7 @@
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -106,7 +106,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -142,7 +142,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -184,7 +184,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -210,7 +210,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -247,7 +247,7 @@
          shape                  5 (S_PUNCTUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -288,7 +288,7 @@
          shape                  4 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -308,7 +308,7 @@
          pitch                  g
          shape                  15 (S_STROPHA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -332,7 +332,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -356,7 +356,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -376,7 +376,7 @@
          pitch                  g
          shape                  39 (S_LINEA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -396,7 +396,7 @@
          pitch                  h
          shape                  39 (S_LINEA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -437,7 +437,7 @@
          shape                  3 (S_PUNCTUM_INCLINATUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -472,7 +472,7 @@
          pitch                  d
          shape                  3 (S_PUNCTUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -507,7 +507,7 @@
          pitch                  d
          shape                  3 (S_PUNCTUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -542,7 +542,7 @@
          pitch                  d
          shape                  3 (S_PUNCTUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -566,7 +566,7 @@
          shape                  6 (S_VIRGA)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -591,6 +591,8 @@
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -599,7 +601,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -637,7 +639,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 d
@@ -681,7 +683,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 d
@@ -727,7 +729,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -757,7 +759,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -795,7 +797,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -834,7 +836,7 @@
          pitch                  f
          shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -877,7 +879,7 @@
          shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -919,7 +921,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 G
@@ -955,7 +957,7 @@
          pitch                  e
          shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -979,10 +981,10 @@
          shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1010,7 +1012,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1041,7 +1043,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1075,7 +1077,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1107,7 +1109,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1142,7 +1144,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1180,13 +1182,13 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1208,7 +1210,7 @@
          pitch                  g
          shape                  26 (S_ORISCUS_CAVUM_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1234,7 +1236,7 @@
          shape                  27 (S_ORISCUS_CAVUM_DESCENDENS)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1264,7 +1266,7 @@
          shape                  28 (S_ORISCUS_CAVUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style   ST_FORCED_CENTER
@@ -1320,10 +1322,10 @@
          shape                  26 (S_ORISCUS_CAVUM_ASCENDENS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1354,7 +1356,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1385,7 +1387,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1415,7 +1417,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           4 (L_AUCTUS_DESCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1438,6 +1440,8 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  6 (S_VIRGA)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
@@ -1448,7 +1452,7 @@
          shape                  5 (S_PUNCTUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1474,7 +1478,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1498,7 +1502,7 @@
          shape                  15 (S_STROPHA)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1532,7 +1536,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  18 (_V_EPISEMA_AUCTUM_DUPLEX)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1566,7 +1570,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  18 (_V_EPISEMA_AUCTUM_DUPLEX)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1586,7 +1590,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1606,7 +1610,7 @@
          pitch                  h
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1626,7 +1630,7 @@
          pitch                  g
          shape                  7 (S_VIRGA_REVERSA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1646,7 +1650,7 @@
          pitch                  h
          shape                  7 (S_VIRGA_REVERSA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 g
@@ -1666,7 +1670,7 @@
          pitch                  g
          shape                  13 (S_ORISCUS_SCAPUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -1686,7 +1690,7 @@
          pitch                  h
          shape                  13 (S_ORISCUS_SCAPUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1724,7 +1728,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -1762,7 +1766,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1803,7 +1807,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1838,7 +1842,7 @@
          shape                  5 (S_PUNCTUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1864,7 +1868,7 @@
          pitch                  g
          shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1875,7 +1879,7 @@
 ---------------------------------------------------------------------
      end of style                ST_CENTER
 ---------------------------------------------------------------------
-     type                    9 (GRE_CUSTOS)
+     type                    8 (GRE_CUSTOS)
      pitch                   h
      force_pitch             true
 =====================================================================

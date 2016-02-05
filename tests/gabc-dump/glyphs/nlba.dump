@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_BEGINNING
 ---------------------------------------------------------------------
@@ -49,6 +49,8 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -57,7 +59,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -87,7 +89,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_END
 ---------------------------------------------------------------------
@@ -119,6 +121,8 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -127,13 +131,13 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_BEGINNING
 ---------------------------------------------------------------------
@@ -165,6 +169,8 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -173,7 +179,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -203,7 +209,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_END
 ---------------------------------------------------------------------
@@ -235,6 +241,8 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -243,20 +251,20 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    9 (GRE_CUSTOS)
+     type                    8 (GRE_CUSTOS)
      pitch                   f
      force_pitch             true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_BEGINNING
 ---------------------------------------------------------------------
@@ -288,6 +296,8 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -296,7 +306,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -326,7 +336,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    no line break area        NLBA_END
 ---------------------------------------------------------------------
@@ -358,6 +368,8 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -366,17 +378,17 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    9 (GRE_CUSTOS)
+     type                    8 (GRE_CUSTOS)
      pitch                   f
      force_pitch             true
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     4 (B_DIVISIO_MAIOR)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 n
@@ -401,7 +413,7 @@
 ---------------------------------------------------------------------
      character                 a
 ---------------------------------------------------------------------
-     type                    14 (GRE_NLBA)
+     type                    13 (GRE_NLBA)
      nlba                    1 (NLBA_BEGINNING)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -420,6 +432,8 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -428,7 +442,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    7 (GRE_SPACE)
+     type                    6 (GRE_SPACE)
      space                   7 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -444,10 +458,10 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    14 (GRE_NLBA)
+     type                    13 (GRE_NLBA)
      nlba                    2 (NLBA_END)
 ---------------------------------------------------------------------
-     type                    7 (GRE_SPACE)
+     type                    6 (GRE_SPACE)
      space                   7 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -466,6 +480,8 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -474,13 +490,13 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    euouae                    EUOUAE_BEGINNING
 ---------------------------------------------------------------------
@@ -499,7 +515,7 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -517,7 +533,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -535,7 +551,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -553,7 +569,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -571,7 +587,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -589,10 +605,10 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
    euouae                    EUOUAE_END
 ---------------------------------------------------------------------
-     type                    8 (GRE_BAR)
+     type                    7 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
 =====================================================================

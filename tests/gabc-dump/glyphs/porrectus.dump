@@ -21,7 +21,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -47,7 +47,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -77,7 +77,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -111,10 +111,10 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -147,7 +147,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -180,7 +180,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -213,7 +213,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -246,7 +246,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -282,7 +282,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -318,7 +318,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -353,7 +353,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -388,10 +388,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -425,7 +425,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -459,7 +459,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -493,7 +493,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -527,7 +527,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -565,7 +565,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -603,7 +603,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -641,7 +641,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -679,7 +679,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -713,7 +713,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -747,7 +747,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -789,7 +789,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -831,10 +831,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -867,7 +867,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -900,7 +900,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -933,7 +933,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -966,7 +966,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -999,7 +999,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1032,7 +1032,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1071,7 +1071,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1110,10 +1110,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1148,7 +1148,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1183,7 +1183,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1218,7 +1218,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1248,6 +1248,8 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1256,7 +1258,7 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1291,7 +1293,7 @@
          pitch                  h
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1326,7 +1328,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1371,7 +1373,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1416,10 +1418,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1461,7 +1463,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1503,7 +1505,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -1545,7 +1547,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1581,7 +1583,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1623,10 +1625,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1686,7 +1688,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1746,7 +1748,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 h
@@ -1806,7 +1808,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1866,7 +1868,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1926,10 +1928,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    6 (GRE_END_OF_LINE)
+     type                    5 (GRE_END_OF_LINE)
          ragged                 true
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1959,7 +1961,7 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -1989,7 +1991,7 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 j
