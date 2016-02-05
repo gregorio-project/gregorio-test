@@ -16,7 +16,7 @@
 
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
-export PDFLATEX='lualatex --shell-escape --debug-format --inteaction=scrollmode'
+export PDFLATEX='lualatex --shell-escape --debug-format --interaction=scrollmode'
 
 if $use_valgrind
 then

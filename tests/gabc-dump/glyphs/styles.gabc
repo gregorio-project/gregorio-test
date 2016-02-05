@@ -9,3 +9,7 @@ name: styles, verb and special characters;
 <tt>Teletype</tt>(g) <ul>Underlined</ul>(h) <e>elision</e>(iZ)
 Mis-<i>matched</b>(g) With <b>C<i>{e</i>n}te</b>r(g) Cen<b>t{e}r</b>(g)
 Double <b>bo<b>l</b>d</b>(g)
+<i>{<b>Bold</b>}</i>(g)
+<i>Nested<i><v> </v>italics</i></i>(h)
+Test<i>Re<b>pe<i>ated</i></b> Sty</i>les(i)
+Test<i>Re<b>p<tt>e<i>ated</i></b> S</tt>ty</i>les(i)
