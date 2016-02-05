@@ -48,6 +48,7 @@ then
 fi
 
 export SED="${SED:-sed}" CP="${CP:-cp}" RM="${RM:-rm}"
+export FIND="${FIND:-find}" XARGS="${XARGS:-xargs}"
 
 case "$(echo $COLOR | tr '[:upper:]' '[:lower:]')" in
 t|true|y|yes)
@@ -147,8 +148,8 @@ do
             mode=retest
             if [ -d output ]
             then
-                for test in $(find output -name '*.result' -print0 |
-                    xargs -0 grep -h '^FAIL|' | cut -d'|' -f2)
+                for test in $($FIND output -name '*.result' -print0 |
+                    $XARGS -0 grep -h '^FAIL|' | cut -d'|' -f2)
                 do
                     no_failed_tests=false
                     tests_to_run[$test]=1
@@ -401,7 +402,7 @@ test|retest)
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi
@@ -415,13 +416,13 @@ test|retest)
         do
             progress $count
             sleep 1
-            count=$(find . -name '*.result' | wc -l)
+            count=$($FIND . -name '*.result' | wc -l)
         done
     fi
     wait $!
     overall_result=$?
 
-    find . -name '*.result' -exec cat {} + | {
+    $FIND . -name '*.result' -exec cat {} + | {
         total_count=0
         declare -A result_counts
         old_IFS="$IFS"

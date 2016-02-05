@@ -205,7 +205,7 @@ function diff_pdf {
 export -f needs_verification testing pass fail not_verified maybe_run
 
 function gabc_gtex_find {
-    find gabc-gtex -name '*.gabc' -print
+    $FIND gabc-gtex -name '*.gabc' -print
 }
 function gabc_gtex_test {
     filename="$1"
@@ -271,7 +271,7 @@ function gabc_gtex_view_output {
 register gabc_gtex
 
 function gabc_dump_find {
-    find gabc-dump -name '*.gabc' -print
+    $FIND gabc-dump -name '*.gabc' -print
 }
 function gabc_dump_test {
     filename="$1"
@@ -333,7 +333,7 @@ function gabc_dump_view_output {
 register gabc_dump
 
 function gabc_gabc_find {
-    find gabc-gabc -name '*.gabc' -print
+    $FIND gabc-gabc -name '*.gabc' -print
 }
 function gabc_gabc_test {
     filename="$1"
@@ -401,7 +401,7 @@ function gabc_gabc_view_output {
 register gabc_gabc
 
 function scripted_find {
-    find scripted -name '*.sh' -print
+    $FIND scripted -name '*.sh' -print
 }
 function scripted_test {
     indir="$(dirname "$1")"
@@ -533,7 +533,7 @@ export -f typeset_and_compare clean_typeset_result accept_typeset_result \
     view_typeset_diff
 
 function gabc_output_find {
-    find gabc-output -name '*.gabc' -print
+    $FIND gabc-output -name '*.gabc' -print
 }
 function gabc_output_test {
     indir="$(dirname "$1")"
@@ -620,7 +620,7 @@ function gabc_output_view_output {
 register gabc_output
 
 function tex_output_find {
-    find tex-output -name '*.tex' -print
+    $FIND tex-output -name '*.tex' -print
 }
 function tex_output_test {
     indir="$(dirname "$1")"
@@ -684,7 +684,7 @@ function plain_tex_run {
 }
 export -f plain_tex_run
 function plain_tex_find {
-    find plain-tex -name '*.tex' -print
+    $FIND plain-tex -name '*.tex' -print
 }
 function plain_tex_test {
     indir="$(dirname "$1")"
