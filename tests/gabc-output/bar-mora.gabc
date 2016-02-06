@@ -1,8 +1,11 @@
 name:fix-795;
 %%
-(c4) ref(g,g) (,) g(g) *(,) (gZ)
-neve{r}([ev:\gresetbarshiftaftermora{never}]g.,g.) (,) g(g.) *(,) (gZ)
-notextonl{y}([ev:\gresetbarshiftaftermora{notextonly}]g.,g.) (,) g(g.) *(,) (gZ)
-insideonl{y}([ev:\gresetbarshiftaftermora{insideonly}]g.,g.) (,) g(g.) *(,) (gZ)
-alway{s}([ev:\gresetbarshiftaftermora{always}]g.,g.) (,) g(g.) *(,) (gZ)
-custo{m}([ev:\grechangedim{barmoraadjustment}{1cm}{scalable}]g.,g.) (,) g(g.) *(,) (gZ)
+(c4) %ref(g,g) (,) g(g) *(,) g(ggg.) g(gZ)
+neve{r}([ev:\gresetshiftaftermora{never}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+notextonl{y}([ev:\gresetshiftaftermora{barsnotextonly}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+insideonl{y}([ev:\gresetshiftaftermora{barsinsideonly}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+barsonl{y}([ev:\gresetshiftaftermora{barsonly}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+alway{s}([ev:\gresetshiftaftermora{always}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+custo{m}([ev:\grechangedim{moraadjustment}{1cm}{scalable}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
+edgecase{s}(fhfh.f)g(h.f)g(hfh.f)g(g.)g(g)g(e.g!hvZ)
+customba{r}([ev:\grechangedim{moraadjustment}{0cm}{scalable}\grechangedim{moraadjustmentbar}{1cm}{scalable}]g.,g.) (,) g(g.) *(,) g(ggg.) g(gZ)
