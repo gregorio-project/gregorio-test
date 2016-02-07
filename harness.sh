@@ -406,7 +406,7 @@ function scripted_find {
 function scripted_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
-    outfile="${filename%.sh}.log"
+    outfile="${filename%.sh}.out"
     logfile="${filename%.sh}.log"
 
     testing "$1" "$filename.result" "scripted_clean '$filename'"
