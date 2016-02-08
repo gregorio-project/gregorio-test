@@ -20,10 +20,11 @@ export PDFLATEX='lualatex --shell-escape --debug-format --interaction=scrollmode
 
 if $use_valgrind
 then
-    export gregorio='valgrind --leak-check=full --show-leak-kinds=all --log-file="$filename.grind" gregorio'
+    export gregorio='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind" gregorio'
 else
     export gregorio='gregorio'
 fi
+export LSAN_OPTIONS="suppressions=$testroot/kpathsea.lsan.supp"
 
 groups=''
 
@@ -406,7 +407,7 @@ function scripted_find {
 function scripted_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
-    outfile="${filename%.sh}.log"
+    outfile="${filename%.sh}.out"
     logfile="${filename%.sh}.log"
 
     testing "$1" "$filename.result" "scripted_clean '$filename'"
