@@ -50,10 +50,18 @@ hg>(hg>)
 he>(he>Z)
 
 % bottom
-bv(bv) aqb(aqb) ba(ba) dv<v>[</v>ll:1<v>]</v>(dv[ll:1]) ed<v>[</v>ll:1<v>]</v>(ed[ll:1])
-       ed<sp>~</sp><v>[</v>ll:1<v>]</v>(ed~[ll:1]) d<v>[</v>ll:1<v>]</v>cd(d[ll:1]cd) c<v>[</v>ll:1<v>]</v>qd(c[ll:1]qd Z)
-       b!dv<v>[</v>ll:0<v>]</v>(b!dv[ll:0]) b!ed<v>[</v>ll:0<v>]</v>(b!ed[ll:0])
-       b!ed<sp>~</sp><v>[</v>ll:0<v>]</v>(b!ed~[ll:0]) d<v>[</v>ll:0<v>]</v>cd!b(d[ll:0]cd!b)
+bv(bv) aqb(aqb) ba(ba) dv<v>[</v>ll:1<v>]</v>(dv[ll:1])
+       ed<v>[</v>ll:1<v>]</v>(ed[ll:1])
+       e<v>[</v>ll:1<v>]</v>d(e[ll:1]d)
+       ed<sp>~</sp><v>[</v>ll:1<v>]</v>(ed~[ll:1])
+       e<v>[</v>ll:1<v>]</v>d<sp>~</sp>(e[ll:1]d~)
+       d<v>[</v>ll:1<v>]</v>cd(d[ll:1]cd) c<v>[</v>ll:1<v>]</v>qd(c[ll:1]qd Z)
+       b!dv<v>[</v>ll:0<v>]</v>(b!dv[ll:0])
+       b!ed<v>[</v>ll:0<v>]</v>(b!ed[ll:0])
+       b!e<v>[</v>ll:0<v>]</v>d(b!e[ll:0]d)
+       b!ed<sp>~</sp><v>[</v>ll:0<v>]</v>(b!ed~[ll:0])
+       b!e<v>[</v>ll:0<v>]</v>d<sp>~</sp>(b!e[ll:0]d~)
+       d<v>[</v>ll:0<v>]</v>cd!b(d[ll:0]cd!b)
 
 % composed
 gv!ge(gv!ge) gv!gd(gv!gd) hv!hg(hv!hg) hv!hf(hv!hf)
