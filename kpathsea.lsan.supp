@@ -1,2 +1,0 @@
-leak:xmalloc
-leak:xrealloc
