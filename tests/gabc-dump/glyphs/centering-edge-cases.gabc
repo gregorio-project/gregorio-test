@@ -1,0 +1,7 @@
+name: centering edge cases;
+%%
+(c3) Centering edge cases(g) (::Z)
+<e>cla</e>ra(g) <e>clar</e>a(g) clar<e>a</e>(g) cla<e>ra</e>(g)
+<v>\textbf{cla}</v>ra(g) <v>\textbf{clar}</v>a(g) clar<v>\textbf{a}</v>(g) cla<v>\textbf{ra}</v>(g)
+<sp>cla</sp>ra(g) <sp>clar</sp>a(g) clar<sp>a</sp>(g) cla<sp>ra</sp>(g)
+<ul>cla</ul>ra(g) <ul>clar</ul>a(g) clar<ul>a</ul>(g) cla<ul>ra</ul>(g)
