@@ -1,6 +1,7 @@
 name: tex verbatim;
-generated-by: gregorio 4.0.1-fix-800-97edb51-2966;
+generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
 %%
 (c3)<v>\{</v>gr<v>\}</v>ir([ev:\hbox to 0pt{]/gr[ev:\hss%
 }%
-\GreNoBreak\relax ]/irZ) 
+\GreNoBreak\relax ]/irZ)
+

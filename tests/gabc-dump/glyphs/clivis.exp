@@ -1,4 +1,15 @@
 name: clivis;
-generated-by: gregorio 4.0.1-fix-800-97edb51-2966;
+generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
 %%
-(c3)gf<(gf<) gf>(gf>) -gf(-gf) gf<sp>~</sp>(gf~Z) g.f(g.f) gf.(gf.) gf..(gf..) g.f.(g.f.Z) g'f(g'f) gf'(gf') g'f'(g'f') h'f(h'f) hf'(hf') h'f'(h'f'Z) g_f(g_f) gf_(gf_) g_f_(g_f_) h_f(h_f) hf_(hf_) h_f_(h_f_Z) g.'f(g'.f) gf'.(gf'.) g'.f'.(g'.f'.) h.'f(h'.f) hf.'(hf'.) h.'f.'(h'.f'.Z) g.'fo(g'.f) gfo'.(gf'.) go'.fo'.(g'.f'.) h.'fo(h'.f) hfo.'(hf'.) h.'fo.'(h'.f'.Z) gof<(gof<) gof>(gof>) -gof(-gof) gof<sp>~</sp>(gof~Z) g.of(go.f) gof.(gof.) gof..(gof..) g.of.(go.f.Z) go'f(go'f) gof'(gof') g'of'(go'f') h'of(ho'f) hof'(hof') h'of'(ho'f'Z) g_of(go_f) gof_(gof_) g_of_(go_f_) h_of(ho_f) hof_(hof_) h_of_(ho_f_Z) g.o'f(go'.f) gof'.(gof'.) g'o.f'.(go'.f'.) ho.'f(ho'.f) hof.'(hof'.) ho.'f.'(ho'.f'.Z) 
+(c3)gf<(gf<) gf>(gf>) -gf(-gf) gf<sp>~</sp>(gf~Z)
+g.f(g.f) gf.(gf.) gf..(gf..) g.f.(g.f.Z)
+g'f(g'f) gf'(gf') g'f'(g'f') h'f(h'f) hf'(hf') h'f'(h'f'Z)
+g_f(g_f) gf_(gf_) g_f_(g_f_) h_f(h_f) hf_(hf_) h_f_(h_f_Z)
+g.'f(g'.f) gf'.(gf'.) g'.f'.(g'.f'.) h.'f(h'.f) hf.'(hf'.) h.'f.'(h'.f'.Z)
+g.'fo(g'.f) gfo'.(gf'.) go'.fo'.(g'.f'.) h.'fo(h'.f) hfo.'(hf'.) h.'fo.'(h'.f'.Z)
+gof<(go0f<) gof>(go0f>) -gof(-go0f) gof<sp>~</sp>(go0f~Z)
+g.of(go0.f) gof.(go0f.) gof..(go0f..) g.of.(go0.f.Z)
+go'f(go0'f) gof'(go0f') g'of'(go0'f') h'of(ho0'f) hof'(ho0f') h'of'(ho0'f'Z)
+g_of(go0_f) gof_(go0f_) g_of_(go0_f_) h_of(ho0_f) hof_(ho0f_) h_of_(ho0_f_Z)
+g.o'f(go0'.f) gof'.(go0f'.) g'o.f'.(go0'.f'.) ho.'f(ho0'.f) hof.'(ho0f'.) ho.'f.'(ho0'.f'.Z)
+
