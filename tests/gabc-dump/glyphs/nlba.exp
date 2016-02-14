@@ -1,4 +1,9 @@
 name: nlba test;
-generated-by: gregorio 4.1.0-beta1-fix-697-6e47e86-3160;
+generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
 %%
-(c4)<nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (:) <nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (f+) (:) <nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (f+:) note nlba(<nlba>/cde/f gh</nlba> ijk/l) (::) <eu>e(e) u(f) o(g) u(h) a(i) e(j) </eu>(::) 
+(c4)<nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (:)
+<nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (f+) (:)
+<nlba>nlba(cde/f) until(gh) here</nlba>(ijk/l) (f+:)
+note nlba(<nlba>/cde/f gh</nlba> ijk/l) (::)
+<eu>e(e) u(f) o(g) u(h) a(i) e(j) </eu>(::)
+
