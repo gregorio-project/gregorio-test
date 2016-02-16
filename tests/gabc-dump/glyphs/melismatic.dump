@@ -53,8 +53,6 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -248,8 +246,6 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -452,8 +448,6 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  3 (S_PUNCTUM_INCLINATUM)
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
