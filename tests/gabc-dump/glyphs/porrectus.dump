@@ -1248,8 +1248,6 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
