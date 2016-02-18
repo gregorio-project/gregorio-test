@@ -22,12 +22,20 @@
 \gresetinitiallines{0}
 \gresetbarspacing{new}
 
-{\noindent \Large With default offset limit: \makeatletter\gre@space@dimen@maxbaroffset\makeatother}\smallskip
+{\noindent \Large With default offset limit: \makeatletter\gre@space@dimen@maxbaroffsettextleft\ and \gre@space@dimen@maxbaroffsettextright\makeatother}\smallskip
 \gregorioscore[a]{bar-spacing}
 
 \pagebreak
 {\noindent \Large Effectively infinite offset limit}\smallskip
-\grechangedim{maxbaroffset}{12cm}{scalable}
+\grechangedim{maxbaroffsettextleft}{12cm}{scalable}
+\grechangedim{maxbaroffsettextright}{12cm}{scalable}
 \gregorioscore[a]{bar-spacing}
+
+\pagebreak
+{\noindent \Large No offsets allowed}\smallskip
+\grechangedim{maxbaroffsettextleft}{0cm}{scalable}
+\grechangedim{maxbaroffsettextright}{0cm}{scalable}
+\gregorioscore[a]{bar-spacing}
+
 
 \end{document}
