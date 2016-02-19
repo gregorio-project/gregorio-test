@@ -1,0 +1,12 @@
+% !TEX program = LuaLaTeX+se
+\documentclass{article}
+
+\usepackage[debug=barspacing]{gregoriotex}
+
+\begin{document}
+Show difference between offset limits for a bar and a no-bar syllable
+
+\gresetbarspacing{new}
+\gabcsnippet{(c3) kill(g) 1(gggggggg) *(:) 22222{2}(g) 1(gggggggg) *() 22222{2}(g)}
+
+\end{document}
