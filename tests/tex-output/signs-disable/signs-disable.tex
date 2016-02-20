@@ -30,24 +30,18 @@ all disabled:
 
 \greprintsigns{all}{disable}
 
-\makeatletter
-\ifgre@disablehepisemus
-  \directlua{texio.write_nl('debug0')}
-\fi
-\makeatother
-
 \gregorioscore[a]{signs-disable}
 
-only vepisemus disabled:
+only vepisema disabled:
 
 \greprintsigns{all}{enable}
-\greprintsigns{vepisemus}{disable}
+\greprintsigns{vepisema}{disable}
 
 \gregorioscore[a]{signs-disable}
 
-vepisemus + hepisemus disabled:
+vepisema + hepisema disabled:
 
-\greprintsigns{hepisemus}{disable}
+\greprintsigns{hepisema}{disable}
 
 \gregorioscore[a]{signs-disable}
 
