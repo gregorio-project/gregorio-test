@@ -25,7 +25,7 @@ do
     IFS='|' read result filename category <<<$line
     if [ "$result" = "FAIL" ]
     then
-        action="-d"
+        action=${ACTION:--d}
         while :
         do
             ./gregorio-test.sh $action "$filename"
