@@ -1,0 +1,5 @@
+name:long filename;
+custom-header: long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long header;
+language: second-alias-to-silly-language-with-a-very-very-long-name-that-is-more-than-one-hundred-twenty-eight-characters-long-because-that-is-the-buffer-growth-size;
+%%
+(c4) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm) long(abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm abcdefghijklm) (:)

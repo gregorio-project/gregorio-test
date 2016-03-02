@@ -2,6 +2,13 @@
  SCORE INFOS
 =====================================================================
    number_of_voices          1
+   name                      torculus resupinus
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      torculus resupinus
 
 
 =====================================================================
@@ -14,10 +21,10 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -29,12 +36,12 @@
 ---------------------------------------------------------------------
      character                 i
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -52,7 +59,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -78,7 +85,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -98,7 +105,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -118,7 +125,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -136,13 +143,13 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -156,12 +163,12 @@
 ---------------------------------------------------------------------
      character                 i
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -180,7 +187,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -202,7 +209,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -221,10 +228,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -238,12 +245,12 @@
 ---------------------------------------------------------------------
      character                 .
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -262,7 +269,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -284,7 +291,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -303,10 +310,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  1 (_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -324,12 +331,12 @@
 ---------------------------------------------------------------------
      character                 i
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -350,7 +357,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -376,7 +383,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -397,10 +404,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -408,7 +415,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -421,7 +428,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -440,7 +447,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -464,7 +471,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -483,13 +490,13 @@
          shape                  1 (S_PUNCTUM)
          signs                  2 (_AUCTUM_DUPLEX)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -497,7 +504,7 @@
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
@@ -508,7 +515,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -528,7 +535,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -550,7 +557,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -570,10 +577,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -581,7 +588,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
@@ -592,7 +599,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -612,7 +619,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -634,7 +641,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -654,10 +661,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -665,7 +672,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -676,7 +683,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -696,7 +703,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -718,7 +725,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -738,10 +745,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -749,7 +756,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -760,7 +767,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -780,7 +787,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -802,7 +809,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -822,10 +829,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -833,7 +840,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -846,7 +853,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -868,7 +875,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -892,7 +899,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -914,10 +921,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -925,7 +932,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
@@ -938,7 +945,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -960,7 +967,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -984,7 +991,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1006,10 +1013,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -1019,7 +1026,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
@@ -1030,7 +1037,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1052,7 +1059,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1076,7 +1083,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1098,10 +1105,10 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -1111,7 +1118,7 @@
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
@@ -1124,109 +1131,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  14 (S_QUILISMA)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  h
-         shape                  1 (S_PUNCTUM)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  i
-         shape                  1 (S_PUNCTUM)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     character                 w
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     character                 i
----------------------------------------------------------------------
-     end of style                ST_CENTER
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  14 (S_QUILISMA)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  i
-         shape                  1 (S_PUNCTUM)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  1 (S_PUNCTUM)
-         auto hepisema size     0 (H_NORMAL)
-         auto hepisema bridge   true
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 w
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     character                 h
----------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     character                 i
----------------------------------------------------------------------
-     character                 _
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1249,10 +1154,112 @@
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      5 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 w
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      5 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style   ST_FORCED_CENTER
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 w
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     end of style         ST_FORCED_CENTER
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     character                 _
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  14 (S_QUILISMA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1280,7 +1287,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1306,13 +1313,13 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
@@ -1320,7 +1327,7 @@
 ---------------------------------------------------------------------
      character                 '
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
@@ -1331,7 +1338,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1350,7 +1357,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1372,7 +1379,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1391,16 +1398,16 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
@@ -1413,7 +1420,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1432,7 +1439,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1454,7 +1461,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1473,16 +1480,16 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
@@ -1495,7 +1502,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1514,7 +1521,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1536,7 +1543,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1555,16 +1562,16 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 h
 ---------------------------------------------------------------------
@@ -1577,7 +1584,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1596,7 +1603,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1618,7 +1625,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1637,16 +1644,16 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 '
 ---------------------------------------------------------------------
@@ -1663,7 +1670,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1684,104 +1691,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     character                 w
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     character                 i
----------------------------------------------------------------------
-     end of style                ST_CENTER
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 f
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  14 (S_QUILISMA)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  i
-         shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  f
-         shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 w
----------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 h
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     character                 i
----------------------------------------------------------------------
-     character                 '
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  14 (S_QUILISMA)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  h
-         shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  i
-         shape                  1 (S_PUNCTUM)
-         signs                  16 (_V_EPISEMA)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1804,12 +1714,109 @@
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      5 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style   ST_FORCED_CENTER
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 w
+---------------------------------------------------------------------
+     end of style         ST_FORCED_CENTER
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
      character                 '
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  14 (S_QUILISMA)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  16 (_V_EPISEMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         signs                  16 (_V_EPISEMA)
+=====================================================================
+   type                      5 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 w
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 '
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1831,10 +1838,10 @@
          shape                  1 (S_PUNCTUM)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1858,7 +1865,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1877,16 +1884,16 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 '
 ---------------------------------------------------------------------
@@ -1905,7 +1912,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1926,7 +1933,7 @@
          pitch                  i
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      character                 f
@@ -1954,7 +1961,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -1975,16 +1982,16 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
-     beginning of style    ST_FORCED_CENTER
+     beginning of style   ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 g
 ---------------------------------------------------------------------
      character                 w
 ---------------------------------------------------------------------
-     end of style          ST_FORCED_CENTER
+     end of style         ST_FORCED_CENTER
 ---------------------------------------------------------------------
      character                 '
 ---------------------------------------------------------------------
@@ -2007,7 +2014,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -2029,7 +2036,7 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 f
@@ -2061,7 +2068,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            21 (G_TORCULUS_RESUPINUS)
+       glyph_type            22 (G_TORCULUS_RESUPINUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
@@ -2083,6 +2090,6 @@
          shape                  1 (S_PUNCTUM)
          signs                  17 (_V_EPISEMA_PUNCTUM_MORA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================

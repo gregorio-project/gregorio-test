@@ -1,0 +1,43 @@
+% !TEX root = bar-spacing-old.tex
+% !TEX program = LuaLaTeX+se
+name: commentary;
+%%
+(c4) 
+<alt>negative previousenddifference, negative nextbegindifference</alt>
+Testbbbbbb(g) (`) ccctest(g) Testdddddd(g) (;) ffftest(g) Testgggggg(g) (::) hhhtest(g) (Z)
+Testjjjjjj(g)(`)kkktest(g) Testllllll(g)(;)mmmtest(g) Testnnnnnn(g)(::)ppptest(g) (Z)
+
+Testqqqqqq(g) bis(`) rrrtest(g) Testssssss(g) bis(;) ttttest(g) Testvvvvvv(g) bis(::) wwwtest(g) (Z)
+Testxxxxxx(g)bis(`)yyytest(g) Testzzzzzz(g)bis(;)BBBtest(g) TestCCCCCC(g)bis(::)DDDtest(g) (Z)
+
+TestFFFFFF(g) bis() GGGtest(g) TestHHHHHH(g)bis()JJJtest(g) TestKKKKKK(g) (::) 5. Start(g) (Z)
+
+<alt>negative previousenddifference, positive nextbegindifference</alt>
+Testbbbbbb(g) (`) ist(gf) Testcccccc(g) (;) ist(gf) Testdddddd(g) (::) ist(gf) (Z)
+Testffffff(g)(`)ist(gf) Testgggggg(g)(;)ist(gf) Testhhhhhh(g)(::)ist(gf) (Z)
+
+Testjjjjjj(g) bis(`) ist(gf) Testkkkkkk(g) bis(;) ist(gf) Testllllll(gf) bis(::) ist(gf) (Z)
+Testmmmmmm(g)bis(`)ist(gf) Testnnnnnn(g)bis(;)ist(gf) Testpppppp(g)bis(::)ist(gf) (Z)
+
+Testqqqqqq(g) bis(`) ist(gf) Testrrrrrr(g)bis(::)ist(gf) (Z)
+
+<alt>postive previousenddifference, negative nextbegindifference</alt>
+Te(ghgghgghg) (`) bbbtest(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhhtest(g) (Z)
+
+Te(ghgghgghg) bis(`) jjjtest(g) Te(ghgghgghg) bis(;) kkktest(g) Te(ghgghgghg) bis(::) llltest(g) (Z)
+Te(ghgghgghg)bis(`)mmmtest(g) Te(ghgghgghg)bis(;)nnntest(g) Te(ghgghgghg)bis(::)ppptest(g) (Z)
+
+Te(ghgghgghg) (`) qqqtest(g) Te(ghgghgghg)bis(::)rrrtest(g) Te(ghgghgghg) (::) 5. Start(g) (Z)
+
+<alt>positive previousenddifference, positive nextbegindifference</alt>
+Be(ghgghgghg) (`) ist(gf) Ce(ghgghgghg) (;) ist(gf) De(ghgghgghg) (::) ist(gf) (Z)
+Fe(ghgghgghg)(`)ist(gf) Ge(ghgghgghg)(;)ist(gf) He(ghgghgghg)(::)ist(gf) (Z)
+
+Je(ghgghgghg) bis(`) ist(gf) Ke(ghgghgghg) bis(;) ist(gf) Le(ghgghgghg) bis(::) ist(gf) (Z)
+Me(ghgghgghg)bis(`)ist(gf) Ne(ghgghgghg)bis(;)ist(gf) Pe(ghgghgghg)bis(::)ist(gf) (Z)
+
+Qe(ghgghgghg) (`) ist(gf) Re(ghgghgghg)bis(::)ist(gf) (Z)
+
+<alt>Translation text</alt>
+TU[Thou art Peter, and upon this rock](ig) es(ij) Pe(i)trus,(i) *(`) et(i) su(i)per(g) hanc(hg) pe(e)tram[/](e) <i>etc.</i>[more text](::)

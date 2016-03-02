@@ -1,5 +1,4 @@
-%notes: comments
-initial-style: 0;
+name: comments;
 %%
 gh(gh) % this is a comment at the end of a line
 % this is a line comment

@@ -1,0 +1,1858 @@
+=====================================================================
+ SCORE INFOS
+=====================================================================
+   number_of_voices          1
+   name                      horizontal episema tuning
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      horizontal episema tuning
+
+
+=====================================================================
+ VOICES INFOS
+=====================================================================
+  Voice 1
+   initial_key               7 (c4)
+
+
+=====================================================================
+ SCORE
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 H
+---------------------------------------------------------------------
+     character                 o
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     character                 z
+---------------------------------------------------------------------
+     character                 o
+---------------------------------------------------------------------
+     character                 n
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     character                 l
+---------------------------------------------------------------------
+     character                  
+---------------------------------------------------------------------
+     character                 E
+---------------------------------------------------------------------
+     character                 p
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     character                  
+---------------------------------------------------------------------
+     character                 T
+---------------------------------------------------------------------
+     character                 u
+---------------------------------------------------------------------
+     character                 n
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     character                 n
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   1
+         below hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   2
+         below hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   3
+         below hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   4
+         below hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   5
+         below hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   6
+         below hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   7
+         below hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   8
+         below hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   9
+         below hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   10
+         below hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   11
+         below hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   12
+         below hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   13
+         below hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   14
+         below hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   15
+         above hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   16
+         above hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   17
+         above hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   18
+         above hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   19
+         above hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   20
+         above hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   21
+         above hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   22
+         above hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   23
+         above hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   24
+         above hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   25
+         above hep. vbasepos    4 (HVB_U_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   26
+         above hep. vbasepos    5 (HVB_U_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   27
+         above hep. vbasepos    2 (HVB_O_LOW)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   28
+         above hep. vbasepos    3 (HVB_O_HIGH)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         above hepisema group   29
+         above hep. vbasepos    0 (HVB_AUTO)
+         above hepisema nudge   -0.5mm
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   30
+         below hep. vbasepos    0 (HVB_AUTO)
+         below hepisema nudge   +0.5mm
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   31
+         below hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   32
+         below hep. vbasepos    0 (HVB_AUTO)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         above hepisema group   33
+         above hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+         below hepisema group   34
+         below hep. vbasepos    1 (HVB_MIDDLE)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   34
+         below hep. vbasepos    1 (HVB_MIDDLE)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+         below hepisema group   34
+         below hep. vbasepos    1 (HVB_MIDDLE)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         below hepisema size    0 (H_NORMAL)
+         below hepisema bridge  true
+         below hepisema group   34
+         below hep. vbasepos    1 (HVB_MIDDLE)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 a
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  d
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  c
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            17 (G_PODATUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  27 (S_FLAT)
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            32 (G_SCANDICUS)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  i
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+         above hepisema size    0 (H_NORMAL)
+         above hepisema bridge  true
+         above hepisema group   35
+         above hep. vbasepos    0 (HVB_AUTO)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  1 (WORD_BEGINNING)
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  e
+         shape                  3 (S_PUNCTUM_INCLINATUM)
+         auto hepisema size     0 (H_NORMAL)
+         auto hepisema bridge   true
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            21 (G_TORCULUS_RESUPINUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  14 (S_QUILISMA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  3 (WORD_END)
+---------------------------------------------------------------------
+     character                 t
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 e
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 r
+---------------------------------------------------------------------
+     character                 ,
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+         signs                  1 (_PUNCTUM_MORA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+=====================================================================

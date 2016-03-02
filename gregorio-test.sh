@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Gregorio Tests
-# Copyright (C) 2015 The Gregorio Project
+# Copyright (C) 2015-2016 The Gregorio Project
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -48,6 +48,7 @@ then
 fi
 
 export SED="${SED:-sed}" CP="${CP:-cp}" RM="${RM:-rm}"
+export FIND="${FIND:-find}" XARGS="${XARGS:-xargs}"
 
 case "$(echo $COLOR | tr '[:upper:]' '[:lower:]')" in
 t|true|y|yes)
@@ -81,11 +82,12 @@ verify=needs_verification
 mode=test
 show_success=false
 long_tests=false
+use_valgrind=false
 declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:hlLnPrSv" opt
+    while getopts ":acCdD:eg:GhlLnPrSv" opt
     do
         case $opt in
         a)
@@ -119,6 +121,9 @@ do
         g)
             gregorio_dir="$(realpath "$OPTARG")"
             ;;
+        G)
+            use_valgrind=true
+            ;;
         h)
             usage=true
             ;;
@@ -143,8 +148,8 @@ do
             mode=retest
             if [ -d output ]
             then
-                for test in $(find output -name '*.result' -print0 |
-                    xargs -0 grep -h '^FAIL|' | cut -d'|' -f2)
+                for test in $($FIND output -name '*.result' -print0 |
+                    $XARGS -0 grep -h '^FAIL|' | cut -d'|' -f2)
                 do
                     no_failed_tests=false
                     tests_to_run[$test]=1
@@ -232,6 +237,11 @@ Options:
   -l                views the log of the given TEST.
 
   -L                includes long tests.
+
+  -G                uses valgrind to check gregorio for memory leaks.  This
+                    option will produce {filename}.grind files for the tests
+                    that run gregorio directly.  The detection of a memory leak
+                    does not affect the pass/fail status of a test.
 
   -e                views the expected result of the given TEST.
 
@@ -348,7 +358,7 @@ test|retest)
         export TEXMFCONFIG=$(realpath var/texmf-config)
         export TEXMFVAR=$(realpath var/texmf-var)
 
-        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -ci" ./install-gtex.sh user)
+        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -Lci" ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 8
@@ -392,7 +402,7 @@ test|retest)
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | xargs -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi
@@ -406,13 +416,13 @@ test|retest)
         do
             progress $count
             sleep 1
-            count=$(find . -name '*.result' | wc -l)
+            count=$($FIND . -name '*.result' | wc -l)
         done
     fi
     wait $!
     overall_result=$?
 
-    find . -name '*.result' -exec cat {} + | {
+    $FIND . -name '*.result' -exec cat {} + | {
         total_count=0
         declare -A result_counts
         old_IFS="$IFS"

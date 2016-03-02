@@ -1,0 +1,39 @@
+%notes: tests first word/syllable styling
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\newcommand\commhead[2]{\grecommentary{#1}\grecommentary{#2}}
+\begin{document}
+\gresetheadercapture{commentary}{grecommentary}{}%
+\gregorioscore[a]{commentary}
+
+\gresetheadercapture{commentary}{grecommentary}{string}%
+\gregorioscore[a]{commentary}
+
+\gresetheadercapture{commentary}{commhead}{name}%
+\gregorioscore[a]{commentary}
+
+\gresetheadercapture{commentary}{commhead}{string,name}%
+\gregorioscore[a]{commentary}
+
+\gresetheadercapture{commentary}{}{}%
+\gregorioscore[a]{commentary}
+
+\grecommentary[12pt]{Additional spacing test}
+\gregorioscore[a]{commentary}
+
+\end{document}

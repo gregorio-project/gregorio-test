@@ -2,6 +2,13 @@
  SCORE INFOS
 =====================================================================
    number_of_voices          1
+   name                      limit cases
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      limit cases
 
 
 =====================================================================
@@ -14,14 +21,10 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
      character                 a
----------------------------------------------------------------------
-     end of style                ST_CENTER
 ---------------------------------------------------------------------
      character                 _
 ---------------------------------------------------------------------
@@ -41,7 +44,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -68,7 +71,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -95,7 +98,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -122,7 +125,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -149,7 +152,7 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -176,10 +179,10 @@
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -206,7 +209,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            19 (G_FLEXA)
+       glyph_type            20 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
@@ -216,7 +219,7 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -242,13 +245,13 @@
          pitch                  a
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
-     space                   5 (SP_LARGER_SPACE)
+     type                    7 (GRE_SPACE)
+     space                   6 (SP_LARGER_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            19 (G_FLEXA)
+       glyph_type            20 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
@@ -258,7 +261,7 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -282,13 +285,13 @@
          pitch                  a
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    13 (GRE_SPACE)
-     space                   6 (SP_GLYPH_SPACE)
+     type                    7 (GRE_SPACE)
+     space                   7 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            19 (G_FLEXA)
+       glyph_type            20 (G_FLEXA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
@@ -298,10 +301,10 @@
          pitch                  c
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -333,7 +336,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -365,7 +368,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -397,7 +400,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -429,7 +432,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -461,7 +464,7 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -493,10 +496,10 @@
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -528,7 +531,7 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -560,7 +563,7 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -592,7 +595,7 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -624,7 +627,7 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -656,7 +659,7 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -688,6 +691,6 @@
          above hepisema size    0 (H_NORMAL)
          above hepisema bridge  true
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    6 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================

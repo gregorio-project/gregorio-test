@@ -1,0 +1,5 @@
+name: centering edge cases;
+generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+%%
+(c3)Centering edge cases(g) (::Z)
+<e>cla</e>ra(g) <e>clar</e>a(g) clar<e>a</e>(g) cla<e>ra</e>(g) <v>\textbf{cla}</v>ra(g) <v>\textbf{clar}</v>a(g) clar<v>\textbf{a}</v>(g) cla<v>\textbf{ra}</v>(g) <sp>cla</sp>ra(g) <sp>clar</sp>a(g) clar<sp>a</sp>(g) cla<sp>ra</sp>(g) <ul>cl</ul><ul>a</ul>ra(g) <ul>cl</ul><ul>a</ul><ul>r</ul>a(g) clar<ul>a</ul>(g) cla<ul>ra</ul>(g) 

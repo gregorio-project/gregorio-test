@@ -1,0 +1,51 @@
+{
+   <kpathsea_brace_expand>
+   Memcheck:Leak
+   match-leak-kinds: all
+   fun:malloc
+   fun:xmalloc
+   ...
+   fun:kpathsea_brace_expand
+   ...
+}
+{
+   <kpathsea_find_file_generic>
+   Memcheck:Leak
+   match-leak-kinds: all
+   fun:*alloc
+   fun:x*alloc
+   ...
+   fun:kpathsea_find_file_generic
+   fun:gregorio_kpse_find
+   ...
+}
+{
+   <kpathsea_set_program_name>
+   Memcheck:Leak
+   match-leak-kinds: all
+   fun:*alloc
+   fun:x*alloc
+   ...
+   fun:kpathsea_set_program_name
+   ...
+}
+{
+   <kpathsea_init_format>
+   Memcheck:Leak
+   match-leak-kinds: all
+   fun:malloc
+   fun:xmalloc
+   ...
+   fun:kpathsea_init_format
+   ...
+}
+{
+   <kpathsea_var_value>
+   Memcheck:Leak
+   match-leak-kinds: all
+   fun:*alloc
+   fun:x*alloc
+   ...
+   fun:kpathsea_var_value
+   ...
+}

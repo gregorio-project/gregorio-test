@@ -1,6 +1,5 @@
 %issue: #98
 %notes: Inconsistent baseline for above-line text
-initial-style: 0;
 %%
 (c4) Test(cd) test (cd)
 <alt>Alt</alt> (:) Test(cd) test (cd)

@@ -2,6 +2,13 @@
  SCORE INFOS
 =====================================================================
    number_of_voices          1
+   name                      bivirga, bistropha, etc.
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      bivirga, bistropha, etc.
 
 
 =====================================================================
@@ -14,7 +21,29 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            25 (G_BIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  6 (S_VIRGA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -22,6 +51,8 @@
      character                 g
 ---------------------------------------------------------------------
      character                 v
+---------------------------------------------------------------------
+     character                 g
 ---------------------------------------------------------------------
      character                 v
 ---------------------------------------------------------------------
@@ -40,35 +71,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
-   position                  4 (WORD_ONE_SYLLABLE)
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 v
----------------------------------------------------------------------
-     character                 g
----------------------------------------------------------------------
-     character                 v
----------------------------------------------------------------------
-     end of style                ST_CENTER
----------------------------------------------------------------------
-     type                    3 (GRE_ELEMENT)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            25 (G_BIVIRGA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  6 (S_VIRGA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  6 (S_VIRGA)
-=====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -100,7 +103,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -136,7 +139,7 @@
          pitch                  g
          shape                  6 (S_VIRGA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -156,13 +159,13 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -184,13 +187,13 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -212,17 +215,17 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -248,20 +251,20 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -280,18 +283,18 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -312,18 +315,18 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -344,22 +347,22 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            29 (G_TRISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -384,22 +387,22 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            29 (G_TRISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -424,18 +427,18 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            27 (G_DISTROPHA)
-       liquescentia          8 (L_AUCTA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
+         shape                  16 (S_STROPHA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
 ---------------------------------------------------------------------
      beginning of style          ST_CENTER
@@ -463,32 +466,851 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
+       glyph_type            13 (G_STROPHA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  2 (GRE_GLYPH)
-       glyph_type            14 (G_STROPHA)
-       liquescentia          8 (L_AUCTA)
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
-         type                   1 (GRE_NOTE)
-         pitch                  g
-         shape                  15 (S_STROPHA)
-         liquescentia           8 (L_AUCTA)
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
-     type                    12 (GRE_END_OF_LINE)
-     sub_type                15 (GRE_END_OF_PAR)
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            13 (G_STROPHA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            13 (G_STROPHA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            26 (G_TRIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            26 (G_TRIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            29 (G_TRISTROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            29 (G_TRISTROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 <
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 >
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+         liquescentia           1 (L_DEMINUTUS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 <
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 >
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 v
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            26 (G_TRIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            25 (G_BIVIRGA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            26 (G_TRIVIRGA)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            26 (G_TRIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            12 (G_VIRGA)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+         liquescentia           1 (L_DEMINUTUS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            25 (G_BIVIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  6 (S_VIRGA)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 <
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 >
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 V
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+       liquescentia          4 (L_AUCTUS_DESCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+         liquescentia           4 (L_AUCTUS_DESCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+         liquescentia           1 (L_DEMINUTUS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            37 (G_VIRGA_REVERSA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  7 (S_VIRGA_REVERSA)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 <
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 >
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            29 (G_TRISTROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            27 (G_DISTROPHA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            29 (G_TRISTROPHA)
+       liquescentia          2 (L_AUCTUS_ASCENDENS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+         liquescentia           2 (L_AUCTUS_ASCENDENS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            29 (G_TRISTROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            13 (G_STROPHA)
+       liquescentia          1 (L_DEMINUTUS)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+         liquescentia           1 (L_DEMINUTUS)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            27 (G_DISTROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  16 (S_STROPHA)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
 =====================================================================

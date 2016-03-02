@@ -5,7 +5,19 @@
    name                      probare omnia capita
    gabc_copyright            Matt 10:8b
    score_copyright           nescio
-   office_part               introitus?
+   author                    Innominatus
+   mode                      6
+   mode_modifier             t.
+   mode_differentia          C
+
+
+=====================================================================
+ HEADERS
+=====================================================================
+   name                      probare omnia capita
+   gabc-copyright            Matt 10:8b
+   score-copyright           nescio
+   office-part               introitus?
    occasion                  numquam
    meter                     nihil
    commentary                invocatio
@@ -13,14 +25,22 @@
    author                    Innominatus
    date                      xxi c
    manuscript                ms
-   manuscript_reference      quid?
-   manuscript_storage_place  utopia
+   manuscript-reference      quid?
+   manuscript-storage-place  utopia
    book                      Liber scriptus
    transcriber               petrus (non sanctus)
-   transcription_date        2009
+   transcription-date        2009
    mode                      6
-   initial_style             2
-   user_notes                of course, it doesn't make sense to use all at once
+   mode-modifier             t.
+   mode-differentia          C
+   user-notes                this file just shows all the possible header fields
+   user-notes                of course, it doesn't make sense to use all at once
+   annotation                IN.
+   annotation                III.
+   language                  Latin
+   x-extheader1              external header 1
+   x-ext-header-2            external header 2
+   x-extheader1              external header 3
 
 
 =====================================================================
@@ -35,37 +55,17 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
----------------------------------------------------------------------
-     beginning of style         ST_INITIAL
 ---------------------------------------------------------------------
      character                 I
 ---------------------------------------------------------------------
-     end of style               ST_INITIAL
----------------------------------------------------------------------
-     beginning of style          ST_CENTER
----------------------------------------------------------------------
-     beginning of style      ST_FIRST_WORD
----------------------------------------------------------------------
-     beginning of style   ST_FIRST_SYLLABLE
----------------------------------------------------------------------
-     beginning of style   ST_FIRST_SYLLABLE_INITIAL
----------------------------------------------------------------------
      character                 N
----------------------------------------------------------------------
-     end of style         ST_FIRST_SYLLABLE_INITIAL
----------------------------------------------------------------------
-     end of style         ST_FIRST_SYLLABLE
----------------------------------------------------------------------
-     end of style            ST_FIRST_WORD
----------------------------------------------------------------------
-     end of style                ST_CENTER
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            19 (G_FLEXA)
+       glyph_type            20 (G_FLEXA)
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -77,7 +77,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 n
@@ -97,7 +97,7 @@
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  2 (WORD_MIDDLE)
 ---------------------------------------------------------------------
      character                 m
@@ -111,7 +111,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            17 (G_PODATUS)
+       glyph_type            18 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -121,7 +121,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 n
@@ -141,7 +141,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 J
@@ -155,7 +155,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            17 (G_PODATUS)
+       glyph_type            18 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -165,7 +165,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      9 (GRE_SYLLABLE)
+   type                      5 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 s

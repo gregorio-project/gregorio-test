@@ -1,0 +1,5 @@
+%issue: 715
+%notes: space around alterations mid-line
+name: fix-715;
+%%
+ab(g)c(gxg) c(gxg) (,) d(gxg) 

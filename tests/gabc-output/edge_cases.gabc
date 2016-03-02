@@ -1,0 +1,13 @@
+name: edge cases;
+mode: 6;
+mode-modifier: t.;
+mode-differentia: c\raise0.5ex\hbox{\small2};
+user-notes: multiline
+note;;
+%%
+% don't change the TAB in the following line!
+(f3) 1(kj) \2(d) &3(gig) (,)	4(j) #5(ded...) 6(i'')
+7(c)8(d)9.(e_) (:)
+10,(iv/ivGE) (,) 11(fgh)12(d) (,) 13(i) 14<sp>a
+b</sp>cd(ivHF/0) <v></v>15.(jkj___)
+16() 17(f..) 18(gZg) 19[](g) 20(z0c2) 21(l) 22(::c3) (::)

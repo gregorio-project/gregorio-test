@@ -1,7 +1,16 @@
-%notes: styles, verb and special characters
-initial-style: 0;
+name: styles, verb and special characters;
 %%
 <i>italics</i><b>bold</b><ul>underline</ul><sp>+</sp><v>a</v>(gZ)
 <a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
 <sc>Small Caps</sc>(e) x<c>colored</c>(eZ)
 <i>Italic<b>Bold<sc>Small<c>Colored</c>Caps</sc>Face</b>Font</i>(iZ)
+<b>Bold<tt>Teletype</tt>Font</b>(gZ)
+<b>Bold</b>(c) <sc>Small Caps</sc>(d) <c>Colored</c>(e) <i>Italics</i>(f)
+<tt>Teletype</tt>(g) <ul>Underlined</ul>(h) <e>elision</e>(iZ)
+Mis-<i>matched</b>(g) With <b>C<i>{e</i>n}te</b>r(g) Cen<b>t{e}r</b>(g)
+Double <b>bo<b>l</b>d</b>(g)
+<i>{<b>Bold</b>}</i>(g)
+<i>Nested<i><v> </v>italics</i></i>(h)
+Test<i>Re<b>pe<i>ated</i></b> Sty</i>les(i)
+Test<i>Re<b>p<tt>e<i>ated</i></b> S</tt>ty</i>les(i)
+M<i>id<b>dle <ul>cl</b>ose</ul> test</i>(f)

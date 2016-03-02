@@ -1,0 +1,36 @@
+% !TEX TS-program = LuaLaTeX+se
+\documentclass[12pt]{article}
+
+\usepackage[autocompile,debug=barspacing]{gregoriotex}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+\gresetbarspacing{new}
+\gabcsnippet{(c3) <alt>End of line</alt>
+TU(ig) es(ij) Pe(i)trus,(i) *(,) et(i) su(i)per(g) hanc(hg) pe(e)tram(e)
+test(gggggggggggg)
+<v>\hbox to 0pt{\rule{0.4pt}{1cm}}etc.\hbox to 0pt{\rule{0.4pt}{1cm}}</v>(::z)
+TU(ig) es(ij) Pe(i)trus,(i) *(,) et(i) su(i)per(g) hanc(hg) pe(e)tram(e)
+test(gggggggggggg)
+<v>\hbox to 0pt{\rule{0.4pt}{1cm}}etc.\hbox to 0pt{\rule{0.4pt}{1cm}}</v>(::Z)
+test(g)
+}
+
+\end{document}
