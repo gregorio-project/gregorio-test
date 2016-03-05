@@ -1,0 +1,4 @@
+name: fix-1015;
+nabc-lines: 1;
+%%
+po(c|po) po<sp>~</sp>(c|po~) choralsign(e[cn:po~]) lowchoralsign(e[cn:po~]f)
