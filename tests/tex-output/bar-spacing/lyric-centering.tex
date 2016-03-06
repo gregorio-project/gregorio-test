@@ -1,0 +1,64 @@
+% !TEX program = LuaLaTeX+se
+\documentclass{article}
+
+\usepackage[debug=barspacing]{gregoriotex}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+\gresetbarspacing{new}
+
+\gresetlyriccentering{vowel}
+{\Large Vowel Centering}
+\gabcsnippet{(c3) 
+Te(ghgghgghg) (`) bbbtest(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhhtest(g) (Z)}
+
+\bigskip
+\gresetlyriccentering{syllable}
+\gresetgabcforcecenters{prohibit}
+{\Large Forced Centers Prohibited}
+{\Large Syllable Centering}
+\gabcsnippet{(c3) 
+Te(ghgghgghg) (`) bbbt{e}st(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhht{e}st(g) (Z)}
+
+\bigskip
+\gresetlyriccentering{firstletter}
+{\Large First Letter Centering}
+\gabcsnippet{(c3) 
+Te(ghgghgghg) (`) bbbt{e}st(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhht{e}st(g) (Z)}
+
+\gresetlyriccentering{syllable}
+\gresetgabcforcecenters{allow}
+{\Large Forced Centers Allowed}
+{\Large Syllable Centering}
+\gabcsnippet{(c3) 
+Te(ghgghgghg) (`) bbbt{e}st(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhht{e}st(g) (Z)}
+
+\bigskip
+\gresetlyriccentering{firstletter}
+{\Large First Letter Centering}
+\gabcsnippet{(c3) 
+Te(ghgghgghg) (`) bbbt{e}st(g) Te(ghgghgghg) (;) ccctest(g) Te(ghgghgghg) (::) dddtest(g) (Z)
+Te(ghgghgghg)(`)ffftest(g) Te(ghgghgghg)(;)gggtest(g) Te(ghgghgghg)(::)hhht{e}st(g) (Z)}
+
+\end{document}
