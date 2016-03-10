@@ -217,7 +217,13 @@ function gabc_gtex_test {
     testing "$filename" "$filename.result" "gabc_gtex_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $gregorio -Wv $deprecation -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -283,7 +289,13 @@ function gabc_dump_test {
     testing "$filename" "$filename.result" "gabc_dump_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $gregorio -Wv $deprecation -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -345,7 +357,13 @@ function gabc_gabc_test {
     testing "$filename" "$filename.result" "gabc_gabc_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $gregorio -Wv $deprecation -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
