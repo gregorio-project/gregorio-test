@@ -2,7 +2,7 @@ name: double-clef;
 %%
 (f2@c3)
 g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
-(z0::c1@c4)
+(g z0::c1@c4)
 g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
 (z0::c1@f4)
 g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)
