@@ -10,7 +10,8 @@ Each branch on this repository should correspond to the matching branch (i.e. th
 ### TeXLive 2014
 
 When testing with TeXLive 2014 the following tests are known to fail due to differences between it and TeXLive 2015:
-  -`tex-output/clef-change/clef-change.tex`
+  -`gabc-output/glyphs/clef_change.tex`
+  -`tex-output/bugs/fix-508/fix-508.tex`
 
 
 ## Running the test suite

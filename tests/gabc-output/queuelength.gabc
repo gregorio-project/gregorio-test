@@ -7,3 +7,6 @@ open(aqb) long(bqc) open(cqd) long(dqe) short(eqf) long(fqg) short(gqh) long(hqi
 short(aqc) long(bqd) short(cqe) long(dqf) short(eqg) long(fqh) short(gqi) long(hqj) short(iqk) long(jql) short(kqm) (:)
 long(bab) short(cbc) long(dcd) short(ede) long(fef) short(gfg) long(hgh) short(ihi) long(jij) short(kjk) long(lkl) short(mlm) (:)
 short(cac) short(dbd) short(ece) short(fdf) short(geg) short(hfh) short(igi) short(jhj) short(kik) short(ljl) short(mkm) (:)
+open(aV) open(bV) open(cV) open(dV) short(eV) long(fV) short(gV) long(hV) short(iV) long(jV) short(kV) long(lV) short(mV) (:)
+open(aO0) open(bO0) open(cO0) open(dO0) short(eO0) long(fO0) short(gO0) long(hO0) short(iO0) long(jO0) short(kO0) long(lO0) short(mO0) (:)
+open(aO1) open(bO1) open(cO1) open(dO1) short(eO1) long(fO1) short(gO1) long(hO1) short(iO1) long(jO1) short(kO1) long(lO1) short(mO1) (:)
