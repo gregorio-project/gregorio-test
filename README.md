@@ -5,14 +5,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Repository Alignment
 
-Each branch on this repository should correspond to the matching branch (i.e. the one with the same name) in the [main repository](https://github.com/gregorio-project/gregorio).  That is, all the tests should pass when run against that branch with TeXLive 2015.  Thus all new development in the main repository should create a corresponding branch here.  The exception to this is a branch which should not break any existing test and requires no new tests.  In this instance, it's acceptable to simply indicate that all tests on the develop (or master) branch here should pass.
+Each branch on this repository should correspond to the matching branch (i.e.
+the one with the same name) in the
+[main repository](https://github.com/gregorio-project/gregorio).  That is, all
+the tests should pass when run against that branch with TeXLive 2015.  Thus all
+new development in the main repository should create a corresponding branch
+here.  The exception to this is a branch which should not break any existing
+test and requires no new tests.  In this instance, it's acceptable to simply
+indicate that all tests on the develop (or master) branch here should pass.
 
 ### TeXLive 2014
 
-When testing with TeXLive 2014 the following tests are known to fail due to differences between it and TeXLive 2015:
+When testing with TeXLive 2014 the following tests are known to fail due to
+differences between it and TeXLive 2015:
   -`gabc-output/glyphs/clef_change.tex`
   -`tex-output/bugs/fix-508/fix-508.tex`
-
 
 ## Running the test suite
 
@@ -26,9 +33,15 @@ itself for more information.  See `example.gregorio-test.rc` for an example.
 
 ## Test Types
 
-This project provides a harness for repeatable testing of Gregorio.
-Tests should be placed in the tests directory, within the proper
-subdirectory depending on type.  The following types are supported:
+This project provides a harness for repeatable testing of Gregorio.  Tests
+should be placed in one of the `tests`, `longtests`, or `backwards`
+directories, within the proper subdirectory depending on type.
+
+Tests in the `tests` directory and `backwards` directory are run normally.
+Tests in the `longtests` directory are only run when the `-L` flag is
+passed to `gregorio-test.sh`.
+
+The following test types are supported:
 
 #### gabc-gtex
 
@@ -53,6 +66,17 @@ produce an text dump file and compares it with an expected output file.
 Requirements:
 
 - Every gabc file must have a corresponding "expected" dump file.
+
+#### gabc-gabc
+
+This test runs gregorio against each gabc file in this directory to
+produce a gabc file (as interpreted by gregorio) and compares it with an
+expected output file (with a `.exp` extension).
+
+Requirements:
+
+- Every gabc file must have a corresponding "expected" gabc file (with a
+`.exp` extension).
 
 #### gabc-output
 
@@ -119,6 +143,34 @@ The PDFs are compared by first converting the pages to PNG files with
 imagemagick's convert and then compared using imagemagick's compare and
 the AE metric.
 
+#### scripted
+
+This test runs every shell script (`.sh` extension) in this directory
+and passes the test if the script exits with a `0` return code.  This
+places the responsibility for checking for success on the script
+itself.  These tests have no "expected" files and the results may not
+be viewed by using `gregorio-test.sh`.
+
+Requirements:
+
+- Each shell script should check for success and exit with the `0`
+  return code if the test is successful.
+
+### Tests for backwards compatibility (deprecated features)
+
+Tests that are under the `backwards` top-level directory should test
+that deprecated features are working correctly.  They should be named
+with `_B` before the extension of the filename.  This naming convention
+causes `gregorio-test.sh` to allow deprecated usage so that deprecated
+features may be tested correctly.
+
+### Tests for things that should fail
+
+If a test is in a directory named `should-fail` somewhere underneath
+the test type directory, `gregorio-test.sh` will run the test as usual,
+but assert that the test fails to compile the test document.  Should
+compilation fail, the test will pass.
+
 ## Creating "Expected" Files
 
 For a new test:
@@ -165,7 +217,7 @@ Such magic comments may be harvested in the future.
 
 ```
 Gregorio Tests
-Copyright (C) 2015 The Gregorio Project
+Copyright (C) 2015-2016 The Gregorio Project
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
