@@ -1,7 +1,8 @@
 name: stropha;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 4.1.1-develop-25cf1cd-3604;
 %%
 (c3)gs(gs) gs<(gs<) gss(gsgs) gsss(gsgsgs) gsss< (gsgsgs<) (:)
 hs(hs) hs<(hs<) hss(hshs) gsss(hshshs) gsss< (hshshs<) (:)
-gs>(gs<) gss>(gsgs<) gsss>(gsgsgs<) hs>(hs<) hss>(hshs<) hsss>(hshshs<) (::)
+gs>(gs<) gss>(gsgs<) gsss>(gsgsgs<) hs>(hs<) hss>(hshs<) hsss>(hshshs<) (:)
+hvgs(hvgs) hvgss(hv/gsgs) hvgsgs(hv/gsgs) hvgs<gs(hvgs</gs) hvgs<gs<(hvgs</gs<)(::)
 
