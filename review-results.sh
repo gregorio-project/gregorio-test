@@ -53,7 +53,7 @@ do
                     ;;
                 *)
                     echo "Invalid choice"
-                    action="-d"
+                    action=${ACTION:--d}
                     ;;
             esac
         done
