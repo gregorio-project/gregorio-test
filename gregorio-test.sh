@@ -406,6 +406,11 @@ test|retest)
             then
                 overall_result=1
             fi
+            if $progress_bar
+            then
+                count=$($FIND . -name '*.result' | wc -l)
+                progress $count
+            fi
         done
         exit $overall_result
     ) &
