@@ -391,8 +391,8 @@ test|retest)
         function progress {
             # adapted from http://stackoverflow.com/questions/238073
             let percent=$(((${1}*100/$total*100)/100))
-            let completed=$(((${percent}*4)/10))
-            let remaining=$((40-$completed))
+            let completed=$(((${percent}*5)/10))
+            let remaining=$((50-$completed))
             fill=$(printf "%${completed}s")
             empty=$(printf "%${remaining}s")
             printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
@@ -405,6 +405,11 @@ test|retest)
             if ! ${group}_find | filter | $XARGS -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
+            fi
+            if $progress_bar
+            then
+                count=$($FIND . -name '*.result' | wc -l)
+                progress $count
             fi
         done
         exit $overall_result
