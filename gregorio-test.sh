@@ -359,8 +359,8 @@ test|retest)
         export TEXMFVAR=$(realpath var/texmf-var)
 
         if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" \
-            CP="rsync -Lci" INSTALLDOCS=false INSTALLEXAMPLES=false \
-            INSTALLSOURCES=false ./install-gtex.sh user)
+            CP="rsync -Lci" SKIP=docs,examples,font-sources \
+            ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 8
