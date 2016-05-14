@@ -480,8 +480,8 @@ function typeset_and_compare {
             if $verify "$texfile"
             then
                 if cd "$outdir" && mkdir expected && \
-                    convert -density 150 "../$pdffile" expected/page.png && \
-                    convert -density 150 "$pdffile" page.png
+                    convert -density 300 "../$pdffile" expected/page.png && \
+                    convert -density 300 "$pdffile" page.png
                 then
                     declare -a failed
                     for name in page*.png

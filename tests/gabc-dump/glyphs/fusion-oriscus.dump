@@ -49,7 +49,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -88,7 +88,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -127,7 +127,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -166,7 +166,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -209,7 +209,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -261,7 +261,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -313,7 +313,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -365,7 +365,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -421,7 +421,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  6 (GRE_SPACE)
@@ -480,7 +480,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -532,7 +532,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -588,7 +588,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  6 (GRE_SPACE)
@@ -647,7 +647,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  6 (GRE_SPACE)
@@ -708,7 +708,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -768,7 +768,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  6 (GRE_SPACE)
        space                 3 (SP_ZERO_WIDTH)
@@ -818,7 +818,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -879,7 +879,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -944,7 +944,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -996,7 +996,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1042,7 +1042,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1083,7 +1083,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
@@ -1141,7 +1141,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
@@ -1199,7 +1199,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
@@ -1259,7 +1259,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
          signs                  16 (_V_EPISEMA)
          auto hepisema size     0 (H_NORMAL)
@@ -1321,7 +1321,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
@@ -1363,7 +1363,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            17 (G_PODATUS)
@@ -1402,7 +1402,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -1447,7 +1447,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1484,7 +1484,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1530,7 +1530,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1576,7 +1576,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1622,7 +1622,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1668,7 +1668,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1714,7 +1714,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1756,7 +1756,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1793,7 +1793,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1835,7 +1835,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1843,7 +1843,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1852,7 +1852,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1889,7 +1889,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1923,7 +1923,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1956,7 +1956,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1989,7 +1989,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -2022,7 +2022,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -2055,7 +2055,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -2088,7 +2088,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -2098,6 +2098,45 @@
          pitch                  f
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                 @
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 o
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 f
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  h
+         shape                  1 (S_PUNCTUM)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            19 (G_FLEXA)
+       liquescentia          32 (L_FUSED)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  12 (S_ORISCUS_DESCENDENS)
+         liquescentia           32 (L_FUSED)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  f
+         shape                  1 (S_PUNCTUM)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2131,7 +2170,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  11 (S_ORISCUS_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          liquescentia           32 (L_FUSED)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
