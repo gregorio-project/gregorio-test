@@ -1,0 +1,15 @@
+name: newlines;
+%%
+(c3)
+one(f) two(g)
+three
+four(h)
+five
+
+six(i)
+seven
+(j)
+eignt
+ 
+nine(k)
+(::)
