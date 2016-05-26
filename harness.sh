@@ -17,6 +17,7 @@
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDFLATEX="$testroot/run-lualatex.sh %D %O %S"
+export PDF_DENSITY="${PDF_DENSITY:-300}"
 
 if $use_valgrind
 then
@@ -480,8 +481,8 @@ function typeset_and_compare {
             if $verify "$texfile"
             then
                 if cd "$outdir" && mkdir expected && \
-                    convert -density 300 "../$pdffile" expected/page.png && \
-                    convert -density 300 "$pdffile" page.png
+                    convert -density $PDF_DENSITY "../$pdffile" expected/page.png && \
+                    convert -density $PDF_DENSITY "$pdffile" page.png
                 then
                     declare -a failed
                     for name in page*.png

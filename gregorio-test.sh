@@ -34,6 +34,7 @@
 # DIFF_PDF      string   the command to use for a PDF diff; expands {expect}
 #                        into the filename of the expected result and {output}
 #                        into the filename of the actual result.
+# PDF_DENSITY   integer  the dpi to use for the pdf comparison.
 
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
