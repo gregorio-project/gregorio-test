@@ -608,7 +608,8 @@ function gabc_output_clean {
     filebase="${filename%.gabc}"
 
     clean_typeset_result "$filename" gabc
-    $RM -f "$filebase"-*.gtex "$filebase.tex"
+    $RM -f "$filebase"-*.gtex "$filebase"-*.glog "$filebase-preamble.tex" \
+        "$filebase.tex"
 }
 function gabc_output_accept {
     accept_typeset_result "$1" gabc
