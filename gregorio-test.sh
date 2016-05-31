@@ -35,6 +35,7 @@
 #                        into the filename of the expected result and {output}
 #                        into the filename of the actual result.
 # PDF_DENSITY   integer  the dpi to use for the pdf comparison.
+# SKIP_TESTS    array    tests to skip
 
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
@@ -277,6 +278,19 @@ then
     C_RESET="$(tput sgr0 2>/dev/null)"
 fi
 
+declare -A tests_to_skip
+typeof_SKIP_TESTS="$(declare -p SKIP_TESTS 2>/dev/null)"
+if [[ "$typeof_SKIP_TESTS" = 'declare -a '* ]]
+then
+    for t in $SKIP_TESTS
+    do
+        tests_to_skip[$t]=1
+    done
+elif [[ "$typeof_SKIP_TESTS" = 'declare -- '* ]]
+then
+    tests_to_skip[$SKIP_TESTS]=1
+fi
+
 source harness.sh
 
 if [ ! -d tests ]
@@ -303,7 +317,10 @@ then
     function filter {
         while read line
         do
-            echo $line
+            if [ "${tests_to_skip[$line]}" != "1" ]
+            then
+                echo $line
+            fi
         done
     }
 else
@@ -321,7 +338,7 @@ else
     function filter {
         while read line
         do
-            if [ "${tests_to_run[$line]}" = "1" ]
+            if [ "${tests_to_run[$line]}" = "1" -a "${tests_to_skip[$line]}" != "1" ]
             then
                 echo $line
             fi
