@@ -34,6 +34,8 @@
 # DIFF_PDF      string   the command to use for a PDF diff; expands {expect}
 #                        into the filename of the expected result and {output}
 #                        into the filename of the actual result.
+# PDF_DENSITY   integer  the dpi to use for the pdf comparison.
+# SKIP_TESTS    array    tests to skip
 
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
@@ -276,6 +278,19 @@ then
     C_RESET="$(tput sgr0 2>/dev/null)"
 fi
 
+declare -A tests_to_skip
+typeof_SKIP_TESTS="$(declare -p SKIP_TESTS 2>/dev/null)"
+if [[ "$typeof_SKIP_TESTS" = 'declare -a '* ]]
+then
+    for t in $SKIP_TESTS
+    do
+        tests_to_skip[$t]=1
+    done
+elif [[ "$typeof_SKIP_TESTS" = 'declare -- '* ]]
+then
+    tests_to_skip[$SKIP_TESTS]=1
+fi
+
 source harness.sh
 
 if [ ! -d tests ]
@@ -302,7 +317,10 @@ then
     function filter {
         while read line
         do
-            echo $line
+            if [ "${tests_to_skip[$line]}" != "1" ]
+            then
+                echo $line
+            fi
         done
     }
 else
@@ -320,7 +338,7 @@ else
     function filter {
         while read line
         do
-            if [ "${tests_to_run[$line]}" = "1" ]
+            if [ "${tests_to_run[$line]}" = "1" -a "${tests_to_skip[$line]}" != "1" ]
             then
                 echo $line
             fi
@@ -358,7 +376,9 @@ test|retest)
         export TEXMFCONFIG=$(realpath var/texmf-config)
         export TEXMFVAR=$(realpath var/texmf-var)
 
-        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" CP="rsync -Lci" ./install-gtex.sh user)
+        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" \
+            CP="rsync -Lci" SKIP=docs,examples,font-sources \
+            ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 8
@@ -391,8 +411,8 @@ test|retest)
         function progress {
             # adapted from http://stackoverflow.com/questions/238073
             let percent=$(((${1}*100/$total*100)/100))
-            let completed=$(((${percent}*4)/10))
-            let remaining=$((40-$completed))
+            let completed=$(((${percent}*5)/10))
+            let remaining=$((50-$completed))
             fill=$(printf "%${completed}s")
             empty=$(printf "%${remaining}s")
             printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
@@ -405,6 +425,11 @@ test|retest)
             if ! ${group}_find | filter | $XARGS -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
+            fi
+            if $progress_bar
+            then
+                count=$($FIND . -name '*.result' | wc -l)
+                progress $count
             fi
         done
         exit $overall_result

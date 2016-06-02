@@ -1,9 +1,15 @@
+%%%%%%%%%%%%%%%%%%
+%% TeXLive 2016 compatibility
+\ifdefined\pagewidth                   \let\pdfpagewidth       \pagewidth                  \fi
+\ifdefined\pageheight                  \let\pdfpageheight      \pageheight                 \fi
+%%%%%%%%%%%%%%%%%%
+
 \pdfpagewidth210mm
 \pdfpageheight297mm
 \input gregoriotex
 \gre@allowdeprecatedfalse
 \grechangedim{afterinitialshift}{2.2mm}{scalable}
-\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{beforeinitialshift}{afterinitialshift}{inherited}
 \font\alegreya = [../../../fonts/Alegreya-Regular.otf] at 12pt\relax
 \alegreya
 \gregorioscore[a]{PopulusSion}

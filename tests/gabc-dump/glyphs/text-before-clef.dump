@@ -75,7 +75,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  14 (S_QUILISMA)
+         shape                  16 (S_QUILISMA)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -166,7 +166,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  10 (S_ORISCUS_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -224,11 +224,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  3 (S_PUNCTUM_INCLINATUM)
+         shape                  3 (S_PUNCTUM_INCLINATUM_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  3 (S_PUNCTUM_INCLINATUM)
+         shape                  3 (S_PUNCTUM_INCLINATUM_ASCENDENS)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
