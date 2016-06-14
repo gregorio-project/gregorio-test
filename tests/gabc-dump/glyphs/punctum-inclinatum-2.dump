@@ -1403,15 +1403,18 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
+       is_cavum              true
        liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
+         shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
+         is_cavum               true
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1435,15 +1438,18 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            6 (G_2_PUNCTA_INCLINATA_ASCENDENS)
+       is_cavum              true
        liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  d
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
+         shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
+         is_cavum               true
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1471,11 +1477,13 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            6 (G_2_PUNCTA_INCLINATA_ASCENDENS)
+       is_cavum              true
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
+         shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
+         is_cavum               true
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)

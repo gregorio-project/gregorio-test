@@ -374,7 +374,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  41 (S_LINEA)
+         shape                  33 (S_LINEA)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -394,7 +394,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  41 (S_LINEA)
+         shape                  33 (S_LINEA)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -820,21 +820,26 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -861,22 +866,27 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
+       is_cavum              true
        liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
+         shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
+         is_cavum               true
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -906,18 +916,22 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            10 (G_PUNCTA_INCLINATA)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
 =====================================================================
@@ -944,18 +958,22 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            3 (G_3_PUNCTA_INCLINATA_DESCENDENS)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -974,11 +992,13 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
+       is_cavum              true
        liquescentia          2 (L_AUCTUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  25 (S_PUNCTUM_CAVUM_INCLINATUM_AUCTUS)
+         shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
+         is_cavum               true
          liquescentia           2 (L_AUCTUS_ASCENDENS)
 ---------------------------------------------------------------------
      type                    5 (GRE_END_OF_LINE)
@@ -1205,10 +1225,12 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  26 (S_ORISCUS_CAVUM_ASCENDENS)
+         shape                  11 (S_ORISCUS_ASCENDENS)
+         is_cavum               true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1229,10 +1251,12 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  27 (S_ORISCUS_CAVUM_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
+         is_cavum               true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1257,11 +1281,13 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  28 (S_ORISCUS_CAVUM_DEMINUTUS)
+         shape                  13 (S_ORISCUS_DEMINUTUS)
+         is_cavum               true
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1295,28 +1321,34 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  21 (S_PUNCTUM_CAVUM)
+         shape                  1 (S_PUNCTUM)
+         is_cavum               true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         is_cavum               true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  27 (S_ORISCUS_CAVUM_DESCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
+         is_cavum               true
 ---------------------------------------------------------------------
      type                    5 (GRE_END_OF_LINE)
          ragged                 true
@@ -2317,10 +2349,14 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            1 (G_PUNCTUM_INCLINATUM)
+       is_cavum              true
+       liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  24 (S_PUNCTUM_CAVUM_INCLINATUM)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
+         is_cavum               true
+         liquescentia           1 (L_DEMINUTUS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -2345,11 +2381,13 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
+       is_cavum              true
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  28 (S_ORISCUS_CAVUM_DEMINUTUS)
+         shape                  13 (S_ORISCUS_DEMINUTUS)
+         is_cavum               true
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
