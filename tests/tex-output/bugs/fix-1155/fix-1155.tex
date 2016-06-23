@@ -1,0 +1,14 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[debug={general,syllablerewriting}]{gregoriotex}
+\usepackage{libertine}
+\begin{document}
+\grechangecount{endofsyllablepenalty}{-500}%
+\grecreatedim{spacebeforeeolcustos}{0 cm plus 0 cm minus 0 cm}{scalable}%
+\gresethyphenprotrusion{0}
+\def\grelooseness{\looseness}
+%\gresetsyllablerewriting{off}
+\gabcsnippet{(c3) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(gg) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) ammmmmmmmmmmmm(g)g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g)  g(g) g(gg) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) (g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) g(g) Si(g)avvvvv(g) g(g)}
+\end{document}
