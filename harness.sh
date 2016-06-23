@@ -481,14 +481,26 @@ function typeset_and_compare {
             if $verify "$texfile"
             then
                 if cd "$outdir" && mkdir expected && \
-                    convert -density $PDF_DENSITY "../$pdffile" expected/page.png && \
-                    convert -density $PDF_DENSITY "$pdffile" page.png
+                    convert -background white -alpha remove \
+                        -colorspace Gray -separate -average \
+                        -density $PDF_DENSITY "../$pdffile" \
+                        expected/page-%d.png && \
+                    convert -background white -alpha remove \
+                        -colorspace Gray -separate -average \
+                        -density $PDF_DENSITY "$pdffile" \
+                        page-%d.png
                 then
                     declare -a failed
                     for name in page*.png
                     do
-                        if ! compare -metric AE -fuzz 90% "$name" \
-                            "expected/$name" "diff-$name" 2>/dev/null
+                        # trick to do floating point-like comparison in bash
+                        metric=$(compare -metric NCC \
+                            "$name" "expected/$name" null: 2>&1)
+                        metric=$(printf '%.3f' "$metric")
+                        metric=${metric/./}
+                        if (( 10#$metric < 990 ))
+                        #if ! compare -metric AE -fuzz 90% "$name" \
+                        #    "expected/$name" "diff-$name" 2>/dev/null
                         then
                             convert \( -background white -flatten "$name" \) \
                                 \( -background white -flatten "expected/$name" \) \
