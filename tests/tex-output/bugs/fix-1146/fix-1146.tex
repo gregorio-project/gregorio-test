@@ -1,0 +1,17 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{gregoriotex}
+\begin{document}
+
+Normal case: flats must be shifted left a little, but not the last one:
+
+\gabcsnippet{(c4) a{b}bbbbbbb(g) (,) i(gxg) i(ggggggggg) (,) i(gxg) (z0::c3) g(gxg)}
+
+Breaking line after each bar with a big value of \texttt{alterationadjustmenbar}, to check that it doesn't interfere with spacing at the beginning of a line:
+
+\grechangecount{endafterbarpenalty}{-20000}%
+\grechangedim{alterationadjustmentbar}{1 cm}{scalable}%
+
+\gabcsnippet{(c4) a{b}bbbbbbb(g) (,) i(gxg) i(ggggggggg) (,) i(gxg) (z0::c3) g(gxg)}
+
+\end{document}
