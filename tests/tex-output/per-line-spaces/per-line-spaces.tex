@@ -1,0 +1,61 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+% This is a simple template for a LuaLaTeX document using gregorio scores.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+% usual packages loading:
+\usepackage{fontspec}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\usepackage[allowdeprecated=false]{gregoriotex} % for gregorio score inclusion
+\usepackage{fullpage} % to reduce the margins
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+% here we begin the document
+\begin{document}
+
+% The title:
+\begin{center}\begin{huge}\textsc{Populus Sion}\end{huge}\end{center}
+
+% Here we set the space around the initial.
+% Please report to http://home.gna.org/gregorio/gregoriotex/details for more details and options
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+
+% Here we set the initial font. Change 43 if you want a bigger initial.
+\grechangestyle{initial}{%
+\fontsize{43}{43}\selectfont%
+}
+
+% We set red lines here, comment it if you want black ones.
+\gresetlinecolor{gregoriocolor}
+
+% We set VII above the initial.
+\grechangestyle{annotation}{\small\scshape\bfseries}
+\greannotation{VII}
+
+% We type a text in the top right corner of the score:
+\grechangestyle{commentary}{\small\itshape}
+\grecommentary{Cf. Is. 30, 19 . 30 ; Ps. 79}
+
+\grechangenextscorelinedim{2}{spacelinestext}{2cm}{scalable}
+
+% and finally we include the score. The file must be in the same directory as this one.
+\gregorioscore[a]{PopulusSion}
+
+\end{document}
