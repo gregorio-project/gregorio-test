@@ -1208,7 +1208,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  26 (S_ORISCUS_CAVUM_ASCENDENS)
+         shape                  27 (S_ORISCUS_CAVUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
