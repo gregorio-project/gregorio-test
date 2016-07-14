@@ -684,7 +684,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  11 (S_ORISCUS_ASCENDENS)
+         shape                  12 (S_ORISCUS_DESCENDENS)
          is_cavum               true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
