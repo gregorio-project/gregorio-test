@@ -37,6 +37,9 @@
 # PDF_DENSITY   integer  the dpi to use for the pdf comparison.
 # SKIP_TESTS    array    tests to skip
 
+# for predictability in parsing results
+export LC_ALL=C
+
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
 
