@@ -1,0 +1,32 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{papersize={135mm,205mm}}
+\geometry{body={99mm,166mm},heightrounded}
+\geometry{inner=13mm,top=19.5mm}
+\usepackage{gregoriotex}
+\usepackage{libertine}
+
+\grechangedim{spaceafterlineclef}{0.1 cm plus 0 cm minus 0.01367 cm}{scalable}%
+
+\begin{document}
+
+Aligned on largest clef:
+
+\grebolshiftcleftype{largest}
+\gregorioscore[a]{clefchange}
+
+\newpage
+
+Aligned on current clef:
+
+\grelocalbolshiftcleftype{current}
+\gregorioscore[a]{clefchange}
+
+\newpage
+
+Aligned as if all clefs were flatted f clefs:
+
+\grelocalbolshiftcleftype{fb}
+\gregorioscore[a]{clefchange}
+
+\end{document}
