@@ -1,5 +1,6 @@
 name: clef change;
 %%
-(fb4) (g) (f3Z) (g) (c3Z) (g) (c3Z) (g) (cb3Z)
+(f4) A(d) (f3Z) (g) (c3Z) (g) (c3Z) (g) (cb3Z)
 ga(g) (f3Z) ga(g) (c3Z) ga(g) (c3Z) ga(g) (cb3Z)
-gggggga(g) (f3Z) gggggga(g) (c3Z) gggggga(g) (c3Z) gggggga(g) (cb3Z)
+gggggga(g) (f3Z) gggggga(g) (c3Z) gggggga(g) (c3Z) gggggga(g) <v>\grelocalbolshiftcleftype{c}</v>(cb3Z)
+(g)
