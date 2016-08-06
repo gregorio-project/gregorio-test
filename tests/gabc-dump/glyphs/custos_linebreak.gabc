@@ -1,0 +1,10 @@
+name: custos_linebreak;
+%%
+(c3) one(g) change(hz0::c2)
+two(h) change(iz0c3)
+three(i) change(gz0::c2z)
+four(g) change(hz0c3z)
+five(h) change(iz0::c2) (z)
+six(i) change(gz0c3) (z)
+seven(g) change(hz0c2iz)
+eight(i) (::)

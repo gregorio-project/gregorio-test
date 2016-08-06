@@ -1,0 +1,12 @@
+name: custos_linebreak;
+generated-by: gregorio 4.2.0-rc2-develop-b7016b7-3896;
+%%
+(c3)one(g) change(hz0::c2)
+two(h) change(iz0c3) three(i) change(g::c2z)
+four(g) change(hc3z)
+five(h) change(i::c2)
+(z)
+six(i) change(gc3) (z)
+seven(g) change(hz0c2/iz)
+eight(i) (::)
+
