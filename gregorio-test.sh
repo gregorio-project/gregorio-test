@@ -359,9 +359,24 @@ test|retest)
     $long_tests && $CP -Lr longtests/* output
     $CP -Lr backwards/* output
 
-    if [ "$gregorio_dir" != "" ]
+    if [ "$gregorio_dir" = "" ]
     then
-        if [ ! -f "$gregorio_dir/src/gregorio" -o ! -x "$gregorio_dir/src/gregorio" ]
+        gregorio_version=$(grep 'local gregorio_exe ' $(kpsewhich gregoriotex.lua))
+        gregorio_version=${gregorio_version#*\'gregorio-}
+        gregorio_version=${gregorio_version%\'*}
+    else
+        if [ ! -f "$gregorio_dir/.gregorio-version" -o \
+            ! -r "$gregorio_dir/.gregorio-version" ]
+        then
+            echo "$gregorio_dir/.gregorio-version is not readable" >&2
+            exit 8
+        fi
+
+        gregorio_version="$(head -n 1 $gregorio_dir/.gregorio-version)"
+        gregorio_version="${gregorio_version//./_}"
+
+        if [ ! -f "$gregorio_dir/src/gregorio-${gregorio_version}" -o \
+            ! -x "$gregorio_dir/src/gregorio-${gregorio_version}" ]
         then
             echo "$gregorio_dir/src/gregorio is not an executable" >&2
             exit 8
@@ -387,6 +402,8 @@ test|retest)
         echo
     fi
 
+    export gregorio=gregorio-$gregorio_version
+
     if ! gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
     then
         echo "Gregorio is not installed properly or is not statically linked" >&2
@@ -394,7 +411,7 @@ test|retest)
         exit 8
     fi
 
-    echo "Gregorio = $(which gregorio)"
+    echo "Gregorio = $(which $gregorio)"
     echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
     echo
 
