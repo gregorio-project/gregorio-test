@@ -21,9 +21,9 @@ export PDF_DENSITY="${PDF_DENSITY:-300}"
 
 if $use_valgrind
 then
-    export gregorio='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind" gregorio'
+    export grind='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind"'
 else
-    export gregorio='gregorio'
+    export grind=''
 fi
 export LSAN_OPTIONS="suppressions=$testroot/kpathsea.lsan.supp"
 
@@ -224,7 +224,8 @@ function gabc_gtex_test {
     else 
         deprecation=-D
     fi
-    if eval $gregorio -Wv $deprecation -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F gtex \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -296,7 +297,8 @@ function gabc_dump_test {
     else 
         deprecation=-D
     fi
-    if eval $gregorio -Wv $deprecation -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F dump \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -364,7 +366,8 @@ function gabc_gabc_test {
     else 
         deprecation=-D
     fi
-    if eval $gregorio -Wv $deprecation -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F gabc \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
