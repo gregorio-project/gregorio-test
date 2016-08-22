@@ -17,9 +17,8 @@ indicate that all tests on the develop (or master) branch here should pass.
 ### TeXLive 2014
 
 When testing with TeXLive 2014 the following tests are known to fail due to
-differences between it and TeXLive 2015:
-  -`gabc-output/glyphs/clef_change.tex`
-  -`tex-output/bugs/fix-508/fix-508.tex`
+differences between its line breaking algorithms and those in TeXLive 2015 and later:
+  -`gabc-output/double-clef.gabc`
 
 ## Running the test suite
 
