@@ -30,6 +30,7 @@
    transcriber               petrus (non sanctus)
    transcription-date        2009
    mode                      6
+   initial-style             2
    user-notes                this file just shows all the possible header fields
    user-notes                of course, it doesn't make sense to use all at once
    annotation                IN.
@@ -50,7 +51,7 @@
 =====================================================================
  SCORE
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 I
@@ -60,7 +61,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            20 (G_FLEXA)
+       glyph_type            19 (G_FLEXA)
        liquescentia          1 (L_DEMINUTUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -72,7 +73,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           1 (L_DEMINUTUS)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 n
@@ -86,13 +87,13 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  2 (WORD_MIDDLE)
 ---------------------------------------------------------------------
      character                 m
@@ -106,7 +107,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -116,7 +117,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 n
@@ -130,13 +131,13 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  1 (WORD_BEGINNING)
 ---------------------------------------------------------------------
      character                 J
@@ -150,7 +151,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            18 (G_PODATUS)
+       glyph_type            17 (G_PODATUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
@@ -160,7 +161,7 @@
          pitch                  j
          shape                  1 (S_PUNCTUM)
 =====================================================================
-   type                      5 (GRE_SYLLABLE)
+   type                      0 (GRE_SYLLABLE)
    position                  3 (WORD_END)
 ---------------------------------------------------------------------
      character                 s
@@ -174,7 +175,7 @@
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            16 (G_PUNCTUM)
+       glyph_type            15 (G_PUNCTUM)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
