@@ -16,13 +16,14 @@
 
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
-export PDFLATEX='lualatex --shell-escape --debug-format --interaction=scrollmode'
+export PDFLATEX="$testroot/run-lualatex.sh %D %O %S"
+export PDF_DENSITY="${PDF_DENSITY:-300}"
 
 if $use_valgrind
 then
-    export gregorio='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind" gregorio'
+    export grind='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind"'
 else
-    export gregorio='gregorio'
+    export grind=''
 fi
 export LSAN_OPTIONS="suppressions=$testroot/kpathsea.lsan.supp"
 
@@ -217,7 +218,14 @@ function gabc_gtex_test {
     testing "$filename" "$filename.result" "gabc_gtex_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F gtex -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F gtex \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -283,7 +291,14 @@ function gabc_dump_test {
     testing "$filename" "$filename.result" "gabc_dump_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F dump -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F dump \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -345,7 +360,14 @@ function gabc_gabc_test {
     testing "$filename" "$filename.result" "gabc_gabc_clean '$filename'"
 
     export TEXINPUTS="$(dirname "$filename"):"
-    if eval $gregorio -Wv -f gabc -F gabc -o "$outfile" -l "$logfile" "$filename"
+    if [[ "$filename" = *"_B"* ]]
+    then
+        deprecation=
+    else 
+        deprecation=-D
+    fi
+    if eval $grind $gregorio -Wv $deprecation -f gabc -F gabc \
+        -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
         then
@@ -462,8 +484,8 @@ function typeset_and_compare {
             if $verify "$texfile"
             then
                 if cd "$outdir" && mkdir expected && \
-                    convert -density 150 "../$pdffile" expected/page.png && \
-                    convert -density 150 "$pdffile" page.png
+                    convert -density $PDF_DENSITY "../$pdffile" expected/page.png && \
+                    convert -density $PDF_DENSITY "$pdffile" page.png
                 then
                     declare -a failed
                     for name in page*.png
@@ -589,7 +611,8 @@ function gabc_output_clean {
     filebase="${filename%.gabc}"
 
     clean_typeset_result "$filename" gabc
-    $RM -f "$filebase"-*.gtex "$filebase.tex"
+    $RM -f "$filebase"-*.gtex "$filebase"-*.glog "$filebase-preamble.tex" \
+        "$filebase.tex"
 }
 function gabc_output_accept {
     accept_typeset_result "$1" gabc

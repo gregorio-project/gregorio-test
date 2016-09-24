@@ -1,0 +1,18 @@
+%issue: 243
+%notes: Bad alignment of notes with flats/naturals/sharps at the beginning of lines
+%%
+Alterations(g)
+(::Z)
+a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg)
+a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg) a(gxg)
+a(gxg) a(gxg) a(gxg)
+(::Z)
+a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg)
+a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg) a(gyg)
+a(gyg) a(gyg) a(gyg)
+(::Z)
+a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g)
+a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g) a(g#g)
+a(g#g) a(g#g) a(g#g)
+(::Z)
+Fin(g) (::)

@@ -1,10 +1,10 @@
 name: ledger lines;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 4.2.0-beta1-fix-856-7ee4d55-3666;
 %%
-(c4)static over([gv:\GreDrawAdditionalLine{0}{4 cm}{2}{1 cm}{0}{}]lxg_i_h_!iwj.i!jwk!lv_KJ) (:Z)
-static under([gv:\GreDrawAdditionalLine{1}{4 cm}{2}{1 cm}{0}{}]lxg_i_h_!iwj.i!jwk!lv_KJ) (:Z)
-variable over([gv:\GreVarBraceSavePos{1}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{1}}{1}{}{1}{}]lx[hl:1]g_[hl:1]i_[hl:1]h_[hl:1]!iw[hl:1]j.[hl:1]i[hl:1]!jw[hl:1]k[hl:1]!lv_[hl:1][gv:\GreVarBraceSavePos{1}{0}{2}]KJ) (:)
-variable under([gv:\GreVarBraceSavePos{2}{0}{1}\GreDrawAdditionalLine{1}{\GreVarBraceLength{2}}{1}{}{1}{}]lx[ll:1]g_[ll:1]i_[ll:1]h_[ll:1]!iw[ll:1]j.[ll:1]i[ll:1]!jw[ll:1]k[ll:1]!lv_[ll:1][gv:\GreVarBraceSavePos{2}{0}{2}]KJ) (:Z)
+(c4)static over([gv:\GreDrawAdditionalLine{0}{4 cm}{2}{1 cm}{0}{}]lxg_i_h_!iwj.i!jwk!lv_K0J0) (:Z)
+static under([gv:\GreDrawAdditionalLine{1}{4 cm}{2}{1 cm}{0}{}]lxg_i_h_!iwj.i!jwk!lv_K0J0) (:Z)
+variable over([gv:\GreVarBraceSavePos{1}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{1}}{1}{}{1}{}]lx[hl:1]g_[hl:1]i_[hl:1]h_[hl:1]!iw[hl:1]j.[hl:1]i[hl:1]!jw[hl:1]k[hl:1]!lv_[hl:1][gv:\GreVarBraceSavePos{1}{0}{2}]K0J0) (:)
+variable under([gv:\GreVarBraceSavePos{2}{0}{1}\GreDrawAdditionalLine{1}{\GreVarBraceLength{2}}{1}{}{1}{}]lx[ll:1]g_[ll:1]i_[ll:1]h_[ll:1]!iw[ll:1]j.[ll:1]i[ll:1]!jw[ll:1]k[ll:1]!lv_[ll:1][gv:\GreVarBraceSavePos{2}{0}{2}]K0J0) (:Z)
 over heuristic([gv:\GreVarBraceSavePos{3}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{3}}{0}{}{2}{1cm}]jq[hl:1]k_[hl:1]/jq[hl:1]k_[hl:1][gv:\GreVarBraceSavePos{3}{0}{2}]) under heuristic([gv:\GreVarBraceSavePos{4}{0}{1}\GreDrawAdditionalLine{1}{\GreVarBraceLength{4}}{0}{}{2}{1cm}]d[ll:1]c_0[ll:1]/d[ll:1]c_0[ll:1][gv:\GreVarBraceSavePos{4}{0}{2}]) (:Z)
 autofuse(c@e@g[gv:\GreVarBraceSavePos{5}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{5}}{1}{}{1}{}]@i[hl:1]@k[hl:1]@i[hl:1][gv:\GreVarBraceSavePos{5}{0}{2}]@ge) (::)
 autofuse(c@e@g[gv:\GreDrawAdditionalLine{0}{1cm}{1}{}{0}{}]@i@k@i@ge) (::)
