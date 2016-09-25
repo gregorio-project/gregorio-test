@@ -140,6 +140,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -182,6 +183,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -232,6 +234,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    5 (GRE_END_OF_LINE)
          ragged                 true
@@ -1829,7 +1832,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  29 (S_FLAT)
+         shape                  22 (S_FLAT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)

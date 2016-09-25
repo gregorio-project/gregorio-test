@@ -42,14 +42,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -101,6 +104,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -110,6 +114,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -134,14 +139,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -193,6 +201,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -202,6 +211,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -226,14 +236,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -285,6 +298,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -294,6 +308,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -318,14 +333,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -377,6 +395,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -386,6 +405,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -410,14 +430,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -469,6 +492,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -478,6 +502,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -502,14 +527,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -561,6 +589,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -570,6 +599,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -594,14 +624,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -653,6 +686,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -662,6 +696,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -686,14 +721,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -745,6 +783,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -754,6 +793,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -778,14 +818,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -837,6 +880,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -846,6 +890,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -870,14 +915,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -929,6 +977,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -938,6 +987,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -962,14 +1012,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1021,6 +1074,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1030,6 +1084,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1054,14 +1109,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1113,6 +1171,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1122,6 +1181,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1146,14 +1206,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1205,6 +1268,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1214,6 +1278,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1238,14 +1303,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1297,6 +1365,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1306,6 +1375,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1330,14 +1400,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1389,6 +1462,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1398,9 +1472,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1410,14 +1485,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1469,6 +1547,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1478,9 +1557,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1490,14 +1570,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1549,6 +1632,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1558,9 +1642,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1570,14 +1655,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1629,6 +1717,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1638,9 +1727,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1650,14 +1740,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1709,6 +1802,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1718,9 +1812,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1730,14 +1825,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1789,6 +1887,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1798,9 +1897,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1810,14 +1910,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1869,6 +1972,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1878,9 +1982,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1890,14 +1995,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1949,6 +2057,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1958,9 +2067,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1970,14 +2080,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2029,6 +2142,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2038,9 +2152,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2050,14 +2165,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2109,6 +2227,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2118,9 +2237,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2130,14 +2250,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2189,6 +2312,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2198,9 +2322,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2210,14 +2335,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2269,6 +2397,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2278,9 +2407,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2290,14 +2420,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2349,6 +2482,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2358,9 +2492,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2370,14 +2505,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2429,6 +2567,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2438,9 +2577,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2450,14 +2590,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2509,6 +2652,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2518,9 +2662,10 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
-     space                   7 (SP_GLYPH_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2530,14 +2675,17 @@
          type                   1 (GRE_NOTE)
          pitch                  a
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2589,6 +2737,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2598,6 +2747,7 @@
          type                   1 (GRE_NOTE)
          pitch                  m
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

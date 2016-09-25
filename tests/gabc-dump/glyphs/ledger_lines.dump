@@ -56,7 +56,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  29 (S_FLAT)
+         shape                  22 (S_FLAT)
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            20 (G_TORCULUS)
@@ -123,6 +124,7 @@
          shape                  7 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
@@ -185,7 +187,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  29 (S_FLAT)
+         shape                  22 (S_FLAT)
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            20 (G_TORCULUS)
@@ -252,6 +255,7 @@
          shape                  7 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            2 (G_2_PUNCTA_INCLINATA_DESCENDENS)
@@ -316,8 +320,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  29 (S_FLAT)
-         explicit high line     true
+         shape                  22 (S_FLAT)
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            20 (G_TORCULUS)
@@ -392,7 +396,7 @@
          shape                  7 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
-         explicit high line     true
+         drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  10 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{1}{0}{2}"
@@ -459,7 +463,8 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  29 (S_FLAT)
+         shape                  22 (S_FLAT)
+         drawn high line        true
          explicit low line      true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -535,6 +540,7 @@
          shape                  7 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
          explicit low line      true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  10 (GRE_TEXVERB_GLYPH)

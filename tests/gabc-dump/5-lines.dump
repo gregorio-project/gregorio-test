@@ -45,6 +45,7 @@
          signs                  16 (_V_EPISEMA)
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -69,6 +70,7 @@
          shape                  1 (S_PUNCTUM)
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -93,6 +95,7 @@
          shape                  1 (S_PUNCTUM)
          below hepisema size    0 (H_NORMAL)
          below hepisema bridge  true
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -125,6 +128,7 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  1 (S_PUNCTUM)
+         drawn low line         true
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -349,6 +353,7 @@
          type                   1 (GRE_NOTE)
          pitch                  n
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -377,6 +382,7 @@
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -399,6 +405,7 @@
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -427,6 +434,7 @@
          v episema forced       ABOVE
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1049,6 +1057,7 @@
          pitch                  n
          shape                  1 (S_PUNCTUM)
          special sign           6 (_SEMI_CIRCULUS)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1072,6 +1081,7 @@
          pitch                  p
          shape                  1 (S_PUNCTUM)
          special sign           7 (_SEMI_CIRCULUS_REVERSUS)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

@@ -1924,6 +1924,7 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1933,6 +1934,7 @@
          pitch                  a
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1957,6 +1959,7 @@
          type                   1 (GRE_NOTE)
          pitch                  c
          shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -1966,6 +1969,7 @@
          pitch                  b
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
