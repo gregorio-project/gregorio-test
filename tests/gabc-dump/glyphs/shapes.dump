@@ -2291,10 +2291,12 @@
          type                   1 (GRE_NOTE)
          pitch                  j
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  m

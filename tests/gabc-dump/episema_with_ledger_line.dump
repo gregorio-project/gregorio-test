@@ -2272,6 +2272,7 @@
          type                   1 (GRE_NOTE)
          pitch                  k
          shape                  1 (S_PUNCTUM)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  m
