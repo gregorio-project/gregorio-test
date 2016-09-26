@@ -486,6 +486,7 @@ function typeset_and_compare {
             then
                 if [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
                 then
+                    rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
                     mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
                         convert -background white -alpha remove \
                             -colorspace Gray -separate -average \
