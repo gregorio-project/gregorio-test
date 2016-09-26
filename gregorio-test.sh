@@ -88,11 +88,13 @@ mode=test
 show_success=false
 long_tests=false
 use_valgrind=false
+gregorio_dir=
+lua_module_cache_manager=
 declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:GhlLnPrSv" opt
+    while getopts ":acCdD:eg:GhlLM:nPrSv" opt
     do
         case $opt in
         a)
@@ -137,6 +139,9 @@ do
             ;;
         L)
             long_tests=true
+            ;;
+        M)
+            lua_module_cache_manager="$(realpath "$OPTARG")"
             ;;
         n)
             verify=false
@@ -241,6 +246,13 @@ Options:
 
   -l                views the log of the given TEST.
 
+  -e                views the expected result of the given TEST.
+
+  -v                views the output of the given TEST.
+
+  -d                views the differences between the expected result and the
+                    output of the given TEST.
+
   -L                includes long tests.
 
   -G                uses valgrind to check gregorio for memory leaks.  This
@@ -248,12 +260,8 @@ Options:
                     that run gregorio directly.  The detection of a memory leak
                     does not affect the pass/fail status of a test.
 
-  -e                views the expected result of the given TEST.
-
-  -v                views the output of the given TEST.
-
-  -d                views the differences between the expected result and the
-                    output of the given TEST.
+  -M SCRIPT_PATH    specifies the path of the cache manager script to use when
+                    running LuaTeX.
 
   -C                toggles the use of color.
 
@@ -414,9 +422,30 @@ test|retest)
         exit 8
     fi
 
-    echo "Gregorio = $(which $gregorio)"
+    if [ "$lua_module_cache_manager" != "" -a -r "$lua_module_cache_manager" ]
+    then
+        LUA_MODULE_CACHE_MANAGER="$(realpath output/cache-manager)/lua-module-cache-manager.lbc"
+        texluac -s -o "$LUA_MODULE_CACHE_MANAGER" -- "$lua_module_cache_manager"
+        LUA_MODULE_CACHE_MANAGER="--lua=$LUA_MODULE_CACHE_MANAGER --lua-module-cache-file=$(realpath output/cache-manager)/gregorio-test.lmc"
+    else
+        LUA_MODULE_CACHE_MANAGER=
+    fi
+    export LUA_MODULE_CACHE_MANAGER
+
     echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
+    if [ "$lua_module_cache_manager" != "" -a -r "$lua_module_cache_manager" ]
+    then
+        echo "Cache Manager = $lua_module_cache_manager"
+    fi
     echo
+
+    if [ "$LUA_MODULE_CACHE_MANAGER" != "" ]
+    then
+        (
+            cd output/cache-manager
+            eval lualatex $LUA_MODULE_CACHE_MANAGER prime-cache.tex >&prime-cache.cmdout
+        )
+    fi
 
     processors=$(nproc 2>/dev/null || echo 1)
     cd output
