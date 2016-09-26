@@ -358,9 +358,9 @@ test|retest)
     fi
 
     $RM -fr output
-    $CP -Lr tests output
-    $long_tests && $CP -Lr longtests/* output
-    $CP -Lr backwards/* output
+    $CP -Lpr tests output
+    $long_tests && $CP -Lpr longtests/* output
+    $CP -Lpr backwards/* output
 
     if [ "$gregorio_dir" = "" ]
     then
