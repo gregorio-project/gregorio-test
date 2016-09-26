@@ -297,6 +297,7 @@
          shape                  1 (S_PUNCTUM)
          is_cavum               true
          special sign           4 (_ACCENTUS_REVERSUS)
+         drawn high line        true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -324,6 +325,7 @@
          shape                  1 (S_PUNCTUM)
          is_cavum               true
          special sign           5 (_CIRCULUS)
+         drawn high line        true
 ---------------------------------------------------------------------
      type                    5 (GRE_END_OF_LINE)
          ragged                 true

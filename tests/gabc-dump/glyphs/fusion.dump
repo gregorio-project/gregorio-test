@@ -2986,6 +2986,7 @@
          type                   1 (GRE_NOTE)
          pitch                  e
          shape                  8 (S_VIRGA_REVERSA)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -2995,6 +2996,7 @@
          pitch                  d
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            15 (G_PUNCTUM)
@@ -3004,6 +3006,7 @@
          pitch                  b
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn low line         true
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

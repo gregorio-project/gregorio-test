@@ -274,6 +274,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -560,10 +561,12 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  3 (S_PUNCTUM_INCLINATUM_ASCENDENS)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  3 (S_PUNCTUM_INCLINATUM_ASCENDENS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -573,6 +576,8 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn high line        true
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1307,6 +1312,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1625,11 +1631,13 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  5 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -1639,6 +1647,8 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn high line        true
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -1978,6 +1988,7 @@
          pitch                  l
          shape                  5 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -2331,11 +2342,13 @@
          pitch                  b
          shape                  5 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  5 (S_PUNCTUM_INCLINATUM_DEMINUTUS)
          liquescentia           1 (L_DEMINUTUS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -2345,6 +2358,8 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn high line        true
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -2629,6 +2644,7 @@
          type                   1 (GRE_NOTE)
          pitch                  l
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -2927,11 +2943,13 @@
          type                   1 (GRE_NOTE)
          pitch                  b
          shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
          shape                  6 (S_PUNCTUM_INCLINATUM_AUCTUS)
          liquescentia           2 (L_AUCTUS_ASCENDENS)
+         drawn low line         true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
        glyph_type            19 (G_FLEXA)
@@ -2941,6 +2959,8 @@
          pitch                  l
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+         drawn high line        true
+         drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
