@@ -18,6 +18,7 @@ export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDFLATEX="$testroot/run-lualatex.sh %D %O %S"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
+export IMAGE_CACHE="$testroot/var/image-cache/$PDF_DENSITY"
 
 if $use_valgrind
 then
@@ -483,11 +484,19 @@ function typeset_and_compare {
         else
             if $verify "$texfile"
             then
-                if cd "$outdir" && mkdir expected && \
-                    convert -background white -alpha remove \
-                        -colorspace Gray -separate -average \
-                        -density $PDF_DENSITY "../$pdffile" \
-                        expected/page-%d.png && \
+                if [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                then
+                    rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
+                    mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
+                        convert -background white -alpha remove \
+                            -colorspace Gray -separate -average \
+                            -density $PDF_DENSITY "$pdffile" \
+                            "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
+                        fail "Failed to create expectation images" \
+                            "Failed to create images for $indir/$outdir/$pdffile"
+                fi
+
+                if cd "$outdir" && \
                     convert -background white -alpha remove \
                         -colorspace Gray -separate -average \
                         -density $PDF_DENSITY "$pdffile" \
@@ -496,17 +505,18 @@ function typeset_and_compare {
                     declare -a failed
                     for name in page*.png
                     do
+                        expected="$IMAGE_CACHE/$indir/$outdir/$name"
                         # trick to do floating point-like comparison in bash
                         metric=$(compare -metric NCC \
-                            "$name" "expected/$name" null: 2>&1)
+                            "$name" "$expected" null: 2>&1)
                         metric=$(printf '%.3f' "$metric")
                         metric=${metric/./}
                         if (( 10#$metric < 990 ))
                         #if ! compare -metric AE -fuzz 90% "$name" \
-                        #    "expected/$name" "diff-$name" 2>/dev/null
+                        #    "$IMAGE_CACHE/$indir/$outdir/$name" "diff-$name" 2>/dev/null
                         then
                             convert \( -background white -flatten "$name" \) \
-                                \( -background white -flatten "expected/$name" \) \
+                                \( -background white -flatten "$expected" \) \
                                 \( -clone 0,1 -compose difference -composite \) \
                                 \( -clone 0 -clone 2 -compose minus -composite \
                                     -background blue -alpha shape \) \
@@ -604,7 +614,7 @@ function gabc_output_test {
             -e "s/###DEBUG###/$debugarg/" \
             -e "s!###FONTDIR###!$testroot/fonts/!" \
             -e "s/###PREAMBLE###/$preamble/" \
-            "$testroot/gabc-output.tex" >${texfile}
+            "$testroot/gabc-output.tex" >"${texfile}"
         then
             typeset_and_compare "$indir" "$outdir" "$texfile" \
                 latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
