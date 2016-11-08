@@ -1,0 +1,4 @@
+name: high-clef;
+nabc-lines:1;
+%%
+(c4) Test<alt>test</alt>(g)
