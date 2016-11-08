@@ -23,6 +23,6 @@ CP="${CP:-cp}"
 
 output="$1"
 shift
-lualatex --shell-escape --debug-format --interaction=nonstopmode --halt-on-error --file-line-error "$@"
+lualatex --shell-escape --debug-format --interaction=nonstopmode --halt-on-error --file-line-error $LUA_MODULE_CACHE_MANAGER "$@"
 #"$CP" --preserve=timestamps --backup=numbered "$output" "${output%.pdf}.backup.pdf"
 #"$CP" --preserve=timestamps --backup=numbered "${output%.pdf}.log" "${output%.pdf}.backup.log"

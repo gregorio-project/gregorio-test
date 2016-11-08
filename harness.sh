@@ -617,7 +617,8 @@ function gabc_output_test {
             "$testroot/gabc-output.tex" >"${texfile}"
         then
             typeset_and_compare "$indir" "$outdir" "$texfile" \
-                latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
+                latexmk -e 'push @generated_exts, "gaux";' -pdf \
+                -pdflatex="$PDFLATEX"
         else
             fail "Failed to create TeX file" \
                 "Could not create $indir/$outdir/$texfile"
@@ -678,7 +679,8 @@ function tex_output_test {
     if cd "$indir" && mkdir "$outdir"
     then
         typeset_and_compare "$indir" "$outdir" "$filename" \
-            latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
+            latexmk -e 'push @generated_exts, "gaux";' -pdf \
+            -pdflatex="$PDFLATEX"
     else
         fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
@@ -724,7 +726,7 @@ function plain_tex_run {
     do
         echo "=============================================="
         echo "RUN : $count"
-        luatex --shell-escape "$@"
+        eval luatex --shell-escape $LUA_MODULE_CACHE_MANAGER "$@"
     done
     test -f "$LOGFILE" && ! grep -q "Rerun to " "$LOGFILE"
 }
