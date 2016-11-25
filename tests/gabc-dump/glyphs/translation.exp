@@ -1,5 +1,6 @@
 name: translation;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 4.2.0-fix-931-hg:4140:8f33dbde4fa3;
 %%
 (c3)ab[cd](ghZ)
-ab[translation](gh) cd(ij) ef[/](cd) 
+ab[translation](gh) cd(ij) ef[/](cdZ)
+gh,[ij](gh) hi.[jk](hi) ij;[kl](ij) jk:[lm](jk) kl<v>\GreForceHyphen</v>[mn](kl) 

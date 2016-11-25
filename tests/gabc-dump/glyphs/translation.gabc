@@ -1,3 +1,4 @@
 name: translation;
 %%
-ab[cd](ghZ) ab[translation](gh) cd(ij) ef[/](cd)
+ab[cd](ghZ) ab[translation](gh) cd(ij) ef[/](cdZ)
+gh,[ij](gh) hi.[jk](hi) ij;[kl](ij) jk:[lm](jk) kl-[mn](kl)
