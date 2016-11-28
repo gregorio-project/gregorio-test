@@ -489,7 +489,7 @@ function typeset_and_compare {
                     rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
                     mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
                         convert -background white -alpha remove \
-                            -colorspace Gray -separate -average \
+                            -colorspace Gray -separate \
                             -density $PDF_DENSITY "$pdffile" \
                             "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
                         fail "Failed to create expectation images" \
@@ -498,7 +498,7 @@ function typeset_and_compare {
 
                 if cd "$outdir" && \
                     convert -background white -alpha remove \
-                        -colorspace Gray -separate -average \
+                        -colorspace Gray -separate \
                         -density $PDF_DENSITY "$pdffile" \
                         page-%d.png
                 then
