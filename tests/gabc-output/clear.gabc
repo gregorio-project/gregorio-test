@@ -1,28 +1,51 @@
 name: clear;
 %%
 (c3)
-V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
+<alt>Case 1 w/ bar</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
 R/.(::) Re(h)ges(hZ)
 
 V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
 <clear>R/.(::) Re(h)ges(hZ)
 
+<alt>Case 2 w/ bar</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.)
+sssssR/.(::) Re(h)ges(hZ)
 
-V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
-sssssR/.(g) Re(h)ges(hZ)
+V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.)
+<clear>sssssR/.(::) Re(h)ges(hZ)
 
-V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
-<clear>sssssR/.(g) Re(h)ges(hZ)
-
-V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
+<alt>Case 3 w/ bar</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
 {}i(::) Re(h)ges(hZ)
 
 V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
 <clear>{}i(::) Re(h)ges(hZ)
 
+<alt>Case 4 w/ bar</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rei(hi)
+{}i(::) Re(h)ges(hZ)
 
-V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
+V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rei(hi)
+<clear>{}i(::) Re(h)ges(hZ)
+
+
+<alt>Case 1 w/ notes</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
+sssssR/.(g) Re(h)ges(hZ)
+
+V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.ghG'FE'fggf)
+<clear>sssssR/.(g) Re(h)ges(hZ)
+
+<alt>Case 2 w/ notes</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.)
+sssssR/.(g) Re(h)ges(hZ)
+
+V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hiH'Ghih.)
+<clear>sssssR/.(g) Re(h)ges(hZ)
+
+<alt>Case 3 w/ notes</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
 {}i(hg) Re(h)ges(hZ)
 
 V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rent.(hi)
+<clear>{}i(hg) Re(h)ges(hZ)
+
+<alt>Case 4 w/ notes</alt>V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rei(hi)
+{}i(hg) Re(h)ges(hZ)
+
+V/. R{e}(h)ges(h) Thar(h)sis(h) et(h) mú(h')ne(f)ra(e) óf(f_0h)fe(h)rei(hi)
 <clear>{}i(hg) Re(h)ges(hZ)
