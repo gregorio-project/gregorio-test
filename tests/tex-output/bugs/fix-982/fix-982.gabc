@@ -1,5 +1,10 @@
+% The purposs of this test is to show that the custos before the <eu> should
+% not show when the line before it fills the entire line (rather than not
+% filling up its line), so the text must extend as far as it can before the <eu>
 name: Prophetae predicaverunt;
 office-part: antiphona;
 mode:1;
 %%
-(c4) Pro(d)phé(ddo>)tæ(c) pre(d)di(f)ca(e)vé(d)runt(dc~) *() na(f)sci(g) De(h)us(g) Sal(h>)va(g)tó(f_0fg)rem(f_) (,) de(f) Vír(f)gi(g)ne(e) Ma(f)rí(d.)a.(d.) (::) <eu>E(h) u(h) o(g) u(f) a(gh) e</eu>(ggo>) (::)
+(c4) Pro(d)phé(ddo>)tæ(c) pre(d)di(f)ca(e)vé(d)runt(dc~z)
+% break the line here to force enough text on the line before the <eu>
+*() na(f)sci(g) De(h)us(g) Sal(h>)va(g)tó(f_0fg)rem(f_) (,) de(f) Vír(f)gi(g)ne(e) Ma(f)rí(d.)a.(d.) (::) <eu>E(h) u(h) o(g) u(f) a(gh) e</eu>(ggo>) (::)
