@@ -1,5 +1,8 @@
+% The purpose of this test is to test the raggedness before the <eu>
+% This score needs to not fill up (by a large distance) the entire line prior
+% to the <eu> while still forcing the <eu> to the next line.
 name: Prophetae predicaverunt;
 office-part: antiphona;
 mode:1;
 %%
-(c4) Pro(d)phé(ddo>)tæ(c) pre(d)di(f)ca(e)vé(d)runt(dc~) *() na(f)sci(g) De(h)us(g) Sal(h>)va(g)tó(f_0fg)rem(f_) (,) de(f) Vír(f)gi(g)ne(e) Ma(f)rí(d.)a.(d.) (::) <eu>E(h) u(h) o(g) u(f) a(gh) e</eu>(ggo>) (::)
+(c4) Pro(d)phé(ddo>)tæ(c) pre(d)di(f)ca(e)vé(d)runt(dc~) *() na(f)sci(g) De(h)us(g) Sal(h>)va(g)tó(f_0fg)rem(f_) (,) de(f) Vír(f)gi(g)ne(e) Ma(fff//fff)rí(d.)a.(d.) (::) <eu>E(h) u(h) o(g) u(f) a(gh) e</eu>(ggo>) (::)

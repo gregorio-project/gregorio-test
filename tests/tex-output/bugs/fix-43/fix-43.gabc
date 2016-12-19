@@ -1,3 +1,5 @@
+% The purpose of this test is to force justify the last line, so the "g(g)"
+% should not be enough to fill up the line
 %issue: 43
 %notes: test for force justify of last line via 'z'
 name: test for force justify of last line via 'z';
@@ -11,5 +13,5 @@ g(g) g(g) g(g) g(g) g(g)
 %g(g) g(g) g(g) g(g) g(g)
 %g(g) g(g) g(g) g(g) g(g)
 %g(g) g(g) g(g) g(g) g(g) (::)
-g(g) g(g) g(g) g(g) g(g)
-g(g) g(g) (::f+)
+%g(g) g(g) g(g) g(g) g(g)
+g(g) (::f+)
