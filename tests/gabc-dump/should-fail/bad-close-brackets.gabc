@@ -1,0 +1,3 @@
+name: bad close brackets;
+%%
+(c4) g(g) g(g]])

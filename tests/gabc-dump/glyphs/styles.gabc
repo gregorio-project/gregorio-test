@@ -11,4 +11,5 @@ name: styles, verb and special characters;
 M<i>id<b>dle <ul>cl</b>ose</ul> test</i>(fZ)
 Sp<b>an(g)ning(g) st</b>yles(g)
 Sp<b>an(g)nin<i>g(g) mixed(g) st</b>yl</i>es(g)
-Sp<b>an(g)ning(g) c<i>losed</i>(g) st</b>yles(g)
+Sp<b>an(g)ning(g) c<i>losed</i>(g) st</b>yles(gZ)
+M<tt>ore(g) sp<sc>an(g)n<ul>in<c>g(g) s</ul>t</c>y</tt>l</sc>es(g)

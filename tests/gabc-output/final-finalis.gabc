@@ -1,0 +1,6 @@
+name: final divisio finalis;
+% The current behavior is to ignore anything after a final bar in a final
+% syllable with no text except texverbs, explicit custodes, and newlines.
+% Therefore, the "d" will never show.
+%%
+(c3) g(g) (::d)
