@@ -1,0 +1,26 @@
+name: protrusion;
+generated-by: gregorio 4.2.0-develop-f374da5-4058;
+%%
+(c3)test(i) (::Z)
+Nus@(i) *(,)
+et(i) (::)
+Dus<pr>@(i) *(,)
+et(i) (::)
+0us<pr:0>@(i) *(,)
+et(i) (::)
+½us<pr:.5>@(i) *(,)
+et(i) (::)
+1us<pr:1>@(i) *(,)
+et(i) (::Z)
+Nus:(i) *(,)
+et(i) (::)
+Dus<pr>:(i) *(,)
+et(i) (::)
+0us<pr:0>:(i) *(,)
+et(i) (::)
+½us<pr:.5>:(i) *(,)
+et(i) (::)
+1us<pr:1>:(i) *(,)
+et(i) (::Z)
+protrud{e}<pr>d(i) protrud<pr>ed(i) (::)
+

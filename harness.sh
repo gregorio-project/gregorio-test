@@ -511,7 +511,7 @@ function typeset_and_compare {
                             "$name" "$expected" null: 2>&1)
                         metric=$(printf '%.3f' "$metric")
                         metric=${metric/./}
-                        if (( 10#$metric < 990 ))
+                        if (( 10#$metric < 999 ))
                         #if ! compare -metric AE -fuzz 90% "$name" \
                         #    "$IMAGE_CACHE/$indir/$outdir/$name" "diff-$name" 2>/dev/null
                         then

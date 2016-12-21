@@ -1,0 +1,4 @@
+name: nabc edge cases;
+nabc-lines: 1;
+%%
+(c4) ta(g|ta) ta( |ta) ta(g::|ta)

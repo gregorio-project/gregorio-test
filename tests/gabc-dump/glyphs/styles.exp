@@ -1,5 +1,5 @@
 name: styles, verb and special characters;
-generated-by: gregorio 4.2.0-beta1-release-4.2-b89c956-3783;
+generated-by: gregorio 4.2.0-develop-f374da5-4058;
 %%
 (c3)<i>italics</i><b>bold</b><ul>underline</ul><sp>+</sp><v>a</v>(gZ)
 <a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
@@ -8,4 +8,5 @@ generated-by: gregorio 4.2.0-beta1-release-4.2-b89c956-3783;
 <b>B</b><b>o</b><b>ld<tt>Teletype</tt>Font</b>(gZ)
 <b>B</b><b>o</b><b>ld</b>(c) <sc>Sm</sc><sc>a</sc><sc>ll Caps</sc>(d) <c>C</c><c>o</c><c>lored</c>(e) <i>I</i><i>talics</i>(f) <tt>T</tt><tt>e</tt><tt>letype</tt>(g) <ul>U</ul><ul>nderlined</ul>(h) <e>elision</e>(iZ)
 {<i><b>Styles with center</b></i>}<i></i>(g) M<i>i</i><i>d<b>dle <ul>cl</ul></b><ul>ose</ul> test</i>(fZ)
-Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>ng</b>(g) <b>st</b>yles(g) Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>n<i>g</i></b>(g) <i><b>m</b></i><i><b>i</b></i><i><b>xed</b></i>(g) <i><b>st</b></i><i>y</i><i>l</i>es(g) Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>ng</b>(g) <b>c<i>l</i></b><b><i>o</i></b><b><i>sed</i></b>(g) <b>st</b>yles(g) 
+Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>ng</b>(g) <b>st</b>yles(g) Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>n<i>g</i></b>(g) <i><b>m</b></i><i><b>i</b></i><i><b>xed</b></i>(g) <i><b>st</b></i><i>y</i><i>l</i>es(g) Sp<b>a</b><b>n</b>(g)<b>n</b><b>i</b><b>ng</b>(g) <b>c<i>l</i></b><b><i>o</i></b><b><i>sed</i></b>(g) <b>st</b>yles(gZ)
+M<tt>o</tt><tt>re</tt>(g) <tt>sp</tt><tt><sc>a</sc></tt><tt><sc>n</sc></tt>(g)<tt><sc>n</sc></tt><tt><sc><ul>i</ul></sc></tt><tt><sc><ul>n<c>g</c></ul></sc></tt>(g) <tt><sc><ul><c>s</c></ul><c>t</c></sc></tt><tt><sc>y</sc></tt><sc>l</sc>es(g) 
