@@ -1,0 +1,57 @@
+%notes: tests the nocustos feature
+%issue: 1271
+name: nocustos;
+% The key here is to ensure that the [nocustos] appears at the line break
+%%
+% Test 1 - forced linebreak after [nocustos]
+(c4) Nocustos1a(a) nocustos1b(b) nocustos1c(c) nocustos1d(d) nocustos1e(e)
+% the auto linebreak that follows should *not* have a custos
+% Note: this test must be manipulated so that this is the last note on the line
+nocustos1f(f::[nocustos])
+% this forced linebreak *should* have a custos
+custos1a(aZ)
+% the auto linebreak that follows somewhere below *should* have a custos
+custos1b(b) custos1c(c) custos1d(d) custos1e(e) custos1f(f) custos1g(g)
+custos1h(h) custos1i(i)
+
+% Test 2 - auto linebreak after [nocustos]
+nocustos2a(a) nocustos2b(b) nocustos2c(c) nocustos2d(d) nocustos2e(e)
+% the auto linebreak that follows should *not* have a custos
+% Note: this test must be manipulated so that this is the last note on the line
+nocustos2f(f[nocustos])
+% this auto linebreak *should* have a custos
+% Note: this test must be manipulated so that this amounts to a single
+%   "syllable" that break the line
+really really really long text that will push the word to the end of the line c{u}stos2a(a)
+custos2b(b) custos2c(c) custos2d(d) custos2e(e) custos2f(f) custos2g(g) custos2h(h)
+% the auto linebreak that follows below *should* have a custos
+% Note: this test must be manipulated to put a bar immediately before the auto
+%   linebreak
+custos2i(i::)
+
+% Test 3 - auto linebreak after [nocustos] with empty word after
+nocustos3a(a) nocustos3b(b) nocustos3c(c) nocustos3d(d) nocustos3e(e)
+% the auto linebreak that follows should *not* have a custos
+% Note: this test must be manipulated so that the line breaks before the empty
+%  word
+x nocustos3{f}(f[nocustos]) (g)
+% this auto linebreak *should* have a custos
+% Note: this test must be manipulated so that this amounts to a single
+%   "syllable" that breaks the line before the empty word
+really really long text that will push the word to the end of the line custos3{a}(a) (b)
+% the auto linebreak that follows somewhere below *should* have a custos
+custos3b(b) custos3c(c) custos3d(d) custos3e(e) custos3f(f) custos3g(g)
+custos3h(h) custos3i(i)
+
+% Test 4 - auto linebreak after [nocustos] within a word
+nocustos4a(a) nocustos4b(b) nocustos4c(c) nocustos4d(d) nocustos4e(e)
+% the auto linebreak that follows should *not* have a custos
+% Note: this test must be manipulated so that the line breaks at the [nocustos]
+nocustos4{f}(f f f f[nocustos] g g g g g g)
+% this auto linebreak *should* have a custos
+% Note: this test must be manipulated so that this amounts to a single
+%   "syllable" that breaks the line before the empty word
+custos4a(a a a a a a a a a a a a a a a a a a a a a a a a a a a a a)
+% the auto linebreak that follows somewhere below *should* have a custos
+custos4b(b) custos4c(c) custos4d(d) custos4e(e) custos4f(f) custos4g(g)
+custos4h(h) custos4i(i) custos4j(j) custos4k(k) custos4l(l) custos4m(m)
