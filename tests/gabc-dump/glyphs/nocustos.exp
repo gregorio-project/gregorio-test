@@ -1,7 +1,7 @@
 name: nocustos;
-generated-by: gregorio 4.2.0-develop-6c46cbd-4063;
+generated-by: gregorio 4.2.0-fix-1271-hg:4198:e33ee8336de8;
 %%
 (c4)Nocustos1a(a) nocustos1b(b) nocustos1c(c) nocustos1d(d) nocustos1e(e) nocustos1f(f::[nocustos])
 custos1a(aZ)
-custos1b(b) custos1c(c) custos1d(d) custos1e(e) custos1f(f) custos1g(g) custos1h(h) custos1i(i) nocustos2a(a) nocustos2b(b) nocustos2c(c) nocustos2d(d) nocustos2e(e) nocustos2f(f::[nocustos])
-really really really long text that will push the word to the end of the line c{u}stos2a(a) custos2b(b) custos2c(c) custos2d(d) custos2e(e) custos2f(f) custos2g(g) custos2h(h) custos2i(i) custos2j(j) custos2k(k) custos2l(l) custos2m(m) 
+custos1b(b) custos1c(c) custos1d(d) custos1e(e) custos1f(f) custos1g(g) custos1h(h) custos1i(i) nocustos2a(a) nocustos2b(b) nocustos2c(c) nocustos2d(d) nocustos2e(e) nocustos2f(f[nocustos]) really really really long text that will push the word to the end of the line c{u}stos2a(a) custos2b(b) custos2c(c) custos2d(d) custos2e(e) custos2f(f) custos2g(g) custos2h(h) custos2i(i::)
+nocustos3a(a) nocustos3b(b) nocustos3c(c) nocustos3d(d) nocustos3e(e) x nocustos3{f}(f[nocustos]) (g) really really long text that will push the word to the end of the line custos3{a}(a) (b) custos3b(b) custos3c(c) custos3d(d) custos3e(e) custos3f(f) custos3g(g) custos3h(h) custos3i(i) nocustos4a(a) nocustos4b(b) nocustos4c(c) nocustos4d(d) nocustos4e(e) push nocustos4{f}(f f[nocustos] ggg) really really really long text that will push the word to the end of the line custos4{a}(a a bbb) custos4b(b) custos4c(c) custos4d(d) custos4e(e) custos4f(f) custos4g(g) custos4h(h) custos4i(i) custos4j(j) custos4k(k) custos4l(l) custos4m(m) 
