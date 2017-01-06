@@ -65,7 +65,7 @@ because they move in the opposite direction
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_QUILISMA)
+         shape                  16 (S_QUILISMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -94,7 +94,7 @@ because they move in the opposite direction
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
-       glyph_type            40 (G_VIRGA_STRATA)
+       glyph_type            41 (G_PES_DESCENDENS_ORISCUS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
@@ -102,7 +102,7 @@ because they move in the opposite direction
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  14 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -141,7 +141,7 @@ because they move in the opposite direction
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  13 (S_ORISCUS_SCAPUS_ASCENDENS)
+         shape                  14 (S_ORISCUS_SCAPUS_ASCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
