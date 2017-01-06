@@ -46,13 +46,12 @@ custos3h(h) custos3i(i)
 % Test 4 - auto linebreak after [nocustos] within a word
 nocustos4a(a) nocustos4b(b) nocustos4c(c) nocustos4d(d) nocustos4e(e)
 % the auto linebreak that follows should *not* have a custos
-% Note: this test must be manipulated so that the line breaks before the empty
-%  word
-push nocustos4{f}(f f[nocustos] ggg)
+% Note: this test must be manipulated so that the line breaks at the [nocustos]
+nocustos4{f}(f f f f[nocustos] g g g g g g)
 % this auto linebreak *should* have a custos
 % Note: this test must be manipulated so that this amounts to a single
 %   "syllable" that breaks the line before the empty word
-really really really long text that will push the word to the end of the line custos4{a}(a a bbb)
+custos4a(a a a a a a a a a a a a a a a a a a a a a a a a a a a a a)
 % the auto linebreak that follows somewhere below *should* have a custos
 custos4b(b) custos4c(c) custos4d(d) custos4e(e) custos4f(f) custos4g(g)
 custos4h(h) custos4i(i) custos4j(j) custos4k(k) custos4l(l) custos4m(m)
