@@ -407,7 +407,7 @@ test|retest)
 
     export gregorio=gregorio-$gregorio_version
 
-    if ! gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
+    if ! $gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
     then
         echo "Gregorio is not installed properly or is not statically linked" >&2
         echo "When building, use ./configure --enable-all-static" >&2
