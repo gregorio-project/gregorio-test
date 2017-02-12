@@ -16,8 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# This script uses gregorio-test.sh to interactively review the results
-# of the previously run test.
+# This script allows lualatex to be run with more control.
 
 CP="${CP:-cp}"
 

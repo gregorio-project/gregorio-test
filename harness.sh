@@ -16,7 +16,6 @@
 
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
-export PDFLATEX="$testroot/run-lualatex.sh %D %O %S"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
 export IMAGE_CACHE="$testroot/var/image-cache/$PDF_DENSITY"
 
@@ -473,8 +472,9 @@ function typeset_and_compare {
     indir="$1"; shift
     outdir="$1"; shift
     texfile="$1"; shift
-    pdffile="${texfile%.tex}.pdf"
-    cmdoutfile="${texfile%.tex}.cmdout"
+    filebase="${texfile%.tex}"
+    pdffile="$filebase.pdf"
+    cmdoutfile="$filebase.cmdout"
 
     if "$@" --output-directory="$outdir" "$texfile" >&"$outdir"/"$cmdoutfile"
     then
@@ -574,8 +574,20 @@ function view_typeset_diff {
         diff_pdf "$1/$3" "$1/$2/$3"
     fi
 }
+function latex_run {
+    typeset -i count
+    count=0
+    while (( ++count <= 5 )) && ( test ! -f "$LOGFILE" || grep -q "Rerun to " "$LOGFILE" )
+    do
+        echo "=============================================="
+        echo "RUN : $count"
+        echo "ARGS : $@"
+        "$testroot/run-lualatex.sh" "$@"
+    done
+    test -f "$LOGFILE" && ! grep -q "Rerun to " "$LOGFILE"
+}
 export -f typeset_and_compare clean_typeset_result accept_typeset_result \
-    view_typeset_diff
+    view_typeset_diff latex_run
 
 function gabc_output_find {
     $FIND gabc-output -name '*.gabc' -print
@@ -616,8 +628,8 @@ function gabc_output_test {
             -e "s/###PREAMBLE###/$preamble/" \
             "$testroot/gabc-output.tex" >"${texfile}"
         then
-            typeset_and_compare "$indir" "$outdir" "$texfile" \
-                latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
+            LOGFILE="$outdir/$filebase.log" \
+                typeset_and_compare "$indir" "$outdir" "$texfile" latex_run "$outdir"
         else
             fail "Failed to create TeX file" \
                 "Could not create $indir/$outdir/$texfile"
@@ -677,8 +689,8 @@ function tex_output_test {
 
     if cd "$indir" && mkdir "$outdir"
     then
-        typeset_and_compare "$indir" "$outdir" "$filename" \
-            latexmk -e 'push @generated_exts, "gaux";' -pdf -pdflatex="$PDFLATEX"
+        LOGFILE="$outdir/${filename%.tex}.log" \
+            typeset_and_compare "$indir" "$outdir" "$filename" latex_run "$outdir"
     else
         fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
@@ -724,6 +736,7 @@ function plain_tex_run {
     do
         echo "=============================================="
         echo "RUN : $count"
+        echo "ARGS : $@"
         luatex --shell-escape "$@"
     done
     test -f "$LOGFILE" && ! grep -q "Rerun to " "$LOGFILE"
@@ -741,7 +754,8 @@ function plain_tex_test {
 
     if cd "$indir" && mkdir "$outdir"
     then
-        LOGFILE="$outdir/${filename%.tex}.log" typeset_and_compare "$indir" "$outdir" "$filename" plain_tex_run
+        LOGFILE="$outdir/${filename%.tex}.log" \
+            typeset_and_compare "$indir" "$outdir" "$filename" plain_tex_run
     else
         fail "Failed to create directory" "Could not create $indir/$outdir"
     fi
