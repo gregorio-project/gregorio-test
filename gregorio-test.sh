@@ -278,7 +278,7 @@ EOT
     exit 2
 fi
 
-export verify clean_passed
+export verify clean_passed skip_cache
 
 if $color
 then
