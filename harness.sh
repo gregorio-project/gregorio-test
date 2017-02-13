@@ -484,7 +484,7 @@ function typeset_and_compare {
         else
             if $verify "$texfile"
             then
-                if [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                if $skip_cache || [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
                 then
                     rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
                     mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
