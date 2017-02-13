@@ -88,11 +88,12 @@ mode=test
 show_success=false
 long_tests=false
 use_valgrind=false
+skip_cache=false
 declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:GhlLnPrSv" opt
+    while getopts ":acCdD:eg:GhilLnPrSv" opt
     do
         case $opt in
         a)
@@ -131,6 +132,9 @@ do
             ;;
         h)
             usage=true
+            ;;
+        i)
+            skip_cache=true
             ;;
         l)
             mode=view_log
@@ -264,6 +268,8 @@ Options:
   -S                show successful tests.  Default is to show only failed
                     tests.
 
+  -i                do not use cached images when running comparisons
+
   -h                shows this usage message.
 
 Note: The -a, -l, -e, -v, and -d options are mutually exclusive and will not
@@ -272,7 +278,7 @@ EOT
     exit 2
 fi
 
-export verify clean_passed
+export verify clean_passed skip_cache
 
 if $color
 then
