@@ -15,5 +15,16 @@ name: oriscus-orientation;
 {h}gor<(hgor<) {h}go<r(hgo<r) {h}gro<(hgro<) {h}gr<o(hgr<o) {h}g<or(hg<or) {h}g<ro(hg<ro)
 {g}o<f(go<f)
 {h}go0(hgo0) {h}go0r(hgo0r) {h}go1r(hgo1r) 
-(::)
+(::Z)
+% ascending through unison
+go(go) g(g) h(h) (,)
+gO(gO) g(g) h(h) (,)
+go(go) g(g) gO(gO) h(h) (,)
+go(go) gO(gO) g(g) g(g) h(h) (:Z)
+% descending through unison
+go(go) g(g) f(f) (,)
+gO(gO) g(g) f(f) (:)
+gO(gO) g(g) go(go) f(f) (:)
+gO(gO) go(go) g(g) g(g) f(f) (:Z)
+% leave this at the end, to test orientation at the end of a score
 {h}o(ho) (::)
