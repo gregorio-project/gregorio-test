@@ -1,0 +1,6 @@
+name: fix-1320;
+issue: 1320;
+test-purpose: elision after prefix should not put center on the vowel at the end of the prefix;
+%%
+(c4) Sal(d)vum(d)qu<e>e</e> ab(d) hos(dh)tis…(h) (::)
+e<e>a</e>u(k) e<e>a</e>p(::)
