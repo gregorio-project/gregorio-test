@@ -402,7 +402,8 @@ test|retest)
 
         if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" \
             CP="rsync -Lci" SKIP=docs,examples,font-sources \
-            GENERATE_UNINSTALL=false ./install-gtex.sh user)
+            GENERATE_UNINSTALL=false REMOVE_OLD_FILES=false \
+            ./install-gtex.sh user)
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 8
