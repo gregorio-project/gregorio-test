@@ -370,7 +370,7 @@ test|retest)
 
     if [ "$gregorio_dir" = "" ]
     then
-        gregorio_version=$(grep 'local gregorio_exe ' $(kpsewhich gregoriotex.lua))
+        gregorio_version=$(grep 'FILENAME_VERSION' $(kpsewhich gregoriotex.lua))
         gregorio_version=${gregorio_version#*\'gregorio-}
         gregorio_version=${gregorio_version%\'*}
     else
@@ -416,9 +416,14 @@ test|retest)
 
     if ! $gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
     then
-        echo "Gregorio is not installed properly or is not statically linked" >&2
-        echo "When building, use ./configure --enable-all-static" >&2
-        exit 8
+        # try just the plain filename, for TeX Live
+        export gregorio=gregorio
+
+        if ! $gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
+        then
+            echo "Gregorio is not installed properly" >&2
+            exit 8
+        fi
     fi
 
     echo "Gregorio = $(which $gregorio)"
