@@ -1,0 +1,8 @@
+name: near and far spaces;
+purpose: to test the use of near and far spaces around bars;
+%%
+(c4)
+m,m(m,m) g,g(g,g) f,f(f,f) f,g(f,g) g,f(g,f) (:)
+(m,0m) g,0g(g,0g) i,0i(i,0i) h,0h(h,0h) h,0i(h,0i) i,0h(i,0h) (:)
+m`m(m`m) g`g(g`g) f`f(f`f) f`g(f`g) g`f(g`f) (:)
+(m`0m) g`0g(g`0g) i`0i(i`0i) h`0h(h`0h) h`0i(h`0i) i`0h(i`0h) (:)
