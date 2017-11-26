@@ -1,5 +1,5 @@
 name: bars;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 5.0.2-develop-bbd6e257-4245;
 %%
 (c3),(,)
 (,)
@@ -10,6 +10,9 @@ g;h(g;/h)
 :(:)
 (:)
 g:h(g:/h)
+:?(:?)
+(:?)
+g:?h(g:?/h)
 ::(::)
 (::)
 g::h(g::/h)

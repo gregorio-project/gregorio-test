@@ -1,6 +1,6 @@
 name: 5-lines;
 staff-lines: 5;
-generated-by: gregorio 4.2.0-beta1-fix-856-7ee4d55-3666;
+generated-by: gregorio 5.0.2-develop-bbd6e257-4245;
 %%
 (c5)a_0'(a'_0) a_0(a_0) b_0(b_0) (`)
 b/c_0(b/c_0) c_0(c_0) d_0(d_0) (,)
@@ -25,5 +25,6 @@ g(g) ,1(;1)
 ;7(;7)
 ;8(;8Z)
 g(g) (z0::f2)
-e(e) fr1(fr1) fr2(fr2) mr3(mr3) nr4(nr4) pr5(pr5) (::)
+e(e) fr1(fr1) fr2(fr2) mr3(mr3) (:?)
+nr4(nr4) pr5(pr5) (::)
 
