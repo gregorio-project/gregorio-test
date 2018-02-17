@@ -36,6 +36,7 @@
 #                        into the filename of the actual result.
 # PDF_DENSITY   integer  the dpi to use for the pdf comparison.
 # SKIP_TESTS    array    tests to skip
+# NPROCESSORS   integer  number of processors available for running tests
 
 # for predictability in parsing results
 export LC_ALL=C
@@ -50,6 +51,12 @@ rcfile=gregorio-test.rc
 if [ -f $rcfile -a -r $rcfile ]
 then
     source $rcfile
+fi
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	export NPROCESSORS="${NPROCESSORS:-$(nproc)}"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	export NPROCESSORS="${NPROCESSORS:-$(sysctl -n hw.ncpu)}"
 fi
 
 export SED="${SED:-sed}" CP="${CP:-cp}" RM="${RM:-rm}"
@@ -454,7 +461,7 @@ test|retest)
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | $XARGS -P $processors -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -P $NPROCESSORS -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi
