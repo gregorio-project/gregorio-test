@@ -53,9 +53,11 @@ then
     source $rcfile
 fi
 
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
+if [[ "$OSTYPE" == "linux-gnu" ]]
+then
 	export NPROCESSORS="${NPROCESSORS:-$(nproc)}"
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+elif [[ "$OSTYPE" == "darwin"* ]]
+then
 	export NPROCESSORS="${NPROCESSORS:-$(sysctl -n hw.ncpu)}"
 fi
 
