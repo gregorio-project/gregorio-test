@@ -1,4 +1,11 @@
-%notes: tests lyric centering
+% The purpose of the syllable-rewriting feature is to attempt to keep letters
+% together so that font ligatures have a better chance of naturally occurring.
+%
+% This particular test employes the "Gatometrix" font, which contains a lot of
+% unusual ligatures.  The ligature we are looking at here is the "re" ligature.
+% Note that, when rewriting is off, the "re" ligature does not occur and the
+% "eb" ligature occurs instead.  When rewriting is "auto", the "re" ligature
+% occurs as expected.
 \documentclass[11pt]{article}
 \usepackage{graphicx}
 \usepackage{fontspec}
@@ -33,35 +40,26 @@
 
 \setmainfont[
     Path = ../../../fonts/ ,
-    Extension = .otf ,
-    UprightFont = *-Regular ,
-    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
-    BoldFont = *-Bold ,
-    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
-    ItalicFont = *-Italic ,
-    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
-    BoldItalicFont = *-BoldItalic ,
-    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
-    Ligatures = TeX
-]{Alegreya}
+    Extension = .otf
+]{Gatometrix}
 \gresetinitiallines{0}
 \listfiles
 \begin{document}
 
 default:
 
-\gregorioscore[a]{FactusEst}
+\gregorioscore[a]{syllable-rewriting}
 
 \vskip 1cm
 off:
 
 \gresetsyllablerewriting{off}
-\gregorioscore[a]{FactusEst}
+\gregorioscore[a]{syllable-rewriting}
 
 \vskip 1cm
 auto:
 
 \gresetsyllablerewriting{auto}
-\gregorioscore[a]{FactusEst}
+\gregorioscore[a]{syllable-rewriting}
 
 \end{document}
