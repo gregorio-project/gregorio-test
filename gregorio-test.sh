@@ -59,6 +59,8 @@ then
 elif [[ "$OSTYPE" == "darwin"* ]]
 then
 	export NPROCESSORS="${NPROCESSORS:-$(sysctl -n hw.ncpu)}"
+else
+	export NPROCESSORS="${NPROCESSORS:-1}"
 fi
 
 export SED="${SED:-sed}" CP="${CP:-cp}" RM="${RM:-rm}"
@@ -439,7 +441,6 @@ test|retest)
     echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
     echo
 
-    processors=$(nproc 2>/dev/null || echo 1)
     cd output
     if $progress_bar
     then
