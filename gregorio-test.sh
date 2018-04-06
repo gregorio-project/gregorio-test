@@ -16,28 +16,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Settings in gregorio-test.rc:
-# COLOR         boolean  whether to use color by default
-# CLEAN_PASSED  boolean  whether to delete the output files of passed tests
-# PROGRESS_BAR  boolean  whether to show a progress bar by default
-# SED           string   the command to use for sed; defaults to "sed".
-# VIEW_TEXT     string   the command to use to view a text file; expands {file}
-#                        into the filename of the text file
-# VIEW_PDF      string   the command to use to view a PDF file; expands {file}
-#                        into the filename of the PDF file.
-# VIEW_IMAGES   string   the command to use to view image files; expands
-#                        {files} into the filenames of the image files.
-# DIFF_TEXT     string   the command to use for a textual diff; expands
-#                        {expect} into the filename of the expected result
-#                        filename and {output} into the filename of the actual
-#                        result.
-# DIFF_PDF      string   the command to use for a PDF diff; expands {expect}
-#                        into the filename of the expected result and {output}
-#                        into the filename of the actual result.
-# PDF_DENSITY   integer  the dpi to use for the pdf comparison.
-# SKIP_TESTS    array    tests to skip
-# NPROCESSORS   integer  number of processors available for running tests
-
 # for predictability in parsing results
 export LC_ALL=C
 
@@ -285,6 +263,38 @@ Options:
 
 Note: The -a, -l, -e, -v, and -d options are mutually exclusive and will not
       work properly until after the desired test(s) are run.
+      
+Settings in gregorio-test.rc:
+
+COLOR         boolean  whether to use color to format output; defaults to false
+CLEAN_PASSED  boolean  whether to delete the output files of passed tests;
+                       defaults to false
+PROGRESS_BAR  boolean  whether to show a progress bar; defaults to false
+SED           string   the command to use for sed; defaults to "sed"
+CP            string   the command to use for cp; defaults to "cp"
+RM            string   the command to use for rm; defaults to "rm"
+FIND          string   the command to use for find; defaults to "find"
+XARGS         string   the command to use for xargs; defaults to "xargs"
+VIEW_TEXT     string   the command to use to view a text file; expands {file}
+                       into the filename of the text file
+VIEW_PDF      string   the command to use to view a PDF file; expands {file}
+                       into the filename of the PDF file.
+VIEW_IMAGES   string   the command to use to view image files; expands
+                       {files} into the filenames of the image files.
+DIFF_TEXT     string   the command to use for a textual diff; expands
+                       {expect} into the filename of the expected result
+                       filename and {output} into the filename of the actual
+                       result.
+DIFF_PDF      string   the command to use for a PDF diff; expands {expect}
+                       into the filename of the expected result and {output}
+                       into the filename of the actual result.
+PDF_DENSITY   integer  the dpi to use for the pdf comparison; defaults to 300
+SKIP_TESTS    array    tests to skip
+NPROCESSORS   integer  number of processors available for running tests; 
+                       defaults to 1
+THRESHOLD     float    level of strictness for image comparison;
+                       values between 0 and 1 with 1 being perfect match;
+                       defaults to 0.9985
 EOT
     exit 2
 fi
