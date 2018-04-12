@@ -18,7 +18,7 @@ export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
 export IMAGE_CACHE="$testroot/var/image-cache/$PDF_DENSITY"
-export THRESHOLD="${THRESHOLD:-0.9985}"
+export IMAGE_COMPARE_THRESHOLD="${IMAGE_COMPARE_THRESHOLD:-0.9985}"
 
 if $use_valgrind
 then
@@ -510,7 +510,7 @@ function typeset_and_compare {
                         # trick to do floating point-like comparison in bash
                         metric=$(compare -metric NCC \
                             "$name" "$expected" null: 2>&1)
-                        if (( $(echo "$metric < $THRESHOLD" | bc) ))
+                        if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
                         then
                             convert \( -background white -flatten "$name" \) \
                                 \( -background white -flatten "$expected" \) \

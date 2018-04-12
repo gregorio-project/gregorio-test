@@ -292,7 +292,8 @@ PDF_DENSITY   integer  the dpi to use for the pdf comparison; defaults to 300
 SKIP_TESTS    array    tests to skip
 NPROCESSORS   integer  number of processors available for running tests; 
                        defaults to 1
-THRESHOLD     float    level of strictness for image comparison;
+IMAGE_COMPARE_THRESHOLD
+              float    level of strictness for image comparison;
                        values between 0 and 1 with 1 being perfect match;
                        defaults to 0.9985
 EOT
