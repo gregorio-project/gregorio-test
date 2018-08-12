@@ -19,13 +19,22 @@ export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
 export IMAGE_CACHE="$testroot/var/image-cache/$PDF_DENSITY"
 export IMAGE_COMPARE_THRESHOLD="${IMAGE_COMPARE_THRESHOLD:-0.9985}"
+if [ -z "$CLEAR_EOL" ]
+then
+    export CLEAR_EOL=`tput el`
+fi
 
 if $use_valgrind
 then
-    export grind='valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind"'
+    function grind {
+        valgrind --leak-check=full --show-leak-kinds=all --suppressions="$testroot/kpathsea.valgrind.supp" --gen-suppressions=all --log-file="$filename.grind" "$@"
+    }
 else
-    export grind=''
+    function grind {
+        "$@"
+    }
 fi
+export -f grind
 export LSAN_OPTIONS="suppressions=$testroot/kpathsea.lsan.supp"
 
 groups=''
@@ -57,9 +66,9 @@ function register {
 }
 
 function testing {
-    TESTING="$1"
-    RESULTFILE="$2"
-    CLEANUP="$3"
+    TESTING="$1"; shift
+    RESULTFILE="$1"; shift
+    CLEANUP=( "$@" )
 }
 
 if $show_success
@@ -67,10 +76,10 @@ then
     function pass {
         RESULT=0
         echo "PASS|$TESTING|Pass" > $RESULTFILE
-        echo "$TESTING : $PASS"
+        echo "$TESTING : $PASS$CLEAR_EOL"
         if $clean_passed
         then
-            eval $CLEANUP
+            "${CLEANUP[@]}"
         fi
     }
 else
@@ -79,7 +88,7 @@ else
         echo "PASS|$TESTING|Pass" > $RESULTFILE
         if $clean_passed
         then
-            eval $CLEANUP
+            "${CLEANUP[@]}"
         fi
     }
 fi
@@ -87,13 +96,13 @@ fi
 function fail {
     RESULT=1
     echo "FAIL|$TESTING|$1" > $RESULTFILE
-    echo "$TESTING : $FAIL - $2"
+    echo "$TESTING : $FAIL - $2$CLEAR_EOL"
 }
 
 function not_verified {
     RESULT=0
     echo "TEST|$TESTING|Not verified" > $RESULTFILE
-    echo "$TESTING : not verified"
+    echo "$TESTING : not verified$CLEAR_EOL"
 }
 
 function maybe_run {
@@ -125,7 +134,7 @@ function accept_result {
 }
 
 function view_text {
-    if [ "$VIEW_TEXT" = "" ]
+    if [ "${#VIEW_TEXT[@]}" = "0" ]
     then
         echo "Unable to view $1"
         echo 'VIEW_TEXT is not set.'
@@ -134,14 +143,19 @@ function view_text {
         echo "Unable to view $1"
         echo 'File does not exist.'
     else
-        cmd="${VIEW_TEXT//\{file\}/$1}"
-        echo "$cmd"
-        eval $cmd
+        cmd=()
+        for i in "${!VIEW_TEXT[@]}"
+        do
+            arg="${VIEW_TEXT[$i]//\{file\}/$1}"
+            cmd+=( "$arg" )
+        done
+        echo "${cmd[@]}"
+        "${cmd[@]}"
     fi
 }
 
 function view_pdf {
-    if [ "$VIEW_PDF" = "" ]
+    if [ "${#VIEW_PDF[@]}" = "0" ]
     then
         echo "Unable to view $1"
         echo 'VIEW_PDF is not set.'
@@ -150,14 +164,19 @@ function view_pdf {
         echo "Unable to view $1"
         echo 'File does not exist.'
     else
-        cmd="${VIEW_PDF//\{file\}/$1}"
-        echo "$cmd"
-        eval $cmd
+        cmd=()
+        for i in "${!VIEW_PDF[@]}"
+        do
+            arg="${VIEW_PDF[$i]//\{file\}/$1}"
+            cmd+=( "$arg" )
+        done
+        echo "${cmd[@]}"
+        "${cmd[@]}"
     fi
 }
 
 function view_images {
-    if [ "$VIEW_IMAGES" = "" ]
+    if [ "${#VIEW_IMAGES[@]}" = "0" ]
     then
         echo "Unable to view $@"
         echo 'VIEW_IMAGES is not set.'
@@ -165,14 +184,21 @@ function view_images {
     then
         echo 'No files to view exist.'
     else
-        cmd="${VIEW_IMAGES//\{files\}/$@}"
-        echo "$cmd"
-        eval $cmd
+        cmd=()
+        for i in "${!VIEW_IMAGES[@]}"
+        do
+            case "${VIEW_IMAGES[$i]}" in
+                "{files}") cmd+=( "$@" ) ;;
+                *) cmd+=( "${VIEW_IMAGES[$i]}" ) ;;
+            esac
+        done
+        echo "${cmd[@]}"
+        "${cmd[@]}"
     fi
 }
 
 function diff_text {
-    if [ "$DIFF_TEXT" = "" ]
+    if [ "${#DIFF_TEXT[@]}" = "0" ]
     then
         echo "Unable to view $1"
         echo 'DIFF_TEXT is not set.'
@@ -181,15 +207,20 @@ function diff_text {
         echo "Unable to diff against $2"
         echo 'File does not exist.'
     else
-        cmd="${DIFF_TEXT//\{expect\}/$1}"
-        cmd="${cmd//\{output\}/$2}"
-        echo "$cmd"
-        eval $cmd
+        cmd=()
+        for i in "${!DIFF_TEXT[@]}"
+        do
+            arg="${DIFF_TEXT[$i]//\{expect\}/$1}"
+            arg="${arg//\{output\}/$2}"
+            cmd+=( "$arg" )
+        done
+        echo "${cmd[@]}"
+        "${cmd[@]}"
     fi
 }
 
 function diff_pdf {
-    if [ "$DIFF_PDF" = "" ]
+    if [ "${#DIFF_PDF[@]}" = "0" ]
     then
         echo "Unable to view $1"
         echo 'DIFF_PDF is not set.'
@@ -198,17 +229,22 @@ function diff_pdf {
         echo "Unable to diff against $2"
         echo 'File does not exist.'
     else
-        cmd="${DIFF_PDF//\{expect\}/$1}"
-        cmd="${cmd//\{output\}/$2}"
-        echo "$cmd"
-        eval $cmd
+        cmd=()
+        for i in "${!DIFF_PDF[@]}"
+        do
+            arg="${DIFF_PDF[$i]//\{expect\}/$1}"
+            arg="${arg//\{output\}/$2}"
+            cmd+=( "$arg" )
+        done
+        echo "${cmd[@]}"
+        "${cmd[@]}"
     fi
 }
 
 export -f needs_verification testing pass fail not_verified maybe_run
 
 function gabc_gtex_find {
-    $FIND gabc-gtex -name '*.gabc' -print
+    $FIND gabc-gtex -name '*.gabc' -print0
 }
 function gabc_gtex_test {
     filename="$1"
@@ -216,7 +252,7 @@ function gabc_gtex_test {
     logfile="$filename.log"
     expfile="${filename%.gabc}.tex"
 
-    testing "$filename" "$filename.result" "gabc_gtex_clean '$filename'"
+    testing "$filename" "$filename.result" "gabc_gtex_clean" "$filename"
 
     export TEXINPUTS="$(dirname "$filename"):"
     if [[ "$filename" = *"_B"* ]]
@@ -225,7 +261,7 @@ function gabc_gtex_test {
     else 
         deprecation=-D
     fi
-    if eval $grind $gregorio -Wv $deprecation -f gabc -F gtex \
+    if grind $gregorio -Wv $deprecation -f gabc -F gtex \
         -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
@@ -236,12 +272,17 @@ function gabc_gtex_test {
                 -e 's/\(\GregorioTeXAPIVersion{\)[^}]\+/\1@/' \
                 -e 's/\(\GreBeginScore{\)[^}]\+/\1@/' \
                 "$outfile" > "$outfile-"
-            $verify "$filename" && ${SED} \
-                -e 's/^\(% File generated by gregorio \).*/\1@/' \
-                -e 's/\(\GregorioTeXAPIVersion{\)[^}]\+/\1@/' \
-                -e 's/\(\GreBeginScore{\)[^}]\+/\1@/' \
-                "$expfile" > "$expfile-"
-            maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            if [ -f "$expfile" ]
+            then
+                $verify "$filename" && ${SED} \
+                    -e 's/^\(% File generated by gregorio \).*/\1@/' \
+                    -e 's/\(\GregorioTeXAPIVersion{\)[^}]\+/\1@/' \
+                    -e 's/\(\GreBeginScore{\)[^}]\+/\1@/' \
+                    "$expfile" > "$expfile-"
+                maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            else
+                fail "No expectation" "Expectation missing for $filename"
+            fi
         fi
     else
         if [[ "$filename" == */should-fail/* ]]
@@ -281,7 +322,7 @@ function gabc_gtex_view_output {
 register gabc_gtex
 
 function gabc_dump_find {
-    $FIND gabc-dump -name '*.gabc' -print
+    $FIND gabc-dump -name '*.gabc' -print0
 }
 function gabc_dump_test {
     filename="$1"
@@ -289,7 +330,7 @@ function gabc_dump_test {
     logfile="$filename.log"
     expfile="${filename%.gabc}.dump"
 
-    testing "$filename" "$filename.result" "gabc_dump_clean '$filename'"
+    testing "$filename" "$filename.result" "gabc_dump_clean" "$filename"
 
     export TEXINPUTS="$(dirname "$filename"):"
     if [[ "$filename" = *"_B"* ]]
@@ -298,7 +339,7 @@ function gabc_dump_test {
     else 
         deprecation=-D
     fi
-    if eval $grind $gregorio -Wv $deprecation -f gabc -F dump \
+    if grind $gregorio -Wv $deprecation -f gabc -F dump \
         -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
@@ -307,10 +348,15 @@ function gabc_dump_test {
         else
             ${SED} -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|SP\|\)_\)/@\1/' "$outfile" \
                 > "$outfile-"
-            $verify "$filename" && ${SED} \
-                -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|SP\|\)_\)/@\1/' "$expfile" \
-                > "$expfile-"
-            maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            if [ -f "$expfile" ]
+            then
+                $verify "$filename" && ${SED} \
+                    -e 's/[0-9]\+\( (\(GRE\|S\|G\|L\|SP\|\)_\)/@\1/' "$expfile" \
+                    > "$expfile-"
+                maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            else
+                fail "No expectation" "Expectation missing for $filename"
+            fi
         fi
     else
         if [[ "$filename" == */should-fail/* ]]
@@ -350,7 +396,7 @@ function gabc_dump_view_output {
 register gabc_dump
 
 function gabc_gabc_find {
-    $FIND gabc-gabc -name '*.gabc' -print
+    $FIND gabc-gabc -name '*.gabc' -print0
 }
 function gabc_gabc_test {
     filename="$1"
@@ -358,7 +404,7 @@ function gabc_gabc_test {
     logfile="$filename.log"
     expfile="${filename%.gabc}.exp"
 
-    testing "$filename" "$filename.result" "gabc_gabc_clean '$filename'"
+    testing "$filename" "$filename.result" "gabc_gabc_clean" "$filename"
 
     export TEXINPUTS="$(dirname "$filename"):"
     if [[ "$filename" = *"_B"* ]]
@@ -367,7 +413,7 @@ function gabc_gabc_test {
     else 
         deprecation=-D
     fi
-    if eval $grind $gregorio -Wv $deprecation -f gabc -F gabc \
+    if grind $gregorio -Wv $deprecation -f gabc -F gabc \
         -o "$outfile" -l "$logfile" "$filename"
     then
         if [[ "$filename" == */should-fail/* ]]
@@ -379,13 +425,18 @@ function gabc_gabc_test {
                 -e 's/^\(\GregorioTeXAPIVersion{\)[^}]*/\1@/' \
                 -e 's/^\(\GreBeginScore{\)[^}]*/\1@/' "$outfile" \
                 > "$outfile-"
-            $verify "$filename" && ${SED} \
-                -e 's/^\(% File generated by gregorio \).*/\1@/' \
-                -e 's/^\(generated-by: \).*;$/\1@;/' \
-                -e 's/^\(\GregorioTeXAPIVersion{\)[^}]*/\1@/' \
-                -e 's/^\(\GreBeginScore{\)[^}]*/\1@/' "$expfile" \
-                > "$expfile-"
-            maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            if [ -f "$expfile" ]
+            then
+                $verify "$filename" && ${SED} \
+                    -e 's/^\(% File generated by gregorio \).*/\1@/' \
+                    -e 's/^\(generated-by: \).*;$/\1@;/' \
+                    -e 's/^\(\GregorioTeXAPIVersion{\)[^}]*/\1@/' \
+                    -e 's/^\(\GreBeginScore{\)[^}]*/\1@/' "$expfile" \
+                    > "$expfile-"
+                maybe_run "$filename" diff -q "$outfile-" "$expfile-"
+            else
+                fail "No expectation" "Expectation missing for $filename"
+            fi
         fi
     else
         if [[ "$filename" == */should-fail/* ]]
@@ -425,7 +476,7 @@ function gabc_gabc_view_output {
 register gabc_gabc
 
 function scripted_find {
-    $FIND scripted -name '*.sh' -print
+    $FIND scripted -name '*.sh' -print0
 }
 function scripted_test {
     indir="$(dirname "$1")"
@@ -433,7 +484,7 @@ function scripted_test {
     outfile="${filename%.sh}.out"
     logfile="${filename%.sh}.log"
 
-    testing "$1" "$filename.result" "scripted_clean '$filename'"
+    testing "$1" "$filename.result" "scripted_clean" "$filename"
 
     if cd "$indir"
     then
@@ -485,55 +536,67 @@ function typeset_and_compare {
         else
             if $verify "$texfile"
             then
-                if $skip_cache || [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                if [ -f "$pdffile" ]
                 then
-                    rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
-                    mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
+                    if $skip_cache || [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                    then
+                        rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
+                        mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
+                            convert -background white -alpha remove \
+                                -colorspace Gray -channel R -separate \
+                                -density $PDF_DENSITY "$pdffile" \
+                                "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
+                            fail "Failed to create expectation images" \
+                                "Failed to create images for $indir/$outdir/$pdffile"
+                    fi
+
+                    if cd "$outdir" && \
                         convert -background white -alpha remove \
                             -colorspace Gray -channel R -separate \
                             -density $PDF_DENSITY "$pdffile" \
-                            "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
-                        fail "Failed to create expectation images" \
-                            "Failed to create images for $indir/$outdir/$pdffile"
-                fi
-
-                if cd "$outdir" && \
-                    convert -background white -alpha remove \
-                        -colorspace Gray -channel R -separate \
-                        -density $PDF_DENSITY "$pdffile" \
-                        page-%d.png
-                then
-                    declare -a failed
-                    for name in page*.png
-                    do
-                        expected="$IMAGE_CACHE/$indir/$outdir/$name"
-                        # trick to do floating point-like comparison in bash
-                        metric=$(compare -metric NCC \
-                            "$name" "$expected" null: 2>&1)
-                        if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
-                        then
-                            convert \( -background white -flatten "$name" \) \
-                                \( -background white -flatten "$expected" \) \
-                                \( -clone 0,1 -compose difference -composite \) \
-                                \( -clone 0 -clone 2 -compose minus -composite \
-                                    -background blue -alpha shape \) \
-                                \( -clone 1 -clone 2 -compose minus \
-                                    -composite -background red -alpha shape \) \
-                                \( -clone 0,1 -fill white -colorize 80% \) \
-                                -delete 0-2 -reverse -background white \
-                                -compose over -flatten "diff-$name"
-                            failed[${#failed[@]}]="$indir/$outdir/$name"
-                        fi
-                    done
-                    if [ ${#failed[@]} != 0 ]
+                            page-%d.png
                     then
-                        fail "Results differ" "[${failed[*]}] differ from expected"
-                        return
+                        declare -a failed
+                        for name in page*.png
+                        do
+                            expected="$IMAGE_CACHE/$indir/$outdir/$name"
+                            if [ -f "$expected" ]
+                            then
+                                metric=$(compare -metric NCC \
+                                    "$name" "$expected" null: 2>&1)
+                                if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
+                                then
+                                    convert \( -background white -flatten "$name" \) \
+                                        \( -background white -flatten "$expected" \) \
+                                        \( -clone 0,1 -compose difference -composite \) \
+                                        \( -clone 0 -clone 2 -compose minus -composite \
+                                            -background blue -alpha shape \) \
+                                        \( -clone 1 -clone 2 -compose minus \
+                                            -composite -background red -alpha shape \) \
+                                        \( -clone 0,1 -fill white -colorize 80% \) \
+                                        -delete 0-2 -reverse -background white \
+                                        -compose over -flatten "diff-$name"
+                                    failed[${#failed[@]}]="$indir/$outdir/$name"
+                                fi
+                            else
+                                failed[${#failed[@]}]="$indir/$outdir/$name"
+                            fi
+                        done
+                        if [ ${#failed[@]} != 0 ]
+                        then
+                            fail "Results differ" "[${failed[*]}] differ from expected"
+                            return
+                        fi
+                        pass
+                    else
+                        fail "Failed to create images" \
+                            "Failed to create images for $indir/$outdir/$pdffile"
                     fi
-                    pass
+                elif [ ! -f "$outdir/$pdffile" ]
+                then
+                    fail "Failed to typeset" "Failed to typeset $indir/$outdir/$texfile"
                 else
-                    fail "Failed to create images" \
-                        "Failed to create images for $indir/$outdir/$pdffile"
+                    fail "No expectation" "Expectation missing for $indir/$outdir/$filebase/$texfile"
                 fi
             else
                 cd "$outdir" && not_verified
@@ -587,7 +650,7 @@ export -f typeset_and_compare clean_typeset_result accept_typeset_result \
     view_typeset_diff latex_run
 
 function gabc_output_find {
-    $FIND gabc-output -name '*.gabc' -print
+    $FIND gabc-output -name '*.gabc' -print0
 }
 function gabc_output_test {
     indir="$(dirname "$1")"
@@ -596,7 +659,7 @@ function gabc_output_test {
     filebase="${filename%.gabc}"
     texfile="$filebase.tex"
 
-    testing "$1" "../$filename.result" "gabc_output_clean '$filename'"
+    testing "$1" "../$filename.result" "gabc_output_clean" "$filename"
 
     if cd "${indir}" && mkdir "${outdir}"
     then
@@ -653,6 +716,7 @@ function gabc_output_view_log {
     filename="$(basename "$1")"
     outdir="$filename.out"
 
+    echo "$filename"
     view_text "$indir/$outdir/${filename%.gabc}.log"
 }
 function gabc_output_view_diff {
@@ -675,14 +739,14 @@ function gabc_output_view_output {
 register gabc_output
 
 function tex_output_find {
-    $FIND tex-output -name '*.tex' -print
+    $FIND tex-output -name '*.tex' -print0
 }
 function tex_output_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
     outdir="$filename.out"
 
-    testing "$1" "../$filename.result" "tex_output_clean '$filename'"
+    testing "$1" "../$filename.result" "tex_output_clean" "$filename"
 
     if cd "$indir" && mkdir "$outdir"
     then
@@ -740,14 +804,14 @@ function plain_tex_run {
 }
 export -f plain_tex_run
 function plain_tex_find {
-    $FIND plain-tex -name '*.tex' -print
+    $FIND plain-tex -name '*.tex' -print0
 }
 function plain_tex_test {
     indir="$(dirname "$1")"
     filename="$(basename "$1")"
     outdir="$filename.out"
 
-    testing "$1" "../$filename.result" "plain_tex_clean '$filename'"
+    testing "$1" "../$filename.result" "plain_tex_clean" "$filename"
 
     if cd "$indir" && mkdir "$outdir"
     then
