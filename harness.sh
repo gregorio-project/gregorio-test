@@ -528,6 +528,10 @@ function typeset_and_compare {
                         else
                             fail "Failed to find expectation image" \
                                 "$expected cannot be found"
+                            if ! $skip_cache
+                            then
+                                echo "Try rebuilding image cache with -i"
+                            fi
                             return
                         fi
                     done
