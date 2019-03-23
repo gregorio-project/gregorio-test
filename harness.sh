@@ -526,7 +526,9 @@ function typeset_and_compare {
                                 failed[${#failed[@]}]="$indir/$outdir/$name"
                             fi
                         else
-                            failed[${#failed[@]}]="$indir/$outdir/$name"
+                            fail "Failed to find expectation image" \
+                                "$expected cannot be found"
+                            return
                         fi
                     done
                     if [ ${#failed[@]} != 0 ]
