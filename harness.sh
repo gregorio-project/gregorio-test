@@ -486,6 +486,7 @@ function typeset_and_compare {
             if $verify "$texfile"
             then
                 directory="$IMAGE_CACHE/$indir/$outdir"
+                not_nice=false
                 if $skip_cache || [[ "$pdffile" -nt "$directory" ]]
                 then
                     rm -fr "$directory" && \
@@ -494,8 +495,15 @@ function typeset_and_compare {
                             -colorspace Gray -channel R -separate \
                             -density $PDF_DENSITY "$pdffile" \
                             "$directory/page-%d.png" || \
+                        not_nice=true
+                    if $not_nice
+                    then
                         fail "Failed to create expectation images" \
                             "Failed to create images for $indir/$outdir/$pdffile"
+                        rm -fr "$directory"
+                        not_nice=false
+                        return
+                    fi
                 fi
 
                 if cd "$outdir" && \
