@@ -485,14 +485,15 @@ function typeset_and_compare {
         else
             if $verify "$texfile"
             then
-                if $skip_cache || [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                directory="$IMAGE_CACHE/$indir/$outdir"
+                if $skip_cache || [[ "$pdffile" -nt "$directory" ]]
                 then
-                    rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
-                    mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
+                    rm -fr "$directory" && \
+                    mkdir -p "$directory" && \
                         convert -background white -alpha remove \
                             -colorspace Gray -channel R -separate \
                             -density $PDF_DENSITY "$pdffile" \
-                            "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
+                            "$directory/page-%d.png" || \
                         fail "Failed to create expectation images" \
                             "Failed to create images for $indir/$outdir/$pdffile"
                 fi
@@ -506,7 +507,7 @@ function typeset_and_compare {
                     declare -a failed
                     for name in page*.png
                     do
-                        expected="$IMAGE_CACHE/$indir/$outdir/$name"
+                        expected="$directory/$name"
                         if [ -f "$expected" ]
                         then
                             metric=$(compare -metric NCC \
