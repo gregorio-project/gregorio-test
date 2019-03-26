@@ -490,7 +490,7 @@ function typeset_and_compare {
                 if $skip_cache || [[ "$pdffile" -nt "$directory" ]]
                 then
                     rm -fr "$directory" && \
-                    mkdir -p "$directory" && \
+                        mkdir -p "$directory" && \
                         convert -background white -alpha remove \
                             -colorspace Gray -channel R -separate \
                             -density $PDF_DENSITY "$pdffile" \
