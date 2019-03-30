@@ -1,12 +1,12 @@
 name: 5-lines;
 staff-lines: 5;
-generated-by: gregorio 5.0.2-develop-bbd6e257-4245;
+generated-by: gregorio 5.1.1-develop-06951278-4322;
 %%
 (c5)a_0'(a'_0) a_0(a_0) b_0(b_0) (`)
 b/c_0(b/c_0) c_0(c_0) d_0(d_0) (,)
 efg/0hi/0jk(efg/0hi/0jk) (;)
 l_(l_) m_(m_) m_/n(m_/n) (:)
-N_(N0_) P_(P0_) P_'1(P0'1_) (::Z)
+N_(N2_) P_(P2_) P_'1(P2'1_) (::Z)
 a+(a+) b+(b+) c+(c+) d+(d+) e+(e+) f+(f+) g+(g+) h+(h+) i+(i+) j+(j+) k+(k+) l+(l+) m+(m+) n+(n+) p+(p+Z)
 g(g) ,1(;1)
 ,2(;2)

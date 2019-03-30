@@ -379,7 +379,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  n
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  4 (S_PUNCTUM_INCLINATUM_STANS)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -402,7 +402,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  p
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  4 (S_PUNCTUM_INCLINATUM_STANS)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -429,7 +429,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  p
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  4 (S_PUNCTUM_INCLINATUM_STANS)
          signs                  16 (_V_EPISEMA)
          v episema forced       ABOVE
          auto hepisema size     0 (H_NORMAL)
