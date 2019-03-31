@@ -538,16 +538,25 @@ function typeset_and_compare {
             then
                 if [ -f "$pdffile" ]
                 then
-                    if $skip_cache || [[ "$pdffile" -nt "$IMAGE_CACHE/$indir/$outdir" ]]
+                    directory="$IMAGE_CACHE/$indir/$outdir"
+                    not_nice=false
+                    if $skip_cache || [[ "$pdffile" -nt "$directory" ]]
                     then
-                        rm -fr "$IMAGE_CACHE/$indir/$outdir" && \
-                        mkdir -p "$IMAGE_CACHE/$indir/$outdir" && \
+                        rm -fr "$directory" && \
+                            mkdir -p "$directory" && \
                             convert -background white -alpha remove \
                                 -colorspace Gray -channel R -separate \
                                 -density $PDF_DENSITY "$pdffile" \
-                                "$IMAGE_CACHE/$indir/$outdir/page-%d.png" || \
+                            "$directory/page-%d.png" || \
+                            not_nice=true
+                        if $not_nice
+                        then
                             fail "Failed to create expectation images" \
                                 "Failed to create images for $indir/$outdir/$pdffile"
+                            rm -fr "$directory"
+                            not_nice=false
+                            return
+                        fi
                     fi
 
                     if cd "$outdir" && \
@@ -559,7 +568,7 @@ function typeset_and_compare {
                         declare -a failed
                         for name in page*.png
                         do
-                            expected="$IMAGE_CACHE/$indir/$outdir/$name"
+                            expected="$directory/$name"
                             if [ -f "$expected" ]
                             then
                                 metric=$(compare -metric NCC \
@@ -579,7 +588,13 @@ function typeset_and_compare {
                                     failed[${#failed[@]}]="$indir/$outdir/$name"
                                 fi
                             else
-                                failed[${#failed[@]}]="$indir/$outdir/$name"
+                                fail "Failed to find expectation image" \
+                                    "$expected cannot be found"
+                                if ! $skip_cache
+                                then
+                                    echo "Try rebuilding image cache with -i"
+                                fi
+                                return
                             fi
                         done
                         if [ ${#failed[@]} != 0 ]
