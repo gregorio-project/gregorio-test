@@ -296,6 +296,8 @@ IMAGE_COMPARE_THRESHOLD
               float    level of strictness for image comparison;
                        values between 0 and 1 with 1 being perfect match;
                        defaults to 0.9985
+CLEAR_EOL     string   control sequence to clear from the cursor position to
+                       the end of the line; defaults to the output of "tput el"
 EOT
     exit 2
 fi
@@ -346,11 +348,12 @@ then
     esac
 
     function filter {
-        while read line
+        while IFS= read -r -d '' line
         do
             if [ "${tests_to_skip[$line]}" != "1" ]
             then
-                echo $line
+                echo -n "$line"
+                echo -ne '\0'
             fi
         done
     }
@@ -367,11 +370,12 @@ else
     esac
 
     function filter {
-        while read line
+        while IFS= read -r -d '' line
         do
             if [ "${tests_to_run[$line]}" = "1" -a "${tests_to_skip[$line]}" != "1" ]
             then
-                echo $line
+                echo -n "$line"
+                echo -ne '\0'
             fi
         done
     }
@@ -455,27 +459,35 @@ test|retest)
     cd output
     if $progress_bar
     then
-        total=$(
-            for group in ${groups}
-            do
-                ${group}_find | filter
-            done | wc -l
-        )
-        function progress {
-            # adapted from http://stackoverflow.com/questions/238073
-            let percent=$(((${1}*100/$total*100)/100))
-            let completed=$(((${percent}*5)/10))
-            let remaining=$((50-$completed))
-            fill=$(printf "%${completed}s")
-            empty=$(printf "%${remaining}s")
-            printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
-        }
+        total=0
+        for group in ${groups}
+        do
+            IFS= readarray -d '' counter < <( ${group}_find | filter )
+            total=$(( total + ${#counter[@]} ))
+        done
+
+        if [ "$total" = "0" ]
+        then
+            function progress {
+                :
+            }
+        else
+            function progress {
+                # adapted from http://stackoverflow.com/questions/238073
+                let percent=$(((${1}*100/$total*100)/100))
+                let completed=$(((${percent}*5)/10))
+                let remaining=$((50-$completed))
+                fill=$(printf "%${completed}s")
+                empty=$(printf "%${remaining}s")
+                printf "Processed %3d%% [%s%s] %d/%d\r" $percent "${fill// /#}" "${empty// /_}" $count $total
+            }
+        fi
     fi
     (
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | $XARGS -P $NPROCESSORS -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -0 -P $NPROCESSORS -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi
@@ -534,8 +546,7 @@ accept|view_*)
     cd output
     for group in ${groups}
     do
-        # this silliness is so that the command gets the tty of this script
-        IFS=$'\r\n' GLOBIGNORE='*' :; filenames=( $(${group}_find | filter) )
+        IFS= readarray -d '' filenames < <( ${group}_find | filter )
         if [ "${#filenames[@]}" -gt 0 ]
         then
             for filename in "${filenames[@]}"
