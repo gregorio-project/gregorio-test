@@ -1,5 +1,5 @@
 name: bars;
-generated-by: gregorio 5.1.1-develop-e49fd3c1-4324;
+generated-by: gregorio 5.2.1-develop-6f8ad691-4369;
 %%
 (c3),(,)
 (,)
@@ -95,6 +95,25 @@ generated-by: gregorio 5.1.1-develop-e49fd3c1-4324;
 <v>\textasciicircum{}</v>0(^0)
 (^0)
 {k<v>\textasciicircum{}</v>0l}(k^0/l)
+(Z)
+,?(,?)
+(,?)
+{g,?h}(g,?/h)
+,?0(,0?)
+(,0?)
+{i,?0j}(i,0?/j)
+,0?(,0?)
+(,0?)
+{i,0?j}(i,0?/j)
+`?(`?)
+(`?)
+{g`?h}(g`?/h)
+`?0(`0?)
+(`0?)
+{i`?0j}(i`0?/j)
+`0?(`0?)
+(`0?)
+{i`0?j}(i`0?/j)
 (Z)
 {g.,g}(g.,/g)
 
