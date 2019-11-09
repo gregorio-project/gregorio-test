@@ -118,6 +118,7 @@ Requirements:
 - All other files needed by the tex file (i.e., gabc files) must also
   be included.
 - Use of the provided Alegreya fonts is recommended.
+- Filenames for the test must not have the format `gap-*.tex`. Files with this naming pattern are assumed to be space configuration files, not independent tests.
 
 Notes:
 

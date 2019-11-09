@@ -754,7 +754,7 @@ function gabc_output_view_output {
 register gabc_output
 
 function tex_output_find {
-    $FIND tex-output -name '*.tex' -print0
+    $FIND tex-output -name '*.tex' ! -name 'gsp-*.tex' -print0
 }
 function tex_output_test {
     indir="$(dirname "$1")"
