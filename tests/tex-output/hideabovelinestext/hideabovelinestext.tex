@@ -1,0 +1,39 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+% This is a simple template for a LuaLaTeX document using gregorio scores.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+% usual packages loading:
+\usepackage{fontspec}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\usepackage[allowdeprecated=false]{gregoriotex} % for gregorio score inclusion
+\usepackage{fullpage} % to reduce the margins
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+% here we begin the document
+\listfiles
+\begin{document}
+
+% and finally we include the score. The file must be in the same directory as this one.
+\gregorioscore[a]{PopulusSion}
+
+\gresetabovelinestext{invisible}
+\gregorioscore[a]{PopulusSion}
+
+\end{document}
