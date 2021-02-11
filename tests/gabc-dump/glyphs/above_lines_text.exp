@@ -1,6 +1,6 @@
 name: above lines text;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 5.2.1--a6b7641f-4476;
 %%
 (c3)gh(ghZ)
-gh(gh[alt:note alt]Z)
+gh$(with parentheses)(gh[alt:note alt]Z)
 

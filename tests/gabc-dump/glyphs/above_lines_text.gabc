@@ -1,4 +1,4 @@
 name: above lines text;
 %%
-gh<alt>above lines</alt>(ghZ)
-gh(gh[alt:note alt]Z)
+gh<alt>above lines $(parentheses)</alt>(ghZ)
+gh$(with parentheses)(gh[alt:note alt]Z)
