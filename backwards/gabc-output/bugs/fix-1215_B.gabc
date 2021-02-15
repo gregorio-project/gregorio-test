@@ -1,0 +1,13 @@
+name: fix-1215;
+%%
+(c4) Aa(klk) bb(kml) space() cc(lmk) dd(d[ll:1]a[ll:1]) ee(ca)
+(::)
+ba(ba) cb(cb) ml(ml) lk(lk) ba~(ba~) cb~(cb~) ml~(ml~) lk~(lk~)
+(::Z)
+abcV(abcV) bcdV(bcdV) ab/!cV(ab/!cV) bc/!dV(bc/!dV)
+lmmV(lmmV) klmV(klmV) lm/!mV(lm/!mV) kl/!mV(k/!lmV)
+(::Z)
+cb/dv(cb/dv) cb//dv(cb//dv) cb!dv(cb!dv) cb/0dv(cb/0dv) cb!/dv(cb!/dv)
+(::)
+cv/!ab(cv/!ab) dv/!bc(dv/!bc) cvab(cvab) dvbc(dvbc)
+(::)
