@@ -1,4 +1,4 @@
 name: macros;
-generated-by: gregorio 4.0.0-rc2-fix-670-af3219a-2704;
+generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
 %%
-(c3)ab(g[nv:%test1]h[nv:%test2][gv:%test3] gh[gv:%test4] [ev:%test5] g[nv:%test6test7] g[nv:%test72]) 
+(c3)ab(g[nv:$%test1]h[nv:$%test2][gv:$%test3] gh[gv:$%test4] [ev:$%test5] g[nv:$%test6test7] g[nv:$%test72]) 

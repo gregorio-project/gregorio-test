@@ -1,4 +1,4 @@
 name: unstyled-no-initial-verbatim;
-generated-by: gregorio 4.0.0-rc2-fix-670-af3219a-2704;
+generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
 %%
-(c3)<v>\TeX{}</v><b>Live</b>(c) 
+(c3)<v>\TeX${$}</v><b>Live</b>(c) 

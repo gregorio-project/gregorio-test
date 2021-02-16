@@ -1,8 +1,8 @@
 name: styles, verb and special characters;
-generated-by: gregorio 5.2.1--a6b7641f-4476;
+generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
 %%
 (c3)<i>italics</i><b>bold</b><ul>underline</ul><sp>+</sp><v>a</v>(gZ)
-$<a<sp>+</sp><sp>%</sp>><v><</v><v>></sp></v>(fZ)
+$<a<sp>+</sp><sp>$%</sp>><v>$<</v><v>>$</sp></v>(fZ)
 <sc>Sm</sc><sc>a</sc><sc>ll Caps</sc>(e) x<c>c</c><c>o</c><c>lored</c>(eZ)
 <i>I</i><i>talic<b>Bold<sc>Small<c>Colored</c>Caps</sc>Face</b>Font</i>(iZ)
 <b>B</b><b>o</b><b>ld<tt>Teletype</tt>Font</b>(gZ)

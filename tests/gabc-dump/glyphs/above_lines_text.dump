@@ -107,7 +107,7 @@
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
      type                    13 (GRE_ALT)
-     Above lines text        "note alt"
+     Above lines text        "note [alt]"
 ---------------------------------------------------------------------
      type                    5 (GRE_END_OF_LINE)
          ragged                 true

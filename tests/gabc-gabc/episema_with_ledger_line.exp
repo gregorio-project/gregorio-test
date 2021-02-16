@@ -1,5 +1,5 @@
 name: episema with ledger line;
-generated-by: gregorio 5.2.1--a6b7641f-4476;
+generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
 %%
 (c3)k_(k_) c_0(c_0) (:)
 l/k_(l/k_) b/c_0(b/c_0) (:)
@@ -15,9 +15,9 @@ k_j_i_/l(k_j_/i_/l) c_0!d_0!e_0/b(c_0!d_0!e_0/b) (:)
 j_jk_(j_jk_) c_0c_0d(c_0c_0d) (:)
 l/j_jk_(l/j_jk_) b/c_0c_0d(b/c_0c_0d) (:)
 j_jk_/l(j_jk_/l) c_0c_0d/b(c_0c_0d/b) (::)
-k<v>[</v>hl$:1<v>]</v>_(k_[hl:1]) c<v>[</v>ll$:1<v>]</v>_0(c_0[ll:1]) (:)
-l/k<v>[</v>hl$:0<v>]</v>_(l/k_[hl:0]) b/c<v>[</v>ll$:0<v>]</v>_0(b/c_0[ll:0]) (:)
-k<v>[</v>hl$:0<v>]</v>_/l(k_[hl:0]/l) c<v>[</v>ll$:0<v>]</v>_0/b(c_0[ll:0]/b) (::)
+k<v>$[</v>hl$:1<v>$]</v>_(k_[hl:1]) c<v>$[</v>ll$:1<v>$]</v>_0(c_0[ll:1]) (:)
+l/k<v>$[</v>hl$:0<v>$]</v>_(l/k_[hl:0]) b/c<v>$[</v>ll$:0<v>$]</v>_0(b/c_0[ll:0]) (:)
+k<v>$[</v>hl$:0<v>$]</v>_/l(k_[hl:0]/l) c<v>$[</v>ll$:0<v>$]</v>_0/b(c_0[ll:0]/b) (::)
 l/m_0(l/m_0) b/a_(b/a_) (:)
 m_0/l(m_0/l) a_/b(a_/b) (:)
 l/m_0m_0(l/m_0m_0) b/a_a_(b/a_a_) (:)
