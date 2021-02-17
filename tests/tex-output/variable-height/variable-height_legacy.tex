@@ -1,0 +1,40 @@
+%notes: test for trnslation centering
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\listfiles
+\begin{document}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangestaffsize{15}
+\gresetnoteadditionalspacelinestext{manual}
+
+{\bfseries Default}
+
+\gregorioscore[a]{variable-height}
+
+{\bfseries Uniform}
+\gresetlineheightexpansion{uniform}
+
+\gregorioscore[a]{variable-height}
+
+{\bfseries Variable}
+\gresetlineheightexpansion{variable}
+
+\gregorioscore[a]{variable-height}
+
+\end{document}
