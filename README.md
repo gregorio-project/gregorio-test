@@ -8,22 +8,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Each branch on this repository should correspond to the matching branch (i.e.
 the one with the same name) in the
 [main repository](https://github.com/gregorio-project/gregorio).  That is, all
-the tests should pass when run against that branch with TeX Live 2018.  Thus all
+the tests should pass when run against that branch with TeX Live 2020.  Thus all
 new development in the main repository should create a corresponding branch
 here.  The exception to this is a branch which should not break any existing
 test and requires no new tests.  In this instance, it's acceptable to simply
-indicate that all tests on the develop (or master) branch here should pass.
+indicate that all tests on the develop (or ctan) branch here should pass.
 
 ### Supplemental Fonts
 
 The `gabc-output/bar-substitution.gabc` test makes use of gregorio.ttf and thus
 will fail if the supplemental fonts are not installed.
-
-### TeX Live 2014
-
-When testing with TeX Live 2014 the following tests are known to fail due to
-differences between its line breaking algorithms and those in TeXLive 2015 and later:
-  -`gabc-output/double-clef.gabc`
 
 ## Running the test suite
 
@@ -164,9 +158,9 @@ Requirements:
 
 Tests that are under the `backwards` top-level directory should test
 that deprecated features are working correctly.  They should be named
-with `_B` before the extension of the filename.  This naming convention
-causes `gregorio-test.sh` to allow deprecated usage so that deprecated
-features may be tested correctly.
+with `_B` before the extension of the filename (or `-preamble.tex` for such 
+files).  This naming convention causes `gregorio-test.sh` to allow deprecated 
+usage so that deprecated features may be tested correctly.
 
 ### Tests for things that should fail
 

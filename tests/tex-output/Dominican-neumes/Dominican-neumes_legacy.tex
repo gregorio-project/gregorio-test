@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\gresetgregoriofont[op]{greciliae}
+\gresetlyriccentering{syllable}
+\gresetinitiallines{0}
+\gresetnoteadditionalspacelinestext{manual}
+
+\listfiles
+\begin{document}
+
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+
+\gresetlinecolor{gregoriocolor}
+
+\gregorioscore[a]{Dominican-neumes}
+
+\end{document}
