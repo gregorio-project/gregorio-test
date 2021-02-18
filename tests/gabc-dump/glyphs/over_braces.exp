@@ -1,9 +1,9 @@
 name: over braces;
-generated-by: gregorio 4.1.0-beta3-fix-905-2e2e49a-3303;
+generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
 %%
 (c3)ab(g,_/h)
 ab(g_,_/h_)
 ab(g,'_/h)
 ab(g_,'_ h_)
-ab(g[nv:\GreOverBrace{6mm}{0pt}{0pt}{1}]!hgh) ab(g[nv:\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{0}]!hghZ)
-ab(g[nv:\GreOverCurlyBrace{6mm}{0pt}{0pt}{1}{1}]/hgh) ab(g[nv:\GreUnderBrace{6mm}{0pt}{0pt}{1}]!hgh) 
+ab(g[nv:\GreOverBrace${6mm$}${0pt$}${0pt$}${1$}]!hgh) ab(g[nv:\GreOverCurlyBrace${6mm$}${0pt$}${0pt$}${1$}${0$}]!hghZ)
+ab(g[nv:\GreOverCurlyBrace${6mm$}${0pt$}${0pt$}${1$}${1$}]/hgh) ab(g[nv:\GreUnderBrace${6mm$}${0pt$}${0pt$}${1$}]!hgh) 
