@@ -1,0 +1,105 @@
+name:tests queues;
+%%
+(c4)
+
+% virga
+bv(bv)
+cv(cv)
+dv(dv)
+ev(ev)
+fv(fv)
+gv(gv)
+b!cv(b!cv)
+b!dv(b!dv)
+
+% regular clivis
+ih(ih) % AM 1934 p. 367 l. 3, hereafter noted AM 367,3
+hg(hg) % AM 367,4
+dc(dc) % AM 366
+ed(ed) % AM 1185,5
+ig(ig) % AM 367,6
+fd(fd) % AM 673,1
+gd(gd) % AM 531,3
+he(he) % AM 420,7
+hf(hf)
+hd(hd) % AM 1183,1
+ie(ie)
+je(je)
+id(id)
+
+% clivis deminutus
+ih~(ih~) % AM 396,1
+hg~(hg~) % AM 347,7
+dc~(dc~) % AM 397,4, AM 1182,4
+ed~(ed~) % AM 402,5
+ge~(ge~) % AM 239,4
+gd~(gd~) % AM 239,3
+gc~(gc~) % AM 397,5
+he~(he~)
+hf~(hf~)
+hd~(hd~)
+ie~(ie~)
+je~(je~)
+id~(id~)
+
+% clivis liquescens
+ih<(ih<)
+ih>(ih>)
+hg<(hg<)
+hg>(hg>)
+he>(he>Z)
+
+% bottom
+bv(bv) aqb(aqb) ba(ba) dv<v>[</v>ll:1<v>]</v>(dv[ll:1])
+       ed<v>[</v>ll:1<v>]</v>(ed[ll:1])
+       e<v>[</v>ll:1<v>]</v>d(e[ll:1]d)
+       ed<sp>~</sp><v>[</v>ll:1<v>]</v>(ed~[ll:1])
+       e<v>[</v>ll:1<v>]</v>d<sp>~</sp>(e[ll:1]d~)
+       d<v>[</v>ll:1<v>]</v>cd(d[ll:1]cd) c<v>[</v>ll:1<v>]</v>qd(c[ll:1]qd Z)
+       b!dv<v>[</v>ll:0<v>]</v>(b!dv[ll:0])
+       b!ed<v>[</v>ll:0<v>]</v>(b!ed[ll:0])
+       b!e<v>[</v>ll:0<v>]</v>d(b!e[ll:0]d)
+       b!ed<sp>~</sp><v>[</v>ll:0<v>]</v>(b!ed~[ll:0])
+       b!e<v>[</v>ll:0<v>]</v>d<sp>~</sp>(b!e[ll:0]d~)
+       d<v>[</v>ll:0<v>]</v>cd!b(d[ll:0]cd!b)
+
+% composed
+gv!ge(gv!ge) gv!gd(gv!gd) hv!hg(hv!hg) hv!hf(hv!hf)
+
+% pes quadratum
+gqh(gqh) gqi(gqi) gqj(gqj)
+fqg(fqg) fqh (fqh) fqi(fqi)
+
+% pes quilisma quadratum
+gWh(gWh) gWi(gWi) gWj(gWj)
+fWg(fWg) fWh(fWh) fWi(fWi)
+
+% pes quassus
+gOh(gOh) gOi(gOi) gOj(gOj)
+fOg(fOg) fOi(fOi) fOj(fOj)
+
+% composed
+gWh!hV(gWh!hv) gWi!iV(gWi!iV) fWg!gV(fWg!gV) fWh!hV(fWh!hV)
+gOh!hV(gOh!hv) gOi!iV(gOi!iV) fOg!gV(fOg!gV) fOh!hV(fOh!hV)
+
+% porrectus
+ede(ede) ece(ece) dcd(dcd) b!dcd(b!dcd) cbc(cbc) fef(fef) fdf(fdf) geg(geg) gdg(gdg) heh(heh) hdh(hdh) idi(idi) hch(hch)
+
+% alt porrectus deminutus
+ede(ede~) ece(ece~) dcd(dcd~) cbc(cbd~) fef(fef~) fdf(fdf~) hvhfg(hvhfg~) gvgef(gvgef~) hdh(hdh~) iei(iei~)
+
+a(gf ge gd gc gb gf~ ge~ gd~ gc~ gb~ Z) 
+b(hg hf he hd hc hg~ hf~ he~ hd~ hc~ Z)
+
+% Salicus
+fgOh(fgOh) gOh(gOh)
+ghOi(ghOi) hOi(hOi)
+egOh(egOh) egOi(egOi)
+egOj(egOj) gOj(gOj)
+
+% Ancus
+c(ihg~ igf~ ife~ ied~ idc~ Z) 
+d(hgf~ hfe~ hed~ hdc~ hcb~ Z) 
+e(hf he if ie ge Z) 
+(hv gv Z) 
+g(dc~ Z dc~b Z ba~)
