@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage[landscape,margin=1in]{geometry}
+\usepackage[paperwidth=17in,paperheight=8.5in,margin=1in]{geometry}
 \usepackage[autocompile]{gregoriotex}
 
 \usepackage{fontspec}
@@ -21,12 +21,18 @@
 
 \begin{document}
 
-The same score from GregoBase (4971), set at two slightly different widths. On the left, the B's in \emph{Vir-} and \emph{pri-} are flatted under the Dominican convention that a flat extends to the end of the line. But on the right, under the same convention, they are not flatted.
-
 \bigskip
 
-\noindent\parbox[t]{4.06in}{\gregorioscore{an--alma_redemptoris--dominican}}%
-\hfill
-\noindent\parbox[t]{4.07in}{\gregorioscore{an--alma_redemptoris--dominican}}
+\begin{tabular}{p{4.1in}p{4.06in}p{4.07in}}
+  Score 4971 from GregoBase, with line breaks inserted to match the original printed source. Every B is flatted (te); for example, the flat on \emph{pervia} extends to the end of the line, so the B in \emph{porta} is flatted. &
+  Without explicit line breaks, the B in \emph{stella} should be flatted, but is not. &
+  If the width is changed slightly, the B in \emph{stella} is correct, but the B in \emph{Virgo} is incorrect.
+\\
+\gregorioscore{alma-correct}%
+&
+\gregorioscore{alma-original}%
+&
+\gregorioscore{alma-original}%
+\end{tabular}
 
 \end{document}
