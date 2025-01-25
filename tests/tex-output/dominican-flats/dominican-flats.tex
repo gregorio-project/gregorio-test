@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[landscape,margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage{fontspec}
+\usepackage{gregoriotex}
+
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+
+The same score from GregoBase (4971), set at two slightly different widths. On the left, the B's in \emph{Vir-} and \emph{pri-} are flatted under the Dominican convention that a flat extends to the end of the line. But on the right, under the same convention, they are not flatted.
+
+\bigskip
+
+\noindent\parbox[t]{4.06in}{\gregorioscore{an--alma_redemptoris--dominican}}%
+\hfill
+\noindent\parbox[t]{4.07in}{\gregorioscore{an--alma_redemptoris--dominican}}
+
+\end{document}
