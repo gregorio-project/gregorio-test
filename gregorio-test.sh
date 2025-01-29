@@ -421,15 +421,23 @@ test|retest)
 
         export PATH="$gregorio_dir/src:$PATH"
 
-        mkdir -p var/texmf var/texmf-config var/texmf-var
+        mkdir -p var/texmf var/texmf-config/tex/luaotfload var/texmf-var
+        cp luaotfload.conf var/texmf-config/tex/luaotfload
         export TEXMFHOME=$(realpath var/texmf)
         export TEXMFCONFIG=$(realpath var/texmf-config)
         export TEXMFVAR=$(realpath var/texmf-var)
 
-        if ! (cd "$gregorio_dir" && TEXHASH="texhash $TEXMFHOME" \
-            CP="rsync -Lci" SKIP=docs,examples,font-sources \
-            GENERATE_UNINSTALL=false REMOVE_OLD_FILES=false \
-            ./install-gtex.sh user)
+
+        if ! (
+            mkdir -p $(luaotfload-tool --help | grep gregorio-test/names | \
+                head -n 1 | sed -e 's![^/]+$!!') && \
+            mkdir -p $(luaotfload-tool --help | grep gregorio-test/fonts) && \
+            cd "$gregorio_dir" && \
+            TEXHASH="texhash $TEXMFHOME" CP="rsync -Lci" \
+            SKIP=docs,examples,font-sources GENERATE_UNINSTALL=false \
+            REMOVE_OLD_FILES=false ./install-gtex.sh user &&\
+            luaotfload-tool --force --update
+        )
         then
             echo "Unable to install GregorioTeX to $TEXMFHOME" >&2
             exit 8
@@ -487,7 +495,7 @@ test|retest)
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | $XARGS -0 -P $NPROCESSORS -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -0 -P $NPROCESSORS -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi

@@ -1,19 +1,19 @@
 name: near and far spaces;
 purpose: to test the use of near and far spaces around bars;
-generated-by: gregorio 5.0.2-develop-b7e16601-4227;
+generated-by: gregorio 5.2.1--a6b7641f-4476;
 %%
-(c4)m,m(m,/m)
-g,g(g,/g)
-f,f(f,/f)
-f,g(f,/g)
-g,f(g,/f)
+(c4)m$,m(m,/m)
+g$,g(g,/g)
+f$,f(f,/f)
+f$,g(f,/g)
+g$,f(g,/f)
 (:)
 (m,0/m)
-g,0g(g,0/g)
-i,0i(i,0/i)
-h,0h(h,0/h)
-h,0i(h,0/i)
-i,0h(i,0/h)
+g$,0g(g,0/g)
+i$,0i(i,0/i)
+h$,0h(h,0/h)
+h$,0i(h,0/i)
+i$,0h(i,0/h)
 (:)
 m`m(m`/m)
 g`g(g`/g)

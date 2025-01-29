@@ -48,7 +48,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreDrawAdditionalLine{0}{4 cm}{2}{1 cm}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -56,7 +56,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -88,7 +88,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -107,7 +107,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -121,7 +121,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -131,11 +131,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -179,7 +179,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreDrawAdditionalLine{1}{4 cm}{2}{1 cm}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -187,7 +187,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -219,7 +219,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -238,7 +238,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -252,7 +252,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -262,11 +262,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -312,7 +312,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{1}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{1}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -320,7 +320,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -355,7 +355,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          explicit high line     true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -377,7 +377,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          explicit high line     true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -393,12 +393,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{1}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -406,11 +406,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -455,7 +455,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{2}{0}{1}\GreDrawAdditionalLine{1}{\GreVarBraceLength{2}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -463,7 +463,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
          explicit low line      true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -499,7 +499,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          explicit low line      true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -521,7 +521,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          explicit low line      true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -537,13 +537,13 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
          explicit low line      true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{2}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -551,11 +551,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -603,7 +603,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{3}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{3}}{0}{}{2}{1cm}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -638,7 +638,7 @@
          auto hepisema bridge   true
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{3}{0}{2}"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -686,7 +686,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{4}{0}{1}\GreDrawAdditionalLine{1}{\GreVarBraceLength{4}}{0}{}{2}{1cm}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -721,7 +721,7 @@
          below hepisema bridge  true
          explicit low line      true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{4}{0}{2}"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -783,7 +783,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -817,7 +817,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          drawn high line        true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -838,7 +838,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -852,7 +852,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -862,11 +862,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -926,7 +926,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -960,7 +960,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
          drawn low line         true
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
@@ -981,7 +981,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -995,7 +995,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -1005,11 +1005,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1067,7 +1067,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1100,7 +1100,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -1119,7 +1119,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -1133,7 +1133,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -1143,11 +1143,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1207,7 +1207,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  22 (S_FLAT)
+         shape                  23 (S_FLAT)
          drawn high line        true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1240,7 +1240,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  i
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
@@ -1259,7 +1259,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
@@ -1273,7 +1273,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          auto hepisema size     0 (H_NORMAL)
          auto hepisema bridge   true
          drawn high line        true
@@ -1283,11 +1283,11 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  k
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  j
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -1348,7 +1348,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{5}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{5}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1381,7 +1381,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{5}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1453,7 +1453,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreDrawAdditionalLine{0}{1cm}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1527,7 +1527,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{6}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{6}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1588,7 +1588,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{6}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1660,7 +1660,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{7}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{7}}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1708,7 +1708,7 @@
          shape                  1 (S_PUNCTUM)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{7}{0}{2}"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -1767,7 +1767,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{8}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{8}}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1800,7 +1800,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{8}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1872,7 +1872,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{9}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{9}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1905,7 +1905,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{9}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -1978,7 +1978,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreDrawAdditionalLine{0}{1cm}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2053,7 +2053,7 @@
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{10}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{10}}{1}{}{1}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2114,7 +2114,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{10}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2187,7 +2187,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{11}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{11}}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2240,7 +2240,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{11}{0}{2}"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
@@ -2295,7 +2295,7 @@
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{12}{0}{1}\GreDrawAdditionalLine{0}{\GreVarBraceLength{12}}{1}{}{0}{}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2338,7 +2338,7 @@
          liquescentia           32 (L_FUSED)
          explicit high line     true
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-       type                  10 (GRE_TEXVERB_GLYPH)
+       type                  11 (GRE_TEXVERB_GLYPH)
        TeX string            "\GreVarBraceSavePos{12}{0}{2}"
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2349,6 +2349,211 @@
          pitch                  e
          shape                  1 (S_PUNCTUM)
          liquescentia           32 (L_FUSED)
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     5 (B_DIVISIO_FINALIS)
+---------------------------------------------------------------------
+     type                    5 (GRE_END_OF_LINE)
+         ragged                 true
+=====================================================================
+   type                      0 (GRE_SYLLABLE)
+   position                  4 (WORD_ONE_SYLLABLE)
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     beginning of style          ST_CENTER
+---------------------------------------------------------------------
+     character                 i
+---------------------------------------------------------------------
+     end of style                ST_CENTER
+---------------------------------------------------------------------
+     character                 g
+---------------------------------------------------------------------
+     character                 h
+---------------------------------------------------------------------
+     character                  
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     character                 y
+---------------------------------------------------------------------
+     character                 m
+---------------------------------------------------------------------
+     character                 b
+---------------------------------------------------------------------
+     character                 o
+---------------------------------------------------------------------
+     character                 l
+---------------------------------------------------------------------
+     character                 s
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            15 (G_PUNCTUM)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  g
+         shape                  1 (S_PUNCTUM)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  23 (S_FLAT)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  24 (S_FLAT_PAREN)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  27 (S_NATURAL)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  28 (S_NATURAL_PAREN)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  25 (S_SHARP)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    3 (GRE_ELEMENT)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+       type                  2 (GRE_GLYPH)
+       glyph_type            16 (G_ALTERATION)
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+         type                   1 (GRE_NOTE)
+         pitch                  l
+         shape                  26 (S_SHARP_PAREN)
+         drawn high line        true
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     14 (B_VIRGULA_HIGH)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     20 (B_VIRGULA_PAREN_HIGH)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     15 (B_DIVISIO_MINIMA_HIGH)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     4 (B_DIVISIO_MAIOR)
+---------------------------------------------------------------------
+     type                    6 (GRE_SPACE)
+     space                   8 (SP_GLYPH_SPACE)
+---------------------------------------------------------------------
+     type                    7 (GRE_BAR)
+     bar                     22 (B_DIVISIO_MINIMA_PAREN_HIGH)
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
