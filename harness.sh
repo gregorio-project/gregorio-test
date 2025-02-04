@@ -14,6 +14,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# ImageMagick changed the way it wants to be called starting from v7
+if [ -z "$CONVERT" ]; then
+    if command magick >/dev/null 2>&1; then
+        export CONVERT=magick
+        export COMPARE="magick compare"
+    elif command convert >/dev/null 2>&1; then
+        export CONVERT=convert
+        export COMPARE=compare
+    else
+        echo "error: ImageMagick is not installed" 1>&2
+        exit
+    fi
+fi
+
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
@@ -544,7 +558,7 @@ function typeset_and_compare {
                     then
                         rm -fr "$directory" && \
                             mkdir -p "$directory" && \
-                            magick -density $PDF_DENSITY "$pdffile" \
+                            $CONVERT -density $PDF_DENSITY "$pdffile" \
                                 -background white -alpha remove \
                                 -colorspace Gray -channel R -separate \
                             "$directory/page-%d.png" || \
@@ -560,7 +574,7 @@ function typeset_and_compare {
                     fi
 
                     if cd "$outdir" && \
-                        magick -density $PDF_DENSITY "$pdffile" \
+                        $CONVERT -density $PDF_DENSITY "$pdffile" \
                             -background white -alpha remove \
                             -colorspace Gray -channel R -separate \
                             page-%d.png
@@ -571,11 +585,11 @@ function typeset_and_compare {
                             expected="$directory/$name"
                             if [ -f "$expected" ]
                             then
-                                metric=$(magick compare -metric NCC \
+                                metric=$($COMPARE -metric NCC \
                                     "$name" "$expected" null: 2>&1)
                                 if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
                                 then
-                                    magick "$name" \
+                                    $CONVERT "$name" \
                                         "$expected" \
                                         \( -clone 0,1 -compose difference -composite \) \
                                         \( -clone 0 -clone 2 -compose minus -composite \
