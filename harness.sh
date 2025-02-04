@@ -544,9 +544,9 @@ function typeset_and_compare {
                     then
                         rm -fr "$directory" && \
                             mkdir -p "$directory" && \
-                            convert -background white -alpha remove \
+                            magick -density $PDF_DENSITY "$pdffile" \
+                                -background white -alpha remove \
                                 -colorspace Gray -channel R -separate \
-                                -density $PDF_DENSITY "$pdffile" \
                             "$directory/page-%d.png" || \
                             not_nice=true
                         if $not_nice
@@ -560,9 +560,9 @@ function typeset_and_compare {
                     fi
 
                     if cd "$outdir" && \
-                        convert -background white -alpha remove \
+                        magick -density $PDF_DENSITY "$pdffile" \
+                            -background white -alpha remove \
                             -colorspace Gray -channel R -separate \
-                            -density $PDF_DENSITY "$pdffile" \
                             page-%d.png
                     then
                         declare -a failed
@@ -571,12 +571,12 @@ function typeset_and_compare {
                             expected="$directory/$name"
                             if [ -f "$expected" ]
                             then
-                                metric=$(compare -metric NCC \
+                                metric=$(magick compare -metric NCC \
                                     "$name" "$expected" null: 2>&1)
                                 if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
                                 then
-                                    convert \( -background white -flatten "$name" \) \
-                                        \( -background white -flatten "$expected" \) \
+                                    magick "$name" \
+                                        "$expected" \
                                         \( -clone 0,1 -compose difference -composite \) \
                                         \( -clone 0 -clone 2 -compose minus -composite \
                                             -background blue -alpha shape \) \
