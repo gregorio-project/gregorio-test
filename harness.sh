@@ -16,10 +16,10 @@
 
 # ImageMagick changed the way it wants to be called starting from v7
 if [ -z "$CONVERT" ]; then
-    if command magick >/dev/null 2>&1; then
+    if command -v magick >/dev/null 2>&1; then
         export CONVERT=magick
         export COMPARE="magick compare"
-    elif command convert >/dev/null 2>&1; then
+    elif command -v convert >/dev/null 2>&1; then
         export CONVERT=convert
         export COMPARE=compare
     else
