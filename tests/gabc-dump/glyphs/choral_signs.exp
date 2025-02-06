@@ -1,7 +1,7 @@
 name: choral signs;
-generated-by: gregorio 6.0.0-fix-1558-2991e642-4526;
+generated-by: gregorio 4.2.0-rc3-develop-d01f368-3955;
 %%
-(c3)ab(gh[cs:c]) ab(h[cs:c]g[cs:t]) ab(h._g_[cs:t]) ab(f_[cs:c]g_) ab(h._[cs:t]g_Z)
-1(g[cs:c]) 2(g[cs:c]h) 3(gh[cs:c]) 4(g[cs:c]hg) 5(gh[cs:c]g) 6(ghg[cs:c]) 7(g[cs:c]hgh) 8(gh[cs:c]gh) 9(ghg[cs:c]h) 10(ghgh[cs:c]Z)
-11(h[cs:c]g) 12(hg[cs:c]) 13(h[cs:c]gh) 14(hg[cs:c]h) 15(hgh[cs:c]) 16(h[cs:c]ghg) 17(hg[cs:c]hg) 18(hgh[cs:c]g) 19(hghg[cs:c]Z)
-20(gw[cs:c]h) 21(gw[cs:c]f/g) 22(gw[cs:c]hgh) 23(i'.h[cs:c]) 
+(c3)ab(gh) ab(hg) ab(h._g_) ab(f_g_) ab(h._g_Z)
+1(g) 2(gh) 3(gh) 4(ghg) 5(ghg) 6(ghg) 7(ghgh) 8(ghgh) 9(ghgh) 10(ghghZ)
+11(hg) 12(hg) 13(hgh) 14(hgh) 15(hgh) 16(hghg) 17(hghg) 18(hghg) 19(hghgZ)
+20(gwh) 21(gwf/g) 22(gwhgh) 23(i'.h) 

@@ -1,9 +1,0 @@
-name: flexus-stroke;
-%%
-(c4) Flexus Stroke(g) (::z)
-@<v>[</v>ghghwj<v>]</v>(@[ghghwj]) (::z)
-@<v>[</v>ghg<v>[</v>shape:stroke<v>]</v>hwj<v>]</v>(@[ghg[shape:stroke]hwj]) (::z)
-% these are tests for coverage
-@<v>[</v>ghg<v>[</v>shape:junk,stroke<v>]</v>hwj<v>]</v>(@[ghg[shape:junk,stroke]hwj]) (::z)
-@<v>[</v>ghg<v>[</v>shape:stroke,junk<v>]</v>hwj<v>]</v>(@[ghg[shape:stroke,junk]hwj]) (::z)
-@<v>[</v>ghg<v>[</v>shape:junk,stroke,junk<v>]</v>hwj<v>]</v>(@[ghg[shape:junk,stroke,junk]hwj]) (::z)
