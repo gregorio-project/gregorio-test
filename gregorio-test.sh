@@ -495,7 +495,7 @@ test|retest)
         overall_result=0
         time for group in ${groups}
         do
-            if ! ${group}_find | filter | $XARGS -0 -P $NPROCESSORS -n 1 -I{} bash -c "${group}_test"' "$@"' _ {} \;
+            if ! ${group}_find | filter | $XARGS -0 -P $NPROCESSORS -I{} bash -c "${group}_test"' "$@"' _ {} \;
             then
                 overall_result=1
             fi
