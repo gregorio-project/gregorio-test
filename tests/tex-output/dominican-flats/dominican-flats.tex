@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[paperwidth=17in,paperheight=8.5in,margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage{fontspec}
+\usepackage{gregoriotex}
+
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+
+\bigskip
+
+\begin{tabular}{p{4.1in}p{4.1in}p{4.1in}}
+  Score 4971 from GregoBase, with line breaks inserted to match the original printed source. Every B is flatted (te); for example, the flat on \emph{Genitorem} extends to the end of the line, so the B in \emph{Virgo} and \emph{prius} are flatted. &
+  Without explicit line breaks, the B in \emph{Virgo} and \emph{prius} move to a new line and should be flatted, but are not. &
+  Using soft flats. The B in \emph{Mater} has a hard flat, so it is printed even though not strictly required. The B in \emph{Virgo} correctly has a flat.
+\\
+\gregorioscore{alma-correct}%
+&
+\gregorioscore{alma-original}%
+&
+\gregorioscore{alma-new}%
+\end{tabular}
+
+\end{document}
