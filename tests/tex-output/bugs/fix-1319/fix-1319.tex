@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[autocompile]{gregoriotex}
+\grechangedim{spacebeneathtext}{0.01mm}{scalable}%
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+\begin{document}
+
+\parbox{2.7in}{\gregorioscore{incipit3.gabc}}
+\end{document}
