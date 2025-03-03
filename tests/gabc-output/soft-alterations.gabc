@@ -1,0 +1,8 @@
+%%
+(c3)
+soft(gXg) (:) hard(gxg) soft(gXg) (:) soft(gXg) soft(gXg) (:) paren(gx?g) soft(gXg) (:) soft(gYg) soft(gXg) (:) hard(gxg) soft(iXi) (Z)
+soft(g##g) (:) hard(g#g) soft(g##g) (:) soft(g##g) soft(g##g) (:) paren(g#?g) soft(g##g) (:) soft(gYg) soft(g##g) (:) hard(g#g) soft(i##i) (Z)
+soft(gYg) (:) hard(gyg) soft(gYg) (:) soft(gYg) soft(gYg) (:) paren(gy?g) soft(gYg) (:) soft(gXg) soft(gYg) (:) hard(gyg) soft(iYi) (Z)
+<alt>These two lines should look the same:</alt>
+a(g) a(fxf) a(gxg) a(f) a(g) (:) aa(fxf) aa(gxg) aa(f) aa(g) (:) aaaa(lxl) aaaa(mxm) aaaa(l) aaaa(m) (:) a(g) (Z)
+a(gYg) a(fXf) a(gXg) a(fXf) a(gXg) (:) aa(fxf) aa(gxg) aa(fXf) aa(gXg) (:) aaaa(lXl) aaaa(mXm) aaaa(lXl) aaaa(mXm) (:) a(gXg) (Z)
