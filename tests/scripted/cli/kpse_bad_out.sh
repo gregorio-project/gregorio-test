@@ -6,5 +6,5 @@ then
     else exit 0
     fi
 else
-    exit 0
+    exit 2
 fi
