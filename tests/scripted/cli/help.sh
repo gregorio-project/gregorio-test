@@ -1,4 +1,4 @@
-EXPECTED="Usage: gregorio [OPTION]... [-s | INPUT_FILE]
+EXPECTED="Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
 
 Engrave Gregorian chant scores, convert a gabc file to GregorioTeX.
 
