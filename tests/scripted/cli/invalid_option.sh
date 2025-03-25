@@ -1,6 +1,6 @@
-EXPECTED="gregorio: invalid option -- Z
-gregorio: invalid option -- Z
-gregorio: missing file operand.
+EXPECTED="$gregorio: invalid option -- Z
+$gregorio: invalid option -- Z
+$gregorio: missing file operand.
 Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
 Try '$gregorio --help' for more information."
 
