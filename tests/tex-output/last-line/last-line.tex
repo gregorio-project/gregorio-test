@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\begin{document}
+
+\verb|\gresetlastline{ragged}| (default)
+\gregorioscore[a]{PopulusSion}
+
+\verb|\gresetlastline{justified}|
+\gresetlastline{justified}
+\gregorioscore[a]{PopulusSion}
+
+\verb|\gresetlastline{trimmed}|
+\gresetlastline{trimmed}
+\gregorioscore[a]{PopulusSion}
+
+\end{document}
