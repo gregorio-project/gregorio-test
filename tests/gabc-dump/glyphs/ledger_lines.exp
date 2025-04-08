@@ -1,5 +1,5 @@
 name: ledger lines;
-generated-by: gregorio 5.2.1-fix-1515-681ef1f2-4478;
+generated-by: gregorio 6.1.0-ctan-9d7ca2d9-4727;
 %%
 (c4)static over([gv:\GreDrawAdditionalLine${0$}${4 cm$}${2$}${1 cm$}${0$}${$}]lxg_i_h_!iwj.i!jwk!lv_K0J0) (:Z)
 static under([gv:\GreDrawAdditionalLine${1$}${4 cm$}${2$}${1 cm$}${0$}${$}]lxg_i_h_!iwj.i!jwk!lv_K0J0) (:Z)
@@ -22,5 +22,5 @@ fusion([gv:\GreVarBraceSavePos${10$}${0$}${1$}\GreDrawAdditionalLine${0$}${\GreV
 fusion(c@e@g[gv:\GreVarBraceSavePos${11$}${0$}${1$}\GreDrawAdditionalLine${0$}${\GreVarBraceLength${11$}$}${1$}${$}${0$}${$}]@i[hl:1]@k[hl:1]@i[hl:1]@g[hl:1]@e[hl:1][gv:\GreVarBraceSavePos${11$}${0$}${2$}]) (::)
 fusion(c@e@g[gv:\GreVarBraceSavePos${12$}${0$}${1$}\GreDrawAdditionalLine${0$}${\GreVarBraceLength${12$}$}${1$}${$}${0$}${$}]@i[hl:1]@k[hl:1]@i[hl:1]@g[hl:1][gv:\GreVarBraceSavePos${12$}${0$}${2$}]@e) (::Z)
 high symbols(g lx : lx? : ly : ly? : l# : l#? : `0 : `0? : ,0 : ,0?)
-(::Z)
+(::)
 
