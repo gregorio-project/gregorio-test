@@ -17,4 +17,4 @@ name:curly braces;
 {6}0mm(g[ocb:1;60mm]g=g=g=g=g=g=g=g=g=g=g=Z)
 {7}5mm(g[ocb:1;75mm]Z)
 {1}00mm(g[ocb:1;100mm]Z)
-{1}25mm(g[ocb:1;125mm]Z)
+{1}25mm(g[ocb:1;125mm])

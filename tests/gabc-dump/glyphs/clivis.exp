@@ -1,5 +1,5 @@
 name: clivis;
-generated-by: gregorio 5.2.1--a6b7641f-4476;
+generated-by: gregorio 6.1.0-ctan-9d7ca2d9-4727;
 %%
 (c3)gf$<(gf<) gf>(gf>) $-gf(-gf) gf<sp>~</sp>(gf~Z)
 g$.f(g.f) gf.(gf.) gf$..(gf..) g$.f.(g.f.Z)
@@ -11,5 +11,4 @@ gof$<(go0f<) gof>(go0f>) $-gof(-go0f) gof<sp>~</sp>(go0f~Z)
 g$.of(go0.f) gof.(go0f.) gof$..(go0f..) g$.of.(go0.f.Z)
 go'f(go0'f) gof'(go0f') g'of'(go0'f') h'of(ho0'f) hof'(ho0f') h'of'(ho0'f'Z)
 g_of(go0_f) gof_(go0f_) g_of_(go0_f_) h_of(ho0_f) hof_(ho0f_) h_of_(ho0_f_Z)
-g$.o'f(go0'.f) gof'.(go0f'.) g'o$.f'.(go0'.f'.) ho$.'f(ho0'.f) hof$.'(ho0f'.) ho$.'f$.'(ho0'.f'.Z)
-
+g$.o'f(go0'.f) gof'.(go0f'.) g'o$.f'.(go0'.f'.) ho$.'f(ho0'.f) hof$.'(ho0f'.) ho$.'f$.'(ho0'.f'.) 
