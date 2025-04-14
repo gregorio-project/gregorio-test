@@ -1,0 +1,213 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\newcommand{\lines}[1]{
+  \begin{minipage}[b]{1cm}
+    \grechangedim{parskip}{0pt}{fixed}%
+    \setlength{\baselineskip}{0pt}%
+    \setlength{\lineskip}{0pt}%
+    \hrule
+    \setbox0=\vbox{#1}%
+    \copy0%
+    \hrule
+    \vspace{-\dp0}%
+    \hrule
+  \end{minipage}%
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\gresetinitiallines{0}
+\gresetclef{invisible}
+
+Default settings
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{<alt>a</alt>i(i)}} &
+  \lines{\gabcsnippet{<alt>a</alt>j(j)}} &
+  \lines{\gabcsnippet{<alt>a</alt>k(k)}} &
+  \lines{\gabcsnippet{<alt>a</alt>l(l)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m(m)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1(m_1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m'1(m'1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1'1(m_1'1)}} \\
+  \lines{\gabcsnippet{a_0'0[t](a'0_0)}} &
+  \lines{\gabcsnippet{a_0[t](a_0)}} &
+  \lines{\gabcsnippet{a'0[t](a'0)}} &
+  \lines{\gabcsnippet{a[t](a)}} &
+  \lines{\gabcsnippet{b[t](b)}} &
+  \lines{\gabcsnippet{c[t](c)}} &
+  \lines{\gabcsnippet{d[t](d)}} &
+  \lines{\gabcsnippet{e[t](e)}}
+\end{tabular}
+\end{center}
+
+{
+\verb|\grechangedim{spaceabovelines}{0.5cm}{scalable}|
+\grechangedim{spaceabovelines}{0.5cm}{scalable}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{<alt>a</alt>i(i)}} &
+  \lines{\gabcsnippet{<alt>a</alt>j(j)}} &
+  \lines{\gabcsnippet{<alt>a</alt>k(k)}} &
+  \lines{\gabcsnippet{<alt>a</alt>l(l)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m(m)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1(m_1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m'1(m'1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1'1(m_1'1)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{abovelinestextheight}{0cm}{scalable}|
+\grechangedim{abovelinestextheight}{0cm}{scalable} \\
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{<alt>a</alt>i(i)}} &
+  \lines{\gabcsnippet{<alt>a</alt>j(j)}} &
+  \lines{\gabcsnippet{<alt>a</alt>k(k)}} &
+  \lines{\gabcsnippet{<alt>a</alt>l(l)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m(m)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1(m_1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m'1(m'1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1'1(m_1'1)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{abovelinestextraise}{0cm}{scalable}|
+\grechangedim{abovelinestextraise}{0cm}{scalable} \\
+\verb|\grechangecount{additionaltopspacealtthreshold}{-1}|
+\grechangecount{additionaltopspacealtthreshold}{-1}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{<alt>a</alt>i(i)}} &
+  \lines{\gabcsnippet{<alt>a</alt>j(j)}} &
+  \lines{\gabcsnippet{<alt>a</alt>k(k)}} &
+  \lines{\gabcsnippet{<alt>a</alt>l(l)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m(m)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1(m_1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m'1(m'1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1'1(m_1'1)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{abovelinestextraise}{0cm}{scalable}|
+\grechangedim{abovelinestextraise}{0cm}{scalable} \\
+\verb|\grechangecount{additionaltopspacealtthreshold}{6}|
+\grechangecount{additionaltopspacealtthreshold}{6}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{<alt>a</alt>i(i)}} &
+  \lines{\gabcsnippet{<alt>a</alt>j(j)}} &
+  \lines{\gabcsnippet{<alt>a</alt>k(k)}} &
+  \lines{\gabcsnippet{<alt>a</alt>l(l)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m(m)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1(m_1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m'1(m'1)}} &
+  \lines{\gabcsnippet{<alt>a</alt>m_1'1(m_1'1)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{spacelinestext}{0cm}{scalable}|
+\grechangedim{spacelinestext}{0cm}{scalable} \\
+\verb|\grechangecount{noteadditionalspacelinestextthreshold}{4}|
+\grechangecount{noteadditionalspacelinestextthreshold}{4}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{a_0'0[t](a'0_0)}} &
+  \lines{\gabcsnippet{a_0[t](a_0)}} &
+  \lines{\gabcsnippet{a'0[t](a'0)}} &
+  \lines{\gabcsnippet{a[t](a)}} &
+  \lines{\gabcsnippet{b[t](b)}} &
+  \lines{\gabcsnippet{c[t](c)}} &
+  \lines{\gabcsnippet{d[t](d)}} &
+  \lines{\gabcsnippet{e[t](e)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{spacelinestext}{0cm}{scalable}|
+\grechangedim{spacelinestext}{0cm}{scalable} \\
+\verb|\grechangecount{noteadditionalspacelinestextthreshold}{-2}|
+\grechangecount{noteadditionalspacelinestextthreshold}{-2}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{a_0'0[t](a'0_0)}} &
+  \lines{\gabcsnippet{a_0[t](a_0)}} &
+  \lines{\gabcsnippet{a'0[t](a'0)}} &
+  \lines{\gabcsnippet{a[t](a)}} &
+  \lines{\gabcsnippet{b[t](b)}} &
+  \lines{\gabcsnippet{c[t](c)}} &
+  \lines{\gabcsnippet{d[t](d)}} &
+  \lines{\gabcsnippet{e[t](e)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{translationheight}{0cm}{scalable}|
+\grechangedim{translationheight}{0cm}{scalable} \\
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{a_0'0[t](a'0_0)}} &
+  \lines{\gabcsnippet{a_0[t](a_0)}} &
+  \lines{\gabcsnippet{a'0[t](a'0)}} &
+  \lines{\gabcsnippet{a[t](a)}} &
+  \lines{\gabcsnippet{b[t](b)}} &
+  \lines{\gabcsnippet{c[t](c)}} &
+  \lines{\gabcsnippet{d[t](d)}} &
+  \lines{\gabcsnippet{e[t](e)}}
+\end{tabular}
+\end{center}
+}
+
+{
+\verb|\grechangedim{spacebeneathtext}{0.5cm}{scalable}|
+\grechangedim{spacebeneathtext}{0.5cm}{scalable} \\
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\gabcsnippet{a_0'0[t](a'0_0)}} &
+  \lines{\gabcsnippet{a_0[t](a_0)}} &
+  \lines{\gabcsnippet{a'0[t](a'0)}} &
+  \lines{\gabcsnippet{a[t](a)}} &
+  \lines{\gabcsnippet{b[t](b)}} &
+  \lines{\gabcsnippet{c[t](c)}} &
+  \lines{\gabcsnippet{d[t](d)}} &
+  \lines{\gabcsnippet{e[t](e)}}
+\end{tabular}
+\end{center}
+}
+
+\end{document}
