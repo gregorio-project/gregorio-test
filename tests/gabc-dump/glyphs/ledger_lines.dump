@@ -2447,7 +2447,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  27 (S_NATURAL)
+         shape                  29 (S_NATURAL)
          drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
@@ -2466,7 +2466,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  28 (S_NATURAL_PAREN)
+         shape                  30 (S_NATURAL_PAREN)
          drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
@@ -2485,7 +2485,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  25 (S_SHARP)
+         shape                  26 (S_SHARP)
          drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
@@ -2504,7 +2504,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  l
-         shape                  26 (S_SHARP_PAREN)
+         shape                  27 (S_SHARP_PAREN)
          drawn high line        true
 ---------------------------------------------------------------------
      type                    6 (GRE_SPACE)
@@ -2560,7 +2560,4 @@
 ---------------------------------------------------------------------
      type                    7 (GRE_BAR)
      bar                     5 (B_DIVISIO_FINALIS)
----------------------------------------------------------------------
-     type                    5 (GRE_END_OF_LINE)
-         ragged                 true
 =====================================================================

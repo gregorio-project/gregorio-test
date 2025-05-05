@@ -361,12 +361,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -404,16 +404,16 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -897,12 +897,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -940,16 +940,16 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -1436,12 +1436,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1926,12 +1926,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -3793,12 +3793,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -3836,16 +3836,16 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -4345,12 +4345,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -4388,16 +4388,16 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  f
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
@@ -4900,12 +4900,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -5402,12 +5402,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -6989,7 +6989,4 @@
          type                   1 (GRE_NOTE)
          pitch                  h
          shape                  1 (S_PUNCTUM)
----------------------------------------------------------------------
-     type                    5 (GRE_END_OF_LINE)
-         ragged                 true
 =====================================================================

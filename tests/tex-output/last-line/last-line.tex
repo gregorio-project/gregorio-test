@@ -1,12 +1,7 @@
-% !TEX program = LuaLaTeX+se
 \documentclass{article}
-
-\usepackage[debug={barspacing}]{gregoriotex}
+\usepackage[margin=1in]{geometry}
+\usepackage[allowdeprecated=false]{gregoriotex}
 \usepackage{fontspec}
-\usepackage{graphicx}
-\usepackage{geometry}
-\geometry{a4paper}
-\usepackage{fullpage}
 \setmainfont[
     Path = ../../../fonts/ ,
     Extension = .otf ,
@@ -21,17 +16,17 @@
     Ligatures = TeX
 ]{Alegreya}
 
-\listfiles
 \begin{document}
-Show difference between offset limits for a bar and a no-bar syllable
 
-\bigskip
-\gresetbarspacing{new}
-\gabcsnippet{(c3) kill(g) 1(gggggggg) *(:) 22222{2}(g) 1(gggggggg) *() 22222{2}(g)}
+\verb|\gresetlastline{ragged}| (default)
+\gregorioscore[a]{PopulusSion}
 
-\bigskip
-\gresetclivisalignment{always}
-\gabcsnippet{(c3) kill(g) {3}3333333333(g)*(;){}4444(gxgf) {3}3333333333(g)*(){}4444(gxgf)}
+\verb|\gresetlastline{justified}|
+\gresetlastline{justified}
+\gregorioscore[a]{PopulusSion}
 
+\verb|\gresetlastline{trimmed}|
+\gresetlastline{trimmed}
+\gregorioscore[a]{PopulusSion}
 
 \end{document}

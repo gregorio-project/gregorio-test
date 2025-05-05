@@ -2,4 +2,4 @@ name:fix-836;
 user-notes: The problem being tested is that the first syllable has no letters.;
 %%
 (c4) (f) (gh) (h) (h) (h) (hr) (hr) (hr) (hg)
-(ixgi) (h) (hr[ocba:1;7.5mm]) (hg) (gh) (;) (h+z)
+(ixgi) (h) (hr[ocba:1;7.5mm]) (hg) (gh) (;) ([gv:\hfill]) (h+)
