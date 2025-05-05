@@ -502,12 +502,18 @@ function scripted_test {
 
     if cd "$indir"
     then
-        if bash "$filename" >"$outfile" 2>"$logfile"
-        then
-            pass
-        else
-            fail "Failed to compile" "Failed to compile $filename"
-        fi
+        bash "$filename" >"$outfile" 2>"$logfile"
+        exit_status=$?
+        case $exit_status in
+            "0")
+                pass ;;
+            "1")
+                fail "Failed to compile" "Failed to compile $filename" ;;
+            "2")
+                echo "$gregorio does not use the kpathsea libraries$CLEAR_EOL"
+                echo "automatically passing $filename"
+                pass
+        esac
     else
         fail "Failed to create directory" "Could not change to $indir"
     fi
