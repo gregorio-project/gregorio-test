@@ -28,6 +28,22 @@ if [ -z "$CONVERT" ]; then
     fi
 fi
 
+# ImageMagick changed the output of comparisons starting around 7.1.1-44 and 6.9.13-22.
+COMPARE_EQUAL="$($COMPARE -metric NCC $testroot/testimage.png $testroot/testimage.png null: 2>&1)"
+if [ "$COMPARE_EQUAL" == "1" ]; then
+    function compare {
+        $COMPARE -metric NCC "$1" "$2" null: 2>&1
+    }
+elif [ "$COMPARE_EQUAL" == "0 (0)" ]; then
+    function compare {
+        $COMPARE -metric NCC "$1" "$2" null: 2>&1 | perl -ne '{if (/\((.*)\)/) { print 1-$1; }}'
+    }
+else
+    echo "error: could not identify ImageMagick version" 1>&2
+    exit 1
+fi
+export -f compare
+
 export PASS="${C_GOOD}PASS${C_RESET}"
 export FAIL="${C_BAD}FAIL${C_RESET}"
 export PDF_DENSITY="${PDF_DENSITY:-300}"
@@ -585,8 +601,7 @@ function typeset_and_compare {
                             expected="$directory/$name"
                             if [ -f "$expected" ]
                             then
-                                metric=$($COMPARE -metric NCC \
-                                    "$name" "$expected" null: 2>&1)
+                                metric=$(compare "$name" "$expected")
                                 if (( $(echo "$metric < $IMAGE_COMPARE_THRESHOLD" | bc) ))
                                 then
                                     $CONVERT "$name" \
