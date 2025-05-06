@@ -430,7 +430,7 @@ test|retest)
 
         if ! (
             mkdir -p $(luaotfload-tool --help | grep gregorio-test/names | \
-                head -n 1 | sed -e 's![^/]+$!!') && \
+                head -n 1 | $SED -e 's![^/]*$!!') && \
             mkdir -p $(luaotfload-tool --help | grep gregorio-test/fonts) && \
             cd "$gregorio_dir" && \
             TEXHASH="texhash $TEXMFHOME" CP="rsync -Lci" \

@@ -6,5 +6,7 @@ then
     else exit 0
     fi
 else
-    exit 0
+    >&2 echo "$gregorio does not use the kpathsea libraries"
+    >&2 echo "unable to run test kpse_bad_out.sh"
+    exit 2
 fi
