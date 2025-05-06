@@ -1,8 +1,9 @@
 mkdir temp
 cd temp
 rmdir ../temp
-if eval $gregorio nonexistent.gabc
-then exit 1
-else exit 0
-fi
+EXPECTED="can't determine current directory"
+
+OUTCOME=$(eval $gregorio nonexistent.gabc 2>&1 1> /dev/null)
+
+[[ "$EXPECTED" == "$OUTCOME" ]] || exit 1
 
