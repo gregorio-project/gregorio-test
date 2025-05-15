@@ -528,7 +528,11 @@ function scripted_test {
             "2")
                 echo "$gregorio does not use the kpathsea libraries$CLEAR_EOL"
                 echo "automatically passing $filename"
-                pass
+                pass ;;
+            "3")
+                echo "$gregorio uses the kpathsea libraries$CLEAR_EOL"
+                echo "automatically passing $filename"
+                pass ;;
         esac
     else
         fail "Failed to create directory" "Could not change to $indir"

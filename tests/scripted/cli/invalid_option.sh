@@ -1,4 +1,9 @@
-if eval $gregorio -Z
-then exit 1
-else exit 0
-fi
+EXPECTED="$gregorio: invalid option -- Z
+$gregorio: invalid option -- Z
+$gregorio: missing file operand.
+Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio --help' for more information."
+
+OUTCOME=$(eval $gregorio -Z 2>&1 1> /dev/null)
+
+[[ "$EXPECTED" == "$OUTCOME" ]] || exit 1

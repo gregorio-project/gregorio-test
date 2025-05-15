@@ -1,2 +1,2 @@
 eval $gregorio -S -S test.gabc
-exit $?
+[[ $? == "0" ]] || exit 1
