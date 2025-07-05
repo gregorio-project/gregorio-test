@@ -1,4 +1,4 @@
-EXPECTED="ignored arguments: test.gabc
+EXPECTED="warning: ignored arguments: test.gabc
 Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
 Try '$gregorio --help' for more information.
 Proceeding anyway..."

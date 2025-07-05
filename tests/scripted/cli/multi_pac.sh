@@ -1,5 +1,5 @@
 EXPECTED="warning: point-and-click option passed several times
-$gregorio: missing file operand.
+error: $gregorio: missing file operand.
 Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
 Try '$gregorio --help' for more information."
 

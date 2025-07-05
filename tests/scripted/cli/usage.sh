@@ -1,4 +1,4 @@
-EXPECTED="$gregorio: missing file operand.
+EXPECTED="error: $gregorio: missing file operand.
 Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
 Try '$gregorio --help' for more information."
 
