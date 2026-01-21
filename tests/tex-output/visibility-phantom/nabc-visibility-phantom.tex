@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+\usepackage[autocompile]{gregoriotex}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent\textbf{Test:} NABC visibility with \texttt{phantom}/\texttt{hphantom} wrappers.\par
+\noindent\textbf{Goal:} ensure NABC remains visible when notes/lines use \texttt{hphantom} or \texttt{disabled}.\par
+\medskip
+
+\noindent\textbf{Example 1:} full reference with all elements visible (notes, staff lines, clef, lyrics, above-lines text, translation, and NABC).\par
+\gresetnotes{enabled}
+\gresetlines{enabled}
+\gresetclef{enabled}
+\gresetlyrics{enabled}
+\gresetabovelinestext{enabled}
+\gresettranslation{enabled}
+\gresetnabc{1}{enabled}
+\gregorioscore{nabc-visibility-phantom}
+
+\noindent\textbf{Example 2:} NABC visible while notes/lines/clef are hidden with \texttt{hphantom}.\par
+\gresetnabc{1}{enabled}
+\gresetnotes{hphantom}
+\gresetlines{hphantom}
+\gresetclef{hphantom}
+\gregorioscore{nabc-visibility-phantom}
+
+\noindent\textbf{Example 3:} NABC line visibility with notes/lines/clef \texttt{disabled} (no \texttt{hphantom}).\par
+\gresetnabc{1}{enabled}
+\gresetnotes{disabled}
+\gresetlines{disabled}
+\gresetclef{disabled}
+\gregorioscore{nabc-visibility-phantom}
+
+\clearpage
+
+\noindent\textbf{Example 4:} NABC disabled with notes/lines/clef hidden by \texttt{hphantom}.\par
+\gresetnabc{1}{disabled}
+\gresetnotes{hphantom}
+\gresetlines{hphantom}
+\gresetclef{hphantom}
+\gregorioscore{nabc-visibility-phantom}
+
+\clearpage
+
+\noindent\textbf{Example 5:} exercise new visibility values (\texttt{phantom}/\texttt{vphantom}) for notes, lines, clef, lyrics, above-lines text, translation, and NABC. No rendered output is expected, but the document should still compile successfully.\par
+\gresetnotes{phantom}
+\gresetlines{vphantom}
+\gresetclef{phantom}
+\gresetlyrics{phantom}
+\gresetabovelinestext{phantom}
+\gresettranslation{phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{nabc-visibility-phantom}
+
+\end{document}

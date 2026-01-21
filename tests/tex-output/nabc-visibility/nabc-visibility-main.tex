@@ -1,24 +1,63 @@
 \documentclass[12pt]{article}
+\usepackage[margin=1cm]{geometry}
 \usepackage{fontspec}
 \pagestyle{empty}
 \usepackage[autocompile]{gregoriotex}
 \listfiles
 \begin{document}
+\subsubsection*{NABC visible}\par
 \gresetnabc{1}{visible}
 
 \gregorioscore{nabc-visibility}
 
+\subsubsection*{NABC invisible}\par
 \gresetnabc{1}{invisible}
 
 \gregorioscore{nabc-visibility}
 
+\subsubsection*{NABC + lyrics only (notes hphantom; lines/clef phantom)}\par
 \gresetnabc{1}{visible}
+\gresetnotes{hphantom}
+\gresetlines{phantom}
+\gresetclef{phantom}
 
 \gregorioscore{nabc-visibility}
 
-\gresetnabc{1}{invisible}
+\subsubsection*{NABC + lyrics only (notes hphantom; lines phantom; clef hphantom)}\par
+\gresetnabc{1}{visible}
+\gresetnotes{hphantom}
+\gresetlines{phantom}
+\gresetclef{hphantom}
 
 \gregorioscore{nabc-visibility}
+
+\subsubsection*{NABC + lyrics only (notes hphantom; lines invisible; clef phantom)}\par
+\gresetnabc{1}{visible}
+\gresetnotes{hphantom}
+\gresetlines{invisible}
+\gresetclef{phantom}
+
+\gregorioscore{nabc-visibility}
+
+\subsubsection*{NABC + lyrics only (notes hphantom; lines/clef invisible)}\par
+\gresetnabc{1}{visible}
+\gresetnotes{hphantom}
+\gresetlines{invisible}
+\gresetclef{invisible}
+
+\gregorioscore{nabc-visibility}
+
+\subsubsection*{NABC + lyrics only (notes hphantom; lines invisible; clef vphantom)}\par
+\gresetnabc{1}{visible}
+\gresetnotes{hphantom}
+\gresetlines{invisible}
+\gresetclef{vphantom}
+
+\gregorioscore{nabc-visibility}
+
+\gresetnotes{visible}
+\gresetlines{visible}
+\gresetclef{visible}
 
 \end{document}
 
