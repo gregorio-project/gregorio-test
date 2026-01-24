@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+
+\usepackage[autocompile]{gregoriotex}
+\usepackage{fullpage}
+\pagestyle{empty}
+
+\begin{document}
+
+\section*{Overtie/Undertie Test}
+
+\subsection*{Undertie}
+\gregorioscore{undertie}
+
+\subsection*{Overtie}
+\gregorioscore{overtie}
+
+\subsection*{Double Tie}
+\gregorioscore{doubletie}
+
+\subsection*{Undertie followed by Overtie}
+\gregorioscore{undertie-overtie}
+
+\subsection*{Overtie followed by Undertie}
+\gregorioscore{overtie-undertie}
+
+\clearpage
+
+\section*{Lyric tying test}
+
+\subsection*{Undertie (default)}
+\gregorioscore{ubi-caritas-pt}
+
+\subsection*{Overtie}
+\gresetlyrictie{overtie}
+\gregorioscore{ubi-caritas-pt}
+
+\subsection*{Double tie}
+\gresetlyrictie{doubletie}
+\gregorioscore{ubi-caritas-pt}
+
+\end{document}
