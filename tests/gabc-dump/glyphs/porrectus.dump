@@ -90,7 +90,11 @@
 ---------------------------------------------------------------------
      character                 i
 ---------------------------------------------------------------------
+     beginning of style    ST_SPECIAL_CHAR
+---------------------------------------------------------------------
      character                 ~
+---------------------------------------------------------------------
+     end of style          ST_SPECIAL_CHAR
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2458,7 +2462,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  12 (S_ORISCUS_DESCENDENS)
+         shape                  13 (S_ORISCUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
@@ -2495,7 +2499,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
@@ -2532,7 +2536,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  15 (S_ORISCUS_SCAPUS_DESCENDENS)
+         shape                  16 (S_ORISCUS_SCAPUS_DESCENDENS)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
@@ -2569,7 +2573,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 ---------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
