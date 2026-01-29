@@ -28,19 +28,19 @@ je(je)
 id(id)
 
 % clivis deminutus
-ih~(ih~) % AM 396,1
-hg~(hg~) % AM 347,7
-dc~(dc~) % AM 397,4, AM 1182,4
-ed~(ed~) % AM 402,5
-ge~(ge~) % AM 239,4
-gd~(gd~) % AM 239,3
-gc~(gc~) % AM 397,5
-he~(he~)
-hf~(hf~)
-hd~(hd~)
-ie~(ie~)
-je~(je~)
-id~(id~)
+ih<sp>~</sp>(ih~) % AM 396,1
+hg<sp>~</sp>(hg~) % AM 347,7
+dc<sp>~</sp>(dc~) % AM 397,4, AM 1182,4
+ed<sp>~</sp>(ed~) % AM 402,5
+ge<sp>~</sp>(ge~) % AM 239,4
+gd<sp>~</sp>(gd~) % AM 239,3
+gc<sp>~</sp>(gc~) % AM 397,5
+he<sp>~</sp>(he~)
+hf<sp>~</sp>(hf~)
+hd<sp>~</sp>(hd~)
+ie<sp>~</sp>(ie~)
+je<sp>~</sp>(je~)
+id<sp>~</sp>(id~)
 
 % clivis liquescens
 ih<(ih<)
@@ -86,7 +86,7 @@ gOh!hV(gOh!hv) gOi!iV(gOi!iV) fOg!gV(fOg!gV) fOh!hV(fOh!hV)
 ede(ede) ece(ece) dcd(dcd) b!dcd(b!dcd) cbc(cbc) fef(fef) fdf(fdf) geg(geg) gdg(gdg) heh(heh) hdh(hdh) idi(idi) hch(hch)
 
 % alt porrectus deminutus
-ede(ede~) ece(ece~) dcd(dcd~) cbc(cbd~) fef(fef~) fdf(fdf~) hvhfg(hvhfg~) gvgef(gvgef~) hdh(hdh~) iei(iei~)
+ede<sp>~</sp>(ede~) ece<sp>~</sp>(ece~) dcd<sp>~</sp>(dcd~) cbd<sp>~</sp>(cbd~) fef<sp>~</sp>(fef~) fdf<sp>~</sp>(fdf~) hvhfg<sp>~</sp>(hvhfg~) gvgef<sp>~</sp>(gvgef~) hdh<sp>~</sp>(hdh~) iei<sp>~</sp>(iei~)
 
 a(gf ge gd gc gb gf~ ge~ gd~ gc~ gb~ Z) 
 b(hg hf he hd hc hg~ hf~ he~ hd~ hc~ Z)
