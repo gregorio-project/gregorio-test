@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1cm]{geometry}
+\usepackage{fontspec}
+\pagestyle{empty}
+\usepackage[autocompile]{gregoriotex}
+
+\begin{document}
+
+\subsubsection*{Clef visible}
+\gresetclef{visible}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\subsubsection*{Clef phantom}
+\gresetclef{phantom}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\subsubsection*{Clef hphantom}
+\gresetclef{hphantom}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\subsubsection*{Clef invisible}
+\gresetclef{invisible}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\subsubsection*{Clef invisible with left shift by bolshift}
+\grechangedim{noclefspace}{-\grebolshift}{scalable}
+\gresetclef{invisible}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\end{document}
