@@ -30,8 +30,17 @@
 \gresetlines{visible}
 \gregorioscore{clef-visibility}
 
-\subsubsection*{Clef invisible with left shift by bolshift}
-\grechangedim{noclefspace}{-\grebolshift}{scalable}
+\subsubsection*{Clef invisible with noclefspace=0pt}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gresetclef{invisible}
+\gresetnotes{visible}
+\gresetlines{visible}
+\gregorioscore{clef-visibility}
+
+\subsubsection*{Clef invisible with noclefspace=-bolshift}
+\makeatletter
+\grechangedim{noclefspace}{-\the\gre@dimen@bolshift}{scalable}
+\makeatother
 \gresetclef{invisible}
 \gresetnotes{visible}
 \gresetlines{visible}
