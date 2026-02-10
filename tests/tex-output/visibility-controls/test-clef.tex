@@ -1,0 +1,30 @@
+\section{Clef Visibility Test}
+
+\subsection{Clef: visible (default)}
+\gresetclef{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: phantom}
+\gresetclef{phantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: hphantom}
+\gresetclef{hphantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible}
+\gresetclef{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible and noclefspace = 0pt}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible and noclefspace = -bolshift}
+\makeatletter
+\grechangedim{noclefspace}{-\the\gre@dimen@bolshift}{scalable}
+\makeatother
+\gregorioscore{tollite-portas}
+
+\gresetclef{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
