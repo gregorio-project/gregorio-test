@@ -4,7 +4,6 @@
 \pagestyle{empty}
 \usepackage[autocompile]{gregoriotex}
 
-\grechangedim{belowlinesnabcheight}{5ex}{scalable}
 \grechangedim{abovelinestextraise}{3ex}{scalable}
 \gresetnabcfont[1]{grelaon}{8}%
 \gresetnabcfont[2]{gregall}{8}%
@@ -214,5 +213,84 @@
 
 \gresetnabc{1}{visible}
 \gresetnabc{2}{visible}
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\section{Single NABC Visibility Test (1 voice only)}
+
+\subsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\gresetnabc{1}{visible}
+
+\section{Single NABC+Lyrics-only Visibility Test (1 voice only)}
+
+\gresetclef{invisible}
+\gresetlines{hphantom}
+\gresetnotes{hphantom}
+\grechangedim{noclefspace}{0pt}{scalable}
+
+\subsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\gresetnabc{1}{visible}
+
+% Reset
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\section{Reference: No NABC (comparison baseline)}
+
+% Reset all visibility to default
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\gresetlyrics{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\subsection{No NABC: normal rendering}
+\gregorioscore{tollite-portas-no-nabc}
+
+\subsection{No NABC: lines hphantom + notes hphantom + clef invisible}
+\gresetclef{invisible}
+\gresetlines{hphantom}
+\gresetnotes{hphantom}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas-no-nabc}
+
+\subsection{No NABC: lines invisible + notes invisible + clef invisible}
+\gresetclef{invisible}
+\gresetlines{invisible}
+\gresetnotes{invisible}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas-no-nabc}
+
+% Reset
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
 
 \end{document}
