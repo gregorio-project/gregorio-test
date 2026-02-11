@@ -158,10 +158,6 @@
 
 \section{NABC+Notes-invisible Spacing Test}
 
-% This section tests the fix for NABC horizontal spacing when notes are
-% invisible.  Without the fix, NABC neumes would overlap because the note
-% glyphs contribute zero horizontal width.
-
 \gresetnotes{invisible}
 
 \subsection{Notes invisible + NABC visible (both voices)}
@@ -183,11 +179,14 @@
 \gresetnabc{2}{visible}
 \gresetnotes{visible}
 
+\subsection{Extra test: all visible, but with notes total width lower than NABC glyphs width}
+\gregorioscore{tollite-portas-simple-notes}
+
 \section{NABC+Lyrics-only Visibility Test}
 
 \gresetclef{invisible}
-\gresetlines{hphantom}
-\gresetnotes{hphantom}
+\gresetlines{invisible}
+\gresetnotes{invisible}
 \grechangedim{noclefspace}{0pt}{scalable}
 
 \subsection{Voice 1 (above staff)}
