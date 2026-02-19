@@ -565,7 +565,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  16 (S_QUILISMA)
+         shape                  17 (S_QUILISMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  h
@@ -867,12 +867,12 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
          signs                  16 (_V_EPISEMA)
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  e
-         shape                  4 (S_PUNCTUM_INCLINATUM_DESCENDENS)
+         shape                  5 (S_PUNCTUM_INCLINATUM_DESCENDENS)
      nabc_lines              1
      nabc_line 1             "to>lsc2lsi9"
 =====================================================================
@@ -1025,7 +1025,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          signs                  1 (_PUNCTUM_MORA)
      nabc_lines              1
      nabc_line 1             "vi-tohhlsi7lss6"
@@ -1723,9 +1723,6 @@
      nabc_lines              1
      nabc_line 1             "vicl-sahhlsi7"
 ---------------------------------------------------------------------
-     type                    6 (GRE_SPACE)
-     space                   7 (SP_LARGER_SPACE)
----------------------------------------------------------------------
      type                    3 (GRE_ELEMENT)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
        type                  2 (GRE_GLYPH)
@@ -2150,7 +2147,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
          type                   1 (GRE_NOTE)
          pitch                  g
-         shape                  7 (S_VIRGA)
+         shape                  8 (S_VIRGA)
          signs                  1 (_PUNCTUM_MORA)
      nabc_lines              1
      nabc_line 1             "vi-tohi"
