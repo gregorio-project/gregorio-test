@@ -1,0 +1,322 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1cm]{geometry}
+\usepackage{fontspec}
+\pagestyle{empty}
+\usepackage[autocompile]{gregoriotex}
+
+\grechangedim{abovelinestextraise}{3ex}{scalable}
+\gresetnabcfont[1]{grelaon}{8}%
+\gresetnabcfont[2]{gregall}{8}%
+\grechangestyle{nabc}{}
+\grechangestyle{belowlinesnabc}{\color{red}}
+
+\begin{document}
+
+\section{Clef Visibility Test}
+
+\subsection{Clef: visible (default)}
+\gresetclef{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: phantom}
+\gresetclef{phantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: hphantom}
+\gresetclef{hphantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible}
+\gresetclef{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible and noclefspace = 0pt}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas}
+
+\subsection{Clef: invisible and noclefspace = -bolshift}
+\makeatletter
+\grechangedim{noclefspace}{-\the\gre@dimen@bolshift}{scalable}
+\makeatother
+\gregorioscore{tollite-portas}
+
+\gresetclef{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\section{Lyrics Visibility Test}
+
+\subsection{Lyrics: visible (default)}
+\gresetlyrics{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Lyrics: phantom}
+\gresetlyrics{phantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Lyrics: hphantom}
+\gresetlyrics{hphantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Lyrics: invisible}
+\gresetlyrics{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetlyrics{visible}
+
+\section{Staff Lines Visibility Test}
+
+\subsection{Staff lines: visible (default)}
+\gresetlines{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Staff lines: phantom}
+\gresetlines{phantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Staff lines: hphantom}
+\gresetlines{hphantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Staff lines: invisible}
+\gresetlines{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetlines{visible}
+
+\section{Notes Visibility Test}
+
+\subsection{Notes: visible (default)}
+\gresetnotes{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Notes: phantom}
+\gresetnotes{phantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Notes: hphantom}
+\gresetnotes{hphantom}
+\gregorioscore{tollite-portas}
+
+\subsection{Notes: invisible}
+\gresetnotes{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetnotes{visible}
+
+\section{NABC Visibility Test}
+
+\subsection{Voice 1 (above staff)}
+
+\subsubsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Voice 2 (below staff)}
+
+\subsubsection{NABC voice 2: visible (default)}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 2: phantom}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 2: invisible}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Both voices}
+
+\subsubsection{Both NABC voices: visible}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{Both NABC voices: phantom}
+\gresetnabc{1}{phantom}
+\gresetnabc{2}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{Both NABC voices: invisible}
+\gresetnabc{1}{invisible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+
+\section{NABC+Notes-invisible Spacing Test}
+
+\gresetnotes{invisible}
+
+\subsection{Notes invisible + NABC visible (both voices)}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gregorioscore{tollite-portas}
+
+\subsection{Notes invisible + NABC voice 1 only}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Notes invisible + NABC invisible (no spacing)}
+\gresetnabc{1}{invisible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gresetnotes{visible}
+
+\subsection{Extra test: all visible, but with notes total width lower than NABC glyphs width}
+\gregorioscore{tollite-portas-simple-notes}
+
+\section{NABC+Lyrics-only Visibility Test}
+
+\gresetclef{invisible}
+\gresetlines{invisible}
+\gresetnotes{invisible}
+\grechangedim{noclefspace}{0pt}{scalable}
+
+\subsection{Voice 1 (above staff)}
+
+\subsubsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Voice 2 (below staff)}
+
+\subsubsection{NABC voice 2: visible (default)}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 2: phantom}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{NABC voice 2: invisible}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\subsection{Both voices}
+
+\subsubsection{Both NABC voices: visible}
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gregorioscore{tollite-portas}
+
+\subsubsection{Both NABC voices: phantom}
+\gresetnabc{1}{phantom}
+\gresetnabc{2}{phantom}
+\gregorioscore{tollite-portas}
+
+\subsubsection{Both NABC voices: invisible}
+\gresetnabc{1}{invisible}
+\gresetnabc{2}{invisible}
+\gregorioscore{tollite-portas}
+
+\gresetnabc{1}{visible}
+\gresetnabc{2}{visible}
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\section{Single NABC Visibility Test (1 voice only)}
+
+\subsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\gresetnabc{1}{visible}
+
+\section{Single NABC+Lyrics-only Visibility Test (1 voice only)}
+
+\gresetclef{invisible}
+\gresetlines{hphantom}
+\gresetnotes{hphantom}
+\grechangedim{noclefspace}{0pt}{scalable}
+
+\subsection{NABC voice 1: visible (default)}
+\gresetnabc{1}{visible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: phantom}
+\gresetnabc{1}{phantom}
+\gregorioscore{tollite-portas-single-nabc}
+
+\subsection{NABC voice 1: invisible}
+\gresetnabc{1}{invisible}
+\gregorioscore{tollite-portas-single-nabc}
+
+\gresetnabc{1}{visible}
+
+% Reset
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\section{Reference: No NABC (comparison baseline)}
+
+% Reset all visibility to default
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\gresetlyrics{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\subsection{No NABC: normal rendering}
+\gregorioscore{tollite-portas-no-nabc}
+
+\subsection{No NABC: lines hphantom + notes hphantom + clef invisible}
+\gresetclef{invisible}
+\gresetlines{hphantom}
+\gresetnotes{hphantom}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas-no-nabc}
+
+\subsection{No NABC: lines invisible + notes invisible + clef invisible}
+\gresetclef{invisible}
+\gresetlines{invisible}
+\gresetnotes{invisible}
+\grechangedim{noclefspace}{0pt}{scalable}
+\gregorioscore{tollite-portas-no-nabc}
+
+% Reset
+\gresetclef{visible}
+\gresetlines{visible}
+\gresetnotes{visible}
+\grechangedim{noclefspace}{0.1cm}{scalable}
+
+\end{document}
