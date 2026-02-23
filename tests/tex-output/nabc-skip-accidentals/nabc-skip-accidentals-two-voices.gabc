@@ -1,0 +1,7 @@
+name: NABC skip accidentals two voices;
+nabc-lines: 2;
+%%
+(f3)No(fg|vi-|ta>)acc(ef|ta>|vi-). (,)
+Flat(exfg|vi-|ta>)bef(ef|ta>|vi-). (,)
+Nat(eyfg|vi-|ta>)bef(ef|ta>|vi-). (;)
+Sharp(e#fg|vi-|ta>)bef(ef|ta>|vi-). (::)

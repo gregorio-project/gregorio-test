@@ -1,5 +1,0 @@
-name: NABC skip accidentals per voice;
-nabc-lines: 2;
-%%
-(f3)No(fg|vi-|ta>)acc(ef|ta>|vi-). (,)
-Flat(exfg|vi-|ta>)bef(ef|ta>|vi-). (::)
