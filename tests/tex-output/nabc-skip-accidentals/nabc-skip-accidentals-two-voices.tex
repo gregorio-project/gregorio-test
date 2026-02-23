@@ -1,0 +1,65 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+% Test for \gresetnabcskipaccidentals with two NABC voices:
+%   Voice 1 (above staff), Voice 2 (below staff, in red)
+%
+%   Sections: both false (default), both true (global),
+%             [1]{true}+[2]{false}, [1]{false}+[2]{true}
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{fullpage}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\gresetnabcfont[1]{gregall}{8}
+\gresetnabcfont[2]{gregall}{8}
+\grechangedim{belowlinesnabcheight}{0.6cm}{scalable}
+\grechangedim{baselineskip}{90pt}{scalable}
+\grechangestyle{nabc}{\color{black}}
+\grechangestyle{belowlinesnabc}{\color{red}}
+
+\listfiles
+\begin{document}
+
+% 1) Default: both false — neumes align with accidentals
+\section*{both \texttt{false} (default)}
+\gresetnabcskipaccidentals{false}
+\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+
+% 2) Global true — both voices skip leading accidentals
+\section*{\texttt{\char`\\gresetnabcskipaccidentals\{true\}} (global)}
+\gresetnabcskipaccidentals{true}
+\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+
+% 3) Voice 1 (above) skips; voice 2 (below) does not
+\section*{voice~1~\texttt{true}, voice~2~\texttt{false}}
+\gresetnabcskipaccidentals{false}
+\gresetnabcskipaccidentals[1]{true}
+\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+
+% 4) Voice 1 (above) does not skip; voice 2 (below) skips
+\section*{voice~1~\texttt{false}, voice~2~\texttt{true}}
+\gresetnabcskipaccidentals[1]{false}
+\gresetnabcskipaccidentals[2]{true}
+\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+
+% Reset for any subsequent tests
+\gresetnabcskipaccidentals{false}
+
+\end{document}
