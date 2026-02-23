@@ -1,0 +1,8 @@
+name: NABC skip accidentals;
+nabc-lines: 1;
+%%
+(f3)No(fg|vi-)acc(ef|ta>). (,)
+Flat(exfg|vi-)bef(ef|ta>). (,)
+Nat(eyfg|vi-)bef(ef|ta>). (;)
+Sharp(e#fg|vi-)bef(ef|ta>). (,)
+Two(exeyfg|vi-)accs(ef|ta>). (::)
