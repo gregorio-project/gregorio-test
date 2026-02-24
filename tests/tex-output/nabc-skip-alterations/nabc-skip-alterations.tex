@@ -1,7 +1,7 @@
 % !TEX TS-program = LuaLaTeX+se
 % !TEX encoding = UTF-8
 
-% Test for \gresetnabcskipaccidentals (single voice):
+% Test for \gresetnabcskipalterations (single voice):
 %   false (default), true (global), [1]{true}, [1]{false} (explicit reset)
 
 \documentclass[11pt]{article}
@@ -30,25 +30,25 @@
 \begin{document}
 
 % 1) Default: false — neume aligns with accidental when present
-\section*{\texttt{\char`\\gresetnabcskipaccidentals\{false\}} (default)}
-\gresetnabcskipaccidentals{false}
-\gregorioscore[a]{nabc-skip-accidentals}
+\section*{\texttt{\char`\\gresetnabcskipalterations\{false\}} (default)}
+\gresetnabcskipalterations{false}
+\gregorioscore[a]{nabc-skip-alterations}
 
 % 2) Global true — neume skips leading accidentals, anchors to first square note
-\section*{\texttt{\char`\\gresetnabcskipaccidentals\{true\}}}
-\gresetnabcskipaccidentals{true}
-\gregorioscore[a]{nabc-skip-accidentals}
+\section*{\texttt{\char`\\gresetnabcskipalterations\{true\}}}
+\gresetnabcskipalterations{true}
+\gregorioscore[a]{nabc-skip-alterations}
 
 % 3) Per-voice [1]{true} — explicit per-voice form, equivalent to global true
 %    for a single-voice score
-\section*{\texttt{\char`\\gresetnabcskipaccidentals[1]\{true\}}}
-\gresetnabcskipaccidentals{false}
-\gresetnabcskipaccidentals[1]{true}
-\gregorioscore[a]{nabc-skip-accidentals}
+\section*{\texttt{\char`\\gresetnabcskipalterations[1]\{true\}}}
+\gresetnabcskipalterations{false}
+\gresetnabcskipalterations[1]{true}
+\gregorioscore[a]{nabc-skip-alterations}
 
 % 4) Per-voice [1]{false} — explicit reset per voice
-\section*{\texttt{\char`\\gresetnabcskipaccidentals[1]\{false\}}}
-\gresetnabcskipaccidentals[1]{false}
-\gregorioscore[a]{nabc-skip-accidentals}
+\section*{\texttt{\char`\\gresetnabcskipalterations[1]\{false\}}}
+\gresetnabcskipalterations[1]{false}
+\gregorioscore[a]{nabc-skip-alterations}
 
 \end{document}

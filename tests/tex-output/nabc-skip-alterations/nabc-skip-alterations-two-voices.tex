@@ -1,7 +1,7 @@
 % !TEX TS-program = LuaLaTeX+se
 % !TEX encoding = UTF-8
 
-% Test for \gresetnabcskipaccidentals with two NABC voices:
+% Test for \gresetnabcskipalterations with two NABC voices:
 %   Voice 1 (above staff), Voice 2 (below staff, in red)
 %
 %   Sections: both false (default), both true (global),
@@ -39,27 +39,27 @@
 
 % 1) Default: both false — neumes align with accidentals
 \section*{both \texttt{false} (default)}
-\gresetnabcskipaccidentals{false}
-\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+\gresetnabcskipalterations{false}
+\gregorioscore[a]{nabc-skip-alterations-two-voices}
 
 % 2) Global true — both voices skip leading accidentals
-\section*{\texttt{\char`\\gresetnabcskipaccidentals\{true\}} (global)}
-\gresetnabcskipaccidentals{true}
-\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+\section*{\texttt{\char`\\gresetnabcskipalterations\{true\}} (global)}
+\gresetnabcskipalterations{true}
+\gregorioscore[a]{nabc-skip-alterations-two-voices}
 
 % 3) Voice 1 (above) skips; voice 2 (below) does not
 \section*{voice~1~\texttt{true}, voice~2~\texttt{false}}
-\gresetnabcskipaccidentals{false}
-\gresetnabcskipaccidentals[1]{true}
-\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+\gresetnabcskipalterations{false}
+\gresetnabcskipalterations[1]{true}
+\gregorioscore[a]{nabc-skip-alterations-two-voices}
 
 % 4) Voice 1 (above) does not skip; voice 2 (below) skips
 \section*{voice~1~\texttt{false}, voice~2~\texttt{true}}
-\gresetnabcskipaccidentals[1]{false}
-\gresetnabcskipaccidentals[2]{true}
-\gregorioscore[a]{nabc-skip-accidentals-two-voices}
+\gresetnabcskipalterations[1]{false}
+\gresetnabcskipalterations[2]{true}
+\gregorioscore[a]{nabc-skip-alterations-two-voices}
 
 % Reset for any subsequent tests
-\gresetnabcskipaccidentals{false}
+\gresetnabcskipalterations{false}
 
 \end{document}
