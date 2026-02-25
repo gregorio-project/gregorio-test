@@ -1,0 +1,11 @@
+name: NABC skip alterations two voices;
+nabc-lines: 2;
+%%
+(f3)No(fg|vi-|ta>)acc(ef|ta>|vi-). (,)
+Flat(exfg|vi-|ta>)bef(ef|ta>|vi-). (,)
+Nat(eyfg|vi-|ta>)bef(ef|ta>|vi-). (;)
+Sharp(e#fg|vi-|ta>)bef(ef|ta>|vi-). (::)
+(f3)Left(fg|vilsc1|vilsc4)sig(ef|ta>|vi-). (,)
+L+flat(exfg|vilsc4|vilsal1)sig(ef|ta>|vi-). (,)
+L+nat(eyfg|vilsal1|vilsc1)sig(ef|ta>|vi-). (;)
+L+sharp(e#fg|vilsc1|vilsal1lss7)sig(ef|ta>|vi-). (::)
