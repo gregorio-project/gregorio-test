@@ -1,13 +1,10 @@
 % !TEX TS-program = LuaLaTeX+se
 % !TEX encoding = UTF-8
 
-% Regression test for issue #1715: excessive inter-syllable spacing when NABC
-% extends past the notes box (extrakern mechanism).
-%
-% Puer natus est (Introit, Mode VII) with two NABC voices.
-% With the fix, the gap between syllables "Pu" and "er" should be normal
-% (no extrakern added, since the natural inter-syllable space already
-% prevents NABC overlap).
+% Test for issue #1715: nabcintersyllablemingap = 1cm (exaggerated)
+% An absurdly large mingap to stress-test the overflow model. The NABC
+% glyphs should be pushed far apart, likely causing line breaks and
+% visual distortion — confirms the parameter has unbounded effect.
 
 \documentclass[11pt]{article}
 \usepackage{fontspec}
@@ -33,10 +30,13 @@
 \gresetnabcalignment{neume}
 \gresetnabcfont[1]{grelaon}{8}
 
+% Override: absurdly large mingap (stress test)
+\grechangedim{nabcintersyllablemingap}{1cm}{scalable}
+
 \listfiles
 \begin{document}
 
-\section*{Puer natus est — regression test for \#1715}
+\section*{Puer natus est — mingap = 1cm (extreme)}
 \gregorioscore[a]{puer-natus}
 
 \end{document}
