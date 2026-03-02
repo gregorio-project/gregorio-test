@@ -4,6 +4,8 @@
 % Test for \gresetnabcalignment with two NABC lines:
 %   Voice 1 (above staff): grelaon, with Tironian notes (lt)
 %   Voice 2 (below staff): gregall, with significative letters (ls)
+% Covers both vertical (full/neume) and horizontal (left/center) alignment,
+% including per-voice and global configurations.
 
 \documentclass[11pt]{article}
 \usepackage{fontspec}
@@ -35,29 +37,51 @@
 \listfiles
 \begin{document}
 
-% 1) Default: full complex glyph descriptor alignment
-\section*{full (default) -- two voices}
-\gresetnabcalignment{full}
+% 1) full + left (default) -- both voices
+\section*{full, left (default) -- two voices}
+\gresetnabcalignment{full}{left}
 \gregorioscore[a]{nabc-alignment-two-voices}
 
-% 2) neume alignment for both voices
-\section*{neume -- two voices}
-\gresetnabcalignment{neume}
+% 2) full + center -- both voices
+\section*{full, center -- two voices}
+\gresetnabcalignment{full}{center}
 \gregorioscore[a]{nabc-alignment-two-voices}
 
-% 3) Per-voice: neume for voice 1 (above), full for voice 2 (below)
-\section*{voice 1 neume, voice 2 full}
-\gresetnabcalignment[1]{neume}
-\gresetnabcalignment[2]{full}
+% 3) neume + left -- both voices
+\section*{neume, left -- two voices}
+\gresetnabcalignment{neume}{left}
 \gregorioscore[a]{nabc-alignment-two-voices}
 
-% 4) Per-voice: full for voice 1 (above), neume for voice 2 (below)
-\section*{voice 1 full, voice 2 neume}
-\gresetnabcalignment[1]{full}
-\gresetnabcalignment[2]{neume}
+% 4) neume + center -- both voices
+\section*{neume, center -- two voices}
+\gresetnabcalignment{neume}{center}
+\gregorioscore[a]{nabc-alignment-two-voices}
+
+% 5) Per-voice: voice 1 neume+left, voice 2 full+left
+\section*{voice 1 neume+left, voice 2 full+left}
+\gresetnabcalignment[1]{neume}{left}
+\gresetnabcalignment[2]{full}{left}
+\gregorioscore[a]{nabc-alignment-two-voices}
+
+% 6) Per-voice: voice 1 full+left, voice 2 neume+left
+\section*{voice 1 full+left, voice 2 neume+left}
+\gresetnabcalignment[1]{full}{left}
+\gresetnabcalignment[2]{neume}{left}
+\gregorioscore[a]{nabc-alignment-two-voices}
+
+% 7) Per-voice: voice 1 full+center, voice 2 neume+left
+\section*{voice 1 full+center, voice 2 neume+left}
+\gresetnabcalignment[1]{full}{center}
+\gresetnabcalignment[2]{neume}{left}
+\gregorioscore[a]{nabc-alignment-two-voices}
+
+% 8) Per-voice: voice 1 neume+center, voice 2 full+center
+\section*{voice 1 neume+center, voice 2 full+center}
+\gresetnabcalignment[1]{neume}{center}
+\gresetnabcalignment[2]{full}{center}
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % Reset to global default for any subsequent tests
-\gresetnabcalignment{full}
+\gresetnabcalignment{full}{left}
 
 \end{document}
