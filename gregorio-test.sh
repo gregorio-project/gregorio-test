@@ -396,7 +396,7 @@ test|retest)
 
     if [ "$gregorio_dir" = "" ]
     then
-        gregorio_version=$(grep 'FILENAME_VERSION' $(kpsewhich gregoriotex.lua))
+        gregorio_version=$(grep 'FILENAME_VERSION' $(kpsewhich gregoriotex.lua | sed 's/\r//'))
         gregorio_version=${gregorio_version#*\'gregorio-}
         gregorio_version=${gregorio_version%\'*}
     else
