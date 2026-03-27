@@ -2,7 +2,7 @@
 # with consecutive NABC separators (||) that cause the NABC state to wrap.
 # See https://github.com/gregorio-project/gregorio/issues/1726
 
-eval $gregorio -f gabc -F dump test.gabc > /dev/null 2>&1
+eval $gregorio -f gabc -F gtex test.gabc > /dev/null 2>&1
 exit_code=$?
 
 # A signal-killed process has exit code 128+signal (e.g. 139 for SIGSEGV).
