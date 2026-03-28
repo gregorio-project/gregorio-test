@@ -511,7 +511,7 @@ test|retest)
     bg_pgid=$(ps -o pgid= -p $bg_pid | tr -d ' ')    
     
     # Set up trap to kill background jobs on interrupt
-    trap "kill -TERM -$bg_pgid 2>/dev/null; echo; exit 130" INT
+    trap "kill -TERM -- -$bg_pgid 2>/dev/null; echo; exit 130" INT
     
     if $progress_bar
     then
