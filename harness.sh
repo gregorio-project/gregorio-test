@@ -738,7 +738,7 @@ function gabc_output_test {
         if ${SED} -e "s/###FILENAME###/$filebase/" \
             -e "s/###DEPRECATED###/$deprecated/" \
             -e "s/###DEBUG###/$debugarg/" \
-            -e "s!###FONTDIR###!$testroot/fonts/!" \
+            -e "s!###FONTDIR###!$(realpath --relative-to=. $testroot)/fonts/!" \
             -e "s/###PREAMBLE###/$preamble/" \
             "$testroot/gabc-output.tex" >"${texfile}"
         then
