@@ -11,32 +11,32 @@
 \usepackage{fontspec}
 \usepackage[allowdeprecated=false]{gregoriotex}
 
-\makeatletter
-\let\real@debugmsg\gre@debugmsg %
-\def\gre@debugmsg#1#2{%
-    \real@debugmsg{#1}{#2}%
-    \IfStrEq{#1}{syllablerewriting}{%
-        \IfStrEqCase{#2}{%
-            %{merging format when prepending previous last syllable part}{%
-            %    \hbox to 0pt{{\color[rgb]{0,1,1}[}}%
-            %}%
-            %{prepending previous last syllable part}{%
-            %    \hbox to 0pt{{\color[rgb]{0,1,1}[}}%
-            %}%
-            %{not rewriting syllable}{%
-            %    \hbox to 0pt{{\color[rgb]{0,1,0}[}}%
-            %}%
-            {start emit}{%
-                \hbox to 0pt{{\color[rgb]{0,1,0}[}}%
-            }%
-            {end emit}{%
-                \hbox to 0pt{{\color[rgb]{0,1,0}]}}%
-            }%
-        }%
-    }{%
-    }%
-}%
-\makeatother
+%\makeatletter
+%\let\real@debugmsg\gre@debugmsg %
+%\def\gre@debugmsg#1#2{%
+%    \real@debugmsg{#1}{#2}%
+%    \IfStrEq{#1}{syllablerewriting}{%
+%        \IfStrEqCase{#2}{%
+%            %{merging format when prepending previous last syllable part}{%
+%            %    \hbox to 0pt{{\color[rgb]{0,1,1}[}}%
+%            %}%
+%            %{prepending previous last syllable part}{%
+%            %    \hbox to 0pt{{\color[rgb]{0,1,1}[}}%
+%            %}%
+%            %{not rewriting syllable}{%
+%            %    \hbox to 0pt{{\color[rgb]{0,1,0}[}}%
+%            %}%
+%            {start emit}{%
+%                \hbox to 0pt{{\color[rgb]{0,1,0}[}}%
+%            }%
+%            {end emit}{%
+%                \hbox to 0pt{{\color[rgb]{0,1,0}]}}%
+%            }%
+%        }%
+%    }{%
+%    }%
+%}%
+%\makeatother
 
 \setmainfont[
     Path = ../../../fonts/ ,

@@ -17,11 +17,11 @@
 # ImageMagick changed the way it wants to be called starting from v7
 if [ -z "$CONVERT" ]; then
     if command -v magick >/dev/null 2>&1; then
-        export CONVERT=magick
-        export COMPARE="magick compare"
+        export CONVERT=$(which magick)
+        export COMPARE="$(which magick) compare"
     elif command -v convert >/dev/null 2>&1; then
-        export CONVERT=convert
-        export COMPARE=compare
+        export CONVERT=$(which convert)
+        export COMPARE=$(which compare)
     else
         echo "error: ImageMagick is not installed" 1>&2
         exit
@@ -738,7 +738,7 @@ function gabc_output_test {
         if ${SED} -e "s/###FILENAME###/$filebase/" \
             -e "s/###DEPRECATED###/$deprecated/" \
             -e "s/###DEBUG###/$debugarg/" \
-            -e "s!###FONTDIR###!$testroot/fonts/!" \
+            -e "s!###FONTDIR###!$(realpath --relative-to=. $testroot)/fonts/!" \
             -e "s/###PREAMBLE###/$preamble/" \
             "$testroot/gabc-output.tex" >"${texfile}"
         then
