@@ -116,7 +116,7 @@ declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:GhilLnPrSvmF" opt
+    while getopts ":acCdD:eg:GhilLnPrSvmFRA" opt
     do
         case $opt in
         a)
@@ -199,6 +199,12 @@ do
             ;;
         F)
             mode=failures
+            ;;
+        R)
+            mode=ran_tests
+            ;;
+        A)
+            mode=accepted
             ;;
         \?)
             echo "Unknown option: -$OPTARG" >&2
@@ -301,7 +307,11 @@ Options:
   
   -m                show the summary from the most recently run set of tests
   
-  -F                show the failed tests from the most recently run set of tests
+  -F                show the failed tests from the most recently run set of 
+                    tests
+  
+  -A                show tests whose results have been accepted from the most 
+                    recent run
 
   -h                shows this usage message.
 
@@ -372,7 +382,7 @@ source harness.sh
 
 # early exit modes
 case "$mode" in
-summary|failures)
+summary|failures|ran_tests|accepted)
     # warn if any test arguments were provided
     if [ "${#tests_to_run[@]}" -ne 0 ]; then
         echo "Warning: TEST arguments are ignored in $mode mode." >&2
@@ -396,6 +406,24 @@ summary|failures)
             echo "FAILED TESTS"
             echo "============"
             $FIND . -name '*.result' -exec grep '^FAIL|' {} + | \
+                while IFS='|' read -r status test message
+                do
+                    echo "$test : $message"
+                done
+            echo
+            exit 0
+            ;;
+        ran_tests)
+            echo "TESTS RUN"
+            echo "========="
+            $FIND . -name '*.result' -exec cut -d'|' -f2 {} + | sort | uniq
+            echo
+            exit 0
+            ;;
+        accepted)
+            echo "ACCEPTED TESTS"
+            echo "=============="
+            $FIND -name '*.result' -exec grep '^ACCEPT|' {} + | \
                 while IFS='|' read -r status test message
                 do
                     echo "$test : $message"
