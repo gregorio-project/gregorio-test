@@ -8,7 +8,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Each branch on this repository should correspond to the matching branch (i.e.
 the one with the same name) in the
 [main repository](https://github.com/gregorio-project/gregorio).  That is, all
-the tests should pass when run against that branch with TeX Live 2020.  Thus all
+the tests should pass when run against that branch with current TeX Live.  Thus all
 new development in the main repository should create a corresponding branch
 here.  The exception to this is a branch which should not break any existing
 test and requires no new tests.  In this instance, it's acceptable to simply
