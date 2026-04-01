@@ -1,7 +1,7 @@
 EXPECTED="warning: several output formats declared, first taken
 warning: several output formats declared, first taken
-Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
-Try '$gregorio --help' for more information.
+Usage: $gregorio_name [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio_name --help' for more information.
 Proceeding anyway...
 error: refusing to overwrite the input file"
 

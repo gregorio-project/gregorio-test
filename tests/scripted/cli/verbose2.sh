@@ -1,7 +1,7 @@
 EXPECTED="warning: verbose option passed several times
-error: $gregorio: missing file operand.
-Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
-Try '$gregorio --help' for more information."
+error: $gregorio_name: missing file operand.
+Usage: $gregorio_name [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio_name --help' for more information."
 
 OUTCOME=$(eval $gregorio -v -v 2>&1)
 
