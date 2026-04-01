@@ -22,6 +22,15 @@ export LC_ALL=C
 export testroot="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$testroot"
 
+get_exe_path() {
+    local bin_path=$(which "$1")
+    if [[ "$(uname -s)" == CYGWIN* ]]; then
+        cygpath -w "$bin_path"
+    else
+        echo "$bin_path"
+    fi
+}
+
 VIEW_TEXT="cat {file}"
 DIFF_TEXT="diff {expect} {output}"
 
@@ -446,7 +455,7 @@ test|retest)
         echo
     fi
 
-    export gregorio=gregorio-$gregorio_version
+    export gregorio=$(get_exe_path gregorio-$gregorio_version)
 
     if ! $gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
     then
@@ -460,7 +469,7 @@ test|retest)
         fi
     fi
 
-    echo "Gregorio = $(which $gregorio)"
+    echo "Gregorio = $gregorio"
     echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
     echo
 
