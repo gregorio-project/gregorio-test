@@ -3,7 +3,7 @@ then
     export TEXMFCNF="$PWD:"
     source test-gtex.rc
     
-    OUTCOME=$($gregorio -S test.gabc)
+    OUTCOME=$($gregorio -S test.gabc | tr -d '\r')
     
     [[ "$OUTCOME" =~ $EXPECTED ]] || exit 1
 else

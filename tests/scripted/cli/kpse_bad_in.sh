@@ -3,7 +3,7 @@ then
     export TEXMFCNF="$PWD:"
     EXPECTED="error:kpse prohibits read from file $PWD/test.gabc"
     
-    OUTCOME=$(eval $gregorio -S "$PWD/test.gabc" 2>&1 1> /dev/null)
+    OUTCOME=$(eval $gregorio -S "$PWD/test.gabc" 2>&1 1> /dev/null | tr -d '\r')
     
     [[ "$OUTCOME" =~ $EXPECTED ]] || exit 1
 else

@@ -29,6 +29,6 @@ Formats:
 See <http://gregorio-project.github.io/> for general documentation,
 GregorioRef.pdf and GregorioNabcRef.pdf for full documentation."
 
-OUTCOME=$(eval $gregorio -h)
+OUTCOME=$(eval $gregorio -h | tr -d '\r')
 
 [[ "$OUTCOME" == "$EXPECTED" ]] || exit 1

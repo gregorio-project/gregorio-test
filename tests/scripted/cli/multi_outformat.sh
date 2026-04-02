@@ -5,6 +5,6 @@ Try '$gregorio_name --help' for more information.
 Proceeding anyway...
 error: refusing to overwrite the input file"
 
-OUTCOME=$(eval $gregorio -F gabc -F dump -F gtex test.gabc 2>&1 1> /dev/null)
+OUTCOME=$(eval $gregorio -F gabc -F dump -F gtex test.gabc 2>&1 1> /dev/null | tr -d '\r')
 
 [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1

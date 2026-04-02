@@ -10,7 +10,7 @@ then
     >&2 echo "unable to run test bad-response.sh"
     exit 3
 else
-    OUTCOME=$(eval $gregorio -W test.gabc 2>&1 1> /dev/null)
+    OUTCOME=$(eval $gregorio -W test.gabc 2>&1 1> /dev/null | tr -d '\r')
     
     [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1
 fi
