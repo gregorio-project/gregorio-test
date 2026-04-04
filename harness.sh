@@ -533,6 +533,9 @@ function scripted_test {
                 echo "$gregorio uses the kpathsea libraries$CLEAR_EOL"
                 echo "automatically passing $filename"
                 pass ;;
+            "4")
+                echo "$filename is not compatiple with Windows"
+                echo "automatically passing $filename"
         esac
     else
         fail "Failed to create directory" "Could not change to $indir"

@@ -1,3 +1,10 @@
+case "$(uname -s)" in
+    CYGWIN*|MINGW*|MSYS*)
+        echo "Skipping rmdir_pwd.sh: Windows does not allow removing the current working directory"
+        exit 4
+        ;;
+esac
+
 mkdir temp
 cd temp
 rmdir ../temp
@@ -10,4 +17,3 @@ echo ==========
 echo "$OUTCOME"
 
 [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1
-
