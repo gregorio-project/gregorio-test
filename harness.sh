@@ -180,7 +180,7 @@ function view_text {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -201,7 +201,7 @@ function view_pdf {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -223,7 +223,7 @@ function view_images {
             esac
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -245,7 +245,7 @@ function diff_text {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -267,7 +267,7 @@ function diff_pdf {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
