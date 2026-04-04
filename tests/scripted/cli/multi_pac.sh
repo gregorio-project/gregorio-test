@@ -1,8 +1,8 @@
 EXPECTED="warning: point-and-click option passed several times
-error: $gregorio_name: missing file operand.
-Usage: $gregorio_name [OPTION]... [-s | INPUT_FILE]
-Try '$gregorio_name --help' for more information."
+error: $gregorio_winsafe: missing file operand.
+Usage: $gregorio_winsafe [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio_winsafe --help' for more information."
 
-OUTCOME=$(eval $gregorio -p -p 2>&1 1> /dev/null | tr -d '\r')
+OUTCOME=$("$gregorio_path" -p -p 2>&1 1> /dev/null | tr -d '\r')
 
 [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1

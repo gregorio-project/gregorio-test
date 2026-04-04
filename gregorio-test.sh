@@ -456,7 +456,8 @@ test|retest)
     fi
 
     export gregorio=gregorio-$gregorio_version
-    export gregorio_name=$(get_exe_path $gregorio)
+    export gregorio_path=$(which $gregorio)
+    export gregorio_winsafe=$(get_exe_path $gregorio)
 
     if ! $gregorio -F dump -S -s </dev/null 2>/dev/null | grep -q 'SCORE INFOS'
     then
@@ -470,7 +471,7 @@ test|retest)
         fi
     fi
 
-    echo "Gregorio = $gregorio_name"
+    echo "Gregorio = $gregorio_path"
     echo "GregorioTeX = $(kpsewhich gregoriotex.tex)"
     echo
 

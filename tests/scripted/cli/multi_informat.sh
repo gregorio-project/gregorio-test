@@ -1,8 +1,8 @@
 EXPECTED="warning: several output formats declared, first taken
-Usage: $gregorio_name [OPTION]... [-s | INPUT_FILE]
-Try '$gregorio_name --help' for more information.
+Usage: $gregorio_winsafe [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio_winsafe --help' for more information.
 Proceeding anyway..."
 
-OUTCOME=$(eval $gregorio -f gabc -f gabc test.gabc 2>&1 1> /dev/null | tr -d '\r')
+OUTCOME=$("$gregorio_path" -f gabc -f gabc test.gabc 2>&1 1> /dev/null | tr -d '\r')
 
 [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1

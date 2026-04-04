@@ -50,7 +50,7 @@ then
     >&2 echo "unable to run test many-vowel.sh"
     exit 3
 else
-    OUTCOME=$(eval $gregorio -v -W test.gabc 2>&1 1> /dev/null | tr -d '\r')
+    OUTCOME=$("$gregorio_path" -v -W test.gabc 2>&1 1> /dev/null | tr -d '\r')
     
     [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1
 fi

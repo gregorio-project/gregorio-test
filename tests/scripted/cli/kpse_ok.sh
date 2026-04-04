@@ -1,9 +1,9 @@
-if eval $gregorio -V | grep -q kpathsea
+if "$gregorio_path" -V | grep -q kpathsea
 then
     export TEXMFCNF="$PWD:"
     source test-gtex.rc
     
-    OUTCOME=$($gregorio -S test.gabc | tr -d '\r')
+    OUTCOME=$("$gregorio_path" -S test.gabc | tr -d '\r')
     
     [[ "$OUTCOME" =~ $EXPECTED ]] || exit 1
 else
