@@ -283,8 +283,7 @@ function gabc_gtex_test {
     expfile="${filename%.gabc}.tex"
 
     testing "$filename" "$filename.result" "gabc_gtex_clean" "$filename"
-
-    export TEXINPUTS="$(dirname "$filename"):"
+    
     if [[ "$filename" = *"_B"* ]]
     then
         deprecation=
