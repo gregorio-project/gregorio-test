@@ -31,6 +31,40 @@ get_exe_path() {
     fi
 }
 
+print_summary() {
+    total_count=0
+    fail_count=0
+    declare -A result_counts
+
+    while IFS="|" read -r result file message
+    do
+        ((++result_counts[$message]))
+        ((++total_count))
+
+        if [ "$result" = "FAIL" ]
+        then
+            ((++fail_count))
+        fi
+    done < <($FIND . -name '*.result' -exec cat {} +)
+
+    echo "SUMMARY"
+    echo "======="
+    for message in "${!result_counts[@]}"
+    do
+        echo "$message : ${result_counts[$message]}/$total_count"
+    done
+    echo
+
+    if [ "$fail_count" -ne 0 ]
+    then
+        echo "${C_BAD}SOMETHING FAILED${C_RESET}"
+        return 1
+    else
+        echo "${C_GOOD}ALL PASS${C_RESET}"
+        return 0
+    fi
+}
+
 VIEW_TEXT="cat {file}"
 DIFF_TEXT="diff {expect} {output}"
 
@@ -91,7 +125,7 @@ declare -A tests_to_run
 while (( $# > 0 ))
 do
     unset OPTIND
-    while getopts ":acCdD:eg:GhilLnPrSv" opt
+    while getopts ":acCdD:eg:GhilLnPrSvmFRA" opt
     do
         case $opt in
         a)
@@ -168,6 +202,18 @@ do
             ;;
         v)
             mode=view_output
+            ;;
+        m)
+            mode=summary
+            ;;
+        F)
+            mode=failures
+            ;;
+        R)
+            mode=ran_tests
+            ;;
+        A)
+            mode=accepted
             ;;
         \?)
             echo "Unknown option: -$OPTARG" >&2
@@ -267,6 +313,14 @@ Options:
                     tests.
 
   -i                do not use cached images when running comparisons
+  
+  -m                show the summary from the most recently run set of tests
+  
+  -F                show the failed tests from the most recently run set of 
+                    tests
+  
+  -A                show tests whose results have been accepted from the most 
+                    recent run
 
   -h                shows this usage message.
 
@@ -334,6 +388,61 @@ then
 fi
 
 source harness.sh
+
+# early exit modes
+case "$mode" in
+summary|failures|ran_tests|accepted)
+    # warn if any test arguments were provided
+    if [ "${#tests_to_run[@]}" -ne 0 ]; then
+        echo "Warning: TEST arguments are ignored in $mode mode." >&2
+        echo
+    fi
+    
+    if [ ! -d output ]
+    then
+        echo "No previous run found." >&2
+        exit 9
+    fi
+
+    cd output || exit 9
+
+    case "$mode" in
+        summary)
+            print_summary
+            exit $?
+            ;;
+        failures)
+            echo "FAILED TESTS"
+            echo "============"
+            $FIND . -name '*.result' -exec grep '^FAIL|' {} + | \
+                while IFS='|' read -r status test message
+                do
+                    echo "$test : $message"
+                done
+            echo
+            exit 0
+            ;;
+        ran_tests)
+            echo "TESTS RUN"
+            echo "========="
+            $FIND . -name '*.result' -exec cut -d'|' -f2 {} + | sort | uniq
+            echo
+            exit 0
+            ;;
+        accepted)
+            echo "ACCEPTED TESTS"
+            echo "=============="
+            $FIND -name '*.result' -exec grep '^ACCEPT|' {} + | \
+                while IFS='|' read -r status test message
+                do
+                    echo "$test : $message"
+                done
+            echo
+            exit 0
+            ;;
+    esac
+    ;;
+esac
 
 if [ ! -d tests ]
 then
@@ -529,37 +638,10 @@ test|retest)
         done
     fi
     wait $!
-    overall_result=$?
-
-    $FIND . -name '*.result' -exec cat {} + | {
-        total_count=0
-        declare -A result_counts
-        old_IFS="$IFS"
-        IFS="|"
-        while read result file message
-        do
-            ((++result_counts[$message]))
-            ((++total_count))
-        done
-        IFS="$old_IFS"
-        echo
-        echo "SUMMARY"
-        echo "======="
-        for message in "${!result_counts[@]}"
-        do
-            echo "$message" : "${result_counts[$message]}/$total_count"
-        done
-    }
-
+    
     echo
-
-    if [ ${overall_result} != 0 ]
-    then
-        echo "${C_BAD}SOMETHING FAILED${C_RESET}"
-        exit 1
-    fi
-
-    echo "${C_GOOD}ALL PASS${C_RESET}"
+    print_summary
+    overall_result=$?
     ;;
 accept|view_*)
     cd output
