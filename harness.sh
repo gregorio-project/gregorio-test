@@ -153,6 +153,8 @@ function maybe_run {
 
 function accept_result {
     echo "Accepting $2 as expectation for $1"
+    
+    # Decide where to copy the accepted file
     if [[ "$1" = *"_B"* ]]
     then
         # this is a backwards test so it needs to be copied to backwards not tests
@@ -160,7 +162,18 @@ function accept_result {
     else
         accept_dest="tests"
     fi
+
+    # Copy new output to tests/backwards folder
     $CP "$2" "$testroot/$accept_dest/$(dirname "$1")/$3"
+
+    # Update the result status in the corresponding .result file
+    result_file="$testroot/output/$1.result"
+    if [ -f "$result_file" ]; then
+        $SED -i.bak 's/^FAIL|/ACCEPT|/' "$result_file"
+        rm -f "$result_file.bak"   # optional: remove backup
+    else
+        echo "Warning: .result file not found for $1" >&2
+    fi
 }
 
 function view_text {
@@ -544,7 +557,18 @@ function scripted_clean {
     true
 }
 function scripted_accept {
-    echo "Nothing to accept"
+    echo "Marking as accepted"
+    echo "Note: This does not make any changes to the test"
+    echo "      You must do that manually"
+
+    # Update the result status in the corresponding .result file
+    result_file="$testroot/output/$1.result"
+    if [ -f "$result_file" ]; then
+        $SED -i.bak 's/^FAIL|/ACCEPT|/' "$result_file"
+        rm -f "$result_file.bak"   # optional: remove backup
+    else
+        echo "Warning: .result file not found for $1" >&2
+    fi
 }
 function scripted_view_log {
     view_text "${1%.sh}.log"
