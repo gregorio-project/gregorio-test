@@ -1,4 +1,4 @@
-EXPECTED="Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
+EXPECTED="Usage: $gregorio_winsafe [OPTION]... [-s | INPUT_FILE]
 
 Engrave Gregorian chant scores, convert a gabc file to GregorioTeX.
 
@@ -29,6 +29,6 @@ Formats:
 See <http://gregorio-project.github.io/> for general documentation,
 GregorioRef.pdf and GregorioNabcRef.pdf for full documentation."
 
-OUTCOME=$(eval $gregorio -h)
+OUTCOME=$("$gregorio_path" -h | tr -d '\r')
 
 [[ "$OUTCOME" == "$EXPECTED" ]] || exit 1

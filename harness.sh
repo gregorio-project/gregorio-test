@@ -193,7 +193,7 @@ function view_text {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -214,7 +214,7 @@ function view_pdf {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -236,7 +236,7 @@ function view_images {
             esac
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -258,7 +258,7 @@ function diff_text {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -280,7 +280,7 @@ function diff_pdf {
             cmd+=( "$arg" )
         done
         echo "${cmd[@]}"
-        "${cmd[@]}"
+        "${cmd[@]}" >/dev/null 2>&1 &
     fi
 }
 
@@ -296,8 +296,7 @@ function gabc_gtex_test {
     expfile="${filename%.gabc}.tex"
 
     testing "$filename" "$filename.result" "gabc_gtex_clean" "$filename"
-
-    export TEXINPUTS="$(dirname "$filename"):"
+    
     if [[ "$filename" = *"_B"* ]]
     then
         deprecation=
@@ -375,7 +374,17 @@ function gabc_dump_test {
 
     testing "$filename" "$filename.result" "gabc_dump_clean" "$filename"
 
-    export TEXINPUTS="$(dirname "$filename"):"
+    localdir="$(dirname "$filename")"
+    if [[ -f "$localdir/gregorio-vowels.dat" ]]; then
+        if [[ "$(uname -s)" == CYGWIN* ]]; then
+            texdir="$(cygpath -w "$localdir")"
+            export TEXINPUTS="$texdir"
+        else
+            export TEXINPUTS="$localdir:"
+        fi
+    else
+        unset TEXINPUTS
+    fi
     if [[ "$filename" = *"_B"* ]]
     then
         deprecation=
@@ -546,6 +555,9 @@ function scripted_test {
                 echo "$gregorio uses the kpathsea libraries$CLEAR_EOL"
                 echo "automatically passing $filename"
                 pass ;;
+            "4")
+                echo "$filename is not compatiple with Windows"
+                echo "automatically passing $filename"
         esac
     else
         fail "Failed to create directory" "Could not change to $indir"

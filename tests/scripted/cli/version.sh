@@ -3,10 +3,11 @@ Copyright \(C\) 2006-202[0-9] Gregorio Project authors \(see CONTRIBUTORS\.md\)
 License GPLv3\+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl\.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law\."
-echo $EXPECTED
+echo "$EXPECTED"
 
-OUTCOME=$(eval $gregorio -V)
-echo
-echo $OUTCOME
+echo ==========
+OUTCOME=$("$gregorio_path" -V | tr -d '\r')
+echo ==========
+echo "$OUTCOME"
 
 [[ "$OUTCOME" =~ $EXPECTED ]] || exit 1

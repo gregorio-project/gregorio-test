@@ -1,8 +1,9 @@
 source test-gtex.rc
 echo $EXPECTED
 
-OUTCOME=$(eval $gregorio -D -S test.gabc)
-echo
-echo $OUTCOME
+echo ==========
+OUTCOME=$("$gregorio_path" -D -S test.gabc | tr -d '\r')
+echo ==========
+echo "$OUTCOME"
 
 [[ "$OUTCOME" =~ $EXPECTED ]] || exit 1
