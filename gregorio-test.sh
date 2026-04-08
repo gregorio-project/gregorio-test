@@ -316,6 +316,9 @@ Options:
   
   -m                show the summary from the most recently run set of tests
   
+  -R                show the list of all tests in the most recently run set 
+                    of tests
+  
   -F                show the failed tests from the most recently run set of 
                     tests
   
