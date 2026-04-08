@@ -627,6 +627,16 @@ test|retest)
         done
         exit $overall_result
     ) &
+    bg_pid=$!
+        
+    # Set up trap to kill background jobs on interrupt
+    trap '
+        kill -TERM -- -$$ 2>/dev/null
+        sleep 0.2
+        kill -KILL -- -$$ 2>/dev/null
+        exit 130
+    ' INT
+    
     if $progress_bar
     then
         count=0
@@ -637,11 +647,12 @@ test|retest)
             count=$($FIND . -name '*.result' | wc -l)
         done
     fi
-    wait $!
+    wait $bg_pid
     
     echo
     print_summary
     overall_result=$?
+    trap - INT # Remove the trap after the background job completes
     ;;
 accept|view_*)
     cd output
