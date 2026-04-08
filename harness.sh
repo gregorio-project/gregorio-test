@@ -361,7 +361,17 @@ function gabc_dump_test {
 
     testing "$filename" "$filename.result" "gabc_dump_clean" "$filename"
 
-    export TEXINPUTS="$(dirname "$filename"):"
+    localdir="$(dirname "$filename")"
+    if [[ -f "$localdir/gregorio-vowels.dat" ]]; then
+        if [[ "$(uname -s)" == CYGWIN* ]]; then
+            texdir="$(cygpath -w "$localdir")"
+            export TEXINPUTS="$texdir"
+        else
+            export TEXINPUTS="$localdir:"
+        fi
+    else
+        unset TEXINPUTS
+    fi
     if [[ "$filename" = *"_B"* ]]
     then
         deprecation=
