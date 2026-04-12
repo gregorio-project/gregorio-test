@@ -556,8 +556,9 @@ function scripted_test {
                 echo "automatically passing $filename"
                 pass ;;
             "4")
-                echo "$filename is not compatiple with Windows"
+                echo "$filename is not compatiple with Windows$CLEAR_EOL"
                 echo "automatically passing $filename"
+                pass ;;
         esac
     else
         fail "Failed to create directory" "Could not change to $indir"
