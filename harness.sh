@@ -378,7 +378,7 @@ function gabc_dump_test {
     if [[ -f "$localdir/gregorio-vowels.dat" ]]; then
         if [[ "$(uname -s)" == CYGWIN* ]]; then
             texdir="$(cygpath -w "$localdir")"
-            export TEXINPUTS="$texdir"
+            export TEXINPUTS="$texdir;"
         else
             export TEXINPUTS="$localdir:"
         fi
