@@ -1,8 +1,8 @@
 EXPECTED="warning: verbose option passed several times
-error: $gregorio: missing file operand.
-Usage: $gregorio [OPTION]... [-s | INPUT_FILE]
-Try '$gregorio --help' for more information."
+error: $gregorio_winsafe: missing file operand.
+Usage: $gregorio_winsafe [OPTION]... [-s | INPUT_FILE]
+Try '$gregorio_winsafe --help' for more information."
 
-OUTCOME=$(eval $gregorio -v -v 2>&1)
+OUTCOME=$("$gregorio_path" -v -v 2>&1 | tr -d '\r')
 
 [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1

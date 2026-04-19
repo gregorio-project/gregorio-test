@@ -1,2 +1,2 @@
-eval $gregorio no_file_extension
+"$gregorio_path" no_file_extension
 exit $?
