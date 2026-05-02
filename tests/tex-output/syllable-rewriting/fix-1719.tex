@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[autocompile]{gregoriotex}
+\usepackage{fontspec}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\gresetinitiallines{0}
+
+\setmainfont[Path=../../../fonts/,Extension=.otf]{Gatometrix}
+
+\begin{document}
+
+Test cases for issue \#1719.
+
+\verb|maximumspacewithoutdash=0pt| \\
+\verb|syllablerewriting=auto|
+\gabcsnippet{(c4) San(fg/hf/ggf~)ctus,(f.)}
+
+\grechangedim{maximumspacewithoutdash}{1in}{scalable}
+\verb|maximumspacewithoutdash=1in| \\
+\verb|syllablerewriting=auto| \\
+The `n' should not jump to the second syllable:
+\gabcsnippet{(c4) San(fg/hf/ggf~)ctus,(f.)}
+
+\grechangedim{maximumspacewithoutdash}{0in}{scalable}
+  
+\verb|maximumspacewithoutdash=0pt| \\
+\verb|syllablerewriting=off|
+\gresetsyllablerewriting{off}
+\gabcsnippet{(c3) San(g)ctus,(gf..)}
+
+\verb|maximumspacewithoutdash=0pt| \\
+\verb|syllablerewriting=auto| \\
+This font has an `an' ligature, which should not be broken:
+\gresetsyllablerewriting{auto}
+\gabcsnippet{(c3) San(g)ctus,(gf..)}
+
+\end{document}
