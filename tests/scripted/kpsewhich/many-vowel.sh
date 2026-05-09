@@ -41,16 +41,21 @@ EXPECTED=" Looking for notfound in 01.dat
  Could not find notfound in 19.dat
  Looking for notfound in 20.dat
  Could not find notfound in 20.dat
+warning:Selecting Latin instead of notfound
 warning:unable to read vowel files for notfound; defaulting to Latin vowel rules
  in voice 1 the first element is a key definition, considered as initial key"
 
-if eval $gregorio -V | grep -q kpathsea
+if "$gregorio_path" -V | grep -q kpathsea
 then
     >&2 echo "$gregorio uses the kpathsea libraries"
     >&2 echo "unable to run test many-vowel.sh"
     exit 3
 else
+    echo "$EXPECTED"
+    echo ==========
     OUTCOME=$("$gregorio_path" -v -W test.gabc 2>&1 1> /dev/null | tr -d '\r')
+    echo ==========
+    echo "$OUTCOME"
     
     [[ "$EXPECTED" == "$OUTCOME" ]] || exit 1
 fi
