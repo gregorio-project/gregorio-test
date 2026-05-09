@@ -1,0 +1,13 @@
+\documentclass[12pt]{article}
+\usepackage{libertine}
+\usepackage[autocompile,debug={barspacing,syllablespacing}]{gregoriotex}
+\begin{document}
+\gresetinitiallines{0}
+\makeatletter
+\grechangedim{bar@maior}{100pt}{scalable}%
+\makeatother
+\grechangedim{spacearoundclefbars}{50pt}{scalable}
+\gabcsnippet{g:g(g:g)}
+The space before and after a bar (here, 100pt) should be decreased by spacearoundclefbars (here, 50pt) between a bar and clef. The bar's text should be centered between the text of the neighboring syllables.
+\gabcsnippet{g(g) z0:c3(z0:c3) g(g)}
+\end{document}
