@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[allowdeprecated=false,debug={general,syllablespacing,eolshift}]{gregoriotex} % for gregorio score inclusion
+\begin{document}
+
+\setlength{\parindent}{0pt}
+\gresetinitiallines{0}
+
+The cavum (open) note is the one at which the change is made.
+
+\verb|\gresetsyllablerewriting{off}|
+{\gabcsnippet{iiiif(g)iiiif(gr[ev:\gresetsyllablerewriting{off}])iiiif(g)}}
+
+\verb|\grechangedim{maximumspacewithoutdash}{1cm}{scalable}|
+{\gabcsnippet{a(g)a(gr[ev:\grechangedim{maximumspacewithoutdash}{1cm}{scalable}])a(g)a(g)}}
+
+\verb|\grechangedim{intersyllablespacestretchhyphen}{1cm}{scalable}|
+{\gabcsnippet{a(g)a(gr[ev:\grechangedim{intersyllablespacestretchhyphen}{1cm}{scalable}])a(g)a(g)}}
+
+\verb|\gresetlyrics{invisible}|
+{\gabcsnippet{a(g)a(g[ev:\gresetlyrics{invisible}])a(g)}}
+
+\end{document}
