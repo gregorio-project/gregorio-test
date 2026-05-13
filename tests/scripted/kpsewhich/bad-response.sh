@@ -2,8 +2,7 @@ PATH=.:$PATH
 export RUNTYPE=bad-response
 
 EXPECTED="warning:kpsewhich returned bad value for gregorio-vowels.dat
-warning:Selecting Latin instead of notfound
-warning:unable to read vowel files for notfound; defaulting to Latin vowel rules"
+warning:Selecting Latin instead of notfound"
 
 if "$gregorio_path" -V | grep -q kpathsea
 then

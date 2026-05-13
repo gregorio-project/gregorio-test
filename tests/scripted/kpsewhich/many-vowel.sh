@@ -42,7 +42,6 @@ EXPECTED=" Looking for notfound in 01.dat
  Looking for notfound in 20.dat
  Could not find notfound in 20.dat
 warning:Selecting Latin instead of notfound
-warning:unable to read vowel files for notfound; defaulting to Latin vowel rules
  in voice 1 the first element is a key definition, considered as initial key"
 
 if "$gregorio_path" -V | grep -q kpathsea
