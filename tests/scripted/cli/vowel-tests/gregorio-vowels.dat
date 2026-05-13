@@ -1,0 +1,8 @@
+# Vowel rule file for Gregorio tests
+
+# circular aliases, should result in a warning and fall back to latin
+alias [first] to [second];
+alias [second] to [first];
+
+# unresolved alias, should result in a warning and fall back to latin
+alias [unresolved] to [notfound];
