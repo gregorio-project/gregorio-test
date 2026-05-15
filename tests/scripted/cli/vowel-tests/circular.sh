@@ -1,20 +1,9 @@
 EXPECTED=" Looking for first in ./gregorio-vowels.dat
  Aliasing first to second
+ Looking for second in ./gregorio-vowels.dat
  Aliasing second to first
- Aliased to first in ./gregorio-vowels.dat
- Looking for first in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to first in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Looking for first in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to first in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
- Looking for first in ./gregorio-vowels.dat
  Aliasing first to second
- Aliasing second to first
- Aliased to first in ./gregorio-vowels.dat
- Looking for first in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to first in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Looking for first in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to first in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
-warning:Unable to resolve alias for first. Selecting Latin instead
+warning:Alias loop detected for first. Selecting Latin instead
  in voice 1 the first element is a key definition, considered as initial key"
 
 echo "$EXPECTED"

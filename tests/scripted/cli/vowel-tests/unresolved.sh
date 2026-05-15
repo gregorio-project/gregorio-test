@@ -1,17 +1,12 @@
 EXPECTED=" Looking for unresolved in ./gregorio-vowels.dat
  Aliasing unresolved to notfound
- Aliased to notfound in ./gregorio-vowels.dat
- Looking for notfound in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to notfound in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Looking for notfound in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to notfound in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
  Looking for notfound in ./gregorio-vowels.dat
- Aliased to notfound in ./gregorio-vowels.dat
+ Could not find notfound in ./gregorio-vowels.dat
  Looking for notfound in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to notfound in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
+ Could not find notfound in /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregorio-vowels.dat
  Looking for notfound in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
- Aliased to notfound in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
-warning:Unable to resolve alias for unresolved. Selecting Latin instead
+ Could not find notfound in /usr/local/texlive/2026/texmf-dist/tex/luatex/gregoriotex/gregorio-vowels.dat
+warning:Selecting Latin instead of unresolved
  in voice 1 the first element is a key definition, considered as initial key"
 
 echo "$EXPECTED"
