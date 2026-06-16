@@ -1,0 +1,1 @@
+Tests in this folder rely on using the overriden versions of kpsewhich that are present here.  This allows us to manipulate the kpsewhich output in order to get specific results. As a result, they cannot be run against a version of gregorio that has been compiled against the kpathsea libraries (which internalize kpsewhich processes so that they cannot be overridden).
