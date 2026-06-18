@@ -1,7 +1,9 @@
 % !TEX TS-program = LuaLaTeX+se
 % !TEX encoding = UTF-8
 
-% Test for \gresetnabcalignment options: neume, full
+% Test for \gresetnabcalignment options:
+%   Vertical alignment: full, neume
+%   Horizontal alignment (optional 2nd arg): left, center
 
 \documentclass[11pt]{article}
 \usepackage{fontspec}
@@ -26,14 +28,32 @@
 \listfiles
 \begin{document}
 
-% 1) Default: full complex glyph descriptor alignment
-\section*{full (default)}
+% 1) full + left (default behavior)
+\section*{full, left (default)}
+\gresetnabcalignment{full}{left}
+\gregorioscore[a]{nabc-alignment}
+
+% 2) full + center
+\section*{full, center}
+\gresetnabcalignment{full}{center}
+\gregorioscore[a]{nabc-alignment}
+
+% 3) neume + left
+\section*{neume, left}
+\gresetnabcalignment{neume}{left}
+\gregorioscore[a]{nabc-alignment}
+
+% 4) neume + center
+\section*{neume, center}
+\gresetnabcalignment{neume}{center}
+\gregorioscore[a]{nabc-alignment}
+
+% 5) Backward compat: single argument only (halign unchanged from previous)
+\section*{full only (halign stays center from previous)}
 \gresetnabcalignment{full}
 \gregorioscore[a]{nabc-alignment}
 
-% 2) neume alignment (ignore significative letters)
-\section*{neume}
-\gresetnabcalignment{neume}
-\gregorioscore[a]{nabc-alignment}
+% Reset to default
+\gresetnabcalignment{full}{left}
 
 \end{document}
