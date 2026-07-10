@@ -1,0 +1,88 @@
+# Vowel rule file for Gregorio tests
+
+# new alias for latin, should result in using internal latin rules
+alias [latina] to [latin];
+
+# new alias for english, should result in using englis rules from installed file
+alias [anglais] to [english];
+
+# circular aliases, should result in a warning and fall back to latin
+alias [second] to [first];
+alias [first] to [second];
+
+# unresolved alias, should result in a warning and fall back to latin
+alias [unresolved] to [notfound];
+
+# long chain, in order in same file, should work
+alias [primus] to [secundus];
+alias [secundus] to [tertius];
+alias [tertius] to [quartus];
+alias [quartus] to [quintus];
+alias [quintus] to [sextus];
+alias [sextus] to [septimus];
+alias [septimus] to [octavus];
+alias [octavus] to [nonus];
+alias [nonus] to [decimus];
+alias [decimus] to [undecimus];
+alias [undecimus] to [duodecimus];
+alias [duodecimus] to [tertius_decimus];
+alias [tertius_decimus] to [quartus_decimus];
+alias [quartus_decimus] to [quintus_decimus];
+alias [quintus_decimus] to [sextus_decimus];
+alias [sextus_decimus] to [septimus_decimus];
+alias [septimus_decimus] to [duodevicesimus];
+alias [duodevicesimus] to [undevicesimus];
+alias [undevicesimus] to [vicesimus];
+alias [vicesimus] to [vicesimus_primus];
+alias [vicesimus_primus] to [vicesimus_secundus];
+alias [vicesimus_secundus] to [vicesimus_tertius];
+alias [vicesimus_tertius] to [vicesimus_quartus];
+alias [vicesimus_quartus] to [vicesimus_quintus];
+alias [vicesimus_quintus] to [vicesimus_sextus];
+alias [vicesimus_sextus] to [vicesimus_septimus];
+alias [vicesimus_septimus] to [vicesimus_octavus];
+alias [vicesimus_octavus] to [vicesimus_nonus];
+alias [vicesimus_nonus] to [tricesimus];
+alias [tricesimus] to [tricesimus_primus];
+alias [tricesimus_primus] to [tricesimus_secundus];
+alias [tricesimus_secundus] to [tricesimus_tertius];
+alias [tricesimus_tertius] to [tricesimus_quartus];
+alias [tricesimus_quartus] to [tricesimus_quintus];
+alias [tricesimus_quintus] to [latin];
+
+# long chain, out of order in same file, should hit alias resolving limit
+alias [tricesima_quinta] to [tricesima_sexta];
+alias [tricesima_quarta] to [tricesima_quinta];
+alias [tricesima_tertia] to [tricesima_quarta];
+alias [tricesima_secunda] to [tricesima_tertia];
+alias [tricesima_prima] to [tricesima_secunda];
+alias [tricesima] to [tricesima_prima];
+alias [vicesima_nona] to [tricesima];
+alias [vicesima_octava] to [vicesima_nona];
+alias [vicesima_septima] to [vicesima_octava];
+alias [vicesima_sexta] to [vicesima_septima];
+alias [vicesima_quinta] to [vicesima_sexta];
+alias [vicesima_quarta] to [vicesima_quinta];
+alias [vicesima_tertia] to [vicesima_quarta];
+alias [vicesima_secunda] to [vicesima_tertia];
+alias [vicesima_prima] to [vicesima_secunda];
+alias [vicesima] to [vicesima_prima];
+alias [undevicesima] to [vicesima];
+alias [duodevicesima] to [undevicesima];
+alias [septima_decima] to [duodevicesima];
+alias [sexta_decima] to [septima_decima];
+alias [quinta_decima] to [sexta_decima];
+alias [quarta_decima] to [quinta_decima];
+alias [tertia_decima] to [quarta_decima];
+alias [duodecima] to [tertia_decima];
+alias [undecima] to [duodecima];
+alias [decima] to [undecima];
+alias [nona] to [decima];
+alias [octava] to [nona];
+alias [septima] to [octava];
+alias [sexta] to [septima];
+alias [quinta] to [sexta];
+alias [quarta] to [quinta];
+alias [tertia] to [quarta];
+alias [secunda] to [tertia];
+alias [prima] to [secunda];
