@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage[autocompile]{gregoriotex}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\gresetinitiallines{0}
+
+\begin{document}
+
+Test cases for issue \#1725.
+
+The `b' is cleared and should appear to the right of `a' with a little bit of space in between.
+
+\gabcsnippet{a(gg)<clear>b(g) c(g)}
+
+\verb|\grechangedim{interwordspacenotes}{1in}{scalable}|
+\grechangedim{interwordspacenotes}{1in}{scalable}
+\gabcsnippet{a(gg)<clear>b(g) c(g)}
+
+\end{document}
