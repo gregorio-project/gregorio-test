@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+
+\newcommand{\lines}[1]{
+  \begin{minipage}[b]{1.5cm}
+    \grechangedim{parskip}{0pt}{fixed}%
+    \setlength{\baselineskip}{0pt}%
+    \setlength{\lineskip}{0pt}%
+    \hrule
+    \setbox0=\vbox{#1}%
+    \copy0%
+    \hrule
+    \vspace{-\dp0}%
+    \hrule
+  \end{minipage}%
+}
+
+% same as \gabcsnippet, but with nabc lines turned on (see GregorioRef.tex)
+\gresetnabcfont[1]{grelaon}{16}
+\gresetnabcfont[2]{gregall}{16}
+\long\def\nabcsnippet#1#2{%
+  \directlua{gregoriotex.direct_gabc("\luaescapestring{\unexpanded\expandafter{#2}}",
+                                     "nabc-lines:#1;", false)}%
+}%
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\gresetinitiallines{0}
+\gresetclef{invisible}
+
+% Below-lines nabc has its own threshold (additionalbottomspacenabcthreshold),
+% same idea as noteadditionalspacelinestextthreshold (see vertical-spacing.tex)
+% but for blnabc instead of the lyrics. Default: blnabc should move away from
+% the note at the same pitches the lyrics already do.
+{
+\verb|\grechangecount{additionalbottomspacenabcthreshold}{2} (default)|
+\grechangecount{additionalbottomspacenabcthreshold}{2}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\nabcsnippet{2}{a_0'0[t](a'0_0||ta)}} &
+  \lines{\nabcsnippet{2}{a_0[t](a_0||ta)}} &
+  \lines{\nabcsnippet{2}{a'0[t](a'0||ta)}} &
+  \lines{\nabcsnippet{2}{a[t](a||ta)}} &
+  \lines{\nabcsnippet{2}{b[t](b||ta)}} &
+  \lines{\nabcsnippet{2}{c[t](c||ta)}} &
+  \lines{\nabcsnippet{2}{d[t](d||ta)}} &
+  \lines{\nabcsnippet{2}{e[t](e||ta)}}
+\end{tabular}
+\end{center}
+}
+
+% Same convention as noteadditionalspacelinestextthreshold: a LOWER value
+% is what makes blnabc less reactive, not a higher one (this is backwards
+% from the top-side thresholds). This is how you get back the old
+% (pre-#1766) fixed-distance behavior: -2 means no additional space at all,
+% matching noteadditionalspacelinestextthreshold's own documented minimum.
+{
+\verb|\grechangecount{additionalbottomspacenabcthreshold}{-2} (opts out)|
+\grechangecount{additionalbottomspacenabcthreshold}{-2}
+
+\begin{center}
+\begin{tabular}{cccccccc}
+  \lines{\nabcsnippet{2}{a_0'0[t](a'0_0||ta)}} &
+  \lines{\nabcsnippet{2}{a_0[t](a_0||ta)}} &
+  \lines{\nabcsnippet{2}{a'0[t](a'0||ta)}} &
+  \lines{\nabcsnippet{2}{a[t](a||ta)}} &
+  \lines{\nabcsnippet{2}{b[t](b||ta)}} &
+  \lines{\nabcsnippet{2}{c[t](c||ta)}} &
+  \lines{\nabcsnippet{2}{d[t](d||ta)}} &
+  \lines{\nabcsnippet{2}{e[t](e||ta)}}
+\end{tabular}
+\end{center}
+}
+
+\end{document}
