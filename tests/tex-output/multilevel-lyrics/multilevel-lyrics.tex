@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{gregoriotex}
+\pagestyle{empty}
+\begin{document}
+
+\setlength{\parindent}{0pt}
+\gresetinitiallines{0}
+
+\section*{Litaniae completa (\texttt{lyricstackseparation} padrão)}
+\gabcsnippet{(c4) <sp>V/</sp>. Sanc|Sanc|Sanc||Ma|Ma|Ma|Ma|Ma|Ma|Ma(h)|ta|ta||ter|||ter|ter||ter(h) |||| di||| in| in||(h) |||Ma|||||||([[hg]])ta| De| Vir||vi|ter|ter|vi|te|ter| ad(g) Ma|i|go|ter|næ| pu| cas|o|me| a|mi(h)rí| Gé| Vír| Chri| Grá|rís|tís|lá|rá|má|rá(ixir1)|ni|gi||ti|si|si|||bi|bi(gr)a,|trix,|num,|sti,|æ,|ma,|ma,|ta,|ta,|lis,|lis,(g.) (:) <sp>R/</sp>. o(g)ra(f) pro(g) no(h)bis.(h) (::)}
+
+\section*{\texttt{lyricstackseparation} = 0 cm}
+\verb|\grechangedim{lyricstackseparation}{0 cm}{scalable}|
+{\grechangedim{lyricstackseparation}{0 cm}{scalable}%
+\gabcsnippet{Ma|Ma(f)ter|ter(g) pu| cas(h)rís|tís(g)si|si(f)ma|ma(g)}}
+
+\section*{\texttt{lyricstackseparation} = 0.2 cm}
+\verb|\grechangedim{lyricstackseparation}{0.2 cm}{scalable}|
+{\grechangedim{lyricstackseparation}{0.2 cm}{scalable}%
+\gabcsnippet{Ma|Ma(f)ter|ter(g) pu| cas(h)rís|tís(g)si|si(f)ma|ma(g)}}
+
+\section*{\texttt{lyricstackseparation} = 1 cm}
+\verb|\grechangedim{lyricstackseparation}{1 cm}{scalable}|
+{\grechangedim{lyricstackseparation}{1 cm}{scalable}%
+\gabcsnippet{Ma|Ma(f)ter|ter(g) pu| cas(h)rís|tís(g)si|si(f)ma|ma(g)}}
+
+\section*{\texttt{lyricstackseparation} = 3 ex}
+\verb|\grechangedim{lyricstackseparation}{3 ex}{scalable}|
+{\grechangedim{lyricstackseparation}{3 ex}{scalable}%
+\gabcsnippet{Ma|Ma(f)ter|ter(g) pu| cas(h)rís|tís(g)si|si(f)ma|ma(g)}}
+
+\section*{Three levels, default \texttt{lyricstackseparation}, natural line break}
+\gabcsnippet{Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g)si|si|si(f)ma|ma|ma(g)}
+
+\section*{Stacked lyrics with translation line}
+\gabcsnippet{Ma|Ma[Mother most pure / Mother most chaste](f)ter|ter(g) pu| cas(h)rís|tís(g)si|si(f)ma|ma(g)}
+
+\end{document}
