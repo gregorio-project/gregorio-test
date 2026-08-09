@@ -1,5 +1,5 @@
 name: alt alignment;
 generated-by: gregorio 6.2.0-fix-1768-8e9c7ae0-5068;
 %%
-(c3)<alt>this is the default alignment</alt>A(fg) <alt:l>this text is forced left</alt>B(fg) <alt:c>this text is forced center</alt>C(fg) <alt:r>this text is forced right</alt>D(fg) E(fg[alt:this is the default alignment]) F(fg[alt:this text is forced left;l]) G(fg[alt:this text is forced center;c]) H(fg[alt:this text is forced right;r]) (::)
+(c3)<alt>this is the default alignment</alt>A(fg) <alt:l>this text is forced left</alt>B(fg) <alt:c>this text is forced center</alt>C(fg) <alt:r>this text is forced right</alt>D(fg) E(fg[alt:this is the default alignment]) F(fg[alt:this text is forced left;l]) G(fg[alt:this text is forced center;c]) H(fg[alt:this text is forced right;r]) I(fg[alt:literal semicolon$;l]) J(fg[alt:no longer literal;l]) (::)
 

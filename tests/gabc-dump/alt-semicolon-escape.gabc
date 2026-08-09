@@ -1,0 +1,3 @@
+name: alt semicolon escape;
+%%
+(c3) A(fg[alt:literal semicolon$;l]) B(fg[alt:no longer literal;l]) (::)
