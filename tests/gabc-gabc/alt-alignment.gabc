@@ -1,0 +1,4 @@
+name: alt alignment;
+%%
+A<alt>this is the default alignment</alt>(fg) B<alt:l>this text is forced left</alt>(fg) C<alt:c>this text is forced center</alt>(fg) D<alt:r>this text is forced right</alt>(fg)
+E(fg[alt:this is the default alignment]) F(fg[alt:this text is forced left;l]) G(fg[alt:this text is forced center;c]) H(fg[alt:this text is forced right;r]) I(fg[alt:literal semicolon$;l]) J(fg[alt:no longer literal;l]) (::)
