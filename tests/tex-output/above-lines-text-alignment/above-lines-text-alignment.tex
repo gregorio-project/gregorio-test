@@ -1,0 +1,120 @@
+%notes: test for above-lines-text alignment (<alt:l/c/r>, [alt:text;l/c/r], \gresetabovelinestextalignment)
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+\usepackage{fontspec}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\newcommand{\lines}[1]{
+  \begin{minipage}[b]{3cm}
+    \grechangedim{parskip}{0pt}{fixed}%
+    \setlength{\baselineskip}{0pt}%
+    \setlength{\lineskip}{0pt}%
+    \hrule
+    \setbox0=\vbox{#1}%
+    \copy0%
+    \hrule
+    \vspace{-\dp0}%
+    \hrule
+  \end{minipage}%
+}
+
+% Wraps text with a thin vrule dropped at its exact horizontal midpoint,
+% without changing the text's own measured width (the vrule is \rlap'd, so
+% it contributes zero width): useful for visually checking center alignment,
+% since for <alt:c>/[alt:...;c] the wrapped text's midpoint is where
+% \gre@typesettextabovelines lands, by the same offset math that puts left-
+% /right-aligned text flush with the anchor's left/right edge.
+\newbox\gremarkbox
+\newcommand{\centermarked}[1]{%
+  \setbox\gremarkbox=\hbox{#1}%
+  \kern0.5\wd\gremarkbox
+  \rlap{\kern-0.2pt\vrule width 0.4pt height 12pt depth 8pt}%
+  \kern-0.5\wd\gremarkbox
+  \box\gremarkbox
+}
+
+% Like \centermarked, but marks whichever edge/midpoint the *current*
+% \gresetabovelinestextalignment default actually is (read from
+% \gre@count@abovelinestextalignment: 1=left, 2=center, 3=right), so the
+% mark always lands on the anchor regardless of which default is active
+% when this is typeset --- unlike a fixed \centermarked, this stays
+% unambiguous even without prose explaining what to expect.
+\makeatletter
+\newcommand{\defaultmarked}[1]{%
+  \ifcase\gre@count@abovelinestextalignment\relax
+  \or % 1 = left
+    \vrule width 0.4pt height 15pt depth 10pt #1%
+  \or % 2 = center
+    \setbox\gremarkbox=\hbox{#1}%
+    \kern0.5\wd\gremarkbox
+    \rlap{\kern-0.2pt\vrule width 0.4pt height 15pt depth 10pt}%
+    \kern-0.5\wd\gremarkbox
+    \box\gremarkbox
+  \or % 3 = right
+    #1\vrule width 0.4pt height 15pt depth 10pt%
+  \fi
+}
+\makeatother
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\gresetinitiallines{0}
+\gresetclef{invisible}
+% Upright instead of the default italic, so the left/right edges of the
+% above-lines text are easier to judge by eye in this alignment test.
+\grechangestyle{abovelinestext}{\upshape}
+
+\section*{Per-occurrence alignment}
+
+\begin{center}
+\begin{tabular}{cccc}
+  \lines{\gabcsnippet{<alt:l>\vrule width 0.4pt height 12pt depth 8pt Leftmost</alt>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt:c>\centermarked{Centered}</alt>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt:r>Rightmost\vrule width 0.4pt height 12pt depth 8pt</alt>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt>\vrule width 0.4pt height 12pt depth 8pt Default</alt>(fmlkjihgfghijklm)}} \\
+  \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Leftmost]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt:\centermarked{Centered};c]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt:Rightmost\vrule width 0.4pt height 12pt depth 8pt;r]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Default]h mlkjihgfghijklm)}}
+\end{tabular}
+\end{center}
+
+\section*{Document-wide default alignment}
+
+{\bfseries Default (left)}
+
+\gregorioscore[f]{above-lines-text-alignment-global}
+
+\gresetabovelinestextalignment{center}
+
+{\bfseries\textbackslash{}gresetabovelinestextalignment\{center\}}
+
+\gregorioscore[f]{above-lines-text-alignment-global}
+
+\gresetabovelinestextalignment{right}
+
+{\bfseries\textbackslash{}gresetabovelinestextalignment\{right\}}
+
+\gregorioscore[f]{above-lines-text-alignment-global}
+
+\gresetabovelinestextalignment{left}
+
+{\bfseries\textbackslash{}gresetabovelinestextalignment\{left\}}
+
+\gregorioscore[f]{above-lines-text-alignment-global}
+
+\end{document}
