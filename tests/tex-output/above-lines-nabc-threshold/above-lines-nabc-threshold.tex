@@ -144,4 +144,28 @@
 \end{center}
 }
 
+% Real-world sanity check: a full antiphon (nabc voice 1) whose melody
+% reaches up to j/k ("Dó-mi-num"), at the default
+% additionaltopspacenabcthreshold/abovelinesnabcraise, to confirm the fix
+% also holds outside the synthetic single-note grids above.
+\grechangecount{additionaltopspacenabcthreshold}{0}
+\grechangedim{abovelinesnabcraise}{0.17351cm}{scalable}
+
+\section*{Real-world example: Adorate Dominum (mode 8)}
+
+\gregorioscore[f]{adorate-dominum}
+
+% Same antiphon, but with the "mi" neume (over the highest note in the
+% line, pitch k) forced down via an explicit nabc pitch code (viha instead
+% of vi): ha is the lowest relative pitch on the h-code scale, so this
+% pulls that one glyph's ink toward the staff/note independently of the
+% line-wide additionaltopspacenabcthreshold/abovelinesnabcraise elevation,
+% which only reacts to the underlying square-note pitch and has no
+% visibility into this kind of per-glyph offset. Checks whether a lowered
+% glyph can still collide with the note it sits above even when the
+% line's uniform nabc_raise looks sufficient for the unmodified neumes.
+\section*{Same, with mi's neume forced down (viha instead of vi)}
+
+\gregorioscore[f]{adorate-dominum-ha}
+
 \end{document}

@@ -75,4 +75,20 @@
 \end{center}
 }
 
+% Real-world sanity check, mirroring the above-lines-nabc-threshold.tex
+% "Adorate Dominum" example: same antiphon, transposed down by 5 pitch
+% steps so its lowest note lands on 'a' (requiring ledger lines below the
+% staff), with the "o" syllable's pes forced upward -- toward the low note
+% -- via an explicit hp pitch code (viha's mirror image: there, ha pulled a
+% glyph down toward a high note above the staff; here, hp pushes a glyph up
+% toward a low note below the staff). Since the collision-avoidance fix for
+% explicit hX pitch codes only covers above-lines nabc so far, this is
+% expected to still show a collision until/unless that fix is mirrored for
+% below-lines nabc (part_blnabc).
+\grechangecount{additionalbottomspacenabcthreshold}{2}
+
+\section*{Real-world example: Adorate Dominum, transposed, below-lines nabc}
+
+\gregorioscore[f]{adorate-dominum-blnabc-hp}
+
 \end{document}
