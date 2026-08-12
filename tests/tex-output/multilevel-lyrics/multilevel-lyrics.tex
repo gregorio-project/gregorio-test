@@ -44,4 +44,17 @@
 \section*{Small three-level fragment embedded in dense single-level text on the first staff}
 \gabcsnippet{a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g) Ma|Ma|Ma(f)ter|ter|ter(g)pu|pu|pu(h)ris|ris|ris(g) a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)a(f)b(g)c(h)d(g)e(f)f(g)a(h)b(g)c(f)d(g)e(h)f(g)}
 
+\section*{Forced center (\texttt{\{\}}) on a stacked level under \texttt{syllable} centering, default \texttt{gresetgabcforcecenters}}
+\verb|\gresetlyriccentering{syllable} \gresetgabcforcecenters{allow} (default)|
+{\gresetlyriccentering{syllable}%
+\gabcsnippet{Abc|D{e}f(gh)}}
+
+\section*{Forced center (\texttt{\{\}}) on a stacked level under \texttt{syllable} centering, \texttt{gresetgabcforcecenters\{prohibit\}}}
+\verb|\gresetlyriccentering{syllable} \gresetgabcforcecenters{prohibit}|
+{\gresetlyriccentering{syllable}%
+\gresetgabcforcecenters{prohibit}%
+\gabcsnippet{Abc|D{e}f(gh)}}
+\gresetlyriccentering{vowel}%
+\gresetgabcforcecenters{allow}%
+
 \end{document}
