@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[autocompile]{gregoriotex}
+
+\newcommand{\lines}[1]{
+  \begin{minipage}[b]{1.5cm}
+    \grechangedim{parskip}{0pt}{fixed}%
+    \setlength{\baselineskip}{0pt}%
+    \setlength{\lineskip}{0pt}%
+    \hrule
+    \setbox0=\vbox{#1}%
+    \copy0%
+    \hrule
+    \vspace{-\dp0}%
+    \hrule
+  \end{minipage}%
+}
+
+% same as \gabcsnippet, but with nabc lines turned on (see GregorioRef.tex)
+\gresetnabcfont[1]{gregall}{16}
+\long\def\nabcsnippet#1#2{%
+  \directlua{gregoriotex.direct_gabc("\luaescapestring{\unexpanded\expandafter{#2}}",
+                                     "nabc-lines:#1;", false)}%
+}%
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\gresetinitiallines{0}
+\gresetclef{invisible}
+
+% Above-lines nabc has its own threshold (additionaltopspacenabcthreshold),
+% same idea as additionaltopspacealtthreshold (see vertical-spacing.tex) but
+% for nabc instead of alt text.
+%
+% \gre@vepisemaorrare clamps a rare sign's height (accentus, circulus,
+% semicirculus, musica ficta) at \gre@pitch@raresign (= \gre@pitch@abovestaff),
+% a pitch fixed by the staff-lines count -- so a rare sign never renders
+% below that floor, no matter how low the note it's attached to. That floor
+% sits exactly one pitch step above "adjust_top", the reference
+% gregoriotex.lua compares a line's content against to decide whether
+% above-lines nabc needs to grow. A threshold higher than 0 can never see a
+% one-step difference, so lowering it to 0 (the default) makes above-lines
+% nabc react to a rare sign at exactly the pitches it always renders at,
+% regardless of how low the underlying note actually is.
+%
+% That reactivity alone doesn't fully close the gap, though: the accentus
+% glyph's tip extends a bit higher than the pitch-step reservation assumes,
+% so above-lines nabc can still end up close enough to touch it at the top
+% of the range (see the grid below -- a and c have plenty of room, but the
+% gap narrows steadily up to m). This was deliberately left as a case-by-case
+% manual adjustment (\grechangedim{abovelinesnabcraise}{...}{scalable}, see
+% below) rather than an automatic default-value increase, since bumping
+% abovelinesnabcraise unconditionally would add the same extra headroom to
+% every line, including ones nowhere near this collision.
+{
+\verb|\grechangecount{additionaltopspacenabcthreshold}{0} (default)|
+\grechangecount{additionaltopspacenabcthreshold}{0}
+
+\begin{center}
+\begin{tabular}{ccccccc}
+  \lines{\nabcsnippet{1}{a(ar1|vi)}} &
+  \lines{\nabcsnippet{1}{c(cr1|vi)}} &
+  \lines{\nabcsnippet{1}{e(er1|vi)}} &
+  \lines{\nabcsnippet{1}{g(gr1|vi)}} &
+  \lines{\nabcsnippet{1}{i(ir1|vi)}} &
+  \lines{\nabcsnippet{1}{k(kr1|vi)}} &
+  \lines{\nabcsnippet{1}{m(mr1|vi)}}
+\end{tabular}
+\end{center}
+}
+
+% Same collision, forcing additionaltopspacenabcthreshold back to 4, its
+% value before #1766 was fixed. Every one of these notes carries the same
+% rare sign as the row above; the only thing that changed is the threshold.
+% This reproduces the pre-fix bug in its most severe form: above-lines nabc
+% never grows to make room for the rare sign at all, no matter how close the
+% sign's rendered height gets to it, since 4 is more than the one-step
+% difference the floor can ever produce over adjust_top. This is also the
+% way to opt back into the old fixed-distance behavior, if for some reason
+% it is preferred.
+{
+\verb|\grechangecount{additionaltopspacenabcthreshold}{4} (opts out)|
+\grechangecount{additionaltopspacenabcthreshold}{4}
+
+\begin{center}
+\begin{tabular}{ccccccc}
+  \lines{\nabcsnippet{1}{a(ar1|vi)}} &
+  \lines{\nabcsnippet{1}{c(cr1|vi)}} &
+  \lines{\nabcsnippet{1}{e(er1|vi)}} &
+  \lines{\nabcsnippet{1}{g(gr1|vi)}} &
+  \lines{\nabcsnippet{1}{i(ir1|vi)}} &
+  \lines{\nabcsnippet{1}{k(kr1|vi)}} &
+  \lines{\nabcsnippet{1}{m(mr1|vi)}}
+\end{tabular}
+\end{center}
+}
+
+% The manual workaround for the remaining collision at the top of the
+% default grid above: raise abovelinesnabcraise for the affected score.
+% 0.25cm is the value this branch shipped as the new default at one point,
+% before that unconditional change was reverted in favor of leaving it to
+% be tuned per score, since it isn't needed on lines without a rare sign or
+% very high note.
+{
+\verb|\grechangedim{abovelinesnabcraise}{0.25cm}{scalable} (manual workaround)|
+\grechangedim{abovelinesnabcraise}{0.25cm}{scalable}
+
+\begin{center}
+\begin{tabular}{ccccccc}
+  \lines{\nabcsnippet{1}{a(ar1|vi)}} &
+  \lines{\nabcsnippet{1}{c(cr1|vi)}} &
+  \lines{\nabcsnippet{1}{e(er1|vi)}} &
+  \lines{\nabcsnippet{1}{g(gr1|vi)}} &
+  \lines{\nabcsnippet{1}{i(ir1|vi)}} &
+  \lines{\nabcsnippet{1}{k(kr1|vi)}} &
+  \lines{\nabcsnippet{1}{m(mr1|vi)}}
+\end{tabular}
+\end{center}
+\grechangedim{abovelinesnabcraise}{0.17351cm}{scalable}
+}
+
+% The same floor also catches a plain note with no rare sign at all, once
+% its own pitch reaches the same height (h and i sit below it, j one step
+% below, k is the floor itself, l and m one and two steps above it) --
+% confirming this was never a rare-sign-only bug, just one that #1766
+% happened to be filed against. As above, l and m still end up close enough
+% to touch above-lines nabc at the default abovelinesnabcraise; the same
+% manual workaround applies regardless of whether the tall content is a
+% rare sign or a plain note.
+{
+\verb|\grechangecount{additionaltopspacenabcthreshold}{0} (default, no rare sign)|
+\grechangecount{additionaltopspacenabcthreshold}{0}
+
+\begin{center}
+\begin{tabular}{cccccc}
+  \lines{\nabcsnippet{1}{h(h|vi)}} &
+  \lines{\nabcsnippet{1}{i(i|vi)}} &
+  \lines{\nabcsnippet{1}{j(j|vi)}} &
+  \lines{\nabcsnippet{1}{k(k|vi)}} &
+  \lines{\nabcsnippet{1}{l(l|vi)}} &
+  \lines{\nabcsnippet{1}{m(m|vi)}}
+\end{tabular}
+\end{center}
+}
+
+% Real-world sanity check: a full antiphon (nabc voice 1) whose melody
+% reaches up to j/k ("Dó-mi-num"), at the default
+% additionaltopspacenabcthreshold/abovelinesnabcraise, to confirm the fix
+% also holds outside the synthetic single-note grids above.
+\grechangecount{additionaltopspacenabcthreshold}{0}
+\grechangedim{abovelinesnabcraise}{0.17351cm}{scalable}
+
+\section*{Real-world example: Adorate Dominum (mode 8)}
+
+\gregorioscore[f]{adorate-dominum}
+
+% Same antiphon, but with the "mi" neume (over the highest note in the
+% line, pitch k) forced down via an explicit nabc pitch code (viha instead
+% of vi): ha is the lowest relative pitch on the h-code scale, so this
+% pulls that one glyph's ink toward the staff/note independently of the
+% line-wide additionaltopspacenabcthreshold/abovelinesnabcraise elevation,
+% which only reacts to the underlying square-note pitch and has no
+% visibility into this kind of per-glyph offset. Checks whether a lowered
+% glyph can still collide with the note it sits above even when the
+% line's uniform nabc_raise looks sufficient for the unmodified neumes.
+\section*{Same, with mi's neume forced down (viha instead of vi)}
+
+\gregorioscore[f]{adorate-dominum-ha}
+
+\end{document}
