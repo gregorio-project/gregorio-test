@@ -83,6 +83,51 @@
 
 \gresetlines{visible}
 
+\section{Staff Lines Hidden, Rest Visible (collision check)}
+
+\subsection{Baseline: staff lines visible}
+\gresetlines{visible}
+\gregorioscore{tollite-portas-collision}
+
+\subsection{Staff lines: hphantom (notes/nabc/above-lines-text stay visible)}
+\gresetlines{hphantom}
+\gregorioscore{tollite-portas-collision}
+
+\subsection{Staff lines: invisible (notes/nabc/above-lines-text stay visible)}
+\gresetlines{invisible}
+\gregorioscore{tollite-portas-collision}
+
+\gresetlines{visible}
+
+\subsection{Clef visible while lines and notes are collapsed}
+\gresetlines{invisible}
+\gresetnotes{invisible}
+\gresetclef{visible}
+\gregorioscore{tollite-portas-collision}
+\gresetclef{invisible}
+\gregorioscore{tollite-portas-collision}
+\gresetlines{visible}
+\gresetnotes{visible}
+\gresetclef{visible}
+
+\subsection{Order independence: lines, then notes, then clef hidden}
+\gresetlines{invisible}
+\gresetnotes{invisible}
+\gresetclef{invisible}
+\gregorioscore{tollite-portas-collision}
+\gresetlines{visible}
+\gresetnotes{visible}
+\gresetclef{visible}
+
+\subsection{Order independence: clef, then notes, then lines hidden}
+\gresetclef{invisible}
+\gresetnotes{invisible}
+\gresetlines{invisible}
+\gregorioscore{tollite-portas-collision}
+\gresetlines{visible}
+\gresetnotes{visible}
+\gresetclef{visible}
+
 \section{Notes Visibility Test}
 
 \subsection{Notes: visible (default)}
