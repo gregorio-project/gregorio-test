@@ -227,6 +227,17 @@
 \subsection{Extra test: all visible, but with notes total width lower than NABC glyphs width}
 \gregorioscore{tollite-portas-simple-notes}
 
+\subsection{Rare sign + notes invisible + NABC visible, clef visible}
+\gresetnotes{invisible}
+\gresetclef{visible}
+\gregorioscore{tollite-portas-collision}
+
+\subsection{Rare sign + notes invisible + NABC visible, clef also invisible}
+\gresetclef{invisible}
+\gregorioscore{tollite-portas-collision}
+\gresetclef{visible}
+\gresetnotes{visible}
+
 \section{NABC+Lyrics-only Visibility Test}
 
 \gresetclef{invisible}
