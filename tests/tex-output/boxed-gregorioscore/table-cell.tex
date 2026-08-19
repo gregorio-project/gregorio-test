@@ -1,0 +1,60 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+%notes: tests \boxedgregorioscore embedding a long, melismatic score
+%notes: (PopulusSion, with an initial letter) confined to a narrower
+%notes: tabularx column next to a label cell -- the table-cell use case
+%notes: the macro is meant for.  Staff lines, the multi-line-wrapped
+%notes: score and the initial letter must all render correctly at the
+%notes: cell's width.
+%notes:
+%notes: Plain \gregorioscore is NOT exercised here: called at this same
+%notes: width inside this same tabularx, it makes gregoriotex.lua raise
+%notes: "Can't raise/lower a rule (this shouldn't happen)" for every
+%notes: line, and since gregorio-test's run-lualatex.sh passes
+%notes: --halt-on-error, that turns fatal and no PDF is produced at all
+%notes: -- so it cannot be pinned down as a normal pixel-comparison test.
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\usepackage{tabularx}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\grechangedim{beforeinitialshift}{1.5mm}{scalable}
+\grechangedim{afterinitialshift}{1.5mm}{scalable}
+\grechangestyle{initial}{\fontsize{22}{22}\selectfont}
+\gresetlinecolor{gregoriocolor}
+
+\listfiles
+\begin{document}
+
+\section*{\texttt{\char`\\boxedgregorioscore} in a table cell}
+\noindent A long score confined to the right-hand column of a
+two-column \texttt{tabularx}, next to a plain-text label cell.
+
+\bigskip
+\noindent
+\gresetgregpath{{../PopulusSion/}}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{3cm}|X|}
+\hline
+\textbf{Populus Sion} \\ Introitus \\ Dominica II Adventus &
+\boxedgregorioscore[a]{PopulusSion} \\
+\hline
+\end{tabularx}
+
+\end{document}
