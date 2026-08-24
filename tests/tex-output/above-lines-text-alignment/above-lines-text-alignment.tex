@@ -89,7 +89,9 @@
   \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Leftmost]h mlkjihgfghijklm)}} &
   \lines{\gabcsnippet{a(fg[alt:\centermarked{Centered};c]h mlkjihgfghijklm)}} &
   \lines{\gabcsnippet{a(fg[alt:Rightmost\vrule width 0.4pt height 12pt depth 8pt;r]h mlkjihgfghijklm)}} &
-  \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Default]h mlkjihgfghijklm)}}
+  \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Default]h mlkjihgfghijklm)}} \\
+  \lines{\gabcsnippet{<alt:c>\centermarked{Bar}</alt>(f::)}} &
+  \lines{\gabcsnippet{a(fgh[alt:\centermarked{Bar};c]::)}}
 \end{tabular}
 \end{center}
 
@@ -116,5 +118,21 @@
 {\bfseries\textbackslash{}gresetabovelinestextalignment\{left\}}
 
 \gregorioscore[f]{above-lines-text-alignment-global}
+
+\gresetinitiallines{0}
+
+\section*{Drop initial on the first syllable}
+
+{\bfseries No drop initial}
+
+\gregorioscore[f]{above-lines-text-alignment-initial}
+
+\gresetinitiallines{2}
+
+{\bfseries \textbackslash{}gresetinitiallines\{2\}}
+
+\gregorioscore[f]{above-lines-text-alignment-initial}
+
+\gresetinitiallines{0}
 
 \end{document}
