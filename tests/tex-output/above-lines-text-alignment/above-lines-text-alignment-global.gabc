@@ -3,6 +3,6 @@ name: above lines text alignment global;
 (c4)
 
 V(g) A<alt>\defaultmarked{the default value}</alt>(fmlkjihgfghijklmlkjihgf)
-B<alt:l>\vrule width 0.4pt height 15pt depth 10pt forced to the
-left</alt>(fmlkjihgfghijklmlkjihgfghijklmlkjihgf) C<alt:r>forced to the
-right\vrule width 0.4pt height 15pt depth 10pt</alt>(f) (::)
+B<alt-l>\vrule width 0.4pt height 15pt depth 10pt forced to the
+left</alt-l>(fmlkjihgfghijklmlkjihgfghijklmlkjihgf) C<alt-r>forced to the
+right\vrule width 0.4pt height 15pt depth 10pt</alt-r>(f) (::)

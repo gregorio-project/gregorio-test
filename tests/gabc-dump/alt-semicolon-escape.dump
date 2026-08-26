@@ -40,7 +40,7 @@
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
      type                    13 (GRE_ALT)
-     Above lines text        "literal semicolon;l"
+     Above lines text        "escaped semicolon;l"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)
@@ -65,8 +65,7 @@
          shape                  1 (S_PUNCTUM)
 ---------------------------------------------------------------------
      type                    13 (GRE_ALT)
-     Above lines text        "no longer literal"
-     Above lines alignment   ALT_LEFT
+     Above lines text        "bare semicolon;l"
 =====================================================================
    type                      0 (GRE_SYLLABLE)
    position                  4 (WORD_ONE_SYLLABLE)

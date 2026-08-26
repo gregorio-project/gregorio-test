@@ -1,4 +1,4 @@
-%notes: test for above-lines-text alignment (<alt:l/c/r>, [alt:text;l/c/r], \gresetabovelinestextalignment)
+%notes: test for above-lines-text alignment (<alt-l/c/r>, [alt-l/c/r:text], \gresetabovelinestextalignment)
 \documentclass{article}
 \usepackage[margin=1in]{geometry}
 \usepackage[autocompile]{gregoriotex}
@@ -34,7 +34,7 @@
 % Wraps text with a thin vrule dropped at its exact horizontal midpoint,
 % without changing the text's own measured width (the vrule is \rlap'd, so
 % it contributes zero width): useful for visually checking center alignment,
-% since for <alt:c>/[alt:...;c] the wrapped text's midpoint is where
+% since for <alt-c>/[alt-c:...] the wrapped text's midpoint is where
 % \gre@typesettextabovelines lands, by the same offset math that puts left-
 % /right-aligned text flush with the anchor's left/right edge.
 \newbox\gremarkbox
@@ -82,16 +82,16 @@
 
 \begin{center}
 \begin{tabular}{cccc}
-  \lines{\gabcsnippet{<alt:l>\vrule width 0.4pt height 12pt depth 8pt Leftmost</alt>(fmlkjihgfghijklm)}} &
-  \lines{\gabcsnippet{<alt:c>\centermarked{Centered}</alt>(fmlkjihgfghijklm)}} &
-  \lines{\gabcsnippet{<alt:r>Rightmost\vrule width 0.4pt height 12pt depth 8pt</alt>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt-l>\vrule width 0.4pt height 12pt depth 8pt Leftmost</alt-l>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt-c>\centermarked{Centered}</alt-c>(fmlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{<alt-r>Rightmost\vrule width 0.4pt height 12pt depth 8pt</alt-r>(fmlkjihgfghijklm)}} &
   \lines{\gabcsnippet{<alt>\vrule width 0.4pt height 12pt depth 8pt Default</alt>(fmlkjihgfghijklm)}} \\
-  \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Leftmost]h mlkjihgfghijklm)}} &
-  \lines{\gabcsnippet{a(fg[alt:\centermarked{Centered};c]h mlkjihgfghijklm)}} &
-  \lines{\gabcsnippet{a(fg[alt:Rightmost\vrule width 0.4pt height 12pt depth 8pt;r]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt-l:\vrule width 0.4pt height 12pt depth 8pt Leftmost]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt-c:\centermarked{Centered}]h mlkjihgfghijklm)}} &
+  \lines{\gabcsnippet{a(fg[alt-r:Rightmost\vrule width 0.4pt height 12pt depth 8pt]h mlkjihgfghijklm)}} &
   \lines{\gabcsnippet{a(fg[alt:\vrule width 0.4pt height 12pt depth 8pt Default]h mlkjihgfghijklm)}} \\
-  \lines{\gabcsnippet{<alt:c>\centermarked{Bar}</alt>(f::)}} &
-  \lines{\gabcsnippet{a(fgh[alt:\centermarked{Bar};c]::)}}
+  \lines{\gabcsnippet{<alt-c>\centermarked{Bar}</alt-c>(f::)}} &
+  \lines{\gabcsnippet{a(fgh[alt-c:\centermarked{Bar}]::)}}
 \end{tabular}
 \end{center}
 
