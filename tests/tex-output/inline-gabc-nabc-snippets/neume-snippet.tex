@@ -1,0 +1,52 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+%notes: tests \gabcneumesnippet: a bare neume (no staff lines, no clef) set
+%notes: inline inside running text, alone and with NABC voice 1 (above) and
+%notes: voice 2 (below).
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\listfiles
+\begin{document}
+
+\section*{Bare neume, no voice}
+\noindent a torculus \gabcneumesnippet{fgf} in the middle of a
+sentence, followed by more text to check that the paragraph did not break
+and that the line continues normally after the neume.
+
+\bigskip
+\section*{Bare neume with NABC voice 1 (above staff)}
+\noindent with St.\ Gall notation above it:
+\gabcneumesnippet[1]{fgf|to} and a punctum \gabcneumesnippet[1]{f|pu}.
+
+\bigskip
+\section*{Bare neume with NABC voices 1 and 2 (above and below staff)}
+\noindent with notation above and below:
+\gabcneumesnippet[2]{fgf|to|ta} and \gabcneumesnippet[2]{f|pu|vi}.
+
+\bigskip
+\section*{Several neumes forming a word}
+\noindent
+\gabcneumesnippet{f}\gabcneumesnippet{g}\gabcneumesnippet{h}\gabcneumesnippet{g}
+in sequence, and the same with NABC:
+\gabcneumesnippet[1]{f|vi}\gabcneumesnippet[1]{g|pu}\gabcneumesnippet[1]{h|to}
+
+\end{document}

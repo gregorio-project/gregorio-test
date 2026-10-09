@@ -1,0 +1,60 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+%notes: tests \boxedgregorioscore inside an \item of an itemize environment,
+%notes: with no explicit \gresetboxedscorewidth -- i.e. the plain default.
+%notes:
+%notes: Unlike a table cell (p{...}/tabularx column), a list item does its
+%notes: indentation with \leftskip rather than by narrowing \hsize, so the
+%notes: default cannot just read \hsize: confirmed empirically that doing so
+%notes: produces an indented-but-overfull box (Overfull \hbox, ~25pt on a
+%notes: default itemize -- exactly the item's indentation).  The default is
+%notes: \linewidth instead, which both a table cell and a list item keep in
+%notes: sync with the width actually available (a table cell keeps it equal
+%notes: to \hsize; a list item narrows only \linewidth, via \leftskip), so
+%notes: the same "just call the macro" usage is correct in both.
+%notes:
+%notes: Plain \gregorioscore is NOT exercised here: it starts flush with the
+%notes: page margin instead of lining up with the item's indentation.
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\grechangedim{beforeinitialshift}{1.5mm}{scalable}
+\grechangedim{afterinitialshift}{1.5mm}{scalable}
+\grechangestyle{initial}{\fontsize{22}{22}\selectfont}
+\gresetlinecolor{gregoriocolor}
+
+\listfiles
+\begin{document}
+
+\section*{\texttt{\char`\\boxedgregorioscore} inside a list item}
+\noindent A long score set as one \texttt{itemize} item among others, with
+no width configuration at all: the default already lines up with the
+item's text and stays within the right margin.
+
+\bigskip
+\gresetgregpath{{../PopulusSion/}}
+\begin{itemize}
+\item Populus Sion, introitus, Dominica II Adventus:
+\item \boxedgregorioscore[a]{PopulusSion}
+\item End of the list.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,64 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+%notes: tests \nabcneumesnippet and \grenabcfont: standalone NABC glyphs, with
+%notes: the font and size for the current TeX group selected dynamically.
+%notes: Also checks that the NABC font metrics scale correctly when the
+%notes: same font is used at two different sizes in one document, and that
+%notes: \grenabcfont reverts once its group ends.
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\listfiles
+\begin{document}
+
+\section*{Default voice-1 font (gregall, 8pt)}
+\noindent virga \nabcneumesnippet{vi}, pes \nabcneumesnippet{pe}, torculus
+\nabcneumesnippet{to}, clivis \nabcneumesnippet{cl}.
+
+\bigskip
+\section*{Explicit voice argument}
+\noindent voice 1: \nabcneumesnippet[1]{vi} -- voice 2: \nabcneumesnippet[2]{vi}.
+
+\bigskip
+\section*{\texttt{\char`\\grenabcfont}: local font/size override}
+\noindent gregall at 8pt (default): \nabcneumesnippet{vi} \nabcneumesnippet{pe}
+\nabcneumesnippet{to} --
+grelaon at 10pt: {\grenabcfont[1]{grelaon}{10}%
+\nabcneumesnippet{vi} \nabcneumesnippet{pe} \nabcneumesnippet{to}} --
+back to gregall at 8pt: \nabcneumesnippet{vi} \nabcneumesnippet{pe} \nabcneumesnippet{to}
+(the override must not leak outside its group).
+
+\bigskip
+\section*{Same font at two different sizes (metric scaling)}
+\noindent gregall at 8pt: \nabcneumesnippet{vi} \nabcneumesnippet{pe} --
+gregall at 20pt: {\grenabcfont[1]{gregall}{20}%
+\nabcneumesnippet{vi} \nabcneumesnippet{pe}} --
+gregall at 8pt again: \nabcneumesnippet{vi} \nabcneumesnippet{pe}
+(all three virga/pes pairs should have correctly scaled proportions and
+kerning, not just a differently-sized copy of whatever the font's native
+size happened to produce).
+
+\bigskip
+\section*{Glyphs with significative letters}
+\noindent \nabcneumesnippet{vilst1} and, at a different size,
+{\grenabcfont[1]{gregall}{16}\nabcneumesnippet{vilst1}}.
+
+\end{document}

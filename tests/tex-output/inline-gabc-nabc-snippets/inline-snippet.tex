@@ -1,0 +1,88 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX encoding = UTF-8
+
+%notes: tests \gabcinlinesnippet: a fragment of real score (staff lines and
+%notes: clef included) set inline inside running text, with its staff lines
+%notes: trimmed to the width of the music.  Also covers the optional gabc
+%notes: header argument (nabc-lines, staff-lines), a forced line break
+%notes: ('Z') inside a snippet (which should warn and keep only the first
+%notes: line), \gresetinlinesnippetraise and \gresetinlinesnippethook.
+
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{a4paper,margin=1.5cm}
+\usepackage[allowdeprecated=false]{gregoriotex}
+\setmainfont[
+    Path = ../../../fonts/ ,
+    Extension = .otf ,
+    UprightFont = *-Regular ,
+    UprightFeatures = { SmallCapsFont = *SC-Regular } ,
+    BoldFont = *-Bold ,
+    BoldFeatures = { SmallCapsFont = *SC-Bold } ,
+    ItalicFont = *-Italic ,
+    ItalicFeatures = { SmallCapsFont = *SC-Italic } ,
+    BoldItalicFont = *-BoldItalic ,
+    BoldItalicFeatures = { SmallCapsFont = *SC-BoldItalic } ,
+    Ligatures = TeX
+]{Alegreya}
+
+\listfiles
+\begin{document}
+
+\section*{Basic inline snippet, staff lines trimmed to music width}
+\noindent Behold the incipit
+\gabcinlinesnippet{(c3) A(f) le(gh) lu(g) ia(f) (::)} of the day, set right
+in the middle of this sentence, with its staff lines running only as wide
+as the music itself, not the full text width.
+
+\bigskip
+\section*{Same snippet inside an \texttt{\char`\\fbox}}
+\noindent The box below should hug the music tightly, with no blank staff
+extending past the final bar:
+
+\noindent\fbox{\gabcinlinesnippet{(c3) A(f) le(gh) lu(g) ia(f) (::)}}
+
+\bigskip
+\section*{Extra gabc header: \texttt{nabc-lines:1;}}
+\noindent With ancient notation above the staff:
+\fbox{\gabcinlinesnippet[nabc-lines:1;]{(c3) A(f|ta)le(gh|pe)lú(g|vi)ia(f|ta) (::)}}
+
+\bigskip
+\section*{Extra gabc header: \texttt{staff-lines:5;}}
+\noindent With a five-line staff:
+\fbox{\gabcinlinesnippet[staff-lines:5;]{(c3) A(f) le(gh) ia(f) (::)}}
+
+\bigskip
+\section*{Forced line break (\texttt{Z}) inside a snippet}
+\noindent Only the first line should be kept, and a warning issued to the
+log; the snippet must not overflow past its first staff:
+\fbox{\gabcinlinesnippet{(c3) A(f) le(g) (Z) lu(g) ia(f) (::)}}
+
+\bigskip
+\section*{\texttt{\char`\\gresetinlinesnippetraise}}
+\noindent Baseline \gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}
+raised 4pt
+{\gresetinlinesnippetraise{4pt}\gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}}
+lowered 4pt
+{\gresetinlinesnippetraise{-4pt}\gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}}
+back to baseline.
+
+\bigskip
+\section*{\texttt{\char`\\gresetinlinesnippethook}}
+\noindent Normal size \fbox{\gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}}
+and, with the hook rescaling the staff for the snippet only,
+{\gresetinlinesnippethook{\grechangestaffsize{25}}%
+\fbox{\gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}}}
+back to normal size \fbox{\gabcinlinesnippet{(c3) A(f) le(gh) ia(f) (::)}}
+(the hook must not leak outside its group).
+
+\bigskip
+\section*{Score display after the snippets}
+\noindent The regular score below confirms that none of the snippet
+settings (staff lines, clef, last-line mode, staff size) leaked into the
+normal typesetting state.
+
+\gabcsnippet{(c3) Al(f)le(gh)lu(g)ia(f) (::)}
+
+\end{document}
