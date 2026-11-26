@@ -1,0 +1,12 @@
+% Regression test for issue #1757: a clean build must not corrupt LuaTeX's
+% \input read position while \gregorioscore/\gabcsnippet autocompile scores
+% in a child process. Duplicated paragraphs/scores in the PDF mean it recurred.
+%
+% \gabcsnippet is required alongside \gregorioscore: it has no .gtex cache,
+% so it keeps spawning gregorio on every rerun pass, whereas a cached
+% \gregorioscore alone would mask the bug on later passes.
+\documentclass{article}
+\usepackage[autocompile]{gregoriotex}
+\begin{document}
+\input{fix-1757-fragment.ltx}
+\end{document}
