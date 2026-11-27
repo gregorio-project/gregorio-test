@@ -1,0 +1,5 @@
+name: alt alignment;
+generated-by: gregorio 6.2.0-fix-1768-brainstorm-45636ebc-5107;
+%%
+(c3)<alt>this is the default alignment</alt>A(fg) <alt-l>this text is forced left</alt-l>B(fg) <alt-c>this text is forced center</alt-c>C(fg) <alt-r>this text is forced right</alt-r>D(fg) E(fg[alt:this is the default alignment]) F(fg[alt-l:this text is forced left]) G(fg[alt-c:this text is forced center]) H(fg[alt-r:this text is forced right]) I(fg[alt:escaped semicolon$;l]) J(fg[alt:bare semicolon$;l]) (::)
+
