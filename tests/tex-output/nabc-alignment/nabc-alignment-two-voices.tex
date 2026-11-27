@@ -39,49 +39,49 @@
 
 % 1) full + left (default) -- both voices
 \section*{full, left (default) -- two voices}
-\gresetnabcalignment{full}{left}
+\gresetnabcalignment{full}[left]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 2) full + center -- both voices
 \section*{full, center -- two voices}
-\gresetnabcalignment{full}{center}
+\gresetnabcalignment{full}[center]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 3) neume + left -- both voices
 \section*{neume, left -- two voices}
-\gresetnabcalignment{neume}{left}
+\gresetnabcalignment{neume}[left]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 4) neume + center -- both voices
 \section*{neume, center -- two voices}
-\gresetnabcalignment{neume}{center}
+\gresetnabcalignment{neume}[center]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 5) Per-voice: voice 1 neume+left, voice 2 full+left
 \section*{voice 1 neume+left, voice 2 full+left}
-\gresetnabcalignment[1]{neume}{left}
-\gresetnabcalignment[2]{full}{left}
+\gresetnabcalignment[1]{neume}[left]
+\gresetnabcalignment[2]{full}[left]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 6) Per-voice: voice 1 full+left, voice 2 neume+left
 \section*{voice 1 full+left, voice 2 neume+left}
-\gresetnabcalignment[1]{full}{left}
-\gresetnabcalignment[2]{neume}{left}
+\gresetnabcalignment[1]{full}[left]
+\gresetnabcalignment[2]{neume}[left]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 7) Per-voice: voice 1 full+center, voice 2 neume+left
 \section*{voice 1 full+center, voice 2 neume+left}
-\gresetnabcalignment[1]{full}{center}
-\gresetnabcalignment[2]{neume}{left}
+\gresetnabcalignment[1]{full}[center]
+\gresetnabcalignment[2]{neume}[left]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % 8) Per-voice: voice 1 neume+center, voice 2 full+center
 \section*{voice 1 neume+center, voice 2 full+center}
-\gresetnabcalignment[1]{neume}{center}
-\gresetnabcalignment[2]{full}{center}
+\gresetnabcalignment[1]{neume}[center]
+\gresetnabcalignment[2]{full}[center]
 \gregorioscore[a]{nabc-alignment-two-voices}
 
 % Reset to global default for any subsequent tests
-\gresetnabcalignment{full}{left}
+\gresetnabcalignment{full}[left]
 
 \end{document}
