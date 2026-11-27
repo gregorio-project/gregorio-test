@@ -327,11 +327,11 @@
      end of style            ST_FIRST_WORD
 
   Text (lyric line 6)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 7)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 8)
@@ -387,7 +387,7 @@
      end of style            ST_FIRST_WORD
 
   Text (lyric line 10)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 11)
@@ -452,11 +452,11 @@
      end of style                ST_CENTER
 
   Text (lyric line 6)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 7)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 8)
@@ -482,7 +482,7 @@
      character                 n
 
   Text (lyric line 10)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 11)
@@ -530,24 +530,24 @@
      end of style                ST_CENTER
 
   Text (lyric line 5)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 6)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 7)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 8)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 9)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 10)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 11)
@@ -609,7 +609,7 @@
      character                 r
 
   Text (lyric line 4)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
    first word                true
 
   Text (lyric line 5)
@@ -1060,7 +1060,7 @@
      end of style                ST_CENTER
 
   Text (lyric line 4)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 5)
    position                  2 (WORD_MIDDLE)
@@ -1096,10 +1096,10 @@
      end of style                ST_CENTER
 
   Text (lyric line 8)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 9)
-   position                  4 (WORD_ONE_SYLLABLE)
+   position                  2 (WORD_MIDDLE)
 
   Text (lyric line 10)
    position                  2 (WORD_MIDDLE)
